@@ -13,24 +13,30 @@ st.set_page_config(page_title="Метафори в Shorts", page_icon="🖍️",
 RESULTS_DIR = os.path.join(os.path.dirname(__file__), "results")
 os.makedirs(RESULTS_DIR, exist_ok=True)
 
-def check_password():
-    import streamlit as st
-    pwd = None
+
+DEFAULT_PASSWORD = "24092026"   # можна перевизначити ключем APP_PASSWORD у secrets
+
+
+def check_password() -> bool:
+    """Простий вхід за паролем, щоб публічне посилання не витрачало квоту API."""
     try:
-        pwd = st.secrets.get("APP_PASSWORD")
+        pwd = st.secrets.get("APP_PASSWORD", DEFAULT_PASSWORD)
     except Exception:
-        pass
+        pwd = DEFAULT_PASSWORD
     if not pwd or st.session_state.get("auth"):
         return True
+    st.markdown("### Метафори в субтитрах YouTube Shorts")
+    st.caption("Доступ за паролем. Пароль надає автор дослідження.")
     with st.form("login"):
-        st.text_input("Пароль", type="password", key="pw")
+        entered = st.text_input("Пароль", type="password")
         if st.form_submit_button("Увійти"):
-            if st.session_state.pw == pwd:
+            if entered == pwd:
                 st.session_state["auth"] = True
                 st.rerun()
             else:
                 st.error("Неправильний пароль")
     return False
+
 
 if not check_password():
     st.stop()
@@ -38,18 +44,24 @@ if not check_password():
 st.markdown("""
 <style>
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600&family=Literata:opsz,wght@7..72,400;7..72,600&display=swap');
-:root { --ink:#17212B; --muted:#5B6B7B; --line:#DDE2E8; --marker:#FFE27A; --marker-edge:#D9A400; }
-html, body, [class*="css"], .stMarkdown, .stTextInput, .stButton { font-family:'IBM Plex Sans', sans-serif; color:var(--ink); }
+html, body, [class*="css"], .stMarkdown { font-family:'IBM Plex Sans', sans-serif; }
 h1 { font-family:'Literata', serif; font-weight:600; letter-spacing:-0.01em; }
-.lead { color:var(--muted); font-size:1.02rem; max-width:62ch; margin-top:-0.6rem; }
-.tr-row { display:grid; grid-template-columns:3.2rem 1fr; gap:.8rem; padding:.55rem 0; border-bottom:1px solid var(--line); }
-.tr-time { color:var(--muted); font-variant-numeric:tabular-nums; font-size:.85rem; padding-top:.2rem; }
-.tr-text { font-family:'Literata', serif; font-size:1.12rem; line-height:1.65; max-width:75ch; }
-mark.mt { background:linear-gradient(transparent 38%, var(--marker) 38%); border-bottom:2px solid var(--marker-edge);
-          padding:0 .08em; color:inherit; cursor:help; }
-mark.mb { background:none; border-bottom:2px dashed #C77B3A; padding:0 .08em; color:inherit; cursor:help; }
-mark.mc { background:none; border-bottom:2px dotted #8A99A8; padding:0 .08em; color:inherit; cursor:help; }
-.legend { color:var(--muted); font-size:.88rem; }
+.lead { color:#8A98A8; font-size:1.02rem; max-width:62ch; margin-top:-0.6rem; }
+.legend { color:#8A98A8; font-size:.88rem; }
+/* Блок транскрипту має власне світле тло: не залежить від теми користувача */
+.report-card { background:#FFFFFF; color:#17212B; border:1px solid #E3E7EC; border-radius:10px;
+               padding:.6rem 1.1rem; max-height:620px; overflow-y:auto; }
+.report-card .tr-row { display:grid; grid-template-columns:3.2rem 1fr; gap:.8rem; padding:.55rem 0;
+                       border-bottom:1px solid #E3E7EC; }
+.report-card .tr-time { color:#6B7A8A; font-variant-numeric:tabular-nums; font-size:.85rem; padding-top:.2rem; }
+.report-card .tr-text { font-family:'Literata', serif; font-size:1.12rem; line-height:1.65;
+                        max-width:75ch; color:#17212B; }
+.report-card mark.mt { background:linear-gradient(transparent 38%, #FFE27A 38%);
+                       border-bottom:2px solid #D9A400; padding:0 .08em; color:#17212B; cursor:help; }
+.report-card mark.mb { background:none; border-bottom:2px dashed #C77B3A; padding:0 .08em;
+                       color:#17212B; cursor:help; }
+.report-card mark.mc { background:none; border-bottom:2px dotted #8A98A8; padding:0 .08em;
+                       color:#17212B; cursor:help; }
 </style>
 """, unsafe_allow_html=True)
 
@@ -95,9 +107,19 @@ def run(fn, *args):
     except Exception as e:
         bar.empty(); status.empty()
         msg = str(e)
-        if "Sign in" in msg or "bot" in msg.lower():
-            st.error("YouTube заблокував завантаження з цієї мережі. Запусти застосунок локально "
-                     "або скористайся вкладкою «Текст» чи «Файл .srt».")
+        blocked = any(s in msg for s in ("403", "Forbidden", "Sign in", "not a bot", "bot")) \
+            or "DownloadError" in type(e).__name__
+        if blocked:
+            st.error("**Завантажити це відео з сервера не вдалося.** "
+                     "YouTube обмежує доступ для IP-адрес хмарних дата-центрів, "
+                     "на яких працює ця онлайн-версія.")
+            st.info("Що можна зробити просто зараз:\n\n"
+                    "1. Відкрити вкладку **«Збережені аналізи»** — там наведено готові розбори "
+                    "реальних відео YouTube Shorts.\n"
+                    "2. Скористатися вкладкою **«Текст»** і вставити англомовний фрагмент.\n"
+                    "3. Завантажити файл субтитрів у вкладці **«Файл .srt / .vtt»**.\n\n"
+                    "Повний цикл із завантаженням відео за посиланням працює в локальній версії "
+                    "застосунку і демонструється окремо.")
         else:
             st.error(f"Помилка: {type(e).__name__}: {msg}")
         return
@@ -128,6 +150,9 @@ t_url, t_text, t_srt, t_saved = st.tabs(["Посилання на Shorts", "Те
 
 with t_url:
     url = st.text_input("Посилання", placeholder="https://www.youtube.com/shorts/…")
+    st.caption("У цій онлайн-версії завантаження відео з YouTube може бути недоступним через "
+               "обмеження для серверних IP-адрес. Готові розбори реальних відео — у вкладці "
+               "«Збережені аналізи».")
     if st.button("Проаналізувати відео", type="primary", disabled=not url):
         run(P.analyze_url, url.strip())
 
@@ -197,8 +222,7 @@ if rep:
             f"<div class='tr-row'><div class='tr-time'>{P.fmt_time(s['start'])}</div>"
             f"<div class='tr-text'>{P.highlight_html(s['text'], visible(s['phrases']))}</div></div>"
             for s in rep["sentences"])
-        st.markdown(f"<div style='max-height:620px;overflow-y:auto;padding-right:.5rem'>{rows_html}</div>",
-                    unsafe_allow_html=True)
+        st.markdown(f"<div class='report-card'>{rows_html}</div>", unsafe_allow_html=True)
 
     rows = P.report_rows(rep)
     st.subheader("Виявлені метафори")

@@ -13,30 +13,24 @@ st.set_page_config(page_title="Метафори в Shorts", page_icon="🖍️",
 RESULTS_DIR = os.path.join(os.path.dirname(__file__), "results")
 os.makedirs(RESULTS_DIR, exist_ok=True)
 
-
-DEFAULT_PASSWORD = "24092026"   # можна перевизначити ключем APP_PASSWORD у secrets
-
-
-def check_password() -> bool:
-    """Простий вхід за паролем, щоб публічне посилання не витрачало квоту API."""
+def check_password():
+    import streamlit as st
+    pwd = None
     try:
-        pwd = st.secrets.get("APP_PASSWORD", DEFAULT_PASSWORD)
+        pwd = st.secrets.get("APP_PASSWORD")
     except Exception:
-        pwd = DEFAULT_PASSWORD
+        pass
     if not pwd or st.session_state.get("auth"):
         return True
-    st.markdown("### Метафори в субтитрах YouTube Shorts")
-    st.caption("Доступ за паролем. Пароль надає автор дослідження.")
     with st.form("login"):
-        entered = st.text_input("Пароль", type="password")
+        st.text_input("Пароль", type="password", key="pw")
         if st.form_submit_button("Увійти"):
-            if entered == pwd:
+            if st.session_state.pw == pwd:
                 st.session_state["auth"] = True
                 st.rerun()
             else:
                 st.error("Неправильний пароль")
     return False
-
 
 if not check_password():
     st.stop()
@@ -101,19 +95,9 @@ def run(fn, *args):
     except Exception as e:
         bar.empty(); status.empty()
         msg = str(e)
-        blocked = any(s in msg for s in ("403", "Forbidden", "Sign in", "not a bot", "bot")) \
-            or "DownloadError" in type(e).__name__
-        if blocked:
-            st.error("**Завантажити це відео з сервера не вдалося.** "
-                     "YouTube обмежує доступ для IP-адрес хмарних дата-центрів, "
-                     "на яких працює ця онлайн-версія.")
-            st.info("Що можна зробити просто зараз:\n\n"
-                    "1. Відкрити вкладку **«Збережені аналізи»** — там наведено готові розбори "
-                    "реальних відео YouTube Shorts.\n"
-                    "2. Скористатися вкладкою **«Текст»** і вставити англомовний фрагмент.\n"
-                    "3. Завантажити файл субтитрів у вкладці **«Файл .srt / .vtt»**.\n\n"
-                    "Повний цикл із завантаженням відео за посиланням працює в локальній версії "
-                    "застосунку і демонструється окремо.")
+        if "Sign in" in msg or "bot" in msg.lower():
+            st.error("YouTube заблокував завантаження з цієї мережі. Запусти застосунок локально "
+                     "або скористайся вкладкою «Текст» чи «Файл .srt».")
         else:
             st.error(f"Помилка: {type(e).__name__}: {msg}")
         return
@@ -144,9 +128,6 @@ t_url, t_text, t_srt, t_saved = st.tabs(["Посилання на Shorts", "Те
 
 with t_url:
     url = st.text_input("Посилання", placeholder="https://www.youtube.com/shorts/…")
-    st.caption("У цій онлайн-версії завантаження відео з YouTube може бути недоступним через "
-               "обмеження для серверних IP-адрес. Готові розбори реальних відео — у вкладці "
-               "«Збережені аналізи».")
     if st.button("Проаналізувати відео", type="primary", disabled=not url):
         run(P.analyze_url, url.strip())
 

@@ -1,0 +1,323 @@
+{
+ "source": {
+  "type": "youtube",
+  "url": "https://www.youtube.com/shorts/730-2Tm2L4E",
+  "id": "730-2Tm2L4E",
+  "title": "This mindset is insane. #motivation #selfimprovement #mindset #success",
+  "uploader": "Ayanna",
+  "duration": 25,
+  "webpage_url": "https://www.youtube.com/watch?v=730-2Tm2L4E",
+  "upload_date": "20260916"
+ },
+ "created": "2026-09-23T01:29:52",
+ "models": {
+  "asr": "whisper-1",
+  "detector": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+  "verifier": "gpt-4o-2024-08-06"
+ },
+ "transcript": "It's not hard, it's just new. If you give up on your dreams, if you give up on your dreams, what do you have left? Nothing. I can't live that way. I train like I've never won, and I compete like I've never lost. Some of the most successful people in the world are the ones who've had the most failures.",
+ "sentences": [
+  {
+   "id": 1,
+   "start": 0.0,
+   "text": "It's not hard, it's just new.",
+   "detector_raw": "hard",
+   "candidates": [
+    "hard"
+   ],
+   "verification": [
+    {
+     "word": "hard",
+     "contextual_meaning": "difficult to do or understand",
+     "basic_meaning": "physically solid or firm",
+     "is_metaphor": true
+    }
+   ],
+   "verified": [
+    "hard"
+   ],
+   "phrases": [
+    {
+     "phrase": "not hard",
+     "conventionality": "conventional",
+     "triggers": [
+      "hard"
+     ],
+     "source_domain": "PHYSICAL",
+     "target_domain": "DIFFICULTY",
+     "explanation_uk": "Складність описується як фізична твердість.",
+     "span": [
+      5,
+      13
+     ],
+     "agreement": "3/3"
+    }
+   ],
+   "passes": 3,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 58,
+     "out": 1
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 534,
+     "out": 94
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 534,
+     "out": 101
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 534,
+     "out": 101
+    }
+   ]
+  },
+  {
+   "id": 2,
+   "start": 4.0,
+   "text": "If you give up on your dreams, if you give up on your dreams, what do you have left?",
+   "detector_raw": "give, up, on, give, up, on, have, left",
+   "candidates": [
+    "give",
+    "left"
+   ],
+   "verification": [
+    {
+     "word": "give",
+     "contextual_meaning": "to stop pursuing or abandon something",
+     "basic_meaning": "to hand over or present something to someone",
+     "is_metaphor": true
+    },
+    {
+     "word": "left",
+     "contextual_meaning": "what remains after something is taken away or lost",
+     "basic_meaning": "the direction opposite of right",
+     "is_metaphor": true
+    }
+   ],
+   "verified": [
+    "give",
+    "left"
+   ],
+   "phrases": [
+    {
+     "phrase": "give up on your dreams",
+     "conventionality": "conventional",
+     "triggers": [
+      "give"
+     ],
+     "source_domain": "EXCHANGE",
+     "target_domain": "AMBITION",
+     "explanation_uk": "Відмова від мрій порівнюється з передачею чогось іншій особі.",
+     "span": [
+      7,
+      29
+     ],
+     "agreement": "3/3"
+    },
+    {
+     "phrase": "have left",
+     "conventionality": "conventional",
+     "triggers": [
+      "left"
+     ],
+     "source_domain": "REMAINDER",
+     "target_domain": "POSSESSION",
+     "explanation_uk": "Те, що залишається після втрати, порівнюється з тим, що залишається у власності.",
+     "span": [
+      74,
+      83
+     ],
+     "agreement": "3/3"
+    }
+   ],
+   "passes": 3,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 72,
+     "out": 15
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 538,
+     "out": 208
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 538,
+     "out": 212
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 538,
+     "out": 203
+    }
+   ]
+  },
+  {
+   "id": 3,
+   "start": 12.0,
+   "text": "Nothing.",
+   "detector_raw": "none",
+   "candidates": [],
+   "verification": [],
+   "verified": [],
+   "phrases": [],
+   "passes": 3,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 52,
+     "out": 1
+    }
+   ]
+  },
+  {
+   "id": 4,
+   "start": 12.0,
+   "text": "I can't live that way.",
+   "detector_raw": "that, way",
+   "candidates": [
+    "way"
+   ],
+   "verification": [
+    {
+     "word": "way",
+     "contextual_meaning": "manner or method of living",
+     "basic_meaning": "a path or route",
+     "is_metaphor": true
+    }
+   ],
+   "verified": [
+    "way"
+   ],
+   "phrases": [
+    {
+     "phrase": "live that way",
+     "conventionality": "conventional",
+     "triggers": [
+      "way"
+     ],
+     "source_domain": "PATH",
+     "target_domain": "LIFE",
+     "explanation_uk": "Життя розглядається як шлях, яким можна йти певним чином.",
+     "span": [
+      8,
+      21
+     ],
+     "agreement": "3/3"
+    }
+   ],
+   "passes": 3,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 56,
+     "out": 3
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 527,
+     "out": 98
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 527,
+     "out": 93
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 527,
+     "out": 98
+    }
+   ]
+  },
+  {
+   "id": 5,
+   "start": 15.0,
+   "text": "I train like I've never won, and I compete like I've never lost.",
+   "detector_raw": "train",
+   "candidates": [
+    "train"
+   ],
+   "verification": [
+    {
+     "word": "train",
+     "contextual_meaning": "to practice or prepare rigorously for a competition or challenge",
+     "basic_meaning": "to teach or instruct someone or oneself in a skill or type of behavior",
+     "is_metaphor": false
+    }
+   ],
+   "verified": [],
+   "phrases": [],
+   "passes": 3,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 65,
+     "out": 1
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 543,
+     "out": 56
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 543,
+     "out": 56
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 543,
+     "out": 56
+    }
+   ]
+  },
+  {
+   "id": 6,
+   "start": 20.0,
+   "text": "Some of the most successful people in the world are the ones who've had the most failures.",
+   "detector_raw": "in, had",
+   "candidates": [],
+   "verification": [],
+   "verified": [],
+   "phrases": [],
+   "passes": 3,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 68,
+     "out": 3
+    }
+   ]
+  }
+ ],
+ "stats": {
+  "sentences": 6,
+  "words": 61,
+  "phrases": 4,
+  "verified_words": 4,
+  "creative": 0,
+  "conventional": 4,
+  "density_per_100_words": 6.56,
+  "creative_per_100_words": 0.0,
+  "errors": 0,
+  "borderline": 0,
+  "stable": 4,
+  "verifier_passes": 3,
+  "cost_usd_estimate": 0.0341
+ }
+}

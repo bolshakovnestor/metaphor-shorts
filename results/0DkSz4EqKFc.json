@@ -1,0 +1,895 @@
+{
+ "source": {
+  "type": "youtube",
+  "url": "https://www.youtube.com/shorts/0DkSz4EqKFc",
+  "id": "0DkSz4EqKFc",
+  "title": "When you try a new restaurant",
+  "uploader": "Jay & Sharon",
+  "duration": 62,
+  "webpage_url": "https://www.youtube.com/watch?v=0DkSz4EqKFc",
+  "upload_date": "20260904"
+ },
+ "created": "2026-09-23T02:04:18",
+ "models": {
+  "asr": "whisper-1",
+  "detector": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+  "verifier": "gpt-4o-2024-08-06"
+ },
+ "transcript": "Is this your first time dining with us? No. Yes. What? This isn't our first time. Yes, it is. Can you give us a few more minutes to discuss? Sharon, if they think we're first timers, they're gonna sell us the most expensive thing on the menu. No, they are gonna give us special treatment, so we come back. What are they talking about? I don't know. You think they know about our microwaves? Nah, but I'm gonna make them order the lobster pasta. I'll go warm it up. Hey, make sure they don't hear the microwave. The lobster pasta is $80. That's what they're gonna recommend. I don't even like lobster. And he's gonna ask us to leave a review for like a free dessert or something. All they have is cheesecake, and I can't eat that. So have you two decided on whether it's your first time or not? It's a no. We've been here before. No, wait. He speak here, but it's my first time. Oh, I actually remember you. He was here last night with another woman. What are you talking about? I've never even been here before. Great. Well, for first timers, I'd recommend the lobster pasta. Ooh, sounds good. And if you leave a review, I can throw in a cheesecake. The lobster pasta was delicious. Five star.",
+ "sentences": [
+  {
+   "id": 1,
+   "start": 0.0,
+   "text": "Is this your first time dining with us?",
+   "detector_raw": "this, with",
+   "candidates": [],
+   "verification": [],
+   "verified": [],
+   "phrases": [],
+   "passes": 3,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 59,
+     "out": 3
+    }
+   ]
+  },
+  {
+   "id": 2,
+   "start": 1.399999976158142,
+   "text": "No. Yes.",
+   "detector_raw": "none",
+   "candidates": [],
+   "verification": [],
+   "verified": [],
+   "phrases": [],
+   "passes": 3,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 54,
+     "out": 1
+    }
+   ]
+  },
+  {
+   "id": 3,
+   "start": 3.4000000953674316,
+   "text": "What?",
+   "detector_raw": "none",
+   "candidates": [],
+   "verification": [],
+   "verified": [],
+   "phrases": [],
+   "passes": 3,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 52,
+     "out": 1
+    }
+   ]
+  },
+  {
+   "id": 4,
+   "start": 3.9000000953674316,
+   "text": "This isn't our first time.",
+   "detector_raw": "This",
+   "candidates": [],
+   "verification": [],
+   "verified": [],
+   "phrases": [],
+   "passes": 3,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 56,
+     "out": 1
+    }
+   ]
+  },
+  {
+   "id": 5,
+   "start": 4.900000095367432,
+   "text": "Yes, it is.",
+   "detector_raw": "none",
+   "candidates": [],
+   "verification": [],
+   "verified": [],
+   "phrases": [],
+   "passes": 3,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 55,
+     "out": 1
+    }
+   ]
+  },
+  {
+   "id": 6,
+   "start": 6.199999809265137,
+   "text": "Can you give us a few more minutes to discuss?",
+   "detector_raw": "give",
+   "candidates": [
+    "give"
+   ],
+   "verification": [
+    {
+     "word": "give",
+     "contextual_meaning": "to allow or grant someone more time",
+     "basic_meaning": "to physically hand something over to someone",
+     "is_metaphor": true
+    }
+   ],
+   "verified": [
+    "give"
+   ],
+   "phrases": [
+    {
+     "phrase": "give us a few more minutes",
+     "conventionality": "conventional",
+     "triggers": [
+      "give"
+     ],
+     "source_domain": "TRANSFER",
+     "target_domain": "TIME",
+     "explanation_uk": "Час розглядається як об'єкт, який можна передати або надати.",
+     "span": [
+      8,
+      34
+     ],
+     "agreement": "3/3"
+    }
+   ],
+   "passes": 3,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 61,
+     "out": 1
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 541,
+     "out": 103
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 541,
+     "out": 103
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 541,
+     "out": 103
+    }
+   ]
+  },
+  {
+   "id": 7,
+   "start": 9.899999618530273,
+   "text": "Sharon, if they think we're first timers, they're gonna sell us the most expensive thing on the menu.",
+   "detector_raw": "none",
+   "candidates": [],
+   "verification": [],
+   "verified": [],
+   "phrases": [],
+   "passes": 3,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 71,
+     "out": 1
+    }
+   ]
+  },
+  {
+   "id": 8,
+   "start": 13.100000381469727,
+   "text": "No, they are gonna give us special treatment, so we come back.",
+   "detector_raw": "give, treatment",
+   "candidates": [
+    "give",
+    "treatment"
+   ],
+   "verification": [
+    {
+     "word": "give",
+     "contextual_meaning": "to provide or offer something to someone",
+     "basic_meaning": "to transfer possession of something to someone",
+     "is_metaphor": false
+    },
+    {
+     "word": "treatment",
+     "contextual_meaning": "the manner in which someone is dealt with or handled",
+     "basic_meaning": "medical care given to a patient for an illness or injury",
+     "is_metaphor": true
+    }
+   ],
+   "verified": [
+    "treatment"
+   ],
+   "phrases": [
+    {
+     "phrase": "special treatment",
+     "conventionality": "conventional",
+     "triggers": [
+      "treatment"
+     ],
+     "source_domain": "MEDICINE",
+     "target_domain": "INTERPERSONAL RELATIONS",
+     "explanation_uk": "Особливе ставлення до когось порівнюється з медичним лікуванням.",
+     "span": [
+      27,
+      44
+     ],
+     "agreement": "3/3"
+    }
+   ],
+   "passes": 3,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 65,
+     "out": 3
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 548,
+     "out": 151
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 548,
+     "out": 151
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 548,
+     "out": 148
+    }
+   ]
+  },
+  {
+   "id": 9,
+   "start": 17.799999237060547,
+   "text": "What are they talking about?",
+   "detector_raw": "about",
+   "candidates": [],
+   "verification": [],
+   "verified": [],
+   "phrases": [],
+   "passes": 3,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 56,
+     "out": 1
+    }
+   ]
+  },
+  {
+   "id": 10,
+   "start": 19.700000762939453,
+   "text": "I don't know.",
+   "detector_raw": "none",
+   "candidates": [],
+   "verification": [],
+   "verified": [],
+   "phrases": [],
+   "passes": 3,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 54,
+     "out": 1
+    }
+   ]
+  },
+  {
+   "id": 11,
+   "start": 20.600000381469727,
+   "text": "You think they know about our microwaves?",
+   "detector_raw": "about",
+   "candidates": [],
+   "verification": [],
+   "verified": [],
+   "phrases": [],
+   "passes": 3,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 59,
+     "out": 1
+    }
+   ]
+  },
+  {
+   "id": 12,
+   "start": 22.399999618530273,
+   "text": "Nah, but I'm gonna make them order the lobster pasta.",
+   "detector_raw": "make",
+   "candidates": [
+    "make"
+   ],
+   "verification": [
+    {
+     "word": "make",
+     "contextual_meaning": "to cause someone to do something",
+     "basic_meaning": "to create or form something",
+     "is_metaphor": true
+    }
+   ],
+   "verified": [
+    "make"
+   ],
+   "phrases": [
+    {
+     "phrase": "make them order",
+     "conventionality": "conventional",
+     "triggers": [
+      "make"
+     ],
+     "source_domain": "CREATION",
+     "target_domain": "CAUSATION",
+     "explanation_uk": "Використання слова 'make' у значенні 'змусити' походить від ідеї створення дії або результату.",
+     "span": [
+      19,
+      34
+     ],
+     "agreement": "3/3"
+    }
+   ],
+   "passes": 3,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 62,
+     "out": 1
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 531,
+     "out": 112
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 531,
+     "out": 101
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 531,
+     "out": 101
+    }
+   ]
+  },
+  {
+   "id": 13,
+   "start": 25.100000381469727,
+   "text": "I'll go warm it up.",
+   "detector_raw": "go, warm, up",
+   "candidates": [
+    "go",
+    "warm"
+   ],
+   "verification": [
+    {
+     "word": "go",
+     "contextual_meaning": "to move or proceed to a place to perform an action",
+     "basic_meaning": "to move from one place to another",
+     "is_metaphor": false
+    },
+    {
+     "word": "warm",
+     "contextual_meaning": "to heat something to a desired temperature",
+     "basic_meaning": "to increase the temperature of something",
+     "is_metaphor": false
+    }
+   ],
+   "verified": [],
+   "phrases": [],
+   "passes": 3,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 56,
+     "out": 5
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 534,
+     "out": 84
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 534,
+     "out": 84
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 534,
+     "out": 84
+    }
+   ]
+  },
+  {
+   "id": 14,
+   "start": 25.899999618530273,
+   "text": "Hey, make sure they don't hear the microwave.",
+   "detector_raw": "none",
+   "candidates": [],
+   "verification": [],
+   "verified": [],
+   "phrases": [],
+   "passes": 3,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 60,
+     "out": 1
+    }
+   ]
+  },
+  {
+   "id": 15,
+   "start": 27.799999237060547,
+   "text": "The lobster pasta is $80.",
+   "detector_raw": "none",
+   "candidates": [],
+   "verification": [],
+   "verified": [],
+   "phrases": [],
+   "passes": 3,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 57,
+     "out": 1
+    }
+   ]
+  },
+  {
+   "id": 16,
+   "start": 29.299999237060547,
+   "text": "That's what they're gonna recommend.",
+   "detector_raw": "That's",
+   "candidates": [],
+   "verification": [],
+   "verified": [],
+   "phrases": [],
+   "passes": 3,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 56,
+     "out": 1
+    }
+   ]
+  },
+  {
+   "id": 17,
+   "start": 30.600000381469727,
+   "text": "I don't even like lobster.",
+   "detector_raw": "none",
+   "candidates": [],
+   "verification": [],
+   "verified": [],
+   "phrases": [],
+   "passes": 3,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 56,
+     "out": 1
+    }
+   ]
+  },
+  {
+   "id": 18,
+   "start": 32.20000076293945,
+   "text": "And he's gonna ask us to leave a review for like a free dessert or something.",
+   "detector_raw": "none",
+   "candidates": [],
+   "verification": [],
+   "verified": [],
+   "phrases": [],
+   "passes": 3,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 67,
+     "out": 1
+    }
+   ]
+  },
+  {
+   "id": 19,
+   "start": 35.099998474121094,
+   "text": "All they have is cheesecake, and I can't eat that.",
+   "detector_raw": "none",
+   "candidates": [],
+   "verification": [],
+   "verified": [],
+   "phrases": [],
+   "passes": 3,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 62,
+     "out": 1
+    }
+   ]
+  },
+  {
+   "id": 20,
+   "start": 37.400001525878906,
+   "text": "So have you two decided on whether it's your first time or not?",
+   "detector_raw": "on",
+   "candidates": [],
+   "verification": [],
+   "verified": [],
+   "phrases": [],
+   "passes": 3,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 64,
+     "out": 1
+    }
+   ]
+  },
+  {
+   "id": 21,
+   "start": 39.70000076293945,
+   "text": "It's a no.",
+   "detector_raw": "none",
+   "candidates": [],
+   "verification": [],
+   "verified": [],
+   "phrases": [],
+   "passes": 3,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 54,
+     "out": 1
+    }
+   ]
+  },
+  {
+   "id": 22,
+   "start": 40.20000076293945,
+   "text": "We've been here before.",
+   "detector_raw": "here, before",
+   "candidates": [],
+   "verification": [],
+   "verified": [],
+   "phrases": [],
+   "passes": 3,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 55,
+     "out": 3
+    }
+   ]
+  },
+  {
+   "id": 23,
+   "start": 41.099998474121094,
+   "text": "No, wait.",
+   "detector_raw": "none",
+   "candidates": [],
+   "verification": [],
+   "verified": [],
+   "phrases": [],
+   "passes": 3,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 54,
+     "out": 1
+    }
+   ]
+  },
+  {
+   "id": 24,
+   "start": 42.0,
+   "text": "He speak here, but it's my first time.",
+   "detector_raw": "here",
+   "candidates": [],
+   "verification": [],
+   "verified": [],
+   "phrases": [],
+   "passes": 3,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 60,
+     "out": 1
+    }
+   ]
+  },
+  {
+   "id": 25,
+   "start": 44.79999923706055,
+   "text": "Oh, I actually remember you.",
+   "detector_raw": "none",
+   "candidates": [],
+   "verification": [],
+   "verified": [],
+   "phrases": [],
+   "passes": 3,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 57,
+     "out": 1
+    }
+   ]
+  },
+  {
+   "id": 26,
+   "start": 47.29999923706055,
+   "text": "He was here last night with another woman.",
+   "detector_raw": "none",
+   "candidates": [],
+   "verification": [],
+   "verified": [],
+   "phrases": [],
+   "passes": 3,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 59,
+     "out": 1
+    }
+   ]
+  },
+  {
+   "id": 27,
+   "start": 48.599998474121094,
+   "text": "What are you talking about?",
+   "detector_raw": "about",
+   "candidates": [],
+   "verification": [],
+   "verified": [],
+   "phrases": [],
+   "passes": 3,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 56,
+     "out": 1
+    }
+   ]
+  },
+  {
+   "id": 28,
+   "start": 49.29999923706055,
+   "text": "I've never even been here before.",
+   "detector_raw": "none",
+   "candidates": [],
+   "verification": [],
+   "verified": [],
+   "phrases": [],
+   "passes": 3,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 57,
+     "out": 1
+    }
+   ]
+  },
+  {
+   "id": 29,
+   "start": 50.400001525878906,
+   "text": "Great.",
+   "detector_raw": "none",
+   "candidates": [],
+   "verification": [],
+   "verified": [],
+   "phrases": [],
+   "passes": 3,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 52,
+     "out": 1
+    }
+   ]
+  },
+  {
+   "id": 30,
+   "start": 50.79999923706055,
+   "text": "Well, for first timers, I'd recommend the lobster pasta.",
+   "detector_raw": "none",
+   "candidates": [],
+   "verification": [],
+   "verified": [],
+   "phrases": [],
+   "passes": 3,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 62,
+     "out": 1
+    }
+   ]
+  },
+  {
+   "id": 31,
+   "start": 53.20000076293945,
+   "text": "Ooh, sounds good.",
+   "detector_raw": "none",
+   "candidates": [],
+   "verification": [],
+   "verified": [],
+   "phrases": [],
+   "passes": 3,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 56,
+     "out": 1
+    }
+   ]
+  },
+  {
+   "id": 32,
+   "start": 54.5,
+   "text": "And if you leave a review, I can throw in a cheesecake.",
+   "detector_raw": "leave, throw, in",
+   "candidates": [
+    "leave",
+    "throw"
+   ],
+   "verification": [
+    {
+     "word": "leave",
+     "contextual_meaning": "to write or submit a review for others to see.",
+     "basic_meaning": "to go away from a place or person.",
+     "is_metaphor": false
+    },
+    {
+     "word": "throw",
+     "contextual_meaning": "to include or add something extra as a bonus.",
+     "basic_meaning": "to propel something with force through the air by a movement of the arm and hand.",
+     "is_metaphor": true
+    }
+   ],
+   "verified": [
+    "throw"
+   ],
+   "phrases": [
+    {
+     "phrase": "throw in a cheesecake",
+     "conventionality": "conventional",
+     "triggers": [
+      "throw"
+     ],
+     "source_domain": "PHYSICAL ACTION",
+     "target_domain": "ADDITION",
+     "explanation_uk": "Додавання чогось додаткового описується як фізична дія кидання.",
+     "span": [
+      33,
+      54
+     ],
+     "agreement": "3/3"
+    }
+   ],
+   "passes": 3,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 64,
+     "out": 5
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 532,
+     "out": 156
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 532,
+     "out": 139
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 532,
+     "out": 139
+    }
+   ]
+  },
+  {
+   "id": 33,
+   "start": 56.400001525878906,
+   "text": "The lobster pasta was delicious.",
+   "detector_raw": "none",
+   "candidates": [],
+   "verification": [],
+   "verified": [],
+   "phrases": [],
+   "passes": 3,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 56,
+     "out": 1
+    }
+   ]
+  },
+  {
+   "id": 34,
+   "start": 59.29999923706055,
+   "text": "Five star.",
+   "detector_raw": "none",
+   "candidates": [],
+   "verification": [],
+   "verified": [],
+   "phrases": [],
+   "passes": 3,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 53,
+     "out": 1
+    }
+   ]
+  }
+ ],
+ "stats": {
+  "sentences": 34,
+  "words": 223,
+  "phrases": 4,
+  "verified_words": 4,
+  "creative": 0,
+  "conventional": 4,
+  "density_per_100_words": 1.79,
+  "creative_per_100_words": 0.0,
+  "errors": 0,
+  "borderline": 0,
+  "stable": 4,
+  "verifier_passes": 3,
+  "cost_usd_estimate": 0.052
+ }
+}

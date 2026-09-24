@@ -1,0 +1,507 @@
+{
+ "source": {
+  "type": "youtube",
+  "url": "https://www.youtube.com/shorts/BDmuyVWrsmw",
+  "id": "BDmuyVWrsmw",
+  "title": "FASTEST Way to Become a Millionaire",
+  "uploader": "Mark Tilbury",
+  "duration": 28,
+  "webpage_url": "https://www.youtube.com/watch?v=BDmuyVWrsmw",
+  "upload_date": "20240626"
+ },
+ "created": "2026-09-23T01:18:31",
+ "models": {
+  "asr": "whisper-1",
+  "detector": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+  "verifier": "gpt-4o-2024-08-06"
+ },
+ "transcript": "How do I become a millionaire like you? Well, here's a simple exercise you can do that the rich keep secret. First, write down 10 goals you'd like to accomplish in the next 12 months. Second, have a look at them and think, if you could magically achieve any of these goals in the next 24 hours, which would have the greatest impact on your life? Third, take that goal to a clean sheet of paper and write a list of all the things you need to do to accomplish it. Set a deadline and take action.",
+ "sentences": [
+  {
+   "id": 1,
+   "start": 0.0,
+   "text": "How do I become a millionaire like you?",
+   "detector_raw": "none",
+   "candidates": [],
+   "verification": [],
+   "verified": [],
+   "phrases": [],
+   "passes": 3,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 59,
+     "out": 1
+    }
+   ]
+  },
+  {
+   "id": 2,
+   "start": 1.7200000286102295,
+   "text": "Well, here's a simple exercise you can do that the rich keep secret.",
+   "detector_raw": "here's, exercise, keep",
+   "candidates": [
+    "here's",
+    "exercise",
+    "keep"
+   ],
+   "verification": [
+    {
+     "word": "here's",
+     "contextual_meaning": "presenting or introducing something",
+     "basic_meaning": "indicating location or presence",
+     "is_metaphor": false
+    },
+    {
+     "word": "exercise",
+     "contextual_meaning": "a task or activity done to achieve a particular result",
+     "basic_meaning": "physical activity to improve health or fitness",
+     "is_metaphor": true
+    },
+    {
+     "word": "keep",
+     "contextual_meaning": "maintain something in a particular state",
+     "basic_meaning": "retain possession of something",
+     "is_metaphor": true
+    }
+   ],
+   "verified": [
+    "keep",
+    "exercise"
+   ],
+   "phrases": [
+    {
+     "phrase": "a simple exercise",
+     "conventionality": "conventional",
+     "triggers": [
+      "exercise"
+     ],
+     "source_domain": "PHYSICAL ACTIVITY",
+     "target_domain": "TASK",
+     "explanation_uk": "Завдання порівнюється з фізичною вправою, щоб підкреслити його роль у досягненні мети.",
+     "span": [
+      13,
+      30
+     ],
+     "agreement": "3/3"
+    },
+    {
+     "phrase": "keep secret",
+     "conventionality": "conventional",
+     "triggers": [
+      "keep"
+     ],
+     "source_domain": "POSSESSION",
+     "target_domain": "STATE",
+     "explanation_uk": "Збереження секрету порівнюється з утриманням чогось у власності.",
+     "span": [
+      56,
+      67
+     ],
+     "agreement": "2/3"
+    }
+   ],
+   "passes": 3,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 65,
+     "out": 6
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 550,
+     "out": 239
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 550,
+     "out": 193
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 550,
+     "out": 252
+    }
+   ]
+  },
+  {
+   "id": 3,
+   "start": 5.760000228881836,
+   "text": "First, write down 10 goals you'd like to accomplish in the next 12 months.",
+   "detector_raw": "goals, in, next",
+   "candidates": [
+    "goals",
+    "next"
+   ],
+   "verification": [
+    {
+     "word": "goals",
+     "contextual_meaning": "objectives or desired outcomes to achieve",
+     "basic_meaning": "the end point of a race or journey",
+     "is_metaphor": true
+    },
+    {
+     "word": "next",
+     "contextual_meaning": "the upcoming or following period",
+     "basic_meaning": "immediately after in time or order",
+     "is_metaphor": false
+    }
+   ],
+   "verified": [
+    "goals"
+   ],
+   "phrases": [
+    {
+     "phrase": "goals you'd like to accomplish",
+     "conventionality": "conventional",
+     "triggers": [
+      "goals"
+     ],
+     "source_domain": "JOURNEY",
+     "target_domain": "PURPOSE",
+     "explanation_uk": "Цілі, які ви хочете досягти, порівнюються з кінцевими точками подорожі.",
+     "span": [
+      21,
+      51
+     ],
+     "agreement": "3/3"
+    }
+   ],
+   "passes": 3,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 68,
+     "out": 6
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 575,
+     "out": 149
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 575,
+     "out": 150
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 575,
+     "out": 148
+    }
+   ]
+  },
+  {
+   "id": 4,
+   "start": 10.760000228881836,
+   "text": "Second, have a look at them and think, if you could magically achieve any of these goals in the next 24 hours, which would have the greatest impact on your life?",
+   "detector_raw": "have, look, at, these, in, next, greatest, impact, on",
+   "candidates": [
+    "look",
+    "next",
+    "greatest",
+    "impact"
+   ],
+   "verification": [
+    {
+     "word": "look",
+     "contextual_meaning": "examine or consider something carefully",
+     "basic_meaning": "direct one's gaze towards something",
+     "is_metaphor": true
+    },
+    {
+     "word": "next",
+     "contextual_meaning": "following immediately after the present one",
+     "basic_meaning": "nearest in space or position",
+     "is_metaphor": false
+    },
+    {
+     "word": "greatest",
+     "contextual_meaning": "having the most significant effect or influence",
+     "basic_meaning": "largest in size or amount",
+     "is_metaphor": true
+    },
+    {
+     "word": "impact",
+     "contextual_meaning": "a strong effect or influence on something",
+     "basic_meaning": "the action of one object coming forcibly into contact with another",
+     "is_metaphor": true
+    }
+   ],
+   "verified": [
+    "greatest",
+    "look",
+    "impact"
+   ],
+   "phrases": [
+    {
+     "phrase": "have a look at them",
+     "conventionality": "conventional",
+     "triggers": [
+      "look"
+     ],
+     "source_domain": "VISION",
+     "target_domain": "THOUGHT",
+     "explanation_uk": "Розглянути щось уважно означає подумати про це.",
+     "span": [
+      8,
+      27
+     ],
+     "agreement": "3/3"
+    },
+    {
+     "phrase": "greatest impact on your life",
+     "conventionality": "conventional",
+     "triggers": [
+      "greatest",
+      "impact"
+     ],
+     "source_domain": "PHYSICAL FORCE",
+     "target_domain": "INFLUENCE",
+     "explanation_uk": "Великий вплив на життя означає значну зміну або ефект.",
+     "span": [
+      132,
+      160
+     ],
+     "agreement": "2/3"
+    }
+   ],
+   "passes": 3,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 86,
+     "out": 17
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 591,
+     "out": 269
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 591,
+     "out": 269
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 591,
+     "out": 321
+    }
+   ]
+  },
+  {
+   "id": 5,
+   "start": 19.600000381469727,
+   "text": "Third, take that goal to a clean sheet of paper and write a list of all the things you need to do to accomplish it.",
+   "detector_raw": "take, that, goal, to, clean, things",
+   "candidates": [
+    "take",
+    "goal",
+    "clean",
+    "things"
+   ],
+   "verification": [
+    {
+     "word": "take",
+     "contextual_meaning": "to bring or move something to a particular place or position",
+     "basic_meaning": "to grasp or carry something with one's hands",
+     "is_metaphor": false
+    },
+    {
+     "word": "goal",
+     "contextual_meaning": "an objective or desired result that one aims to achieve",
+     "basic_meaning": "a point scored in a game or sport",
+     "is_metaphor": true
+    },
+    {
+     "word": "clean",
+     "contextual_meaning": "free from any marks or writing, blank",
+     "basic_meaning": "free from dirt or impurities",
+     "is_metaphor": true
+    },
+    {
+     "word": "things",
+     "contextual_meaning": "tasks or actions that need to be completed",
+     "basic_meaning": "physical objects or items",
+     "is_metaphor": true
+    }
+   ],
+   "verified": [
+    "goal",
+    "things",
+    "clean",
+    "take"
+   ],
+   "phrases": [
+    {
+     "phrase": "take that goal to a clean sheet of paper",
+     "conventionality": "creative",
+     "triggers": [
+      "take",
+      "goal",
+      "clean"
+     ],
+     "source_domain": "PHYSICAL ACTION",
+     "target_domain": "PLANNING",
+     "explanation_uk": "Перенесення мети на чистий аркуш паперу означає початок планування.",
+     "span": [
+      7,
+      47
+     ],
+     "agreement": "2/3"
+    },
+    {
+     "phrase": "list of all the things you need to do",
+     "conventionality": "conventional",
+     "triggers": [
+      "things"
+     ],
+     "source_domain": "OBJECT",
+     "target_domain": "TASK",
+     "explanation_uk": "Завдання порівнюються з фізичними об'єктами, які потрібно виконати.",
+     "span": [
+      60,
+      97
+     ],
+     "agreement": "2/3"
+    }
+   ],
+   "passes": 3,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 77,
+     "out": 11
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 580,
+     "out": 293
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 580,
+     "out": 283
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 580,
+     "out": 240
+    }
+   ]
+  },
+  {
+   "id": 6,
+   "start": 25.559999465942383,
+   "text": "Set a deadline and take action.",
+   "detector_raw": "Set, take, action",
+   "candidates": [
+    "set",
+    "take",
+    "action"
+   ],
+   "verification": [
+    {
+     "word": "set",
+     "contextual_meaning": "establish or decide on a deadline",
+     "basic_meaning": "put or place something in a particular position",
+     "is_metaphor": true
+    },
+    {
+     "word": "take",
+     "contextual_meaning": "initiate or begin action",
+     "basic_meaning": "grasp or hold something with one's hands",
+     "is_metaphor": true
+    },
+    {
+     "word": "action",
+     "contextual_meaning": "the process of doing something to achieve a goal",
+     "basic_meaning": "the fact or process of doing something, typically to achieve an aim",
+     "is_metaphor": false
+    }
+   ],
+   "verified": [
+    "take",
+    "set"
+   ],
+   "phrases": [
+    {
+     "phrase": "Set a deadline",
+     "conventionality": "conventional",
+     "triggers": [
+      "set"
+     ],
+     "source_domain": "PHYSICAL PLACEMENT",
+     "target_domain": "TIME MANAGEMENT",
+     "explanation_uk": "Встановити дедлайн означає визначити конкретний час для виконання завдання.",
+     "span": [
+      0,
+      14
+     ],
+     "agreement": "3/3"
+    },
+    {
+     "phrase": "take action",
+     "conventionality": "conventional",
+     "triggers": [
+      "take"
+     ],
+     "source_domain": "PHYSICAL CONTROL",
+     "target_domain": "INITIATING TASKS",
+     "explanation_uk": "Взятися за дію означає розпочати виконання завдання.",
+     "span": [
+      19,
+      30
+     ],
+     "agreement": "3/3"
+    }
+   ],
+   "passes": 3,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 57,
+     "out": 5
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 542,
+     "out": 241
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 542,
+     "out": 254
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 542,
+     "out": 254
+    }
+   ]
+  }
+ ],
+ "stats": {
+  "sentences": 6,
+  "words": 94,
+  "phrases": 9,
+  "verified_words": 12,
+  "creative": 1,
+  "conventional": 8,
+  "density_per_100_words": 9.57,
+  "creative_per_100_words": 1.06,
+  "errors": 0,
+  "borderline": 4,
+  "stable": 5,
+  "verifier_passes": 3,
+  "cost_usd_estimate": 0.0618
+ }
+}

@@ -1,0 +1,1145 @@
+{
+ "source": {
+  "type": "youtube",
+  "url": "https://www.youtube.com/shorts/xrHUyeYdz9E",
+  "id": "xrHUyeYdz9E",
+  "title": "Some of these are spot on #shorts",
+  "uploader": "Philadelphia Eagles",
+  "duration": 77,
+  "webpage_url": "https://www.youtube.com/watch?v=xrHUyeYdz9E",
+  "upload_date": "20260608"
+ },
+ "created": "2026-09-22T20:22:36",
+ "models": {
+  "asr": "whisper-1",
+  "detector": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+  "verifier": "gpt-4o-2024-08-06"
+ },
+ "transcript": "Who does your celebrity look alike? Dwayne The Rock Johnson. Somebody told me Snoop Dogg. I don't get it though. Probably Reeve Blankenship. If I could make a love child, it would be Tony Finale and George Clooney. Together. People say I look like Bruno Mars. See, people have said Michael B. Jordan for me. Dude, I'm from All-American. Chris Hemsworth, I would say so. I'll be right back, because I don't really know yet. I don't have an actual celebrity look-alike, but everybody says I look like the Hulk. I guess Mark Henry in his prime. The Wolverine. I get that one a lot. I'd say Michael B. Jordan. Nobody look like me. Ty, come here! Who's your celebrity look-alike? There you go! I heard somebody say Jason Taylor, but I don't know where that came from. My mother. I look like Jordan Davis. Jordan M.F. in Davis. Jordan Zachary Taylor Davis. I kind of look like Gimbo Slice with a brazen chin. People say I look like Lil' Romeo in Bow Wow. What I get a lot is Brian Westbrook. I'm just shopping. Somebody's like, are you Brian Westbrook? I'm like, nah. I know they say I look like J-Mon Green. I look like the young Omar Epps who played in Loving Basketball. I've gotten Lil' Boosie a lot. Drew said 50 Cent. I knew he was trolling me, but yeah, you can have that one for sure.",
+ "sentences": [
+  {
+   "id": 1,
+   "start": 0.0,
+   "text": "Who does your celebrity look alike?",
+   "detector_raw": "none",
+   "candidates": [],
+   "verification": [],
+   "verified": [],
+   "phrases": [],
+   "unstable_dropped": 0,
+   "passes": 2,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 57,
+     "out": 1
+    }
+   ]
+  },
+  {
+   "id": 2,
+   "start": 2.0,
+   "text": "Dwayne The Rock Johnson.",
+   "detector_raw": "none",
+   "candidates": [],
+   "verification": [],
+   "verified": [],
+   "phrases": [],
+   "unstable_dropped": 0,
+   "passes": 2,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 56,
+     "out": 1
+    }
+   ]
+  },
+  {
+   "id": 3,
+   "start": 3.5,
+   "text": "Somebody told me Snoop Dogg.",
+   "detector_raw": "none",
+   "candidates": [],
+   "verification": [],
+   "verified": [],
+   "phrases": [],
+   "unstable_dropped": 0,
+   "passes": 2,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 58,
+     "out": 1
+    }
+   ]
+  },
+  {
+   "id": 4,
+   "start": 3.5,
+   "text": "I don't get it though.",
+   "detector_raw": "get",
+   "candidates": [
+    "get"
+   ],
+   "verification": [
+    {
+     "word": "get",
+     "contextual_meaning": "understand",
+     "basic_meaning": "obtain or receive something",
+     "is_metaphor": true
+    }
+   ],
+   "verified": [
+    "get"
+   ],
+   "phrases": [
+    {
+     "phrase": "get it",
+     "conventionality": "conventional",
+     "triggers": [
+      "get"
+     ],
+     "source_domain": "POSSESSION",
+     "target_domain": "UNDERSTANDING",
+     "explanation_uk": "Розуміння представлено як отримання чогось.",
+     "span": [
+      8,
+      14
+     ]
+    }
+   ],
+   "unstable_dropped": 0,
+   "passes": 2,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 56,
+     "out": 1
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 525,
+     "out": 89
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 525,
+     "out": 91
+    }
+   ]
+  },
+  {
+   "id": 5,
+   "start": 6.0,
+   "text": "Probably Reeve Blankenship.",
+   "detector_raw": "none",
+   "candidates": [],
+   "verification": [],
+   "verified": [],
+   "phrases": [],
+   "unstable_dropped": 0,
+   "passes": 2,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 57,
+     "out": 1
+    }
+   ]
+  },
+  {
+   "id": 6,
+   "start": 7.0,
+   "text": "If I could make a love child, it would be Tony Finale and George Clooney.",
+   "detector_raw": "make, love, child",
+   "candidates": [
+    "make",
+    "love",
+    "child"
+   ],
+   "verification": [
+    {
+     "word": "make",
+     "contextual_meaning": "create or bring into existence through imagination or hypothetical scenario.",
+     "basic_meaning": "to form or produce something by putting parts together or combining substances.",
+     "is_metaphor": true
+    },
+    {
+     "word": "love",
+     "contextual_meaning": "a combination or blend of qualities or characteristics from two people.",
+     "basic_meaning": "an intense feeling of deep affection.",
+     "is_metaphor": true
+    },
+    {
+     "word": "child",
+     "contextual_meaning": "a product or result of combining two people's qualities.",
+     "basic_meaning": "a young human being below the age of puberty or below the legal age of majority.",
+     "is_metaphor": true
+    }
+   ],
+   "verified": [
+    "make",
+    "love",
+    "child"
+   ],
+   "phrases": [
+    {
+     "phrase": "make a love child",
+     "conventionality": "creative",
+     "triggers": [
+      "make",
+      "love",
+      "child"
+     ],
+     "source_domain": "CREATION",
+     "target_domain": "COMBINATION",
+     "explanation_uk": "Уявлення про створення дитини як поєднання якостей двох людей.",
+     "span": [
+      11,
+      28
+     ]
+    }
+   ],
+   "unstable_dropped": 0,
+   "passes": 2,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 68,
+     "out": 5
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 535,
+     "out": 201
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 535,
+     "out": 200
+    }
+   ]
+  },
+  {
+   "id": 7,
+   "start": 11.0,
+   "text": "Together.",
+   "detector_raw": "none",
+   "candidates": [],
+   "verification": [],
+   "verified": [],
+   "phrases": [],
+   "unstable_dropped": 0,
+   "passes": 2,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 52,
+     "out": 1
+    }
+   ]
+  },
+  {
+   "id": 8,
+   "start": 12.0,
+   "text": "People say I look like Bruno Mars.",
+   "detector_raw": "none",
+   "candidates": [],
+   "verification": [],
+   "verified": [],
+   "phrases": [],
+   "unstable_dropped": 0,
+   "passes": 2,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 58,
+     "out": 1
+    }
+   ]
+  },
+  {
+   "id": 9,
+   "start": 13.0,
+   "text": "See, people have said Michael B. Jordan for me.",
+   "detector_raw": "See",
+   "candidates": [
+    "see"
+   ],
+   "verification": [
+    {
+     "word": "see",
+     "contextual_meaning": "used to draw attention or emphasize a point",
+     "basic_meaning": "to perceive with the eyes",
+     "is_metaphor": true
+    }
+   ],
+   "verified": [
+    "see"
+   ],
+   "phrases": [
+    {
+     "phrase": "See,",
+     "conventionality": "conventional",
+     "triggers": [
+      "see"
+     ],
+     "source_domain": "VISION",
+     "target_domain": "UNDERSTANDING",
+     "explanation_uk": "Слово 'дивись' використовується для привернення уваги або підкреслення точки зору.",
+     "span": [
+      0,
+      4
+     ]
+    }
+   ],
+   "unstable_dropped": 0,
+   "passes": 2,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 62,
+     "out": 1
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 531,
+     "out": 106
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 531,
+     "out": 105
+    }
+   ]
+  },
+  {
+   "id": 10,
+   "start": 17.0,
+   "text": "Dude, I'm from All-American.",
+   "detector_raw": "none",
+   "candidates": [],
+   "verification": [],
+   "verified": [],
+   "phrases": [],
+   "unstable_dropped": 0,
+   "passes": 2,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 57,
+     "out": 1
+    }
+   ]
+  },
+  {
+   "id": 11,
+   "start": 18.0,
+   "text": "Chris Hemsworth, I would say so.",
+   "detector_raw": "none",
+   "candidates": [],
+   "verification": [],
+   "verified": [],
+   "phrases": [],
+   "unstable_dropped": 0,
+   "passes": 2,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 59,
+     "out": 1
+    }
+   ]
+  },
+  {
+   "id": 12,
+   "start": 21.0,
+   "text": "I'll be right back, because I don't really know yet.",
+   "detector_raw": "none",
+   "candidates": [],
+   "verification": [],
+   "verified": [],
+   "phrases": [],
+   "unstable_dropped": 0,
+   "passes": 2,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 62,
+     "out": 1
+    }
+   ]
+  },
+  {
+   "id": 13,
+   "start": 23.0,
+   "text": "I don't have an actual celebrity look-alike, but everybody says I look like the Hulk.",
+   "detector_raw": "have",
+   "candidates": [],
+   "verification": [],
+   "verified": [],
+   "phrases": [],
+   "unstable_dropped": 0,
+   "passes": 2,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 69,
+     "out": 1
+    }
+   ]
+  },
+  {
+   "id": 14,
+   "start": 26.0,
+   "text": "I guess Mark Henry in his prime.",
+   "detector_raw": "in, prime",
+   "candidates": [
+    "prime"
+   ],
+   "verification": [
+    {
+     "word": "prime",
+     "contextual_meaning": "the period in which someone is at their peak performance or condition",
+     "basic_meaning": "the first or most important in rank or degree",
+     "is_metaphor": true
+    }
+   ],
+   "verified": [
+    "prime"
+   ],
+   "phrases": [
+    {
+     "phrase": "in his prime",
+     "conventionality": "conventional",
+     "triggers": [
+      "prime"
+     ],
+     "source_domain": "TIME",
+     "target_domain": "PERFORMANCE",
+     "explanation_uk": "Переноситься ідея найкращого періоду часу на найкращий період продуктивності або стану людини.",
+     "span": [
+      19,
+      31
+     ]
+    }
+   ],
+   "unstable_dropped": 0,
+   "passes": 2,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 58,
+     "out": 3
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 534,
+     "out": 120
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 534,
+     "out": 108
+    }
+   ]
+  },
+  {
+   "id": 15,
+   "start": 27.5,
+   "text": "The Wolverine.",
+   "detector_raw": "none",
+   "candidates": [],
+   "verification": [],
+   "verified": [],
+   "phrases": [],
+   "unstable_dropped": 0,
+   "passes": 2,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 53,
+     "out": 1
+    }
+   ]
+  },
+  {
+   "id": 16,
+   "start": 27.5,
+   "text": "I get that one a lot.",
+   "detector_raw": "get, that, one, lot",
+   "candidates": [
+    "get",
+    "lot"
+   ],
+   "verification": [
+    {
+     "word": "get",
+     "contextual_meaning": "understand or hear frequently",
+     "basic_meaning": "obtain or receive something",
+     "is_metaphor": true
+    },
+    {
+     "word": "lot",
+     "contextual_meaning": "a large number or amount",
+     "basic_meaning": "a portion or parcel of land",
+     "is_metaphor": true
+    }
+   ],
+   "verified": [
+    "get"
+   ],
+   "phrases": [
+    {
+     "phrase": "get that one a lot",
+     "conventionality": "conventional",
+     "triggers": [
+      "get"
+     ],
+     "source_domain": "OBTAINING",
+     "target_domain": "UNDERSTANDING",
+     "explanation_uk": "Розуміння чогось часто порівнюється з отриманням чогось.",
+     "span": [
+      2,
+      20
+     ]
+    }
+   ],
+   "unstable_dropped": 0,
+   "passes": 2,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 57,
+     "out": 7
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 523,
+     "out": 142
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 523,
+     "out": 136
+    }
+   ]
+  },
+  {
+   "id": 17,
+   "start": 30.0,
+   "text": "I'd say Michael B. Jordan.",
+   "detector_raw": "none",
+   "candidates": [],
+   "verification": [],
+   "verified": [],
+   "phrases": [],
+   "unstable_dropped": 0,
+   "passes": 2,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 57,
+     "out": 1
+    }
+   ]
+  },
+  {
+   "id": 18,
+   "start": 31.0,
+   "text": "Nobody look like me.",
+   "detector_raw": "none",
+   "candidates": [],
+   "verification": [],
+   "verified": [],
+   "phrases": [],
+   "unstable_dropped": 0,
+   "passes": 2,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 55,
+     "out": 1
+    }
+   ]
+  },
+  {
+   "id": 19,
+   "start": 32.0,
+   "text": "Ty, come here!",
+   "detector_raw": "none",
+   "candidates": [],
+   "verification": [],
+   "verified": [],
+   "phrases": [],
+   "unstable_dropped": 0,
+   "passes": 2,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 55,
+     "out": 1
+    }
+   ]
+  },
+  {
+   "id": 20,
+   "start": 33.0,
+   "text": "Who's your celebrity look-alike?",
+   "detector_raw": "none",
+   "candidates": [],
+   "verification": [],
+   "verified": [],
+   "phrases": [],
+   "unstable_dropped": 0,
+   "passes": 2,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 58,
+     "out": 1
+    }
+   ]
+  },
+  {
+   "id": 21,
+   "start": 36.0,
+   "text": "There you go!",
+   "detector_raw": "There",
+   "candidates": [],
+   "verification": [],
+   "verified": [],
+   "phrases": [],
+   "unstable_dropped": 0,
+   "passes": 2,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 54,
+     "out": 1
+    }
+   ]
+  },
+  {
+   "id": 22,
+   "start": 37.0,
+   "text": "I heard somebody say Jason Taylor, but I don't know where that came from.",
+   "detector_raw": "that, came, from",
+   "candidates": [
+    "came"
+   ],
+   "verification": [
+    {
+     "word": "came",
+     "contextual_meaning": "originated",
+     "basic_meaning": "moved towards a place",
+     "is_metaphor": true
+    }
+   ],
+   "verified": [
+    "came"
+   ],
+   "phrases": [
+    {
+     "phrase": "came from",
+     "conventionality": "conventional",
+     "triggers": [
+      "came"
+     ],
+     "source_domain": "MOVEMENT",
+     "target_domain": "ORIGIN",
+     "explanation_uk": "Ідея походження чогось представлена як рух з певного місця.",
+     "span": [
+      63,
+      72
+     ]
+    }
+   ],
+   "unstable_dropped": 0,
+   "passes": 2,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 66,
+     "out": 5
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 527,
+     "out": 93
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 527,
+     "out": 102
+    }
+   ]
+  },
+  {
+   "id": 23,
+   "start": 41.0,
+   "text": "My mother.",
+   "detector_raw": "none",
+   "candidates": [],
+   "verification": [],
+   "verified": [],
+   "phrases": [],
+   "unstable_dropped": 0,
+   "passes": 2,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 53,
+     "out": 1
+    }
+   ]
+  },
+  {
+   "id": 24,
+   "start": 42.0,
+   "text": "I look like Jordan Davis.",
+   "detector_raw": "none",
+   "candidates": [],
+   "verification": [],
+   "verified": [],
+   "phrases": [],
+   "unstable_dropped": 0,
+   "passes": 2,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 56,
+     "out": 1
+    }
+   ]
+  },
+  {
+   "id": 25,
+   "start": 44.0,
+   "text": "Jordan M.F. in Davis.",
+   "detector_raw": "none",
+   "candidates": [],
+   "verification": [],
+   "verified": [],
+   "phrases": [],
+   "unstable_dropped": 0,
+   "passes": 2,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 57,
+     "out": 1
+    }
+   ]
+  },
+  {
+   "id": 26,
+   "start": 46.0,
+   "text": "Jordan Zachary Taylor Davis.",
+   "detector_raw": "none",
+   "candidates": [],
+   "verification": [],
+   "verified": [],
+   "phrases": [],
+   "unstable_dropped": 0,
+   "passes": 2,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 56,
+     "out": 1
+    }
+   ]
+  },
+  {
+   "id": 27,
+   "start": 48.0,
+   "text": "I kind of look like Gimbo Slice with a brazen chin.",
+   "detector_raw": "brazen",
+   "candidates": [
+    "brazen"
+   ],
+   "verification": [
+    {
+     "word": "brazen",
+     "contextual_meaning": "bold or shameless in appearance",
+     "basic_meaning": "made of brass or resembling brass",
+     "is_metaphor": true
+    }
+   ],
+   "verified": [
+    "brazen"
+   ],
+   "phrases": [
+    {
+     "phrase": "brazen chin",
+     "conventionality": "creative",
+     "triggers": [
+      "brazen"
+     ],
+     "source_domain": "METAL",
+     "target_domain": "APPEARANCE",
+     "explanation_uk": "Порівнюється зовнішній вигляд підборіддя з металом, щоб підкреслити його сміливість або нахабність.",
+     "span": [
+      39,
+      50
+     ]
+    }
+   ],
+   "unstable_dropped": 0,
+   "passes": 2,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 64,
+     "out": 2
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 537,
+     "out": 118
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 537,
+     "out": 116
+    }
+   ]
+  },
+  {
+   "id": 28,
+   "start": 51.0,
+   "text": "People say I look like Lil' Romeo in Bow Wow.",
+   "detector_raw": "in",
+   "candidates": [],
+   "verification": [],
+   "verified": [],
+   "phrases": [],
+   "unstable_dropped": 0,
+   "passes": 2,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 62,
+     "out": 1
+    }
+   ]
+  },
+  {
+   "id": 29,
+   "start": 53.5,
+   "text": "What I get a lot is Brian Westbrook.",
+   "detector_raw": "get, lot",
+   "candidates": [
+    "get",
+    "lot"
+   ],
+   "verification": [
+    {
+     "word": "get",
+     "contextual_meaning": "receive or hear frequently",
+     "basic_meaning": "obtain or acquire something",
+     "is_metaphor": true
+    },
+    {
+     "word": "lot",
+     "contextual_meaning": "a large amount or number",
+     "basic_meaning": "a piece of land or a group of items",
+     "is_metaphor": false
+    }
+   ],
+   "verified": [
+    "get"
+   ],
+   "phrases": [
+    {
+     "phrase": "get a lot",
+     "conventionality": "conventional",
+     "triggers": [
+      "get"
+     ],
+     "source_domain": "ACQUISITION",
+     "target_domain": "EXPERIENCE",
+     "explanation_uk": "Часте отримання чогось порівнюється з фізичним отриманням предметів.",
+     "span": [
+      7,
+      16
+     ]
+    }
+   ],
+   "unstable_dropped": 0,
+   "passes": 2,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 60,
+     "out": 3
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 532,
+     "out": 140
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 532,
+     "out": 137
+    }
+   ]
+  },
+  {
+   "id": 30,
+   "start": 55.5,
+   "text": "I'm just shopping.",
+   "detector_raw": "none",
+   "candidates": [],
+   "verification": [],
+   "verified": [],
+   "phrases": [],
+   "unstable_dropped": 0,
+   "passes": 2,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 54,
+     "out": 1
+    }
+   ]
+  },
+  {
+   "id": 31,
+   "start": 56.5,
+   "text": "Somebody's like, are you Brian Westbrook?",
+   "detector_raw": "none",
+   "candidates": [],
+   "verification": [],
+   "verified": [],
+   "phrases": [],
+   "unstable_dropped": 0,
+   "passes": 2,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 60,
+     "out": 1
+    }
+   ]
+  },
+  {
+   "id": 32,
+   "start": 59.0,
+   "text": "I'm like, nah.",
+   "detector_raw": "none",
+   "candidates": [],
+   "verification": [],
+   "verified": [],
+   "phrases": [],
+   "unstable_dropped": 0,
+   "passes": 2,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 55,
+     "out": 1
+    }
+   ]
+  },
+  {
+   "id": 33,
+   "start": 60.0,
+   "text": "I know they say I look like J-Mon Green.",
+   "detector_raw": "none",
+   "candidates": [],
+   "verification": [],
+   "verified": [],
+   "phrases": [],
+   "unstable_dropped": 0,
+   "passes": 2,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 62,
+     "out": 1
+    }
+   ]
+  },
+  {
+   "id": 34,
+   "start": 62.0,
+   "text": "I look like the young Omar Epps who played in Loving Basketball.",
+   "detector_raw": "in",
+   "candidates": [],
+   "verification": [],
+   "verified": [],
+   "phrases": [],
+   "unstable_dropped": 0,
+   "passes": 2,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 64,
+     "out": 1
+    }
+   ]
+  },
+  {
+   "id": 35,
+   "start": 65.0,
+   "text": "I've gotten Lil' Boosie a lot.",
+   "detector_raw": "gotten, Lil', Boosie",
+   "candidates": [
+    "gotten",
+    "lil'",
+    "boosie"
+   ],
+   "verification": [
+    {
+     "word": "gotten",
+     "contextual_meaning": "been compared to or mistaken for",
+     "basic_meaning": "received or obtained something",
+     "is_metaphor": true
+    },
+    {
+     "word": "lil'",
+     "contextual_meaning": "a nickname or stage name for a person",
+     "basic_meaning": "a colloquial form of 'little'",
+     "is_metaphor": false
+    },
+    {
+     "word": "boosie",
+     "contextual_meaning": "a reference to the rapper Lil' Boosie",
+     "basic_meaning": "a proper name",
+     "is_metaphor": false
+    }
+   ],
+   "verified": [
+    "gotten"
+   ],
+   "phrases": [
+    {
+     "phrase": "gotten Lil' Boosie",
+     "conventionality": "creative",
+     "triggers": [
+      "gotten"
+     ],
+     "source_domain": "RECEIVING",
+     "target_domain": "IDENTITY",
+     "explanation_uk": "Отримання чогось порівнюється з тим, як людину сприймають або з ким її плутають.",
+     "span": [
+      5,
+      23
+     ]
+    }
+   ],
+   "unstable_dropped": 0,
+   "passes": 2,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 60,
+     "out": 8
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 539,
+     "out": 191
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 539,
+     "out": 191
+    }
+   ]
+  },
+  {
+   "id": 36,
+   "start": 67.0,
+   "text": "Drew said 50 Cent.",
+   "detector_raw": "none",
+   "candidates": [],
+   "verification": [],
+   "verified": [],
+   "phrases": [],
+   "unstable_dropped": 0,
+   "passes": 2,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 56,
+     "out": 1
+    }
+   ]
+  },
+  {
+   "id": 37,
+   "start": 68.0,
+   "text": "I knew he was trolling me, but yeah, you can have that one for sure.",
+   "detector_raw": "have, that, one",
+   "candidates": [],
+   "verification": [],
+   "verified": [],
+   "phrases": [],
+   "unstable_dropped": 0,
+   "passes": 2,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 68,
+     "out": 5
+    }
+   ]
+  }
+ ],
+ "stats": {
+  "sentences": 37,
+  "words": 240,
+  "phrases": 9,
+  "verified_words": 11,
+  "creative": 3,
+  "conventional": 6,
+  "density_per_100_words": 3.75,
+  "creative_per_100_words": 1.25,
+  "errors": 0,
+  "unstable_dropped": 0,
+  "verifier_passes": 2,
+  "cost_usd_estimate": 0.0646
+ }
+}

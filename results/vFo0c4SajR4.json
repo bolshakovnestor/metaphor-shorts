@@ -1,0 +1,427 @@
+{
+ "source": {
+  "type": "youtube",
+  "url": "https://www.youtube.com/shorts/vFo0c4SajR4",
+  "id": "vFo0c4SajR4",
+  "title": "We Were Too Young To Understand This Scene.",
+  "uploader": "GROWTH™",
+  "duration": 55,
+  "webpage_url": "https://www.youtube.com/watch?v=vFo0c4SajR4",
+  "upload_date": "20260430"
+ },
+ "created": "2026-09-23T01:39:14",
+ "models": {
+  "asr": "whisper-1",
+  "detector": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+  "verifier": "gpt-4o-2024-08-06"
+ },
+ "transcript": "fantasies have to be unrealistic because the moment the second that you get what you seek you don't you can't want it anymore in order to continue to exist desire must have its objects perpetually absent it's not the it that you want it's the fantasy of it so desire supports crazy fantasy so the lesson of lacan is living by your wants will never make you happy what it means to be fully human is to strive to live by ideas and ideals and not to measure your life by what you've attained in terms of your desires but those small moments of integrity compassion rationality even self-sacrifice because in the end the only way that we can measure the significance of our own lives is by valuing the lives of others",
+ "sentences": [
+  {
+   "id": 1,
+   "start": 0.0,
+   "text": "fantasies have to be unrealistic because the moment the second that you get what you seek you don't you can't want it anymore in order to continue to exist desire must have its objects perpetually absent it's not the it",
+   "detector_raw": "have, get, seek, in, order, continue, exist, have, objects, absent",
+   "candidates": [
+    "get",
+    "seek",
+    "order",
+    "continue",
+    "exist",
+    "objects",
+    "absent"
+   ],
+   "verification": [
+    {
+     "word": "get",
+     "contextual_meaning": "to obtain or achieve something desired",
+     "basic_meaning": "to physically receive or acquire something",
+     "is_metaphor": true
+    },
+    {
+     "word": "seek",
+     "contextual_meaning": "to pursue or strive for something desired",
+     "basic_meaning": "to physically search for or look for something",
+     "is_metaphor": true
+    },
+    {
+     "word": "order",
+     "contextual_meaning": "a condition or state required for something to happen",
+     "basic_meaning": "a command or directive given by someone in authority",
+     "is_metaphor": true
+    },
+    {
+     "word": "continue",
+     "contextual_meaning": "to persist or carry on with an action or state",
+     "basic_meaning": "to physically move forward or proceed",
+     "is_metaphor": true
+    },
+    {
+     "word": "exist",
+     "contextual_meaning": "to be present or have reality in a conceptual sense",
+     "basic_meaning": "to physically be alive or present in the world",
+     "is_metaphor": true
+    },
+    {
+     "word": "objects",
+     "contextual_meaning": "goals or targets of desire",
+     "basic_meaning": "physical items or things",
+     "is_metaphor": true
+    },
+    {
+     "word": "absent",
+     "contextual_meaning": "not present or missing in a conceptual sense",
+     "basic_meaning": "physically not present or away",
+     "is_metaphor": true
+    }
+   ],
+   "verified": [
+    "objects",
+    "seek",
+    "get",
+    "order",
+    "absent",
+    "continue",
+    "exist"
+   ],
+   "phrases": [
+    {
+     "phrase": "get what you seek",
+     "conventionality": "conventional",
+     "triggers": [
+      "get",
+      "seek"
+     ],
+     "source_domain": "ACQUISITION",
+     "target_domain": "ACHIEVEMENT",
+     "explanation_uk": "Отримання бажаного прирівнюється до досягнення мети.",
+     "span": [
+      72,
+      89
+     ],
+     "agreement": "3/3"
+    },
+    {
+     "phrase": "desire must have its objects perpetually absent",
+     "conventionality": "creative",
+     "triggers": [
+      "objects",
+      "absent"
+     ],
+     "source_domain": "PHYSICAL PRESENCE",
+     "target_domain": "EMOTIONAL DESIRE",
+     "explanation_uk": "Бажання прирівнюється до постійної відсутності об'єктів.",
+     "span": [
+      156,
+      203
+     ],
+     "agreement": "3/3"
+    }
+   ],
+   "passes": 3,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 91,
+     "out": 19
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 600,
+     "out": 399
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 600,
+     "out": 412
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 600,
+     "out": 393
+    }
+   ]
+  },
+  {
+   "id": 2,
+   "start": 0.0,
+   "text": "that you want it's the fantasy of it so desire supports crazy fantasy so the lesson of lacan is living by your wants will never make you happy what it means to be fully human is to strive to live",
+   "detector_raw": "that, supports, crazy, living, make, fully",
+   "candidates": [
+    "supports",
+    "crazy",
+    "living",
+    "make",
+    "fully"
+   ],
+   "verification": [
+    {
+     "word": "supports",
+     "contextual_meaning": "provides a foundation or justification for something",
+     "basic_meaning": "physically holds up or bears the weight of something",
+     "is_metaphor": true
+    },
+    {
+     "word": "crazy",
+     "contextual_meaning": "extremely or excessively",
+     "basic_meaning": "mentally deranged or insane",
+     "is_metaphor": true
+    },
+    {
+     "word": "living",
+     "contextual_meaning": "conducting one's life according to certain principles or desires",
+     "basic_meaning": "being alive or having life",
+     "is_metaphor": true
+    },
+    {
+     "word": "make",
+     "contextual_meaning": "cause someone to become or feel a certain way",
+     "basic_meaning": "create or form something",
+     "is_metaphor": true
+    },
+    {
+     "word": "fully",
+     "contextual_meaning": "completely or entirely",
+     "basic_meaning": "having all necessary parts or elements",
+     "is_metaphor": false
+    }
+   ],
+   "verified": [
+    "make",
+    "crazy",
+    "living",
+    "supports"
+   ],
+   "phrases": [
+    {
+     "phrase": "desire supports crazy fantasy",
+     "conventionality": "creative",
+     "triggers": [
+      "supports",
+      "crazy"
+     ],
+     "source_domain": "PHYSICAL SUPPORT / MENTAL STATE",
+     "target_domain": "JUSTIFICATION / INTENSITY",
+     "explanation_uk": "Бажання надає підґрунтя для божевільних фантазій.",
+     "span": [
+      40,
+      69
+     ],
+     "agreement": "3/3"
+    },
+    {
+     "phrase": "living by your wants",
+     "conventionality": "conventional",
+     "triggers": [
+      "living"
+     ],
+     "source_domain": "LIFE",
+     "target_domain": "BEHAVIOR",
+     "explanation_uk": "Жити відповідно до своїх бажань.",
+     "span": [
+      96,
+      116
+     ],
+     "agreement": "3/3"
+    },
+    {
+     "phrase": "make you happy",
+     "conventionality": "conventional",
+     "triggers": [
+      "make"
+     ],
+     "source_domain": "CREATION",
+     "target_domain": "EMOTION",
+     "explanation_uk": "Зробити вас щасливим.",
+     "span": [
+      128,
+      142
+     ],
+     "agreement": "3/3"
+    }
+   ],
+   "passes": 3,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 91,
+     "out": 11
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 639,
+     "out": 354
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 639,
+     "out": 392
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 639,
+     "out": 354
+    }
+   ]
+  },
+  {
+   "id": 3,
+   "start": 0.0,
+   "text": "by ideas and ideals and not to measure your life by what you've attained in terms of your desires but those small moments of integrity compassion rationality even self-sacrifice because in the end the only way that we can measure",
+   "detector_raw": "measure, in, terms, those, small, in, end, way, measure",
+   "candidates": [
+    "measure",
+    "terms",
+    "small",
+    "end",
+    "way"
+   ],
+   "verification": [
+    {
+     "word": "measure",
+     "contextual_meaning": "evaluate or assess the value or quality of life.",
+     "basic_meaning": "determine the size, amount, or degree of something using a standard unit.",
+     "is_metaphor": true
+    },
+    {
+     "word": "terms",
+     "contextual_meaning": "conditions or aspects related to desires.",
+     "basic_meaning": "words or expressions used to describe something.",
+     "is_metaphor": true
+    },
+    {
+     "word": "small",
+     "contextual_meaning": "seemingly insignificant or minor in scale.",
+     "basic_meaning": "of a size that is less than normal or usual.",
+     "is_metaphor": false
+    },
+    {
+     "word": "end",
+     "contextual_meaning": "the final part or conclusion of life.",
+     "basic_meaning": "the point at which something ceases to exist.",
+     "is_metaphor": false
+    },
+    {
+     "word": "way",
+     "contextual_meaning": "method or approach to evaluate life.",
+     "basic_meaning": "a path or route taken to reach a destination.",
+     "is_metaphor": true
+    }
+   ],
+   "verified": [
+    "measure",
+    "terms",
+    "way",
+    "end"
+   ],
+   "phrases": [
+    {
+     "phrase": "measure your life",
+     "conventionality": "conventional",
+     "triggers": [
+      "measure"
+     ],
+     "source_domain": "MEASUREMENT",
+     "target_domain": "EVALUATION",
+     "explanation_uk": "Оцінювати своє життя означає вимірювати його цінність або якість.",
+     "span": [
+      31,
+      48
+     ],
+     "agreement": "3/3"
+    },
+    {
+     "phrase": "terms of your desires",
+     "conventionality": "conventional",
+     "triggers": [
+      "terms"
+     ],
+     "source_domain": "LANGUAGE",
+     "target_domain": "CONDITIONS",
+     "explanation_uk": "Умови ваших бажань означають аспекти, пов'язані з бажаннями.",
+     "span": [
+      76,
+      97
+     ],
+     "agreement": "2/3"
+    },
+    {
+     "phrase": "way that we can measure",
+     "conventionality": "conventional",
+     "triggers": [
+      "way",
+      "measure"
+     ],
+     "source_domain": "PATH",
+     "target_domain": "METHOD",
+     "explanation_uk": "Спосіб, яким ми можемо оцінити, означає метод або підхід до оцінки.",
+     "span": [
+      206,
+      229
+     ],
+     "agreement": "2/3"
+    }
+   ],
+   "passes": 3,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 93,
+     "out": 17
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 612,
+     "out": 388
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 612,
+     "out": 423
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 612,
+     "out": 452
+    }
+   ]
+  },
+  {
+   "id": 4,
+   "start": 0.0,
+   "text": "the significance of our own lives is by valuing the lives of others",
+   "detector_raw": "of",
+   "candidates": [],
+   "verification": [],
+   "verified": [],
+   "phrases": [],
+   "passes": 3,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 64,
+     "out": 1
+    }
+   ]
+  }
+ ],
+ "stats": {
+  "sentences": 4,
+  "words": 133,
+  "phrases": 8,
+  "verified_words": 15,
+  "creative": 2,
+  "conventional": 6,
+  "density_per_100_words": 6.02,
+  "creative_per_100_words": 1.5,
+  "errors": 0,
+  "borderline": 2,
+  "stable": 6,
+  "verifier_passes": 3,
+  "cost_usd_estimate": 0.057
+ }
+}

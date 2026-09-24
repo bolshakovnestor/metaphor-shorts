@@ -1,0 +1,666 @@
+{
+ "source": {
+  "type": "youtube",
+  "url": "https://www.youtube.com/shorts/OhCovyZI7jo",
+  "id": "OhCovyZI7jo",
+  "title": "Let me love you anyways - Edgar Allan Poe 🥀🖤 #poetry #lovepoetry #deepquotes #love #quotes",
+  "uploader": "soulxsigh",
+  "duration": 58,
+  "webpage_url": "https://www.youtube.com/watch?v=OhCovyZI7jo",
+  "upload_date": "20240901"
+ },
+ "created": "2026-09-23T02:24:15",
+ "models": {
+  "asr": "whisper-1",
+  "detector": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+  "verifier": "gpt-4o-2024-08-06"
+ },
+ "transcript": "How beautiful it was when Edgar Allan Poe wrote, Years of love have been forgot in the hatred of a minute. Tell me every terrible thing you ever did, and let me love you anyway. Let me glimpse inside your velvet bones. There are cords in the hearts of the most reckless, which cannot be touched without emotion. The eye, like a shattered mirror, multiplies the images of sorrow. It is a happiness to wonder. It is a happiness to dream. Yes, I now feel that it was then on that evening of sweet dreams, that the very first dawn of human love burst upon the icy night of my spirit. Since that period, I have never seen nor heard your name without a shiver, half of delight, half of anxiety. Let my heart be still a moment and this mystery explore.",
+ "sentences": [
+  {
+   "id": 1,
+   "start": 0.0,
+   "text": "How beautiful it was when Edgar Allan Poe wrote, Years of love have been forgot in the hatred of a minute.",
+   "detector_raw": "in",
+   "candidates": [],
+   "verification": [],
+   "verified": [],
+   "phrases": [],
+   "passes": 3,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 73,
+     "out": 1
+    }
+   ]
+  },
+  {
+   "id": 2,
+   "start": 8.0,
+   "text": "Tell me every terrible thing you ever did, and let me love you anyway.",
+   "detector_raw": "none",
+   "candidates": [],
+   "verification": [],
+   "verified": [],
+   "phrases": [],
+   "passes": 3,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 66,
+     "out": 1
+    }
+   ]
+  },
+  {
+   "id": 3,
+   "start": 14.0,
+   "text": "Let me glimpse inside your velvet bones.",
+   "detector_raw": "glimpse, inside, velvet",
+   "candidates": [
+    "glimpse",
+    "velvet"
+   ],
+   "verification": [
+    {
+     "word": "glimpse",
+     "contextual_meaning": "to briefly see or understand something not fully visible or comprehensible.",
+     "basic_meaning": "to see something for a very short time or only partly.",
+     "is_metaphor": true
+    },
+    {
+     "word": "velvet",
+     "contextual_meaning": "soft, delicate, and possibly mysterious or hidden aspects of someone's inner self.",
+     "basic_meaning": "a type of fabric that is soft and smooth to the touch.",
+     "is_metaphor": true
+    }
+   ],
+   "verified": [
+    "glimpse",
+    "velvet"
+   ],
+   "phrases": [
+    {
+     "phrase": "glimpse inside your velvet bones",
+     "conventionality": "creative",
+     "triggers": [
+      "glimpse",
+      "velvet"
+     ],
+     "source_domain": "VISION / TEXTURE",
+     "target_domain": "UNDERSTANDING / INNER SELF",
+     "explanation_uk": "Побачити внутрішній світ людини, як щось м'яке та приховане.",
+     "span": [
+      7,
+      39
+     ],
+     "agreement": "3/3"
+    }
+   ],
+   "passes": 3,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 58,
+     "out": 6
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 548,
+     "out": 177
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 548,
+     "out": 174
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 548,
+     "out": 178
+    }
+   ]
+  },
+  {
+   "id": 4,
+   "start": 17.0,
+   "text": "There are cords in the hearts of the most reckless, which cannot be touched without emotion.",
+   "detector_raw": "cords, in, hearts, reckless, touched, without",
+   "candidates": [
+    "cords",
+    "hearts",
+    "reckless",
+    "touched"
+   ],
+   "verification": [
+    {
+     "word": "cords",
+     "contextual_meaning": "emotional connections or ties within a person",
+     "basic_meaning": "long, thin, flexible materials like ropes or strings",
+     "is_metaphor": true
+    },
+    {
+     "word": "hearts",
+     "contextual_meaning": "the emotional or moral core of a person",
+     "basic_meaning": "the organ in the body that pumps blood",
+     "is_metaphor": true
+    },
+    {
+     "word": "reckless",
+     "contextual_meaning": "people who act without care or consideration",
+     "basic_meaning": "acting without thinking about the consequences",
+     "is_metaphor": false
+    },
+    {
+     "word": "touched",
+     "contextual_meaning": "affected emotionally",
+     "basic_meaning": "physically made contact with",
+     "is_metaphor": true
+    }
+   ],
+   "verified": [
+    "cords",
+    "touched",
+    "hearts"
+   ],
+   "phrases": [
+    {
+     "phrase": "cords in the hearts",
+     "conventionality": "creative",
+     "triggers": [
+      "cords",
+      "hearts"
+     ],
+     "source_domain": "PHYSICAL OBJECTS",
+     "target_domain": "EMOTIONS",
+     "explanation_uk": "Емоційні зв'язки в серці порівнюються з фізичними шнурами.",
+     "span": [
+      10,
+      29
+     ],
+     "agreement": "3/3"
+    },
+    {
+     "phrase": "touched without emotion",
+     "conventionality": "conventional",
+     "triggers": [
+      "touched"
+     ],
+     "source_domain": "PHYSICAL CONTACT",
+     "target_domain": "EMOTIONS",
+     "explanation_uk": "Емоційний вплив порівнюється з фізичним дотиком.",
+     "span": [
+      68,
+      91
+     ],
+     "agreement": "3/3"
+    }
+   ],
+   "passes": 3,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 68,
+     "out": 12
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 551,
+     "out": 283
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 551,
+     "out": 282
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 551,
+     "out": 286
+    }
+   ]
+  },
+  {
+   "id": 5,
+   "start": 23.0,
+   "text": "The eye, like a shattered mirror, multiplies the images of sorrow.",
+   "detector_raw": "shattered, mirror, multiplies, images, of",
+   "candidates": [
+    "shattered",
+    "mirror",
+    "multiplies",
+    "images"
+   ],
+   "verification": [
+    {
+     "word": "shattered",
+     "contextual_meaning": "broken into many pieces, causing distortion or fragmentation of reflections.",
+     "basic_meaning": "physically broken into pieces.",
+     "is_metaphor": true
+    },
+    {
+     "word": "mirror",
+     "contextual_meaning": "a reflective surface that shows a distorted or fragmented view of sorrow.",
+     "basic_meaning": "a surface, typically glass coated with a metal amalgam, which reflects a clear image.",
+     "is_metaphor": true
+    },
+    {
+     "word": "multiplies",
+     "contextual_meaning": "increases the number or intensity of sorrowful images.",
+     "basic_meaning": "mathematically increases a number by another number.",
+     "is_metaphor": true
+    },
+    {
+     "word": "images",
+     "contextual_meaning": "mental representations or reflections of sorrow.",
+     "basic_meaning": "visual representations of objects or scenes.",
+     "is_metaphor": true
+    }
+   ],
+   "verified": [
+    "mirror",
+    "shattered",
+    "multiplies",
+    "images"
+   ],
+   "phrases": [
+    {
+     "phrase": "eye, like a shattered mirror",
+     "conventionality": "creative",
+     "triggers": [
+      "shattered",
+      "mirror"
+     ],
+     "source_domain": "OBJECTS",
+     "target_domain": "PERCEPTION",
+     "explanation_uk": "Око порівнюється з розбитим дзеркалом, щоб показати, як воно спотворює сприйняття смутку.",
+     "span": [
+      4,
+      32
+     ],
+     "agreement": "3/3"
+    },
+    {
+     "phrase": "multiplies the images of sorrow",
+     "conventionality": "creative",
+     "triggers": [
+      "multiplies",
+      "images"
+     ],
+     "source_domain": "MATHEMATICS",
+     "target_domain": "EMOTION",
+     "explanation_uk": "Смуток описується як збільшення кількості образів, що підкреслює його інтенсивність.",
+     "span": [
+      34,
+      65
+     ],
+     "agreement": "3/3"
+    }
+   ],
+   "passes": 3,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 65,
+     "out": 11
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 551,
+     "out": 326
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 551,
+     "out": 325
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 551,
+     "out": 322
+    }
+   ]
+  },
+  {
+   "id": 6,
+   "start": 29.0,
+   "text": "It is a happiness to wonder.",
+   "detector_raw": "none",
+   "candidates": [],
+   "verification": [],
+   "verified": [],
+   "phrases": [],
+   "passes": 3,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 57,
+     "out": 1
+    }
+   ]
+  },
+  {
+   "id": 7,
+   "start": 32.0,
+   "text": "It is a happiness to dream.",
+   "detector_raw": "none",
+   "candidates": [],
+   "verification": [],
+   "verified": [],
+   "phrases": [],
+   "passes": 3,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 57,
+     "out": 1
+    }
+   ]
+  },
+  {
+   "id": 8,
+   "start": 35.0,
+   "text": "Yes, I now feel that it was then on that evening of sweet dreams, that the very first dawn of human love burst upon the icy night of my spirit.",
+   "detector_raw": "feel, on, sweet, dreams, dawn, burst, upon, icy, night",
+   "candidates": [
+    "feel",
+    "sweet",
+    "dreams",
+    "dawn",
+    "burst",
+    "icy",
+    "night"
+   ],
+   "verification": [
+    {
+     "word": "feel",
+     "contextual_meaning": "to perceive or experience an emotion or sensation",
+     "basic_meaning": "to touch or be touched physically",
+     "is_metaphor": true
+    },
+    {
+     "word": "sweet",
+     "contextual_meaning": "pleasant or delightful",
+     "basic_meaning": "having a taste characteristic of sugar or honey",
+     "is_metaphor": true
+    },
+    {
+     "word": "dreams",
+     "contextual_meaning": "thoughts or visions occurring during sleep or imagination",
+     "basic_meaning": "a series of thoughts, images, or emotions occurring during sleep",
+     "is_metaphor": false
+    },
+    {
+     "word": "dawn",
+     "contextual_meaning": "the beginning or emergence of something",
+     "basic_meaning": "the first appearance of light in the sky before sunrise",
+     "is_metaphor": true
+    },
+    {
+     "word": "burst",
+     "contextual_meaning": "to suddenly appear or emerge",
+     "basic_meaning": "to break open or apart suddenly and violently",
+     "is_metaphor": true
+    },
+    {
+     "word": "icy",
+     "contextual_meaning": "emotionally cold or unfeeling",
+     "basic_meaning": "covered with or consisting of ice",
+     "is_metaphor": true
+    },
+    {
+     "word": "night",
+     "contextual_meaning": "a period of darkness or lack of enlightenment",
+     "basic_meaning": "the time from sunset to sunrise when it is dark",
+     "is_metaphor": true
+    }
+   ],
+   "verified": [
+    "sweet",
+    "dawn",
+    "icy",
+    "burst",
+    "night",
+    "feel",
+    "dreams"
+   ],
+   "phrases": [
+    {
+     "phrase": "sweet dreams",
+     "conventionality": "conventional",
+     "triggers": [
+      "sweet"
+     ],
+     "source_domain": "TASTE",
+     "target_domain": "EXPERIENCE",
+     "explanation_uk": "Приємні сни порівнюються з солодким смаком.",
+     "span": [
+      52,
+      64
+     ],
+     "agreement": "3/3"
+    },
+    {
+     "phrase": "dawn of human love",
+     "conventionality": "creative",
+     "triggers": [
+      "dawn"
+     ],
+     "source_domain": "DAY",
+     "target_domain": "BEGINNING",
+     "explanation_uk": "Початок людської любові порівнюється з світанком.",
+     "span": [
+      86,
+      104
+     ],
+     "agreement": "2/3"
+    },
+    {
+     "phrase": "burst upon the icy night of my spirit",
+     "conventionality": "creative",
+     "triggers": [
+      "burst",
+      "icy",
+      "night"
+     ],
+     "source_domain": "WEATHER",
+     "target_domain": "EMOTION",
+     "explanation_uk": "Емоційний холод порівнюється з крижаною ніччю, на яку раптово з'являється світанок.",
+     "span": [
+      105,
+      142
+     ],
+     "agreement": "2/3"
+    }
+   ],
+   "passes": 3,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 83,
+     "out": 17
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 581,
+     "out": 458
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 581,
+     "out": 426
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 581,
+     "out": 419
+    }
+   ]
+  },
+  {
+   "id": 9,
+   "start": 45.0,
+   "text": "Since that period, I have never seen nor heard your name without a shiver, half of delight, half of anxiety.",
+   "detector_raw": "seen, without, half, half",
+   "candidates": [
+    "seen",
+    "half"
+   ],
+   "verification": [
+    {
+     "word": "seen",
+     "contextual_meaning": "perceived or noticed with the mind or emotions",
+     "basic_meaning": "perceived with the eyes",
+     "is_metaphor": true
+    },
+    {
+     "word": "half",
+     "contextual_meaning": "partially or to some extent",
+     "basic_meaning": "one of two equal parts",
+     "is_metaphor": true
+    }
+   ],
+   "verified": [],
+   "phrases": [],
+   "passes": 3,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 75,
+     "out": 7
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 576,
+     "out": 203
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 576,
+     "out": 78
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 576,
+     "out": 84
+    }
+   ]
+  },
+  {
+   "id": 10,
+   "start": 53.0,
+   "text": "Let my heart be still a moment and this mystery explore.",
+   "detector_raw": "Let, heart, this, explore",
+   "candidates": [
+    "let",
+    "heart",
+    "explore"
+   ],
+   "verification": [
+    {
+     "word": "let",
+     "contextual_meaning": "allow or permit something to happen",
+     "basic_meaning": "to allow or permit",
+     "is_metaphor": false
+    },
+    {
+     "word": "heart",
+     "contextual_meaning": "the center of emotions and feelings",
+     "basic_meaning": "a muscular organ that pumps blood through the circulatory system",
+     "is_metaphor": true
+    },
+    {
+     "word": "explore",
+     "contextual_meaning": "to investigate or examine something thoroughly",
+     "basic_meaning": "to travel through an unfamiliar area in order to learn about it",
+     "is_metaphor": true
+    }
+   ],
+   "verified": [
+    "heart",
+    "explore"
+   ],
+   "phrases": [
+    {
+     "phrase": "my heart",
+     "conventionality": "conventional",
+     "triggers": [
+      "heart"
+     ],
+     "source_domain": "BODY",
+     "target_domain": "EMOTION",
+     "explanation_uk": "Серце використовується для позначення емоцій та почуттів.",
+     "span": [
+      4,
+      12
+     ],
+     "agreement": "3/3"
+    },
+    {
+     "phrase": "this mystery explore",
+     "conventionality": "conventional",
+     "triggers": [
+      "explore"
+     ],
+     "source_domain": "JOURNEY",
+     "target_domain": "UNDERSTANDING",
+     "explanation_uk": "Дослідження таємниці означає спробу зрозуміти або розгадати її.",
+     "span": [
+      35,
+      55
+     ],
+     "agreement": "3/3"
+    }
+   ],
+   "passes": 3,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 62,
+     "out": 7
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 545,
+     "out": 241
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 545,
+     "out": 233
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 545,
+     "out": 241
+    }
+   ]
+  }
+ ],
+ "stats": {
+  "sentences": 10,
+  "words": 142,
+  "phrases": 10,
+  "verified_words": 18,
+  "creative": 6,
+  "conventional": 4,
+  "density_per_100_words": 7.04,
+  "creative_per_100_words": 4.23,
+  "errors": 0,
+  "borderline": 2,
+  "stable": 8,
+  "verifier_passes": 3,
+  "cost_usd_estimate": 0.0817
+ }
+}

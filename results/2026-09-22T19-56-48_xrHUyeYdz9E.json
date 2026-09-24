@@ -1,0 +1,1132 @@
+{
+ "source": {
+  "type": "youtube",
+  "url": "https://www.youtube.com/shorts/xrHUyeYdz9E",
+  "id": "xrHUyeYdz9E",
+  "title": "Some of these are spot on #shorts",
+  "uploader": "Philadelphia Eagles",
+  "duration": 77,
+  "webpage_url": "https://www.youtube.com/watch?v=xrHUyeYdz9E",
+  "upload_date": "20260608"
+ },
+ "created": "2026-09-22T19:56:48",
+ "models": {
+  "asr": "whisper-1",
+  "detector": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+  "verifier": "gpt-4o-2024-08-06"
+ },
+ "transcript": "Who does your celebrity look alike? Dwayne The Rock Johnson. Somebody told me Snoop Dogg. I don't get it though. Probably Reeve Blankenship. If I could make a love child, it would be Tony Finale and George Clooney. Together. People say I look like Bruno Mars. See, people have said Michael B. Jordan for me. Dude, I'm from All-American. Chris Hemsworth, I would say so. I'll be right back, because I don't really know yet. I don't have an actual celebrity look-alike, but everybody says I look like the Hulk. I guess Mark Henry in his prime. The Wolverine. I get that one a lot. I'd say Michael B. Jordan. Nobody look like me. Ty, come here! Who's your celebrity look-alike? There you go! I heard somebody say Jason Taylor, but I don't know where that came from. My mother. I look like Jordan Davis. Jordan M.F. in Davis. Jordan Zachary Taylor Davis. I kind of look like Gimbo Slice with a brazen chin. People say I look like Lil' Romeo in Bow Wow. What I get a lot is Brian Westbrook. I'm just shopping. Somebody's like, are you Brian Westbrook? I'm like, nah. I know they say I look like J-Mon Green. I look like the young Omar Epps who played in Lovin' Basketball. I've gotten Lil' Boosie a lot. Drew said 50 Cent. I knew he was trolling me, but yeah, you can have that one for sure. Whatever y'all posted, especially y'all put 50 Cent with a do-rag on and Keeley had to decide. You want to see what I'm talking about?",
+ "sentences": [
+  {
+   "id": 1,
+   "start": 0.0,
+   "text": "Who does your celebrity look alike?",
+   "detector_raw": "none",
+   "candidates": [],
+   "verification": [],
+   "verified": [],
+   "phrases": [],
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 57,
+     "out": 1
+    }
+   ]
+  },
+  {
+   "id": 2,
+   "start": 2.0,
+   "text": "Dwayne The Rock Johnson.",
+   "detector_raw": "none",
+   "candidates": [],
+   "verification": [],
+   "verified": [],
+   "phrases": [],
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 56,
+     "out": 1
+    }
+   ]
+  },
+  {
+   "id": 3,
+   "start": 3.5,
+   "text": "Somebody told me Snoop Dogg.",
+   "detector_raw": "none",
+   "candidates": [],
+   "verification": [],
+   "verified": [],
+   "phrases": [],
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 58,
+     "out": 1
+    }
+   ]
+  },
+  {
+   "id": 4,
+   "start": 3.5,
+   "text": "I don't get it though.",
+   "detector_raw": "get",
+   "candidates": [
+    "get"
+   ],
+   "verification": [
+    {
+     "word": "get",
+     "contextual_meaning": "understand or comprehend something",
+     "basic_meaning": "to acquire or receive something",
+     "is_metaphor": true
+    }
+   ],
+   "verified": [
+    "get"
+   ],
+   "phrases": [
+    {
+     "phrase": "get it",
+     "triggers": [
+      "get"
+     ],
+     "source_domain": "ACQUISITION",
+     "target_domain": "UNDERSTANDING",
+     "explanation_uk": "Розуміння чогось описується як отримання або здобуття цього.",
+     "span": [
+      8,
+      14
+     ]
+    }
+   ],
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 56,
+     "out": 1
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 402,
+     "out": 94
+    }
+   ]
+  },
+  {
+   "id": 5,
+   "start": 6.0,
+   "text": "Probably Reeve Blankenship.",
+   "detector_raw": "none",
+   "candidates": [],
+   "verification": [],
+   "verified": [],
+   "phrases": [],
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 57,
+     "out": 1
+    }
+   ]
+  },
+  {
+   "id": 6,
+   "start": 7.0,
+   "text": "If I could make a love child, it would be Tony Finale and George Clooney.",
+   "detector_raw": "make, love, child",
+   "candidates": [
+    "make",
+    "love",
+    "child"
+   ],
+   "verification": [
+    {
+     "word": "make",
+     "contextual_meaning": "to create or bring into existence in a hypothetical sense",
+     "basic_meaning": "to form or produce something physically",
+     "is_metaphor": true
+    },
+    {
+     "word": "love",
+     "contextual_meaning": "a combination or blend of qualities from two people",
+     "basic_meaning": "an intense feeling of deep affection",
+     "is_metaphor": true
+    },
+    {
+     "word": "child",
+     "contextual_meaning": "a hypothetical creation or blend of two people",
+     "basic_meaning": "a young human being",
+     "is_metaphor": true
+    }
+   ],
+   "verified": [
+    "make",
+    "love",
+    "child"
+   ],
+   "phrases": [
+    {
+     "phrase": "make a love child",
+     "triggers": [
+      "make",
+      "love",
+      "child"
+     ],
+     "source_domain": "CREATION",
+     "target_domain": "COMBINATION",
+     "explanation_uk": "Створення дитини символізує поєднання якостей двох людей.",
+     "span": [
+      11,
+      28
+     ]
+    }
+   ],
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 68,
+     "out": 5
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 412,
+     "out": 173
+    }
+   ]
+  },
+  {
+   "id": 7,
+   "start": 11.0,
+   "text": "Together.",
+   "detector_raw": "none",
+   "candidates": [],
+   "verification": [],
+   "verified": [],
+   "phrases": [],
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 52,
+     "out": 1
+    }
+   ]
+  },
+  {
+   "id": 8,
+   "start": 12.0,
+   "text": "People say I look like Bruno Mars.",
+   "detector_raw": "none",
+   "candidates": [],
+   "verification": [],
+   "verified": [],
+   "phrases": [],
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 58,
+     "out": 1
+    }
+   ]
+  },
+  {
+   "id": 9,
+   "start": 13.0,
+   "text": "See, people have said Michael B.",
+   "detector_raw": "See",
+   "candidates": [
+    "see"
+   ],
+   "verification": [
+    {
+     "word": "see",
+     "contextual_meaning": "used to introduce a statement or explanation",
+     "basic_meaning": "to perceive with the eyes",
+     "is_metaphor": true
+    }
+   ],
+   "verified": [
+    "see"
+   ],
+   "phrases": [
+    {
+     "phrase": "See, people have said",
+     "triggers": [
+      "see"
+     ],
+     "source_domain": "VISION",
+     "target_domain": "UNDERSTANDING",
+     "explanation_uk": "Використання \"бачити\" для позначення розуміння або пояснення.",
+     "span": [
+      0,
+      21
+     ]
+    }
+   ],
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 58,
+     "out": 1
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 401,
+     "out": 95
+    }
+   ]
+  },
+  {
+   "id": 10,
+   "start": 13.0,
+   "text": "Jordan for me.",
+   "detector_raw": "none",
+   "candidates": [],
+   "verification": [],
+   "verified": [],
+   "phrases": [],
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 54,
+     "out": 1
+    }
+   ]
+  },
+  {
+   "id": 11,
+   "start": 17.0,
+   "text": "Dude, I'm from All-American.",
+   "detector_raw": "none",
+   "candidates": [],
+   "verification": [],
+   "verified": [],
+   "phrases": [],
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 57,
+     "out": 1
+    }
+   ]
+  },
+  {
+   "id": 12,
+   "start": 18.0,
+   "text": "Chris Hemsworth, I would say so.",
+   "detector_raw": "none",
+   "candidates": [],
+   "verification": [],
+   "verified": [],
+   "phrases": [],
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 59,
+     "out": 1
+    }
+   ]
+  },
+  {
+   "id": 13,
+   "start": 21.0,
+   "text": "I'll be right back, because I don't really know yet.",
+   "detector_raw": "none",
+   "candidates": [],
+   "verification": [],
+   "verified": [],
+   "phrases": [],
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 62,
+     "out": 1
+    }
+   ]
+  },
+  {
+   "id": 14,
+   "start": 23.0,
+   "text": "I don't have an actual celebrity look-alike, but everybody says I look like the Hulk.",
+   "detector_raw": "have",
+   "candidates": [],
+   "verification": [],
+   "verified": [],
+   "phrases": [],
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 69,
+     "out": 1
+    }
+   ]
+  },
+  {
+   "id": 15,
+   "start": 26.0,
+   "text": "I guess Mark Henry in his prime.",
+   "detector_raw": "in, prime",
+   "candidates": [
+    "prime"
+   ],
+   "verification": [
+    {
+     "word": "prime",
+     "contextual_meaning": "the best or most successful period of someone's life",
+     "basic_meaning": "the first or earliest stage of something",
+     "is_metaphor": true
+    }
+   ],
+   "verified": [
+    "prime"
+   ],
+   "phrases": [
+    {
+     "phrase": "in his prime",
+     "triggers": [
+      "prime"
+     ],
+     "source_domain": "TIME",
+     "target_domain": "LIFE",
+     "explanation_uk": "Найкращий період життя людини порівнюється з початковою стадією чогось.",
+     "span": [
+      19,
+      31
+     ]
+    }
+   ],
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 58,
+     "out": 3
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 411,
+     "out": 102
+    }
+   ]
+  },
+  {
+   "id": 16,
+   "start": 27.5,
+   "text": "The Wolverine.",
+   "detector_raw": "none",
+   "candidates": [],
+   "verification": [],
+   "verified": [],
+   "phrases": [],
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 53,
+     "out": 1
+    }
+   ]
+  },
+  {
+   "id": 17,
+   "start": 27.5,
+   "text": "I get that one a lot.",
+   "detector_raw": "get, that, one, lot",
+   "candidates": [
+    "get",
+    "lot"
+   ],
+   "verification": [
+    {
+     "word": "get",
+     "contextual_meaning": "to receive or be told something frequently",
+     "basic_meaning": "to come into possession of something",
+     "is_metaphor": true
+    },
+    {
+     "word": "lot",
+     "contextual_meaning": "a large number or amount",
+     "basic_meaning": "a portion of land",
+     "is_metaphor": true
+    }
+   ],
+   "verified": [
+    "get",
+    "lot"
+   ],
+   "phrases": [
+    {
+     "phrase": "get that one a lot",
+     "triggers": [
+      "get",
+      "lot"
+     ],
+     "source_domain": "POSSESSION / QUANTITY",
+     "target_domain": "EXPERIENCE / FREQUENCY",
+     "explanation_uk": "Часте отримання чогось порівнюється з володінням великою кількістю чогось.",
+     "span": [
+      2,
+      20
+     ]
+    }
+   ],
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 57,
+     "out": 7
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 398,
+     "out": 145
+    }
+   ]
+  },
+  {
+   "id": 18,
+   "start": 30.0,
+   "text": "I'd say Michael B.",
+   "detector_raw": "none",
+   "candidates": [],
+   "verification": [],
+   "verified": [],
+   "phrases": [],
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 55,
+     "out": 1
+    }
+   ]
+  },
+  {
+   "id": 19,
+   "start": 30.0,
+   "text": "Jordan.",
+   "detector_raw": "none",
+   "candidates": [],
+   "verification": [],
+   "verified": [],
+   "phrases": [],
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 52,
+     "out": 1
+    }
+   ]
+  },
+  {
+   "id": 20,
+   "start": 31.0,
+   "text": "Nobody look like me.",
+   "detector_raw": "none",
+   "candidates": [],
+   "verification": [],
+   "verified": [],
+   "phrases": [],
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 55,
+     "out": 1
+    }
+   ]
+  },
+  {
+   "id": 21,
+   "start": 32.0,
+   "text": "Ty, come here!",
+   "detector_raw": "none",
+   "candidates": [],
+   "verification": [],
+   "verified": [],
+   "phrases": [],
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 55,
+     "out": 1
+    }
+   ]
+  },
+  {
+   "id": 22,
+   "start": 33.0,
+   "text": "Who's your celebrity look-alike?",
+   "detector_raw": "none",
+   "candidates": [],
+   "verification": [],
+   "verified": [],
+   "phrases": [],
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 58,
+     "out": 1
+    }
+   ]
+  },
+  {
+   "id": 23,
+   "start": 36.0,
+   "text": "There you go!",
+   "detector_raw": "There",
+   "candidates": [],
+   "verification": [],
+   "verified": [],
+   "phrases": [],
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 54,
+     "out": 1
+    }
+   ]
+  },
+  {
+   "id": 24,
+   "start": 37.0,
+   "text": "I heard somebody say Jason Taylor, but I don't know where that came from.",
+   "detector_raw": "that, came, from",
+   "candidates": [
+    "came"
+   ],
+   "verification": [
+    {
+     "word": "came",
+     "contextual_meaning": "originated or was mentioned",
+     "basic_meaning": "moved from one place to another",
+     "is_metaphor": true
+    }
+   ],
+   "verified": [
+    "came"
+   ],
+   "phrases": [
+    {
+     "phrase": "came from",
+     "triggers": [
+      "came"
+     ],
+     "source_domain": "MOVEMENT",
+     "target_domain": "ORIGIN",
+     "explanation_uk": "Ідея походження чогось порівнюється з фізичним рухом.",
+     "span": [
+      63,
+      72
+     ]
+    }
+   ],
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 66,
+     "out": 5
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 404,
+     "out": 92
+    }
+   ]
+  },
+  {
+   "id": 25,
+   "start": 41.0,
+   "text": "My mother.",
+   "detector_raw": "none",
+   "candidates": [],
+   "verification": [],
+   "verified": [],
+   "phrases": [],
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 53,
+     "out": 1
+    }
+   ]
+  },
+  {
+   "id": 26,
+   "start": 42.0,
+   "text": "I look like Jordan Davis.",
+   "detector_raw": "none",
+   "candidates": [],
+   "verification": [],
+   "verified": [],
+   "phrases": [],
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 56,
+     "out": 1
+    }
+   ]
+  },
+  {
+   "id": 27,
+   "start": 44.0,
+   "text": "Jordan M.F.",
+   "detector_raw": "none",
+   "candidates": [],
+   "verification": [],
+   "verified": [],
+   "phrases": [],
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 54,
+     "out": 1
+    }
+   ]
+  },
+  {
+   "id": 28,
+   "start": 44.0,
+   "text": "in Davis.",
+   "detector_raw": "none",
+   "candidates": [],
+   "verification": [],
+   "verified": [],
+   "phrases": [],
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 53,
+     "out": 1
+    }
+   ]
+  },
+  {
+   "id": 29,
+   "start": 46.0,
+   "text": "Jordan Zachary Taylor Davis.",
+   "detector_raw": "none",
+   "candidates": [],
+   "verification": [],
+   "verified": [],
+   "phrases": [],
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 56,
+     "out": 1
+    }
+   ]
+  },
+  {
+   "id": 30,
+   "start": 48.0,
+   "text": "I kind of look like Gimbo Slice with a brazen chin.",
+   "detector_raw": "brazen",
+   "candidates": [
+    "brazen"
+   ],
+   "verification": [
+    {
+     "word": "brazen",
+     "contextual_meaning": "bold or confident in appearance",
+     "basic_meaning": "made of brass or resembling brass",
+     "is_metaphor": true
+    }
+   ],
+   "verified": [
+    "brazen"
+   ],
+   "phrases": [
+    {
+     "phrase": "brazen chin",
+     "triggers": [
+      "brazen"
+     ],
+     "source_domain": "METAL",
+     "target_domain": "APPEARANCE",
+     "explanation_uk": "Сміливий або впевнений вигляд порівнюється з металом, щоб підкреслити його міцність або зухвалість.",
+     "span": [
+      39,
+      50
+     ]
+    }
+   ],
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 64,
+     "out": 2
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 414,
+     "out": 111
+    }
+   ]
+  },
+  {
+   "id": 31,
+   "start": 51.0,
+   "text": "People say I look like Lil' Romeo in Bow Wow.",
+   "detector_raw": "in",
+   "candidates": [],
+   "verification": [],
+   "verified": [],
+   "phrases": [],
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 62,
+     "out": 1
+    }
+   ]
+  },
+  {
+   "id": 32,
+   "start": 53.5,
+   "text": "What I get a lot is Brian Westbrook.",
+   "detector_raw": "get, lot",
+   "candidates": [
+    "get",
+    "lot"
+   ],
+   "verification": [
+    {
+     "word": "get",
+     "contextual_meaning": "receive or hear frequently",
+     "basic_meaning": "obtain or come into possession of something",
+     "is_metaphor": false
+    },
+    {
+     "word": "lot",
+     "contextual_meaning": "a frequent comparison or comment",
+     "basic_meaning": "a large number or amount",
+     "is_metaphor": true
+    }
+   ],
+   "verified": [
+    "lot"
+   ],
+   "phrases": [
+    {
+     "phrase": "get a lot",
+     "triggers": [
+      "lot"
+     ],
+     "source_domain": "QUANTITY",
+     "target_domain": "FREQUENCY",
+     "explanation_uk": "Часте порівняння описується як велика кількість.",
+     "span": [
+      7,
+      16
+     ]
+    }
+   ],
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 60,
+     "out": 3
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 409,
+     "out": 124
+    }
+   ]
+  },
+  {
+   "id": 33,
+   "start": 55.5,
+   "text": "I'm just shopping.",
+   "detector_raw": "none",
+   "candidates": [],
+   "verification": [],
+   "verified": [],
+   "phrases": [],
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 54,
+     "out": 1
+    }
+   ]
+  },
+  {
+   "id": 34,
+   "start": 56.5,
+   "text": "Somebody's like, are you Brian Westbrook?",
+   "detector_raw": "none",
+   "candidates": [],
+   "verification": [],
+   "verified": [],
+   "phrases": [],
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 60,
+     "out": 1
+    }
+   ]
+  },
+  {
+   "id": 35,
+   "start": 59.0,
+   "text": "I'm like, nah.",
+   "detector_raw": "none",
+   "candidates": [],
+   "verification": [],
+   "verified": [],
+   "phrases": [],
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 55,
+     "out": 1
+    }
+   ]
+  },
+  {
+   "id": 36,
+   "start": 60.0,
+   "text": "I know they say I look like J-Mon Green.",
+   "detector_raw": "none",
+   "candidates": [],
+   "verification": [],
+   "verified": [],
+   "phrases": [],
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 62,
+     "out": 1
+    }
+   ]
+  },
+  {
+   "id": 37,
+   "start": 62.0,
+   "text": "I look like the young Omar Epps who played in Lovin' Basketball.",
+   "detector_raw": "in",
+   "candidates": [],
+   "verification": [],
+   "verified": [],
+   "phrases": [],
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 66,
+     "out": 1
+    }
+   ]
+  },
+  {
+   "id": 38,
+   "start": 65.0,
+   "text": "I've gotten Lil' Boosie a lot.",
+   "detector_raw": "gotten, Lil', Boosie",
+   "candidates": [
+    "gotten",
+    "lil'",
+    "boosie"
+   ],
+   "verification": [
+    {
+     "word": "gotten",
+     "contextual_meaning": "received or been compared to",
+     "basic_meaning": "obtained or acquired something",
+     "is_metaphor": false
+    },
+    {
+     "word": "lil'",
+     "contextual_meaning": "a nickname or stage name for a person",
+     "basic_meaning": "a colloquial form of 'little'",
+     "is_metaphor": false
+    },
+    {
+     "word": "boosie",
+     "contextual_meaning": "a reference to the rapper Lil' Boosie",
+     "basic_meaning": "a proper name",
+     "is_metaphor": false
+    }
+   ],
+   "verified": [],
+   "phrases": [],
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 60,
+     "out": 8
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 418,
+     "out": 119
+    }
+   ]
+  },
+  {
+   "id": 39,
+   "start": 67.0,
+   "text": "Drew said 50 Cent.",
+   "detector_raw": "none",
+   "candidates": [],
+   "verification": [],
+   "verified": [],
+   "phrases": [],
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 56,
+     "out": 1
+    }
+   ]
+  },
+  {
+   "id": 40,
+   "start": 68.0,
+   "text": "I knew he was trolling me, but yeah, you can have that one for sure.",
+   "detector_raw": "have, that, one",
+   "candidates": [],
+   "verification": [],
+   "verified": [],
+   "phrases": [],
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 68,
+     "out": 5
+    }
+   ]
+  },
+  {
+   "id": 41,
+   "start": 71.0,
+   "text": "Whatever y'all posted, especially y'all put 50 Cent with a do-rag on and Keeley had to decide.",
+   "detector_raw": "put, with",
+   "candidates": [
+    "put"
+   ],
+   "verification": [
+    {
+     "word": "put",
+     "contextual_meaning": "to place or position something in a particular way for a specific purpose or effect",
+     "basic_meaning": "to move or place something in a particular location",
+     "is_metaphor": false
+    }
+   ],
+   "verified": [],
+   "phrases": [],
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 75,
+     "out": 3
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 433,
+     "out": 55
+    }
+   ]
+  },
+  {
+   "id": 42,
+   "start": 76.0,
+   "text": "You want to see what I'm talking about?",
+   "detector_raw": "see, about",
+   "candidates": [
+    "see"
+   ],
+   "verification": [
+    {
+     "word": "see",
+     "contextual_meaning": "understand or comprehend what is being discussed",
+     "basic_meaning": "perceive with the eyes",
+     "is_metaphor": true
+    }
+   ],
+   "verified": [
+    "see"
+   ],
+   "phrases": [
+    {
+     "phrase": "see what I'm talking about",
+     "triggers": [
+      "see"
+     ],
+     "source_domain": "VISION",
+     "target_domain": "UNDERSTANDING",
+     "explanation_uk": "Розуміння чогось порівнюється з баченням.",
+     "span": [
+      12,
+      38
+     ]
+    }
+   ],
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 59,
+     "out": 3
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 415,
+     "out": 94
+    }
+   ]
+  }
+ ],
+ "stats": {
+  "sentences": 42,
+  "words": 264,
+  "phrases": 9,
+  "verified_words": 12,
+  "density_per_100_words": 3.41,
+  "errors": 0,
+  "cost_usd_estimate": 0.0414
+ }
+}

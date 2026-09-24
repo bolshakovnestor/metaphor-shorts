@@ -1,0 +1,1346 @@
+{
+ "source": {
+  "type": "youtube",
+  "url": "https://www.youtube.com/shorts/vkJKmH-Ewjg",
+  "id": "vkJKmH-Ewjg",
+  "title": "Buying a car in 2036",
+  "uploader": "Rudy Ayoub",
+  "duration": 70,
+  "webpage_url": "https://www.youtube.com/watch?v=vkJKmH-Ewjg",
+  "upload_date": "20260829"
+ },
+ "created": "2026-09-23T02:10:13",
+ "models": {
+  "asr": "whisper-1",
+  "detector": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+  "verifier": "gpt-4o-2024-08-06"
+ },
+ "transcript": "I want to buy a car. Road or flying? Road. Gas or electric? Gas. There's an 11% gas fee, is that okay? 11% of what? The total value of the car. That's fine. Do you drive for work or leisure or... Both. Do you want unlimited miles or a set amount? What's the set amount options? For work or leisure? Both. You get 500 work miles a year and 200 leisure miles. That's it? That's plenty. What if I go over the limit? The car locks up. What if it's an emergency? Oh, you have 100 emergency miles per year. What if I use those for leisure instead? It'll cost you $50 a mile. Ad-free experience? Ad-free experience? Where are these ads playing? Infotainment pre-journey ads. They're unskippable ads if you want to turn on your car. What if that's an emergency? You get three overrides per year where you can skip the ads. What if I use those for leisure? Well, then you will be put in solitary confinement for 48 hours with nothing but ads playing around you on the screen walls and at the end of the 48 hours, we'll give you a questionnaire to fill out about the different products you saw on the ads and if you make any mistakes about the products, then you will be put back in. I'm just kidding. We're not monsters. It's only 24 hours.",
+ "sentences": [
+  {
+   "id": 1,
+   "start": 0.0,
+   "text": "I want to buy a car.",
+   "detector_raw": "none",
+   "candidates": [],
+   "verification": [],
+   "verified": [],
+   "phrases": [],
+   "passes": 3,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 57,
+     "out": 1
+    }
+   ]
+  },
+  {
+   "id": 2,
+   "start": 0.9599999785423279,
+   "text": "Road or flying?",
+   "detector_raw": "none",
+   "candidates": [],
+   "verification": [],
+   "verified": [],
+   "phrases": [],
+   "passes": 3,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 54,
+     "out": 1
+    }
+   ]
+  },
+  {
+   "id": 3,
+   "start": 2.0,
+   "text": "Road.",
+   "detector_raw": "none",
+   "candidates": [],
+   "verification": [],
+   "verified": [],
+   "phrases": [],
+   "passes": 3,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 52,
+     "out": 1
+    }
+   ]
+  },
+  {
+   "id": 4,
+   "start": 2.4800000190734863,
+   "text": "Gas or electric?",
+   "detector_raw": "none",
+   "candidates": [],
+   "verification": [],
+   "verified": [],
+   "phrases": [],
+   "passes": 3,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 54,
+     "out": 1
+    }
+   ]
+  },
+  {
+   "id": 5,
+   "start": 3.2799999713897705,
+   "text": "Gas.",
+   "detector_raw": "none",
+   "candidates": [],
+   "verification": [],
+   "verified": [],
+   "phrases": [],
+   "passes": 3,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 52,
+     "out": 1
+    }
+   ]
+  },
+  {
+   "id": 6,
+   "start": 3.680000066757202,
+   "text": "There's an 11% gas fee, is that okay?",
+   "detector_raw": "none",
+   "candidates": [],
+   "verification": [],
+   "verified": [],
+   "phrases": [],
+   "passes": 3,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 62,
+     "out": 1
+    }
+   ]
+  },
+  {
+   "id": 7,
+   "start": 5.679999828338623,
+   "text": "11% of what?",
+   "detector_raw": "none",
+   "candidates": [],
+   "verification": [],
+   "verified": [],
+   "phrases": [],
+   "passes": 3,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 56,
+     "out": 1
+    }
+   ]
+  },
+  {
+   "id": 8,
+   "start": 6.559999942779541,
+   "text": "The total value of the car.",
+   "detector_raw": "none",
+   "candidates": [],
+   "verification": [],
+   "verified": [],
+   "phrases": [],
+   "passes": 3,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 57,
+     "out": 1
+    }
+   ]
+  },
+  {
+   "id": 9,
+   "start": 8.079999923706055,
+   "text": "That's fine.",
+   "detector_raw": "none",
+   "candidates": [],
+   "verification": [],
+   "verified": [],
+   "phrases": [],
+   "passes": 3,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 53,
+     "out": 1
+    }
+   ]
+  },
+  {
+   "id": 10,
+   "start": 8.640000343322754,
+   "text": "Do you drive for work or leisure or...",
+   "detector_raw": "none",
+   "candidates": [],
+   "verification": [],
+   "verified": [],
+   "phrases": [],
+   "passes": 3,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 59,
+     "out": 1
+    }
+   ]
+  },
+  {
+   "id": 11,
+   "start": 10.5600004196167,
+   "text": "Both.",
+   "detector_raw": "none",
+   "candidates": [],
+   "verification": [],
+   "verified": [],
+   "phrases": [],
+   "passes": 3,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 52,
+     "out": 1
+    }
+   ]
+  },
+  {
+   "id": 12,
+   "start": 10.880000114440918,
+   "text": "Do you want unlimited miles or a set amount?",
+   "detector_raw": "set, amount",
+   "candidates": [
+    "set",
+    "amount"
+   ],
+   "verification": [
+    {
+     "word": "set",
+     "contextual_meaning": "fixed or predetermined",
+     "basic_meaning": "to put or place something in a specific position",
+     "is_metaphor": true
+    },
+    {
+     "word": "amount",
+     "contextual_meaning": "a specific quantity or number",
+     "basic_meaning": "the total sum or quantity of something",
+     "is_metaphor": false
+    }
+   ],
+   "verified": [
+    "set"
+   ],
+   "phrases": [
+    {
+     "phrase": "set amount",
+     "conventionality": "conventional",
+     "triggers": [
+      "set"
+     ],
+     "source_domain": "ARRANGEMENT",
+     "target_domain": "QUANTITY",
+     "explanation_uk": "Фіксована кількість або обсяг чогось.",
+     "span": [
+      33,
+      43
+     ],
+     "agreement": "3/3"
+    }
+   ],
+   "passes": 3,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 60,
+     "out": 3
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 524,
+     "out": 128
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 524,
+     "out": 141
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 524,
+     "out": 134
+    }
+   ]
+  },
+  {
+   "id": 13,
+   "start": 12.880000114440918,
+   "text": "What's the set amount options?",
+   "detector_raw": "set",
+   "candidates": [
+    "set"
+   ],
+   "verification": [
+    {
+     "word": "set",
+     "contextual_meaning": "fixed or predetermined",
+     "basic_meaning": "to put or place something in a particular position",
+     "is_metaphor": true
+    }
+   ],
+   "verified": [
+    "set"
+   ],
+   "phrases": [
+    {
+     "phrase": "set amount",
+     "conventionality": "conventional",
+     "triggers": [
+      "set"
+     ],
+     "source_domain": "POSITION",
+     "target_domain": "QUANTITY",
+     "explanation_uk": "Фіксована кількість розглядається як щось, що має певне положення.",
+     "span": [
+      11,
+      21
+     ],
+     "agreement": "3/3"
+    }
+   ],
+   "passes": 3,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 56,
+     "out": 1
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 525,
+     "out": 100
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 525,
+     "out": 100
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 525,
+     "out": 100
+    }
+   ]
+  },
+  {
+   "id": 14,
+   "start": 14.15999984741211,
+   "text": "For work or leisure?",
+   "detector_raw": "none",
+   "candidates": [],
+   "verification": [],
+   "verified": [],
+   "phrases": [],
+   "passes": 3,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 55,
+     "out": 1
+    }
+   ]
+  },
+  {
+   "id": 15,
+   "start": 15.520000457763672,
+   "text": "Both.",
+   "detector_raw": "none",
+   "candidates": [],
+   "verification": [],
+   "verified": [],
+   "phrases": [],
+   "passes": 3,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 52,
+     "out": 1
+    }
+   ]
+  },
+  {
+   "id": 16,
+   "start": 16.0,
+   "text": "You get 500 work miles a year and 200 leisure miles.",
+   "detector_raw": "get, work, leisure",
+   "candidates": [
+    "get",
+    "work",
+    "leisure"
+   ],
+   "verification": [
+    {
+     "word": "get",
+     "contextual_meaning": "receive or be allocated",
+     "basic_meaning": "come to have or hold something",
+     "is_metaphor": false
+    },
+    {
+     "word": "work",
+     "contextual_meaning": "related to professional or job-related activities",
+     "basic_meaning": "physical or mental effort done to achieve a purpose",
+     "is_metaphor": false
+    },
+    {
+     "word": "leisure",
+     "contextual_meaning": "related to free time or activities done for enjoyment",
+     "basic_meaning": "time free from work or duties",
+     "is_metaphor": false
+    }
+   ],
+   "verified": [],
+   "phrases": [],
+   "passes": 3,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 64,
+     "out": 5
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 527,
+     "out": 117
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 527,
+     "out": 113
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 527,
+     "out": 117
+    }
+   ]
+  },
+  {
+   "id": 17,
+   "start": 19.200000762939453,
+   "text": "That's it?",
+   "detector_raw": "none",
+   "candidates": [],
+   "verification": [],
+   "verified": [],
+   "phrases": [],
+   "passes": 3,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 53,
+     "out": 1
+    }
+   ]
+  },
+  {
+   "id": 18,
+   "start": 19.84000015258789,
+   "text": "That's plenty.",
+   "detector_raw": "none",
+   "candidates": [],
+   "verification": [],
+   "verified": [],
+   "phrases": [],
+   "passes": 3,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 53,
+     "out": 1
+    }
+   ]
+  },
+  {
+   "id": 19,
+   "start": 20.559999465942383,
+   "text": "What if I go over the limit?",
+   "detector_raw": "go, over, limit",
+   "candidates": [
+    "go",
+    "limit"
+   ],
+   "verification": [
+    {
+     "word": "go",
+     "contextual_meaning": "to exceed or surpass a certain point or boundary",
+     "basic_meaning": "to move or travel from one place to another",
+     "is_metaphor": true
+    },
+    {
+     "word": "limit",
+     "contextual_meaning": "a point or level beyond which something does not or may not extend or pass",
+     "basic_meaning": "a boundary or edge of an area or surface",
+     "is_metaphor": true
+    }
+   ],
+   "verified": [
+    "limit",
+    "go"
+   ],
+   "phrases": [
+    {
+     "phrase": "go over the limit",
+     "conventionality": "conventional",
+     "triggers": [
+      "go",
+      "limit"
+     ],
+     "source_domain": "MOVEMENT",
+     "target_domain": "RESTRICTION",
+     "explanation_uk": "Перевищення межі описується як рух за межі.",
+     "span": [
+      10,
+      27
+     ],
+     "agreement": "3/3"
+    }
+   ],
+   "passes": 3,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 58,
+     "out": 5
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 522,
+     "out": 153
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 522,
+     "out": 153
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 522,
+     "out": 153
+    }
+   ]
+  },
+  {
+   "id": 20,
+   "start": 21.84000015258789,
+   "text": "The car locks up.",
+   "detector_raw": "locks, up",
+   "candidates": [
+    "locks"
+   ],
+   "verification": [
+    {
+     "word": "locks",
+     "contextual_meaning": "becomes immobile or unresponsive",
+     "basic_meaning": "to fasten or secure with a lock",
+     "is_metaphor": true
+    }
+   ],
+   "verified": [
+    "locks"
+   ],
+   "phrases": [
+    {
+     "phrase": "locks up",
+     "conventionality": "conventional",
+     "triggers": [
+      "locks"
+     ],
+     "source_domain": "SECURITY",
+     "target_domain": "FUNCTIONALITY",
+     "explanation_uk": "Функціональність автомобіля порівнюється з безпекою, коли він стає нерухомим, як замкнені двері.",
+     "span": [
+      8,
+      16
+     ],
+     "agreement": "3/3"
+    }
+   ],
+   "passes": 3,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 55,
+     "out": 3
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 523,
+     "out": 119
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 523,
+     "out": 112
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 523,
+     "out": 119
+    }
+   ]
+  },
+  {
+   "id": 21,
+   "start": 22.799999237060547,
+   "text": "What if it's an emergency?",
+   "detector_raw": "emergency",
+   "candidates": [
+    "emergency"
+   ],
+   "verification": [
+    {
+     "word": "emergency",
+     "contextual_meaning": "a sudden, urgent, usually unexpected occurrence requiring immediate action",
+     "basic_meaning": "a serious, unexpected, and often dangerous situation requiring immediate action",
+     "is_metaphor": false
+    }
+   ],
+   "verified": [],
+   "phrases": [],
+   "passes": 3,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 56,
+     "out": 2
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 526,
+     "out": 55
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 526,
+     "out": 58
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 526,
+     "out": 57
+    }
+   ]
+  },
+  {
+   "id": 22,
+   "start": 24.0,
+   "text": "Oh, you have 100 emergency miles per year.",
+   "detector_raw": "have",
+   "candidates": [],
+   "verification": [],
+   "verified": [],
+   "phrases": [],
+   "passes": 3,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 61,
+     "out": 1
+    }
+   ]
+  },
+  {
+   "id": 23,
+   "start": 26.479999542236328,
+   "text": "What if I use those for leisure instead?",
+   "detector_raw": "those",
+   "candidates": [],
+   "verification": [],
+   "verified": [],
+   "phrases": [],
+   "passes": 3,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 59,
+     "out": 1
+    }
+   ]
+  },
+  {
+   "id": 24,
+   "start": 28.399999618530273,
+   "text": "It'll cost you $50 a mile.",
+   "detector_raw": "none",
+   "candidates": [],
+   "verification": [],
+   "verified": [],
+   "phrases": [],
+   "passes": 3,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 58,
+     "out": 1
+    }
+   ]
+  },
+  {
+   "id": 25,
+   "start": 31.040000915527344,
+   "text": "Ad-free experience?",
+   "detector_raw": "none",
+   "candidates": [],
+   "verification": [],
+   "verified": [],
+   "phrases": [],
+   "passes": 3,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 54,
+     "out": 1
+    }
+   ]
+  },
+  {
+   "id": 26,
+   "start": 32.2400016784668,
+   "text": "Ad-free experience?",
+   "detector_raw": "none",
+   "candidates": [],
+   "verification": [],
+   "verified": [],
+   "phrases": [],
+   "passes": 3,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 54,
+     "out": 1
+    }
+   ]
+  },
+  {
+   "id": 27,
+   "start": 32.959999084472656,
+   "text": "Where are these ads playing?",
+   "detector_raw": "these, playing",
+   "candidates": [
+    "playing"
+   ],
+   "verification": [
+    {
+     "word": "playing",
+     "contextual_meaning": "being shown or displayed",
+     "basic_meaning": "engaging in a game or activity for enjoyment",
+     "is_metaphor": true
+    }
+   ],
+   "verified": [
+    "playing"
+   ],
+   "phrases": [
+    {
+     "phrase": "ads playing",
+     "conventionality": "conventional",
+     "triggers": [
+      "playing"
+     ],
+     "source_domain": "GAME",
+     "target_domain": "DISPLAY",
+     "explanation_uk": "Реклама показується, як гра, що відбувається.",
+     "span": [
+      16,
+      27
+     ],
+     "agreement": "3/3"
+    }
+   ],
+   "passes": 3,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 56,
+     "out": 3
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 523,
+     "out": 94
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 523,
+     "out": 92
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 523,
+     "out": 94
+    }
+   ]
+  },
+  {
+   "id": 28,
+   "start": 34.0,
+   "text": "Infotainment pre-journey ads.",
+   "detector_raw": "none",
+   "candidates": [],
+   "verification": [],
+   "verified": [],
+   "phrases": [],
+   "passes": 3,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 59,
+     "out": 1
+    }
+   ]
+  },
+  {
+   "id": 29,
+   "start": 35.52000045776367,
+   "text": "They're unskippable ads if you want to turn on your car.",
+   "detector_raw": "none",
+   "candidates": [],
+   "verification": [],
+   "verified": [],
+   "phrases": [],
+   "passes": 3,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 65,
+     "out": 1
+    }
+   ]
+  },
+  {
+   "id": 30,
+   "start": 38.08000183105469,
+   "text": "What if that's an emergency?",
+   "detector_raw": "that, emergency",
+   "candidates": [
+    "emergency"
+   ],
+   "verification": [
+    {
+     "word": "emergency",
+     "contextual_meaning": "a serious, unexpected, and often dangerous situation requiring immediate action",
+     "basic_meaning": "a situation that poses an immediate risk to health, life, property, or environment",
+     "is_metaphor": false
+    }
+   ],
+   "verified": [],
+   "phrases": [],
+   "passes": 3,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 56,
+     "out": 3
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 538,
+     "out": 60
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 538,
+     "out": 55
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 538,
+     "out": 60
+    }
+   ]
+  },
+  {
+   "id": 31,
+   "start": 39.599998474121094,
+   "text": "You get three overrides per year where you can skip the ads.",
+   "detector_raw": "get, skip",
+   "candidates": [
+    "get",
+    "skip"
+   ],
+   "verification": [
+    {
+     "word": "get",
+     "contextual_meaning": "receive or have access to",
+     "basic_meaning": "obtain or come into possession of",
+     "is_metaphor": false
+    },
+    {
+     "word": "skip",
+     "contextual_meaning": "to not watch or listen to something",
+     "basic_meaning": "to move along lightly, stepping from one foot to the other with a hop or bounce",
+     "is_metaphor": true
+    }
+   ],
+   "verified": [
+    "skip"
+   ],
+   "phrases": [
+    {
+     "phrase": "skip the ads",
+     "conventionality": "conventional",
+     "triggers": [
+      "skip"
+     ],
+     "source_domain": "MOVEMENT",
+     "target_domain": "ACTIONS",
+     "explanation_uk": "Перескакування через рекламу означає уникнення її перегляду.",
+     "span": [
+      47,
+      59
+     ],
+     "agreement": "3/3"
+    }
+   ],
+   "passes": 3,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 63,
+     "out": 3
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 533,
+     "out": 144
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 533,
+     "out": 131
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 533,
+     "out": 139
+    }
+   ]
+  },
+  {
+   "id": 32,
+   "start": 42.47999954223633,
+   "text": "What if I use those for leisure?",
+   "detector_raw": "those",
+   "candidates": [],
+   "verification": [],
+   "verified": [],
+   "phrases": [],
+   "passes": 3,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 58,
+     "out": 1
+    }
+   ]
+  },
+  {
+   "id": 33,
+   "start": 43.68000030517578,
+   "text": "Well, then you will be put in solitary confinement for 48 hours with nothing but ads playing around you on the screen walls and at the end of the 48 hours, we'll give you a questionnaire to fill out about",
+   "detector_raw": "put, in, solitary, confinement, with, playing, around, on, walls, at, end, give, fill, out, about",
+   "candidates": [
+    "put",
+    "solitary",
+    "confinement",
+    "playing",
+    "walls",
+    "end",
+    "give",
+    "fill"
+   ],
+   "verification": [
+    {
+     "word": "put",
+     "contextual_meaning": "to place someone in a specific situation or condition",
+     "basic_meaning": "to move or place something in a particular position",
+     "is_metaphor": true
+    },
+    {
+     "word": "solitary",
+     "contextual_meaning": "being alone or isolated",
+     "basic_meaning": "existing or living alone",
+     "is_metaphor": false
+    },
+    {
+     "word": "confinement",
+     "contextual_meaning": "the state of being restricted or limited to a certain area",
+     "basic_meaning": "the act of confining or the state of being confined",
+     "is_metaphor": false
+    },
+    {
+     "word": "playing",
+     "contextual_meaning": "being displayed or shown continuously",
+     "basic_meaning": "engaging in an activity for enjoyment or recreation",
+     "is_metaphor": true
+    },
+    {
+     "word": "walls",
+     "contextual_meaning": "the sides of a room or space where screens are located",
+     "basic_meaning": "vertical structures that define and enclose a space",
+     "is_metaphor": false
+    },
+    {
+     "word": "end",
+     "contextual_meaning": "the conclusion or final part of a period of time",
+     "basic_meaning": "the final point of something",
+     "is_metaphor": false
+    },
+    {
+     "word": "give",
+     "contextual_meaning": "to provide or hand over something to someone",
+     "basic_meaning": "to transfer possession of something to someone",
+     "is_metaphor": false
+    },
+    {
+     "word": "fill",
+     "contextual_meaning": "to complete or answer all parts of a questionnaire",
+     "basic_meaning": "to make something full or occupy completely",
+     "is_metaphor": true
+    }
+   ],
+   "verified": [
+    "put",
+    "playing",
+    "fill"
+   ],
+   "phrases": [
+    {
+     "phrase": "put in solitary confinement",
+     "conventionality": "conventional",
+     "triggers": [
+      "put"
+     ],
+     "source_domain": "PHYSICAL ACTION",
+     "target_domain": "SITUATION",
+     "explanation_uk": "Переміщення когось у певну ситуацію описується як фізичне розміщення.",
+     "span": [
+      23,
+      50
+     ],
+     "agreement": "3/3"
+    },
+    {
+     "phrase": "ads playing around you",
+     "conventionality": "creative",
+     "triggers": [
+      "playing"
+     ],
+     "source_domain": "GAME",
+     "target_domain": "DISPLAY",
+     "explanation_uk": "Відтворення реклами описується як гра.",
+     "span": [
+      81,
+      103
+     ],
+     "agreement": "2/3"
+    },
+    {
+     "phrase": "fill out",
+     "conventionality": "conventional",
+     "triggers": [
+      "fill"
+     ],
+     "source_domain": "CONTAINER",
+     "target_domain": "COMPLETION",
+     "explanation_uk": "Заповнення анкети описується як наповнення контейнера.",
+     "span": [
+      190,
+      198
+     ],
+     "agreement": "3/3"
+    }
+   ],
+   "passes": 3,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 94,
+     "out": 29
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 597,
+     "out": 481
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 597,
+     "out": 487
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 597,
+     "out": 487
+    }
+   ]
+  },
+  {
+   "id": 34,
+   "start": 43.68000030517578,
+   "text": "the different products you saw on the ads and if you make any mistakes about the products, then you will be put back in.",
+   "detector_raw": "saw, on, make, about, put, back, in",
+   "candidates": [
+    "saw",
+    "make",
+    "put",
+    "back"
+   ],
+   "verification": [
+    {
+     "word": "saw",
+     "contextual_meaning": "perceived or noticed the products visually",
+     "basic_meaning": "used one's eyes to view something",
+     "is_metaphor": false
+    },
+    {
+     "word": "make",
+     "contextual_meaning": "commit errors or inaccuracies",
+     "basic_meaning": "create or produce something",
+     "is_metaphor": true
+    },
+    {
+     "word": "put",
+     "contextual_meaning": "placed or caused to be in a certain state",
+     "basic_meaning": "move something to a specific location",
+     "is_metaphor": true
+    },
+    {
+     "word": "back",
+     "contextual_meaning": "return to a previous state or condition",
+     "basic_meaning": "the rear part of something",
+     "is_metaphor": true
+    }
+   ],
+   "verified": [
+    "make",
+    "put",
+    "back"
+   ],
+   "phrases": [
+    {
+     "phrase": "make any mistakes",
+     "conventionality": "conventional",
+     "triggers": [
+      "make"
+     ],
+     "source_domain": "CREATION",
+     "target_domain": "ERROR",
+     "explanation_uk": "Помилки сприймаються як щось, що створюється.",
+     "span": [
+      53,
+      70
+     ],
+     "agreement": "2/3"
+    },
+    {
+     "phrase": "put back in",
+     "conventionality": "conventional",
+     "triggers": [
+      "put",
+      "back"
+     ],
+     "source_domain": "PHYSICAL PLACEMENT",
+     "target_domain": "STATE OR CONDITION",
+     "explanation_uk": "Повернення до попереднього стану описується як фізичне переміщення.",
+     "span": [
+      108,
+      119
+     ],
+     "agreement": "3/3"
+    }
+   ],
+   "passes": 3,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 76,
+     "out": 14
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 584,
+     "out": 262
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 584,
+     "out": 257
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 584,
+     "out": 180
+    }
+   ]
+  },
+  {
+   "id": 35,
+   "start": 55.68000030517578,
+   "text": "I'm just kidding.",
+   "detector_raw": "none",
+   "candidates": [],
+   "verification": [],
+   "verified": [],
+   "phrases": [],
+   "passes": 3,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 54,
+     "out": 1
+    }
+   ]
+  },
+  {
+   "id": 36,
+   "start": 62.47999954223633,
+   "text": "We're not monsters.",
+   "detector_raw": "monsters",
+   "candidates": [
+    "monsters"
+   ],
+   "verification": [
+    {
+     "word": "monsters",
+     "contextual_meaning": "people who behave in a cruel or inhumane way",
+     "basic_meaning": "mythical or fictional creatures that are large, ugly, and frightening",
+     "is_metaphor": true
+    }
+   ],
+   "verified": [
+    "monsters"
+   ],
+   "phrases": [
+    {
+     "phrase": "not monsters",
+     "conventionality": "conventional",
+     "triggers": [
+      "monsters"
+     ],
+     "source_domain": "MYTHICAL CREATURES",
+     "target_domain": "HUMAN BEHAVIOR",
+     "explanation_uk": "Людей, які поводяться жорстоко або нелюдяно, порівнюють з монстрами.",
+     "span": [
+      6,
+      18
+     ],
+     "agreement": "3/3"
+    }
+   ],
+   "passes": 3,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 54,
+     "out": 2
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 518,
+     "out": 129
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 518,
+     "out": 132
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 518,
+     "out": 129
+    }
+   ]
+  },
+  {
+   "id": 37,
+   "start": 64.4800033569336,
+   "text": "It's only 24 hours.",
+   "detector_raw": "none",
+   "candidates": [],
+   "verification": [],
+   "verified": [],
+   "phrases": [],
+   "passes": 3,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 56,
+     "out": 1
+    }
+   ]
+  }
+ ],
+ "stats": {
+  "sentences": 37,
+  "words": 226,
+  "phrases": 12,
+  "verified_words": 14,
+  "creative": 1,
+  "conventional": 11,
+  "density_per_100_words": 5.31,
+  "creative_per_100_words": 0.44,
+  "errors": 0,
+  "borderline": 2,
+  "stable": 10,
+  "verifier_passes": 3,
+  "cost_usd_estimate": 0.1193
+ }
+}

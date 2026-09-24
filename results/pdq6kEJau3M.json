@@ -1,0 +1,430 @@
+{
+ "source": {
+  "type": "youtube",
+  "url": "https://www.youtube.com/shorts/pdq6kEJau3M",
+  "id": "pdq6kEJau3M",
+  "title": "🤯🥶Mr. Bean Just Walks Off Stage After Receiving An Award",
+  "uploader": "Coldframe",
+  "duration": 49,
+  "webpage_url": "https://www.youtube.com/watch?v=pdq6kEJau3M",
+  "upload_date": "20260428"
+ },
+ "created": "2026-09-23T01:31:06",
+ "models": {
+  "asr": "whisper-1",
+  "detector": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+  "verifier": "gpt-4o-2024-08-06"
+ },
+ "transcript": "Mr. Bean just got on stage to receive an award, but nobody was ready for what he did next. And the winner is... John Daniels! Oh, sh**! Mr. Bean's co-star, John Daniels, just won Best Actor of the Year, but he wasn't there. So they called up Mr. Bean to collect it for him. He walks up in front of the entire room and does something nobody expected. He takes the award and just... leaves. Um, perhaps you'd like to say a few words? Mr. Bean comes back, but now he's out for revenge. Ladies and gentlemen, I should like to announce my retirement from the acting profession in order to begin a lifetime of work amongst the mentally handicapped, in which capacity I look forward to meeting all the members of the judging panel very soon. Thank you.",
+ "sentences": [
+  {
+   "id": 1,
+   "start": 0.0,
+   "text": "Mr. Bean just got on stage to receive an award, but nobody was ready for what he did next.",
+   "detector_raw": "ready, for",
+   "candidates": [
+    "ready",
+    "for"
+   ],
+   "verification": [
+    {
+     "word": "ready",
+     "contextual_meaning": "prepared or in a suitable state for an action or situation",
+     "basic_meaning": "completely prepared or in a fit state for immediate action or use",
+     "is_metaphor": false
+    },
+    {
+     "word": "for",
+     "contextual_meaning": "indicating the purpose or reason",
+     "basic_meaning": "indicating the purpose or reason",
+     "is_metaphor": false
+    }
+   ],
+   "verified": [],
+   "phrases": [],
+   "passes": 3,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 72,
+     "out": 3
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 533,
+     "out": 89
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 533,
+     "out": 89
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 533,
+     "out": 89
+    }
+   ]
+  },
+  {
+   "id": 2,
+   "start": 4.800000190734863,
+   "text": "And the winner is...",
+   "detector_raw": "none",
+   "candidates": [],
+   "verification": [],
+   "verified": [],
+   "phrases": [],
+   "passes": 3,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 55,
+     "out": 1
+    }
+   ]
+  },
+  {
+   "id": 3,
+   "start": 6.599999904632568,
+   "text": "John Daniels!",
+   "detector_raw": "none",
+   "candidates": [],
+   "verification": [],
+   "verified": [],
+   "phrases": [],
+   "passes": 3,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 53,
+     "out": 1
+    }
+   ]
+  },
+  {
+   "id": 4,
+   "start": 7.800000190734863,
+   "text": "Oh, sh**!",
+   "detector_raw": "none",
+   "candidates": [],
+   "verification": [],
+   "verified": [],
+   "phrases": [],
+   "passes": 3,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 55,
+     "out": 1
+    }
+   ]
+  },
+  {
+   "id": 5,
+   "start": 9.800000190734863,
+   "text": "Mr. Bean's co-star, John Daniels, just won Best Actor of the Year, but he wasn't there.",
+   "detector_raw": "none",
+   "candidates": [],
+   "verification": [],
+   "verified": [],
+   "phrases": [],
+   "passes": 3,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 73,
+     "out": 1
+    }
+   ]
+  },
+  {
+   "id": 6,
+   "start": 14.800000190734863,
+   "text": "So they called up Mr. Bean to collect it for him.",
+   "detector_raw": "up",
+   "candidates": [],
+   "verification": [],
+   "verified": [],
+   "phrases": [],
+   "passes": 3,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 63,
+     "out": 1
+    }
+   ]
+  },
+  {
+   "id": 7,
+   "start": 17.399999618530273,
+   "text": "He walks up in front of the entire room and does something nobody expected.",
+   "detector_raw": "none",
+   "candidates": [],
+   "verification": [],
+   "verified": [],
+   "phrases": [],
+   "passes": 3,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 65,
+     "out": 1
+    }
+   ]
+  },
+  {
+   "id": 8,
+   "start": 22.200000762939453,
+   "text": "He takes the award and just...",
+   "detector_raw": "none",
+   "candidates": [],
+   "verification": [],
+   "verified": [],
+   "phrases": [],
+   "passes": 3,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 57,
+     "out": 1
+    }
+   ]
+  },
+  {
+   "id": 9,
+   "start": 24.600000381469727,
+   "text": "leaves.",
+   "detector_raw": "none",
+   "candidates": [],
+   "verification": [],
+   "verified": [],
+   "phrases": [],
+   "passes": 3,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 52,
+     "out": 1
+    }
+   ]
+  },
+  {
+   "id": 10,
+   "start": 26.0,
+   "text": "Um, perhaps you'd like to say a few words?",
+   "detector_raw": "none",
+   "candidates": [],
+   "verification": [],
+   "verified": [],
+   "phrases": [],
+   "passes": 3,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 61,
+     "out": 1
+    }
+   ]
+  },
+  {
+   "id": 11,
+   "start": 28.0,
+   "text": "Mr. Bean comes back, but now he's out for revenge.",
+   "detector_raw": "out",
+   "candidates": [],
+   "verification": [],
+   "verified": [],
+   "phrases": [],
+   "passes": 3,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 63,
+     "out": 1
+    }
+   ]
+  },
+  {
+   "id": 12,
+   "start": 31.799999237060547,
+   "text": "Ladies and gentlemen, I should like to announce my retirement from the acting profession in order to begin a lifetime of work amongst the mentally handicapped, in which capacity I look forward to meeting all the members of the judging",
+   "detector_raw": "from, in, capacity, look, forward, members",
+   "candidates": [
+    "capacity",
+    "look",
+    "forward",
+    "members"
+   ],
+   "verification": [
+    {
+     "word": "capacity",
+     "contextual_meaning": "role or position in which someone serves",
+     "basic_meaning": "the maximum amount that something can contain",
+     "is_metaphor": true
+    },
+    {
+     "word": "look",
+     "contextual_meaning": "anticipate or expect something with pleasure",
+     "basic_meaning": "direct one's gaze towards someone or something",
+     "is_metaphor": true
+    },
+    {
+     "word": "forward",
+     "contextual_meaning": "towards the future",
+     "basic_meaning": "the front part of something",
+     "is_metaphor": true
+    },
+    {
+     "word": "members",
+     "contextual_meaning": "individuals belonging to a group",
+     "basic_meaning": "parts of a body or structure",
+     "is_metaphor": true
+    }
+   ],
+   "verified": [
+    "forward",
+    "capacity",
+    "members",
+    "look"
+   ],
+   "phrases": [
+    {
+     "phrase": "in which capacity",
+     "conventionality": "conventional",
+     "triggers": [
+      "capacity"
+     ],
+     "source_domain": "CONTAINER",
+     "target_domain": "ROLE",
+     "explanation_uk": "Роль, яку виконує людина, порівнюється з ємністю, яку вона заповнює.",
+     "span": [
+      160,
+      177
+     ],
+     "agreement": "3/3"
+    },
+    {
+     "phrase": "look forward to",
+     "conventionality": "conventional",
+     "triggers": [
+      "look",
+      "forward"
+     ],
+     "source_domain": "VISION",
+     "target_domain": "EXPECTATION",
+     "explanation_uk": "Очікування чогось приємного порівнюється з поглядом у майбутнє.",
+     "span": [
+      180,
+      195
+     ],
+     "agreement": "2/3"
+    },
+    {
+     "phrase": "members of the judging",
+     "conventionality": "conventional",
+     "triggers": [
+      "members"
+     ],
+     "source_domain": "BODY",
+     "target_domain": "GROUP",
+     "explanation_uk": "Члени групи порівнюються з частинами тіла.",
+     "span": [
+      212,
+      234
+     ],
+     "agreement": "3/3"
+    }
+   ],
+   "passes": 3,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 93,
+     "out": 11
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 571,
+     "out": 321
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 571,
+     "out": 322
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 571,
+     "out": 321
+    }
+   ]
+  },
+  {
+   "id": 13,
+   "start": 31.799999237060547,
+   "text": "panel very soon.",
+   "detector_raw": "none",
+   "candidates": [],
+   "verification": [],
+   "verified": [],
+   "phrases": [],
+   "passes": 3,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 54,
+     "out": 1
+    }
+   ]
+  },
+  {
+   "id": 14,
+   "start": 46.0,
+   "text": "Thank you.",
+   "detector_raw": "none",
+   "candidates": [],
+   "verification": [],
+   "verified": [],
+   "phrases": [],
+   "passes": 3,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 53,
+     "out": 1
+    }
+   ]
+  }
+ ],
+ "stats": {
+  "sentences": 14,
+  "words": 139,
+  "phrases": 3,
+  "verified_words": 4,
+  "creative": 0,
+  "conventional": 3,
+  "density_per_100_words": 2.16,
+  "creative_per_100_words": 0.0,
+  "errors": 0,
+  "borderline": 1,
+  "stable": 2,
+  "verifier_passes": 3,
+  "cost_usd_estimate": 0.0291
+ }
+}

@@ -1,0 +1,327 @@
+{
+ "source": {
+  "type": "youtube",
+  "url": "https://www.youtube.com/shorts/E-gh0tByyN0",
+  "id": "E-gh0tByyN0",
+  "title": "Good point... are they legs or arms? 🐻 | Cunk On Earth - BBC",
+  "uploader": "BBC",
+  "duration": 21,
+  "webpage_url": "https://www.youtube.com/watch?v=E-gh0tByyN0",
+  "upload_date": "20250719"
+ },
+ "created": "2026-09-22T22:25:28",
+ "models": {
+  "asr": "whisper-1",
+  "detector": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+  "verifier": "gpt-4o-2024-08-06"
+ },
+ "transcript": "How come Americans have the right to kill anyone they want with a gun? Well, they don't. Murder is illegal in the United States. But they do have the right to own weapons. They have the right to bear arms? Correct. But bears don't have arms. They do, actually. Oh, do they? I thought they were legs. Well, I'm not a biologist, but I suppose that when they stand up, they're probably arms.",
+ "sentences": [
+  {
+   "id": 1,
+   "start": 0.0,
+   "text": "How come Americans have the right to kill anyone they want with a gun?",
+   "detector_raw": "have, with",
+   "candidates": [],
+   "verification": [],
+   "verified": [],
+   "phrases": [],
+   "passes": 3,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 65,
+     "out": 3
+    }
+   ]
+  },
+  {
+   "id": 2,
+   "start": 4.0,
+   "text": "Well, they don't.",
+   "detector_raw": "none",
+   "candidates": [],
+   "verification": [],
+   "verified": [],
+   "phrases": [],
+   "passes": 3,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 55,
+     "out": 1
+    }
+   ]
+  },
+  {
+   "id": 3,
+   "start": 4.0,
+   "text": "Murder is illegal in the United States.",
+   "detector_raw": "none",
+   "candidates": [],
+   "verification": [],
+   "verified": [],
+   "phrases": [],
+   "passes": 3,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 58,
+     "out": 1
+    }
+   ]
+  },
+  {
+   "id": 4,
+   "start": 7.5,
+   "text": "But they do have the right to own weapons.",
+   "detector_raw": "have",
+   "candidates": [],
+   "verification": [],
+   "verified": [],
+   "phrases": [],
+   "passes": 3,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 60,
+     "out": 1
+    }
+   ]
+  },
+  {
+   "id": 5,
+   "start": 9.5,
+   "text": "They have the right to bear arms?",
+   "detector_raw": "have, bear, arms",
+   "candidates": [
+    "bear",
+    "arms"
+   ],
+   "verification": [
+    {
+     "word": "bear",
+     "contextual_meaning": "to carry or possess something, especially a weapon.",
+     "basic_meaning": "to carry or support something physically.",
+     "is_metaphor": true
+    },
+    {
+     "word": "arms",
+     "contextual_meaning": "weapons, especially firearms.",
+     "basic_meaning": "the upper limbs of the human body.",
+     "is_metaphor": true
+    }
+   ],
+   "verified": [
+    "bear",
+    "arms"
+   ],
+   "phrases": [
+    {
+     "phrase": "bear arms",
+     "conventionality": "conventional",
+     "triggers": [
+      "bear",
+      "arms"
+     ],
+     "source_domain": "PHYSICAL CARRYING",
+     "target_domain": "RIGHTS AND POSSESSION",
+     "explanation_uk": "Вираз «носити зброю» означає право володіти та використовувати зброю, що переносить фізичне носіння на абстрактне право.",
+     "span": [
+      23,
+      32
+     ],
+     "agreement": "3/3"
+    }
+   ],
+   "passes": 3,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 58,
+     "out": 5
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 526,
+     "out": 164
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 526,
+     "out": 159
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 526,
+     "out": 156
+    }
+   ]
+  },
+  {
+   "id": 6,
+   "start": 11.300000190734863,
+   "text": "Correct.",
+   "detector_raw": "none",
+   "candidates": [],
+   "verification": [],
+   "verified": [],
+   "phrases": [],
+   "passes": 3,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 52,
+     "out": 1
+    }
+   ]
+  },
+  {
+   "id": 7,
+   "start": 12.0,
+   "text": "But bears don't have arms.",
+   "detector_raw": "none",
+   "candidates": [],
+   "verification": [],
+   "verified": [],
+   "phrases": [],
+   "passes": 3,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 56,
+     "out": 1
+    }
+   ]
+  },
+  {
+   "id": 8,
+   "start": 13.5,
+   "text": "They do, actually.",
+   "detector_raw": "none",
+   "candidates": [],
+   "verification": [],
+   "verified": [],
+   "phrases": [],
+   "passes": 3,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 55,
+     "out": 1
+    }
+   ]
+  },
+  {
+   "id": 9,
+   "start": 14.600000381469727,
+   "text": "Oh, do they?",
+   "detector_raw": "none",
+   "candidates": [],
+   "verification": [],
+   "verified": [],
+   "phrases": [],
+   "passes": 3,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 55,
+     "out": 1
+    }
+   ]
+  },
+  {
+   "id": 10,
+   "start": 15.5,
+   "text": "I thought they were legs.",
+   "detector_raw": "none",
+   "candidates": [],
+   "verification": [],
+   "verified": [],
+   "phrases": [],
+   "passes": 3,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 56,
+     "out": 1
+    }
+   ]
+  },
+  {
+   "id": 11,
+   "start": 16.799999237060547,
+   "text": "Well, I'm not a biologist, but I suppose that when they stand up, they're probably arms.",
+   "detector_raw": "stand, up, arms",
+   "candidates": [
+    "stand",
+    "arms"
+   ],
+   "verification": [
+    {
+     "word": "stand",
+     "contextual_meaning": "to rise to an upright position",
+     "basic_meaning": "to be in an upright position on the feet",
+     "is_metaphor": false
+    },
+    {
+     "word": "arms",
+     "contextual_meaning": "limbs of a creature used for manipulation or holding",
+     "basic_meaning": "limbs of a human or creature used for manipulation or holding",
+     "is_metaphor": false
+    }
+   ],
+   "verified": [],
+   "phrases": [],
+   "passes": 3,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 71,
+     "out": 5
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 533,
+     "out": 90
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 533,
+     "out": 82
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 533,
+     "out": 88
+    }
+   ]
+  }
+ ],
+ "stats": {
+  "sentences": 11,
+  "words": 73,
+  "phrases": 1,
+  "verified_words": 2,
+  "creative": 0,
+  "conventional": 1,
+  "density_per_100_words": 1.37,
+  "creative_per_100_words": 0.0,
+  "errors": 0,
+  "borderline": 0,
+  "stable": 1,
+  "verifier_passes": 3,
+  "cost_usd_estimate": 0.0202
+ }
+}

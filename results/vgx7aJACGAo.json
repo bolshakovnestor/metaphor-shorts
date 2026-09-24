@@ -1,0 +1,599 @@
+{
+ "source": {
+  "type": "youtube",
+  "url": "https://www.youtube.com/shorts/vgx7aJACGAo",
+  "id": "vgx7aJACGAo",
+  "title": "This Is What Defines A Great Salesman",
+  "uploader": "Creating Wealth",
+  "duration": 56,
+  "webpage_url": "https://www.youtube.com/watch?v=vgx7aJACGAo",
+  "upload_date": "20260530"
+ },
+ "created": "2026-09-23T01:36:55",
+ "models": {
+  "asr": "whisper-1",
+  "detector": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+  "verifier": "gpt-4o-2024-08-06"
+ },
+ "transcript": "Let's go check out the sedan. Oh, man. Sorry, just can't help myself. Oh, yeah? Oh, yeah. Yeah, I love this car. Now, if my wife would let me, I wouldn't just drive this thing. I'd live in it. I'd only get out of it to work and sleep, but I'm not even so sure about sleep. Oh, yeah. Every meal would be drive-through. Every trip would be a road trip. All would be good with the world. I mean, there should be a statue dedicated to the person that designed this work of art. If there were, I'd be right there at the ribbon-cutting, and I don't even like ribbons. Yeah, it's a lucky man who gets to drive this baby home. Let's check out that four-door. Oh, just a second. You're right, she is a beauty. Can I take a closer look? Well, if you insist.",
+ "sentences": [
+  {
+   "id": 1,
+   "start": 0.0,
+   "text": "Let's go check out the sedan.",
+   "detector_raw": "none",
+   "candidates": [],
+   "verification": [],
+   "verified": [],
+   "phrases": [],
+   "passes": 3,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 57,
+     "out": 1
+    }
+   ]
+  },
+  {
+   "id": 2,
+   "start": 3.0,
+   "text": "Oh, man.",
+   "detector_raw": "none",
+   "candidates": [],
+   "verification": [],
+   "verified": [],
+   "phrases": [],
+   "passes": 3,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 54,
+     "out": 1
+    }
+   ]
+  },
+  {
+   "id": 3,
+   "start": 7.0,
+   "text": "Sorry, just can't help myself.",
+   "detector_raw": "help",
+   "candidates": [
+    "help"
+   ],
+   "verification": [
+    {
+     "word": "help",
+     "contextual_meaning": "control or restrain oneself",
+     "basic_meaning": "assist or aid someone",
+     "is_metaphor": true
+    }
+   ],
+   "verified": [
+    "help"
+   ],
+   "phrases": [
+    {
+     "phrase": "help myself",
+     "conventionality": "conventional",
+     "triggers": [
+      "help"
+     ],
+     "source_domain": "ASSISTANCE",
+     "target_domain": "SELF-CONTROL",
+     "explanation_uk": "Контроль над собою описується як надання допомоги.",
+     "span": [
+      18,
+      29
+     ],
+     "agreement": "3/3"
+    }
+   ],
+   "passes": 3,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 57,
+     "out": 1
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 519,
+     "out": 94
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 519,
+     "out": 94
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 519,
+     "out": 94
+    }
+   ]
+  },
+  {
+   "id": 4,
+   "start": 9.0,
+   "text": "Oh, yeah?",
+   "detector_raw": "none",
+   "candidates": [],
+   "verification": [],
+   "verified": [],
+   "phrases": [],
+   "passes": 3,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 54,
+     "out": 1
+    }
+   ]
+  },
+  {
+   "id": 5,
+   "start": 11.0,
+   "text": "Oh, yeah.",
+   "detector_raw": "none",
+   "candidates": [],
+   "verification": [],
+   "verified": [],
+   "phrases": [],
+   "passes": 3,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 54,
+     "out": 1
+    }
+   ]
+  },
+  {
+   "id": 6,
+   "start": 12.0,
+   "text": "Yeah, I love this car.",
+   "detector_raw": "this",
+   "candidates": [],
+   "verification": [],
+   "verified": [],
+   "phrases": [],
+   "passes": 3,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 57,
+     "out": 1
+    }
+   ]
+  },
+  {
+   "id": 7,
+   "start": 14.0,
+   "text": "Now, if my wife would let me, I wouldn't just drive this thing.",
+   "detector_raw": "this, thing",
+   "candidates": [
+    "thing"
+   ],
+   "verification": [
+    {
+     "word": "thing",
+     "contextual_meaning": "refers to the car in a casual or informal manner",
+     "basic_meaning": "an object or item, typically unspecified",
+     "is_metaphor": false
+    }
+   ],
+   "verified": [],
+   "phrases": [],
+   "passes": 3,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 66,
+     "out": 3
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 532,
+     "out": 49
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 532,
+     "out": 51
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 532,
+     "out": 50
+    }
+   ]
+  },
+  {
+   "id": 8,
+   "start": 14.0,
+   "text": "I'd live in it.",
+   "detector_raw": "none",
+   "candidates": [],
+   "verification": [],
+   "verified": [],
+   "phrases": [],
+   "passes": 3,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 55,
+     "out": 1
+    }
+   ]
+  },
+  {
+   "id": 9,
+   "start": 18.0,
+   "text": "I'd only get out of it to work and sleep, but I'm not even so sure about sleep.",
+   "detector_raw": "about",
+   "candidates": [],
+   "verification": [],
+   "verified": [],
+   "phrases": [],
+   "passes": 3,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 70,
+     "out": 1
+    }
+   ]
+  },
+  {
+   "id": 10,
+   "start": 22.0,
+   "text": "Oh, yeah.",
+   "detector_raw": "none",
+   "candidates": [],
+   "verification": [],
+   "verified": [],
+   "phrases": [],
+   "passes": 3,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 54,
+     "out": 1
+    }
+   ]
+  },
+  {
+   "id": 11,
+   "start": 23.0,
+   "text": "Every meal would be drive-through.",
+   "detector_raw": "none",
+   "candidates": [],
+   "verification": [],
+   "verified": [],
+   "phrases": [],
+   "passes": 3,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 57,
+     "out": 1
+    }
+   ]
+  },
+  {
+   "id": 12,
+   "start": 25.0,
+   "text": "Every trip would be a road trip.",
+   "detector_raw": "none",
+   "candidates": [],
+   "verification": [],
+   "verified": [],
+   "phrases": [],
+   "passes": 3,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 58,
+     "out": 1
+    }
+   ]
+  },
+  {
+   "id": 13,
+   "start": 28.0,
+   "text": "All would be good with the world.",
+   "detector_raw": "with",
+   "candidates": [],
+   "verification": [],
+   "verified": [],
+   "phrases": [],
+   "passes": 3,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 58,
+     "out": 1
+    }
+   ]
+  },
+  {
+   "id": 14,
+   "start": 30.0,
+   "text": "I mean, there should be a statue dedicated to the person that designed this work of art.",
+   "detector_raw": "to, this",
+   "candidates": [],
+   "verification": [],
+   "verified": [],
+   "phrases": [],
+   "passes": 3,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 69,
+     "out": 3
+    }
+   ]
+  },
+  {
+   "id": 15,
+   "start": 35.0,
+   "text": "If there were, I'd be right there at the ribbon-cutting, and I don't even like ribbons.",
+   "detector_raw": "none",
+   "candidates": [],
+   "verification": [],
+   "verified": [],
+   "phrases": [],
+   "passes": 3,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 71,
+     "out": 1
+    }
+   ]
+  },
+  {
+   "id": 16,
+   "start": 39.0,
+   "text": "Yeah, it's a lucky man who gets to drive this baby home.",
+   "detector_raw": "lucky, this, baby",
+   "candidates": [
+    "lucky",
+    "baby"
+   ],
+   "verification": [
+    {
+     "word": "lucky",
+     "contextual_meaning": "fortunate or having good luck.",
+     "basic_meaning": "having good fortune or success by chance.",
+     "is_metaphor": false
+    },
+    {
+     "word": "baby",
+     "contextual_meaning": "a term of endearment for an object, in this case, a car.",
+     "basic_meaning": "a very young child or infant.",
+     "is_metaphor": true
+    }
+   ],
+   "verified": [
+    "baby"
+   ],
+   "phrases": [
+    {
+     "phrase": "drive this baby home",
+     "conventionality": "conventional",
+     "triggers": [
+      "baby"
+     ],
+     "source_domain": "FAMILY",
+     "target_domain": "OBJECTS",
+     "explanation_uk": "Автомобіль описується як «дитина», що підкреслює його цінність або привабливість.",
+     "span": [
+      35,
+      55
+     ],
+     "agreement": "3/3"
+    }
+   ],
+   "passes": 3,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 64,
+     "out": 6
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 548,
+     "out": 157
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 548,
+     "out": 160
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 548,
+     "out": 153
+    }
+   ]
+  },
+  {
+   "id": 17,
+   "start": 42.0,
+   "text": "Let's check out that four-door.",
+   "detector_raw": "none",
+   "candidates": [],
+   "verification": [],
+   "verified": [],
+   "phrases": [],
+   "passes": 3,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 57,
+     "out": 1
+    }
+   ]
+  },
+  {
+   "id": 18,
+   "start": 44.0,
+   "text": "Oh, just a second.",
+   "detector_raw": "none",
+   "candidates": [],
+   "verification": [],
+   "verified": [],
+   "phrases": [],
+   "passes": 3,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 56,
+     "out": 1
+    }
+   ]
+  },
+  {
+   "id": 19,
+   "start": 46.0,
+   "text": "You're right, she is a beauty.",
+   "detector_raw": "none",
+   "candidates": [],
+   "verification": [],
+   "verified": [],
+   "phrases": [],
+   "passes": 3,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 58,
+     "out": 1
+    }
+   ]
+  },
+  {
+   "id": 20,
+   "start": 46.0,
+   "text": "Can I take a closer look?",
+   "detector_raw": "take, closer",
+   "candidates": [
+    "take",
+    "closer"
+   ],
+   "verification": [
+    {
+     "word": "take",
+     "contextual_meaning": "to examine or observe something more closely",
+     "basic_meaning": "to get into one's possession or control",
+     "is_metaphor": true
+    },
+    {
+     "word": "closer",
+     "contextual_meaning": "at a shorter distance",
+     "basic_meaning": "more near in space or time",
+     "is_metaphor": false
+    }
+   ],
+   "verified": [
+    "take"
+   ],
+   "phrases": [
+    {
+     "phrase": "take a closer look",
+     "conventionality": "conventional",
+     "triggers": [
+      "take"
+     ],
+     "source_domain": "POSSESSION",
+     "target_domain": "OBSERVATION",
+     "explanation_uk": "Взяти щось у володіння означає уважно розглянути це.",
+     "span": [
+      6,
+      24
+     ],
+     "agreement": "3/3"
+    }
+   ],
+   "passes": 3,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 57,
+     "out": 3
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 527,
+     "out": 136
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 527,
+     "out": 135
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 527,
+     "out": 139
+    }
+   ]
+  },
+  {
+   "id": 21,
+   "start": 50.0,
+   "text": "Well, if you insist.",
+   "detector_raw": "none",
+   "candidates": [],
+   "verification": [],
+   "verified": [],
+   "phrases": [],
+   "passes": 3,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 56,
+     "out": 1
+    }
+   ]
+  }
+ ],
+ "stats": {
+  "sentences": 21,
+  "words": 148,
+  "phrases": 3,
+  "verified_words": 3,
+  "creative": 0,
+  "conventional": 3,
+  "density_per_100_words": 2.03,
+  "creative_per_100_words": 0.0,
+  "errors": 0,
+  "borderline": 0,
+  "stable": 3,
+  "verifier_passes": 3,
+  "cost_usd_estimate": 0.0398
+ }
+}

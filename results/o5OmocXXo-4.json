@@ -1,0 +1,1216 @@
+{
+ "source": {
+  "type": "youtube",
+  "url": "https://www.youtube.com/shorts/o5OmocXXo-4",
+  "id": "o5OmocXXo-4",
+  "title": "If you could buy a house with parent logic #shorts",
+  "uploader": "Content Machine",
+  "duration": 59,
+  "webpage_url": "https://www.youtube.com/watch?v=o5OmocXXo-4",
+  "upload_date": "20240326"
+ },
+ "created": "2026-09-23T02:14:12",
+ "models": {
+  "asr": "whisper-1",
+  "detector": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+  "verifier": "gpt-4o-2024-08-06"
+ },
+ "transcript": "Excuse me, sir. Are you selling this house? Why, yes, I am. You're the first person to ask me. I guess everyone else is too busy on their Facebooks. I'm glad I asked. Do you have any offers? Nope, not even one. So you'd probably accept a lowball offer way below asking price. I sure would. How much are you looking to get? Golly gumdrops. I mean, it's a 3,500 square foot, two-story, and a nice neighborhood. I don't know, $55,000? I can't afford that. I would need a loan from the bank. Well, hold on a second. Hey, Jim, get out here. This guy needs money. Is there anything you can do as a circumcised banker? Well, do you have any savings? No. What about a job? I'm a cashier at Target. Works for me. $55,000 has just been transferred into your bank account. Whoa! Thank you so much. Happy I could help out. All right, here's the money. Oh, wow. Thank you for coming up and talking to me in the middle of my workday to inquire about this house. It's crazy how nobody ever does that. What can I say? My dad told me to do it. He sounds like a smart man. They don't make him like that anymore. So when can I move in? How about right now? That sounds great. Put her there. Hmm, firm handshake. I can tell you were raised properly by a loving father.",
+ "sentences": [
+  {
+   "id": 1,
+   "start": 0.0,
+   "text": "Excuse me, sir.",
+   "detector_raw": "none",
+   "candidates": [],
+   "verification": [],
+   "verified": [],
+   "phrases": [],
+   "passes": 3,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 56,
+     "out": 1
+    }
+   ]
+  },
+  {
+   "id": 2,
+   "start": 0.0,
+   "text": "Are you selling this house?",
+   "detector_raw": "this",
+   "candidates": [],
+   "verification": [],
+   "verified": [],
+   "phrases": [],
+   "passes": 3,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 56,
+     "out": 1
+    }
+   ]
+  },
+  {
+   "id": 3,
+   "start": 2.0,
+   "text": "Why, yes, I am.",
+   "detector_raw": "none",
+   "candidates": [],
+   "verification": [],
+   "verified": [],
+   "phrases": [],
+   "passes": 3,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 57,
+     "out": 1
+    }
+   ]
+  },
+  {
+   "id": 4,
+   "start": 2.0,
+   "text": "You're the first person to ask me.",
+   "detector_raw": "none",
+   "candidates": [],
+   "verification": [],
+   "verified": [],
+   "phrases": [],
+   "passes": 3,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 58,
+     "out": 1
+    }
+   ]
+  },
+  {
+   "id": 5,
+   "start": 4.800000190734863,
+   "text": "I guess everyone else is too busy on their Facebooks.",
+   "detector_raw": "on",
+   "candidates": [],
+   "verification": [],
+   "verified": [],
+   "phrases": [],
+   "passes": 3,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 62,
+     "out": 1
+    }
+   ]
+  },
+  {
+   "id": 6,
+   "start": 7.300000190734863,
+   "text": "I'm glad I asked.",
+   "detector_raw": "none",
+   "candidates": [],
+   "verification": [],
+   "verified": [],
+   "phrases": [],
+   "passes": 3,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 55,
+     "out": 1
+    }
+   ]
+  },
+  {
+   "id": 7,
+   "start": 7.300000190734863,
+   "text": "Do you have any offers?",
+   "detector_raw": "have",
+   "candidates": [],
+   "verification": [],
+   "verified": [],
+   "phrases": [],
+   "passes": 3,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 56,
+     "out": 1
+    }
+   ]
+  },
+  {
+   "id": 8,
+   "start": 9.0,
+   "text": "Nope, not even one.",
+   "detector_raw": "none",
+   "candidates": [],
+   "verification": [],
+   "verified": [],
+   "phrases": [],
+   "passes": 3,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 56,
+     "out": 1
+    }
+   ]
+  },
+  {
+   "id": 9,
+   "start": 10.100000381469727,
+   "text": "So you'd probably accept a lowball offer way below asking price.",
+   "detector_raw": "accept, lowball, below",
+   "candidates": [
+    "accept",
+    "lowball"
+   ],
+   "verification": [
+    {
+     "word": "accept",
+     "contextual_meaning": "to agree to receive or take something offered",
+     "basic_meaning": "to receive something willingly",
+     "is_metaphor": false
+    },
+    {
+     "word": "lowball",
+     "contextual_meaning": "an offer that is significantly lower than the expected or asking price",
+     "basic_meaning": "to throw a ball at a low level",
+     "is_metaphor": true
+    }
+   ],
+   "verified": [
+    "lowball"
+   ],
+   "phrases": [
+    {
+     "phrase": "lowball offer",
+     "conventionality": "conventional",
+     "triggers": [
+      "lowball"
+     ],
+     "source_domain": "SPORTS",
+     "target_domain": "FINANCE",
+     "explanation_uk": "Пропозиція, яка значно нижча за очікувану ціну, порівнюється з кидком м'яча на низькому рівні.",
+     "span": [
+      27,
+      40
+     ],
+     "agreement": "3/3"
+    }
+   ],
+   "passes": 3,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 63,
+     "out": 6
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 530,
+     "out": 162
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 530,
+     "out": 162
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 530,
+     "out": 162
+    }
+   ]
+  },
+  {
+   "id": 10,
+   "start": 12.699999809265137,
+   "text": "I sure would.",
+   "detector_raw": "none",
+   "candidates": [],
+   "verification": [],
+   "verified": [],
+   "phrases": [],
+   "passes": 3,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 54,
+     "out": 1
+    }
+   ]
+  },
+  {
+   "id": 11,
+   "start": 13.5,
+   "text": "How much are you looking to get?",
+   "detector_raw": "looking",
+   "candidates": [
+    "looking"
+   ],
+   "verification": [
+    {
+     "word": "looking",
+     "contextual_meaning": "seeking or trying to obtain",
+     "basic_meaning": "directing one's gaze towards something",
+     "is_metaphor": true
+    }
+   ],
+   "verified": [
+    "looking"
+   ],
+   "phrases": [
+    {
+     "phrase": "looking to get",
+     "conventionality": "conventional",
+     "triggers": [
+      "looking"
+     ],
+     "source_domain": "VISION",
+     "target_domain": "PURPOSE",
+     "explanation_uk": "Пошук чогось порівнюється з процесом бачення.",
+     "span": [
+      17,
+      31
+     ],
+     "agreement": "3/3"
+    }
+   ],
+   "passes": 3,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 58,
+     "out": 1
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 521,
+     "out": 96
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 521,
+     "out": 114
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 521,
+     "out": 96
+    }
+   ]
+  },
+  {
+   "id": 12,
+   "start": 14.399999618530273,
+   "text": "Golly gumdrops.",
+   "detector_raw": "none",
+   "candidates": [],
+   "verification": [],
+   "verified": [],
+   "phrases": [],
+   "passes": 3,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 55,
+     "out": 1
+    }
+   ]
+  },
+  {
+   "id": 13,
+   "start": 14.399999618530273,
+   "text": "I mean, it's a 3,500 square foot, two-story, and a nice neighborhood.",
+   "detector_raw": "none",
+   "candidates": [],
+   "verification": [],
+   "verified": [],
+   "phrases": [],
+   "passes": 3,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 70,
+     "out": 1
+    }
+   ]
+  },
+  {
+   "id": 14,
+   "start": 18.299999237060547,
+   "text": "I don't know, $55,000?",
+   "detector_raw": "none",
+   "candidates": [],
+   "verification": [],
+   "verified": [],
+   "phrases": [],
+   "passes": 3,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 59,
+     "out": 1
+    }
+   ]
+  },
+  {
+   "id": 15,
+   "start": 20.200000762939453,
+   "text": "I can't afford that.",
+   "detector_raw": "that",
+   "candidates": [],
+   "verification": [],
+   "verified": [],
+   "phrases": [],
+   "passes": 3,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 55,
+     "out": 1
+    }
+   ]
+  },
+  {
+   "id": 16,
+   "start": 20.200000762939453,
+   "text": "I would need a loan from the bank.",
+   "detector_raw": "none",
+   "candidates": [],
+   "verification": [],
+   "verified": [],
+   "phrases": [],
+   "passes": 3,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 59,
+     "out": 1
+    }
+   ]
+  },
+  {
+   "id": 17,
+   "start": 22.399999618530273,
+   "text": "Well, hold on a second.",
+   "detector_raw": "hold, on",
+   "candidates": [
+    "hold"
+   ],
+   "verification": [
+    {
+     "word": "hold",
+     "contextual_meaning": "to wait or pause for a moment",
+     "basic_meaning": "to grasp or carry something with one's hands",
+     "is_metaphor": true
+    }
+   ],
+   "verified": [
+    "hold"
+   ],
+   "phrases": [
+    {
+     "phrase": "hold on",
+     "conventionality": "conventional",
+     "triggers": [
+      "hold"
+     ],
+     "source_domain": "PHYSICAL ACTION",
+     "target_domain": "TIME",
+     "explanation_uk": "Фраза 'hold on' означає 'почекай', що переносить фізичну дію утримання на концепцію часу.",
+     "span": [
+      6,
+      13
+     ],
+     "agreement": "3/3"
+    }
+   ],
+   "passes": 3,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 57,
+     "out": 3
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 528,
+     "out": 113
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 528,
+     "out": 114
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 528,
+     "out": 112
+    }
+   ]
+  },
+  {
+   "id": 18,
+   "start": 22.399999618530273,
+   "text": "Hey, Jim, get out here.",
+   "detector_raw": "none",
+   "candidates": [],
+   "verification": [],
+   "verified": [],
+   "phrases": [],
+   "passes": 3,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 58,
+     "out": 1
+    }
+   ]
+  },
+  {
+   "id": 19,
+   "start": 24.5,
+   "text": "This guy needs money.",
+   "detector_raw": "This",
+   "candidates": [],
+   "verification": [],
+   "verified": [],
+   "phrases": [],
+   "passes": 3,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 55,
+     "out": 1
+    }
+   ]
+  },
+  {
+   "id": 20,
+   "start": 24.5,
+   "text": "Is there anything you can do as a circumcised banker?",
+   "detector_raw": "none",
+   "candidates": [],
+   "verification": [],
+   "verified": [],
+   "phrases": [],
+   "passes": 3,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 63,
+     "out": 1
+    }
+   ]
+  },
+  {
+   "id": 21,
+   "start": 27.899999618530273,
+   "text": "Well, do you have any savings?",
+   "detector_raw": "have",
+   "candidates": [],
+   "verification": [],
+   "verified": [],
+   "phrases": [],
+   "passes": 3,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 58,
+     "out": 1
+    }
+   ]
+  },
+  {
+   "id": 22,
+   "start": 29.600000381469727,
+   "text": "No. What about a job?",
+   "detector_raw": "about",
+   "candidates": [],
+   "verification": [],
+   "verified": [],
+   "phrases": [],
+   "passes": 3,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 57,
+     "out": 1
+    }
+   ]
+  },
+  {
+   "id": 23,
+   "start": 30.899999618530273,
+   "text": "I'm a cashier at Target.",
+   "detector_raw": "none",
+   "candidates": [],
+   "verification": [],
+   "verified": [],
+   "phrases": [],
+   "passes": 3,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 56,
+     "out": 1
+    }
+   ]
+  },
+  {
+   "id": 24,
+   "start": 32.0,
+   "text": "Works for me.",
+   "detector_raw": "none",
+   "candidates": [],
+   "verification": [],
+   "verified": [],
+   "phrases": [],
+   "passes": 3,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 54,
+     "out": 1
+    }
+   ]
+  },
+  {
+   "id": 25,
+   "start": 33.0,
+   "text": "$55,000 has just been transferred into your bank account.",
+   "detector_raw": "none",
+   "candidates": [],
+   "verification": [],
+   "verified": [],
+   "phrases": [],
+   "passes": 3,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 63,
+     "out": 1
+    }
+   ]
+  },
+  {
+   "id": 26,
+   "start": 36.20000076293945,
+   "text": "Whoa!",
+   "detector_raw": "none",
+   "candidates": [],
+   "verification": [],
+   "verified": [],
+   "phrases": [],
+   "passes": 3,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 53,
+     "out": 1
+    }
+   ]
+  },
+  {
+   "id": 27,
+   "start": 36.20000076293945,
+   "text": "Thank you so much.",
+   "detector_raw": "none",
+   "candidates": [],
+   "verification": [],
+   "verified": [],
+   "phrases": [],
+   "passes": 3,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 55,
+     "out": 1
+    }
+   ]
+  },
+  {
+   "id": 28,
+   "start": 38.29999923706055,
+   "text": "Happy I could help out.",
+   "detector_raw": "help, out",
+   "candidates": [
+    "help"
+   ],
+   "verification": [
+    {
+     "word": "help",
+     "contextual_meaning": "to assist or aid someone in achieving something",
+     "basic_meaning": "to provide assistance or support",
+     "is_metaphor": false
+    }
+   ],
+   "verified": [],
+   "phrases": [],
+   "passes": 3,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 56,
+     "out": 3
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 522,
+     "out": 44
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 522,
+     "out": 44
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 522,
+     "out": 43
+    }
+   ]
+  },
+  {
+   "id": 29,
+   "start": 39.29999923706055,
+   "text": "All right, here's the money.",
+   "detector_raw": "here's",
+   "candidates": [
+    "here's"
+   ],
+   "verification": [
+    {
+     "word": "here's",
+     "contextual_meaning": "presenting or giving something to someone",
+     "basic_meaning": "indicating the location of something",
+     "is_metaphor": true
+    }
+   ],
+   "verified": [
+    "here's"
+   ],
+   "phrases": [
+    {
+     "phrase": "here's the money",
+     "conventionality": "conventional",
+     "triggers": [
+      "here's"
+     ],
+     "source_domain": "LOCATION",
+     "target_domain": "POSSESSION",
+     "explanation_uk": "Слово 'here's' вказує на передачу грошей, як наявність їх у певному місці.",
+     "span": [
+      11,
+      27
+     ],
+     "agreement": "2/3"
+    }
+   ],
+   "passes": 3,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 57,
+     "out": 2
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 521,
+     "out": 111
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 521,
+     "out": 112
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 521,
+     "out": 55
+    }
+   ]
+  },
+  {
+   "id": 30,
+   "start": 40.900001525878906,
+   "text": "Oh, wow.",
+   "detector_raw": "none",
+   "candidates": [],
+   "verification": [],
+   "verified": [],
+   "phrases": [],
+   "passes": 3,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 54,
+     "out": 1
+    }
+   ]
+  },
+  {
+   "id": 31,
+   "start": 40.900001525878906,
+   "text": "Thank you for coming up and talking to me in the middle of my workday to inquire about this house.",
+   "detector_raw": "up, in, middle, about, this",
+   "candidates": [
+    "middle"
+   ],
+   "verification": [
+    {
+     "word": "middle",
+     "contextual_meaning": "the central part of the workday",
+     "basic_meaning": "the central point or part of something",
+     "is_metaphor": false
+    }
+   ],
+   "verified": [],
+   "phrases": [],
+   "passes": 3,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 72,
+     "out": 9
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 538,
+     "out": 45
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 538,
+     "out": 115
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 538,
+     "out": 45
+    }
+   ]
+  },
+  {
+   "id": 32,
+   "start": 45.20000076293945,
+   "text": "It's crazy how nobody ever does that.",
+   "detector_raw": "none",
+   "candidates": [],
+   "verification": [],
+   "verified": [],
+   "phrases": [],
+   "passes": 3,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 58,
+     "out": 1
+    }
+   ]
+  },
+  {
+   "id": 33,
+   "start": 46.79999923706055,
+   "text": "What can I say?",
+   "detector_raw": "none",
+   "candidates": [],
+   "verification": [],
+   "verified": [],
+   "phrases": [],
+   "passes": 3,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 55,
+     "out": 1
+    }
+   ]
+  },
+  {
+   "id": 34,
+   "start": 46.79999923706055,
+   "text": "My dad told me to do it.",
+   "detector_raw": "none",
+   "candidates": [],
+   "verification": [],
+   "verified": [],
+   "phrases": [],
+   "passes": 3,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 58,
+     "out": 1
+    }
+   ]
+  },
+  {
+   "id": 35,
+   "start": 49.29999923706055,
+   "text": "He sounds like a smart man.",
+   "detector_raw": "none",
+   "candidates": [],
+   "verification": [],
+   "verified": [],
+   "phrases": [],
+   "passes": 3,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 57,
+     "out": 1
+    }
+   ]
+  },
+  {
+   "id": 36,
+   "start": 49.29999923706055,
+   "text": "They don't make him like that anymore.",
+   "detector_raw": "make, that",
+   "candidates": [
+    "make"
+   ],
+   "verification": [
+    {
+     "word": "make",
+     "contextual_meaning": "create or produce a person with certain qualities",
+     "basic_meaning": "to form or construct something physically",
+     "is_metaphor": true
+    }
+   ],
+   "verified": [
+    "make"
+   ],
+   "phrases": [
+    {
+     "phrase": "make him like that",
+     "conventionality": "conventional",
+     "triggers": [
+      "make"
+     ],
+     "source_domain": "CREATION",
+     "target_domain": "PERSONALITY",
+     "explanation_uk": "Люди з певними якостями описуються як створені або виготовлені.",
+     "span": [
+      11,
+      29
+     ],
+     "agreement": "3/3"
+    }
+   ],
+   "passes": 3,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 58,
+     "out": 3
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 526,
+     "out": 105
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 526,
+     "out": 102
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 526,
+     "out": 102
+    }
+   ]
+  },
+  {
+   "id": 37,
+   "start": 51.900001525878906,
+   "text": "So when can I move in?",
+   "detector_raw": "none",
+   "candidates": [],
+   "verification": [],
+   "verified": [],
+   "phrases": [],
+   "passes": 3,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 57,
+     "out": 1
+    }
+   ]
+  },
+  {
+   "id": 38,
+   "start": 52.79999923706055,
+   "text": "How about right now?",
+   "detector_raw": "about, right",
+   "candidates": [
+    "right"
+   ],
+   "verification": [
+    {
+     "word": "right",
+     "contextual_meaning": "immediately",
+     "basic_meaning": "in accordance with what is good, proper, or just",
+     "is_metaphor": false
+    }
+   ],
+   "verified": [],
+   "phrases": [],
+   "passes": 3,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 55,
+     "out": 3
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 520,
+     "out": 44
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 520,
+     "out": 44
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 520,
+     "out": 44
+    }
+   ]
+  },
+  {
+   "id": 39,
+   "start": 53.79999923706055,
+   "text": "That sounds great.",
+   "detector_raw": "That, sounds, great",
+   "candidates": [
+    "sounds",
+    "great"
+   ],
+   "verification": [
+    {
+     "word": "sounds",
+     "contextual_meaning": "appears or seems to be",
+     "basic_meaning": "produces or makes a sound",
+     "is_metaphor": true
+    },
+    {
+     "word": "great",
+     "contextual_meaning": "excellent or very good",
+     "basic_meaning": "large in size or extent",
+     "is_metaphor": true
+    }
+   ],
+   "verified": [
+    "great",
+    "sounds"
+   ],
+   "phrases": [
+    {
+     "phrase": "sounds great",
+     "conventionality": "conventional",
+     "triggers": [
+      "sounds",
+      "great"
+     ],
+     "source_domain": "SENSES",
+     "target_domain": "EVALUATION",
+     "explanation_uk": "Використання сенсорного сприйняття для оцінки чогось як хорошого.",
+     "span": [
+      5,
+      17
+     ],
+     "agreement": "3/3"
+    }
+   ],
+   "passes": 3,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 54,
+     "out": 5
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 519,
+     "out": 137
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 519,
+     "out": 133
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 519,
+     "out": 133
+    }
+   ]
+  },
+  {
+   "id": 40,
+   "start": 54.599998474121094,
+   "text": "Put her there.",
+   "detector_raw": "none",
+   "candidates": [],
+   "verification": [],
+   "verified": [],
+   "phrases": [],
+   "passes": 3,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 54,
+     "out": 1
+    }
+   ]
+  },
+  {
+   "id": 41,
+   "start": 55.79999923706055,
+   "text": "Hmm, firm handshake.",
+   "detector_raw": "none",
+   "candidates": [],
+   "verification": [],
+   "verified": [],
+   "phrases": [],
+   "passes": 3,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 55,
+     "out": 1
+    }
+   ]
+  },
+  {
+   "id": 42,
+   "start": 55.79999923706055,
+   "text": "I can tell you were raised properly by a loving father.",
+   "detector_raw": "raised",
+   "candidates": [
+    "raised"
+   ],
+   "verification": [
+    {
+     "word": "raised",
+     "contextual_meaning": "brought up or nurtured in a particular manner",
+     "basic_meaning": "lifted or moved to a higher position",
+     "is_metaphor": true
+    }
+   ],
+   "verified": [
+    "raised"
+   ],
+   "phrases": [
+    {
+     "phrase": "raised properly",
+     "conventionality": "conventional",
+     "triggers": [
+      "raised"
+     ],
+     "source_domain": "PHYSICAL MOVEMENT",
+     "target_domain": "UPBRINGING",
+     "explanation_uk": "Виховання порівнюється з фізичним підняттям.",
+     "span": [
+      20,
+      35
+     ],
+     "agreement": "3/3"
+    }
+   ],
+   "passes": 3,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 62,
+     "out": 1
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 521,
+     "out": 107
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 521,
+     "out": 105
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 521,
+     "out": 107
+    }
+   ]
+  }
+ ],
+ "stats": {
+  "sentences": 42,
+  "words": 240,
+  "phrases": 7,
+  "verified_words": 8,
+  "creative": 0,
+  "conventional": 7,
+  "density_per_100_words": 2.92,
+  "creative_per_100_words": 0.0,
+  "errors": 0,
+  "borderline": 1,
+  "stable": 6,
+  "verifier_passes": 3,
+  "cost_usd_estimate": 0.0845
+ }
+}

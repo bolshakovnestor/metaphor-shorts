@@ -1,0 +1,425 @@
+{
+ "source": {
+  "type": "youtube",
+  "url": "https://www.youtube.com/shorts/8mRqFDOKDbw",
+  "id": "8mRqFDOKDbw",
+  "title": "My NEW poetry book AJAR is available now on amazon! #poetry #storytime  #mentalhealth  #viralshorts",
+  "uploader": "Kori Jane Spaulding",
+  "duration": 28,
+  "webpage_url": "https://www.youtube.com/watch?v=8mRqFDOKDbw",
+  "upload_date": "20250626"
+ },
+ "created": "2026-09-23T02:22:44",
+ "models": {
+  "asr": "whisper-1",
+  "detector": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+  "verifier": "gpt-4o-2024-08-06"
+ },
+ "transcript": "I want you to draw something evil, the therapist told the couple. The man drew a monster with horns and spikes. Why did you draw a monster, the therapist asked. Because evil is ugly, the man replied. The woman laughed. Oh, it's ugly, all right, revealing a drawing of her own reflection. Why did you draw yourself, the therapist asked. Because ugly is evil, the woman replied. What makes the monster ugly, the therapist asked the couple. The woman sighs, pointing to the man. He decides.",
+ "sentences": [
+  {
+   "id": 1,
+   "start": 0.0,
+   "text": "I want you to draw something evil, the therapist told the couple.",
+   "detector_raw": "none",
+   "candidates": [],
+   "verification": [],
+   "verified": [],
+   "phrases": [],
+   "passes": 3,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 64,
+     "out": 1
+    }
+   ]
+  },
+  {
+   "id": 2,
+   "start": 3.200000047683716,
+   "text": "The man drew a monster with horns and spikes.",
+   "detector_raw": "none",
+   "candidates": [],
+   "verification": [],
+   "verified": [],
+   "phrases": [],
+   "passes": 3,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 60,
+     "out": 1
+    }
+   ]
+  },
+  {
+   "id": 3,
+   "start": 5.679999828338623,
+   "text": "Why did you draw a monster, the therapist asked.",
+   "detector_raw": "none",
+   "candidates": [],
+   "verification": [],
+   "verified": [],
+   "phrases": [],
+   "passes": 3,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 61,
+     "out": 1
+    }
+   ]
+  },
+  {
+   "id": 4,
+   "start": 8.239999771118164,
+   "text": "Because evil is ugly, the man replied.",
+   "detector_raw": "ugly",
+   "candidates": [
+    "ugly"
+   ],
+   "verification": [
+    {
+     "word": "ugly",
+     "contextual_meaning": "morally bad or evil",
+     "basic_meaning": "unpleasant or repulsive to look at",
+     "is_metaphor": true
+    }
+   ],
+   "verified": [
+    "ugly"
+   ],
+   "phrases": [
+    {
+     "phrase": "evil is ugly",
+     "conventionality": "conventional",
+     "triggers": [
+      "ugly"
+     ],
+     "source_domain": "APPEARANCE",
+     "target_domain": "MORALITY",
+     "explanation_uk": "Зло описується як щось потворне, щоб підкреслити його моральну неприйнятність.",
+     "span": [
+      8,
+      20
+     ],
+     "agreement": "3/3"
+    }
+   ],
+   "passes": 3,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 59,
+     "out": 2
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 528,
+     "out": 114
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 528,
+     "out": 113
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 528,
+     "out": 113
+    }
+   ]
+  },
+  {
+   "id": 5,
+   "start": 10.960000038146973,
+   "text": "The woman laughed.",
+   "detector_raw": "none",
+   "candidates": [],
+   "verification": [],
+   "verified": [],
+   "phrases": [],
+   "passes": 3,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 54,
+     "out": 1
+    }
+   ]
+  },
+  {
+   "id": 6,
+   "start": 10.960000038146973,
+   "text": "Oh, it's ugly, all right, revealing a drawing of her own reflection.",
+   "detector_raw": "ugly, revealing",
+   "candidates": [
+    "ugly",
+    "revealing"
+   ],
+   "verification": [
+    {
+     "word": "ugly",
+     "contextual_meaning": "unpleasant or unattractive in appearance",
+     "basic_meaning": "physically unattractive or unpleasant to look at",
+     "is_metaphor": false
+    },
+    {
+     "word": "revealing",
+     "contextual_meaning": "showing or making known",
+     "basic_meaning": "uncovering or exposing something to view",
+     "is_metaphor": false
+    }
+   ],
+   "verified": [
+    "revealing"
+   ],
+   "phrases": [
+    {
+     "phrase": "revealing a drawing",
+     "conventionality": "conventional",
+     "triggers": [
+      "revealing"
+     ],
+     "source_domain": "VISIBILITY",
+     "target_domain": "KNOWLEDGE",
+     "explanation_uk": "Показати малюнок означає зробити його відомим або зрозумілим.",
+     "span": [
+      26,
+      45
+     ],
+     "agreement": "2/3"
+    }
+   ],
+   "passes": 3,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 66,
+     "out": 4
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 536,
+     "out": 84
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 536,
+     "out": 146
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 536,
+     "out": 148
+    }
+   ]
+  },
+  {
+   "id": 7,
+   "start": 15.119999885559082,
+   "text": "Why did you draw yourself, the therapist asked.",
+   "detector_raw": "none",
+   "candidates": [],
+   "verification": [],
+   "verified": [],
+   "phrases": [],
+   "passes": 3,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 60,
+     "out": 1
+    }
+   ]
+  },
+  {
+   "id": 8,
+   "start": 17.84000015258789,
+   "text": "Because ugly is evil, the woman replied.",
+   "detector_raw": "ugly, evil",
+   "candidates": [
+    "ugly",
+    "evil"
+   ],
+   "verification": [
+    {
+     "word": "ugly",
+     "contextual_meaning": "morally bad or wicked",
+     "basic_meaning": "unpleasant or repulsive to look at",
+     "is_metaphor": true
+    },
+    {
+     "word": "evil",
+     "contextual_meaning": "morally bad or wicked",
+     "basic_meaning": "profoundly immoral and wicked",
+     "is_metaphor": false
+    }
+   ],
+   "verified": [
+    "ugly"
+   ],
+   "phrases": [
+    {
+     "phrase": "ugly is evil",
+     "conventionality": "conventional",
+     "triggers": [
+      "ugly"
+     ],
+     "source_domain": "APPEARANCE",
+     "target_domain": "MORALITY",
+     "explanation_uk": "Потворність асоціюється з моральною зіпсованістю.",
+     "span": [
+      8,
+      20
+     ],
+     "agreement": "3/3"
+    }
+   ],
+   "passes": 3,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 59,
+     "out": 4
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 537,
+     "out": 139
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 537,
+     "out": 139
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 537,
+     "out": 139
+    }
+   ]
+  },
+  {
+   "id": 9,
+   "start": 20.479999542236328,
+   "text": "What makes the monster ugly, the therapist asked the couple.",
+   "detector_raw": "makes, monster, ugly",
+   "candidates": [
+    "makes",
+    "monster",
+    "ugly"
+   ],
+   "verification": [
+    {
+     "word": "makes",
+     "contextual_meaning": "causes or results in something being a certain way",
+     "basic_meaning": "to create or construct something",
+     "is_metaphor": false
+    },
+    {
+     "word": "monster",
+     "contextual_meaning": "a person who is perceived as evil or morally reprehensible",
+     "basic_meaning": "a large, frightening, imaginary creature",
+     "is_metaphor": true
+    },
+    {
+     "word": "ugly",
+     "contextual_meaning": "unpleasant or morally offensive",
+     "basic_meaning": "unpleasant to look at",
+     "is_metaphor": true
+    }
+   ],
+   "verified": [
+    "monster"
+   ],
+   "phrases": [],
+   "passes": 3,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 62,
+     "out": 5
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 539,
+     "out": 177
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 539,
+     "out": 211
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 539,
+     "out": 191
+    }
+   ]
+  },
+  {
+   "id": 10,
+   "start": 23.84000015258789,
+   "text": "The woman sighs, pointing to the man.",
+   "detector_raw": "none",
+   "candidates": [],
+   "verification": [],
+   "verified": [],
+   "phrases": [],
+   "passes": 3,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 60,
+     "out": 1
+    }
+   ]
+  },
+  {
+   "id": 11,
+   "start": 25.920000076293945,
+   "text": "He decides.",
+   "detector_raw": "none",
+   "candidates": [],
+   "verification": [],
+   "verified": [],
+   "phrases": [],
+   "passes": 3,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 53,
+     "out": 1
+    }
+   ]
+  }
+ ],
+ "stats": {
+  "sentences": 11,
+  "words": 86,
+  "phrases": 3,
+  "verified_words": 4,
+  "creative": 0,
+  "conventional": 3,
+  "density_per_100_words": 3.49,
+  "creative_per_100_words": 0.0,
+  "errors": 0,
+  "borderline": 1,
+  "stable": 2,
+  "verifier_passes": 3,
+  "cost_usd_estimate": 0.0387
+ }
+}

@@ -1,0 +1,961 @@
+{
+ "source": {
+  "type": "youtube",
+  "url": "https://www.youtube.com/shorts/SHLEAp1CPQ4",
+  "id": "SHLEAp1CPQ4",
+  "title": "Train Who You Become #motivation #inspiration #mindset #quotes #billionaire #facts #shorts",
+  "uploader": "Ascendra ",
+  "duration": 97,
+  "webpage_url": "https://www.youtube.com/watch?v=SHLEAp1CPQ4",
+  "upload_date": "20260615"
+ },
+ "created": "2026-09-23T01:26:33",
+ "models": {
+  "asr": "whisper-1",
+  "detector": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+  "verifier": "gpt-4o-2024-08-06"
+ },
+ "transcript": "This isn't supposed to be a rude question, but do you think before you speak, because you answer questions so quickly and so comprehensively, whether it's about geopolitics or your sport or aerodynamics, like, can you take us into your brain? Thank you, Charlotte, that's very kind. Oh man, do I think? I think overall I'm just a pensive person, like, I'm a very introspective, I'm an introspective young woman. Like, I spend a lot of time in my head, and it's not a bad place to be. I journal a lot, I break down all of my thought processes, I think I apply a very analytical lens to my own thinking, and I kind of modify it, because it's so interesting, you can control what you think. Like, you can control how you think, and therefore you can control who you are. And especially as a young person, like, I'm 22, so with neuroplasticity on my side, I can literally become exactly who I want to be. How cool is that? Like, how empowering is that, right? And so, the fact is, I get to become, every day, the kind of person that me, at age 8, would revere. Like, I would be obsessed with me today, are you kidding? I would love me! And I think that's the biggest flex of all time, that you can have, like, little younger you, be proud of you today. And so, I guess for me, it's like, yes, I spend a lot of time in my own head, yes, I think a lot, but it's not really, like, in an egotistical kind of way, it's in like a tinkering, like a scientist kind of way. I'm always, like, trying to modify, I'm trying to think, how can I be better? How can I approach my own brain, the way that I approach my craft of free skiing, so that I can be better tomorrow than I was today?",
+ "sentences": [
+  {
+   "id": 1,
+   "start": 0.0,
+   "text": "This isn't supposed to be a rude question, but do you think before you speak, because you answer questions so quickly and so comprehensively, whether it's about geopolitics or your sport or aerodynamics, like, can you take us into your",
+   "detector_raw": "This, about, take, into",
+   "candidates": [
+    "take"
+   ],
+   "verification": [
+    {
+     "word": "take",
+     "contextual_meaning": "to guide or lead someone into a particular state or understanding",
+     "basic_meaning": "to physically carry or move something from one place to another",
+     "is_metaphor": true
+    }
+   ],
+   "verified": [
+    "take"
+   ],
+   "phrases": [
+    {
+     "phrase": "take us into",
+     "conventionality": "conventional",
+     "triggers": [
+      "take"
+     ],
+     "source_domain": "MOVEMENT",
+     "target_domain": "UNDERSTANDING",
+     "explanation_uk": "Перенесення когось у стан розуміння описується як фізичне переміщення.",
+     "span": [
+      218,
+      230
+     ],
+     "agreement": "3/3"
+    }
+   ],
+   "passes": 3,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 99,
+     "out": 7
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 556,
+     "out": 115
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 556,
+     "out": 116
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 556,
+     "out": 116
+    }
+   ]
+  },
+  {
+   "id": 2,
+   "start": 0.0,
+   "text": "brain?",
+   "detector_raw": "none",
+   "candidates": [],
+   "verification": [],
+   "verified": [],
+   "phrases": [],
+   "passes": 3,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 52,
+     "out": 1
+    }
+   ]
+  },
+  {
+   "id": 3,
+   "start": 18.479999542236328,
+   "text": "Thank you, Charlotte, that's very kind.",
+   "detector_raw": "that's",
+   "candidates": [],
+   "verification": [],
+   "verified": [],
+   "phrases": [],
+   "passes": 3,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 59,
+     "out": 1
+    }
+   ]
+  },
+  {
+   "id": 4,
+   "start": 24.0,
+   "text": "Oh man, do I think?",
+   "detector_raw": "none",
+   "candidates": [],
+   "verification": [],
+   "verified": [],
+   "phrases": [],
+   "passes": 3,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 57,
+     "out": 1
+    }
+   ]
+  },
+  {
+   "id": 5,
+   "start": 28.200000762939453,
+   "text": "I think overall I'm just a pensive person, like, I'm a very introspective, I'm an introspective young woman.",
+   "detector_raw": "none",
+   "candidates": [],
+   "verification": [],
+   "verified": [],
+   "phrases": [],
+   "passes": 3,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 75,
+     "out": 1
+    }
+   ]
+  },
+  {
+   "id": 6,
+   "start": 34.720001220703125,
+   "text": "Like, I spend a lot of time in my head, and it's not a bad place to be.",
+   "detector_raw": "spend, in, place",
+   "candidates": [
+    "spend",
+    "place"
+   ],
+   "verification": [
+    {
+     "word": "spend",
+     "contextual_meaning": "to use time in a particular way or for a particular purpose",
+     "basic_meaning": "to pay out or disburse money",
+     "is_metaphor": true
+    },
+    {
+     "word": "place",
+     "contextual_meaning": "a mental or emotional state or condition",
+     "basic_meaning": "a physical location or position",
+     "is_metaphor": true
+    }
+   ],
+   "verified": [
+    "spend",
+    "place"
+   ],
+   "phrases": [
+    {
+     "phrase": "spend a lot of time in my head",
+     "conventionality": "conventional",
+     "triggers": [
+      "spend"
+     ],
+     "source_domain": "FINANCE",
+     "target_domain": "TIME",
+     "explanation_uk": "Витрачати час на щось, як витрачати гроші.",
+     "span": [
+      8,
+      38
+     ],
+     "agreement": "3/3"
+    },
+    {
+     "phrase": "a bad place to be",
+     "conventionality": "conventional",
+     "triggers": [
+      "place"
+     ],
+     "source_domain": "LOCATION",
+     "target_domain": "STATE",
+     "explanation_uk": "Місце як стан розуму або емоційний стан.",
+     "span": [
+      53,
+      70
+     ],
+     "agreement": "2/3"
+    }
+   ],
+   "passes": 3,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 71,
+     "out": 6
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 598,
+     "out": 198
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 598,
+     "out": 198
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 598,
+     "out": 198
+    }
+   ]
+  },
+  {
+   "id": 7,
+   "start": 38.08000183105469,
+   "text": "I journal a lot, I break down all of my thought processes, I think I apply a very analytical lens to my own thinking, and I kind of modify it, because it's so interesting, you can control what you think.",
+   "detector_raw": "break, down, processes, apply, lens, to, modify, control",
+   "candidates": [
+    "break",
+    "processes",
+    "apply",
+    "lens",
+    "modify",
+    "control"
+   ],
+   "verification": [
+    {
+     "word": "break",
+     "contextual_meaning": "to analyze or examine in detail",
+     "basic_meaning": "to separate into pieces",
+     "is_metaphor": true
+    },
+    {
+     "word": "processes",
+     "contextual_meaning": "the series of thoughts or mental activities",
+     "basic_meaning": "a series of actions or steps taken to achieve a particular end",
+     "is_metaphor": false
+    },
+    {
+     "word": "apply",
+     "contextual_meaning": "to use or employ a method or approach",
+     "basic_meaning": "to put something into operation or use",
+     "is_metaphor": false
+    },
+    {
+     "word": "lens",
+     "contextual_meaning": "a perspective or way of looking at something",
+     "basic_meaning": "a piece of glass or other transparent material used to focus light",
+     "is_metaphor": true
+    },
+    {
+     "word": "modify",
+     "contextual_meaning": "to change or alter",
+     "basic_meaning": "to make partial or minor changes to something",
+     "is_metaphor": false
+    },
+    {
+     "word": "control",
+     "contextual_meaning": "to have power over or manage",
+     "basic_meaning": "to exercise restraint or direction over",
+     "is_metaphor": false
+    }
+   ],
+   "verified": [
+    "lens",
+    "break"
+   ],
+   "phrases": [
+    {
+     "phrase": "break down all of my thought processes",
+     "conventionality": "conventional",
+     "triggers": [
+      "break"
+     ],
+     "source_domain": "PHYSICAL ACTION",
+     "target_domain": "MENTAL ANALYSIS",
+     "explanation_uk": "Аналіз думок порівнюється з фізичним розділенням на частини.",
+     "span": [
+      19,
+      57
+     ],
+     "agreement": "3/3"
+    },
+    {
+     "phrase": "apply a very analytical lens",
+     "conventionality": "conventional",
+     "triggers": [
+      "lens"
+     ],
+     "source_domain": "VISION",
+     "target_domain": "UNDERSTANDING",
+     "explanation_uk": "Аналіз ситуації порівнюється з використанням лінзи для кращого бачення.",
+     "span": [
+      69,
+      97
+     ],
+     "agreement": "3/3"
+    }
+   ],
+   "passes": 3,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 96,
+     "out": 15
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 599,
+     "out": 358
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 599,
+     "out": 353
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 599,
+     "out": 355
+    }
+   ]
+  },
+  {
+   "id": 8,
+   "start": 49.79999923706055,
+   "text": "Like, you can control how you think, and therefore you can control who you are.",
+   "detector_raw": "control, control",
+   "candidates": [
+    "control"
+   ],
+   "verification": [
+    {
+     "word": "control",
+     "contextual_meaning": "to have power over one's thoughts and identity",
+     "basic_meaning": "to direct or command something or someone",
+     "is_metaphor": true
+    }
+   ],
+   "verified": [
+    "control"
+   ],
+   "phrases": [
+    {
+     "phrase": "control how you think",
+     "conventionality": "conventional",
+     "triggers": [
+      "control"
+     ],
+     "source_domain": "AUTHORITY",
+     "target_domain": "THOUGHT",
+     "explanation_uk": "Контроль над думками порівнюється з владою над чимось.",
+     "span": [
+      14,
+      35
+     ],
+     "agreement": "3/3"
+    },
+    {
+     "phrase": "control who you are",
+     "conventionality": "conventional",
+     "triggers": [
+      "control"
+     ],
+     "source_domain": "AUTHORITY",
+     "target_domain": "IDENTITY",
+     "explanation_uk": "Контроль над особистістю порівнюється з владою над чимось.",
+     "span": [
+      59,
+      78
+     ],
+     "agreement": "3/3"
+    }
+   ],
+   "passes": 3,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 68,
+     "out": 3
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 601,
+     "out": 160
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 601,
+     "out": 160
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 601,
+     "out": 160
+    }
+   ]
+  },
+  {
+   "id": 9,
+   "start": 53.439998626708984,
+   "text": "And especially as a young person, like, I'm 22, so with neuroplasticity on my side, I can literally become exactly who I want to be.",
+   "detector_raw": "with, on, side",
+   "candidates": [
+    "side"
+   ],
+   "verification": [
+    {
+     "word": "side",
+     "contextual_meaning": "having an advantage or benefit from neuroplasticity",
+     "basic_meaning": "one of the surfaces or parts of something",
+     "is_metaphor": true
+    }
+   ],
+   "verified": [
+    "side"
+   ],
+   "phrases": [
+    {
+     "phrase": "with neuroplasticity on my side",
+     "conventionality": "conventional",
+     "triggers": [
+      "side"
+     ],
+     "source_domain": "PHYSICAL POSITION",
+     "target_domain": "ADVANTAGE",
+     "explanation_uk": "Нейропластичність розглядається як перевага, яка допомагає досягти бажаного.",
+     "span": [
+      51,
+      82
+     ],
+     "agreement": "3/3"
+    }
+   ],
+   "passes": 3,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 83,
+     "out": 5
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 560,
+     "out": 118
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 560,
+     "out": 118
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 560,
+     "out": 111
+    }
+   ]
+  },
+  {
+   "id": 10,
+   "start": 59.400001525878906,
+   "text": "How cool is that?",
+   "detector_raw": "cool, that",
+   "candidates": [
+    "cool"
+   ],
+   "verification": [
+    {
+     "word": "cool",
+     "contextual_meaning": "impressive or admirable",
+     "basic_meaning": "moderately cold in temperature",
+     "is_metaphor": true
+    }
+   ],
+   "verified": [
+    "cool"
+   ],
+   "phrases": [
+    {
+     "phrase": "How cool is that",
+     "conventionality": "conventional",
+     "triggers": [
+      "cool"
+     ],
+     "source_domain": "TEMPERATURE",
+     "target_domain": "EMOTION",
+     "explanation_uk": "Слово 'cool' використовується для опису чогось вражаючого або захоплюючого, як холодна температура може бути приємною.",
+     "span": [
+      0,
+      16
+     ],
+     "agreement": "3/3"
+    }
+   ],
+   "passes": 3,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 55,
+     "out": 3
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 551,
+     "out": 116
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 551,
+     "out": 116
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 551,
+     "out": 116
+    }
+   ]
+  },
+  {
+   "id": 11,
+   "start": 60.400001525878906,
+   "text": "Like, how empowering is that, right?",
+   "detector_raw": "that",
+   "candidates": [],
+   "verification": [],
+   "verified": [],
+   "phrases": [],
+   "passes": 3,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 59,
+     "out": 1
+    }
+   ]
+  },
+  {
+   "id": 12,
+   "start": 61.959999084472656,
+   "text": "And so, the fact is, I get to become, every day, the kind of person that me, at age 8, would revere.",
+   "detector_raw": "get, at",
+   "candidates": [
+    "get"
+   ],
+   "verification": [
+    {
+     "word": "get",
+     "contextual_meaning": "have the opportunity or ability to become",
+     "basic_meaning": "receive or obtain something",
+     "is_metaphor": true
+    }
+   ],
+   "verified": [
+    "get"
+   ],
+   "phrases": [
+    {
+     "phrase": "get to become",
+     "conventionality": "conventional",
+     "triggers": [
+      "get"
+     ],
+     "source_domain": "POSSESSION",
+     "target_domain": "OPPORTUNITY",
+     "explanation_uk": "Отримання можливості стати кимось порівнюється з отриманням чогось матеріального.",
+     "span": [
+      23,
+      36
+     ],
+     "agreement": "3/3"
+    }
+   ],
+   "passes": 3,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 81,
+     "out": 3
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 558,
+     "out": 104
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 558,
+     "out": 98
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 558,
+     "out": 104
+    }
+   ]
+  },
+  {
+   "id": 13,
+   "start": 69.0,
+   "text": "Like, I would be obsessed with me today, are you kidding?",
+   "detector_raw": "none",
+   "candidates": [],
+   "verification": [],
+   "verified": [],
+   "phrases": [],
+   "passes": 3,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 64,
+     "out": 1
+    }
+   ]
+  },
+  {
+   "id": 14,
+   "start": 70.80000305175781,
+   "text": "I would love me!",
+   "detector_raw": "none",
+   "candidates": [],
+   "verification": [],
+   "verified": [],
+   "phrases": [],
+   "passes": 3,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 55,
+     "out": 1
+    }
+   ]
+  },
+  {
+   "id": 15,
+   "start": 71.80000305175781,
+   "text": "And I think that's the biggest flex of all time, that you can have, like, little younger you, be proud of you today.",
+   "detector_raw": "that's, biggest, flex, have, little",
+   "candidates": [
+    "biggest",
+    "flex",
+    "little"
+   ],
+   "verification": [
+    {
+     "word": "biggest",
+     "contextual_meaning": "most significant or impressive",
+     "basic_meaning": "largest in physical size",
+     "is_metaphor": true
+    },
+    {
+     "word": "flex",
+     "contextual_meaning": "a boast or display of pride",
+     "basic_meaning": "to bend or move a muscle",
+     "is_metaphor": true
+    },
+    {
+     "word": "little",
+     "contextual_meaning": "younger or smaller in age",
+     "basic_meaning": "small in size",
+     "is_metaphor": false
+    }
+   ],
+   "verified": [
+    "flex",
+    "biggest"
+   ],
+   "phrases": [
+    {
+     "phrase": "biggest flex",
+     "conventionality": "creative",
+     "triggers": [
+      "biggest",
+      "flex"
+     ],
+     "source_domain": "PHYSICAL SIZE / PRIDE",
+     "target_domain": "SIGNIFICANCE / ACHIEVEMENT",
+     "explanation_uk": "Найбільший прояв гордості чи досягнення.",
+     "span": [
+      23,
+      35
+     ],
+     "agreement": "3/3"
+    }
+   ],
+   "passes": 3,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 78,
+     "out": 9
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 595,
+     "out": 169
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 595,
+     "out": 175
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 595,
+     "out": 168
+    }
+   ]
+  },
+  {
+   "id": 16,
+   "start": 76.95999908447266,
+   "text": "And so, I guess for me, it's like, yes, I spend a lot of time in my own head, yes, I think a lot, but it's not really, like, in an egotistical kind of way, it's in like a tinkering,",
+   "detector_raw": "spend, in, head, in, way, in, tinkering",
+   "candidates": [
+    "spend",
+    "head",
+    "way",
+    "tinkering"
+   ],
+   "verification": [
+    {
+     "word": "spend",
+     "contextual_meaning": "to use time in a particular way or activity.",
+     "basic_meaning": "to pay out or disburse money.",
+     "is_metaphor": true
+    },
+    {
+     "word": "head",
+     "contextual_meaning": "the mind or brain, especially as the center of thought and understanding.",
+     "basic_meaning": "the upper part of the human body, containing the brain, eyes, ears, nose, and mouth.",
+     "is_metaphor": true
+    },
+    {
+     "word": "way",
+     "contextual_meaning": "a manner or method of doing something.",
+     "basic_meaning": "a road, track, path, or street for traveling along.",
+     "is_metaphor": true
+    },
+    {
+     "word": "tinkering",
+     "contextual_meaning": "engaging in a casual or experimental way with ideas or thoughts.",
+     "basic_meaning": "to make small adjustments or improvements to something mechanical or technical.",
+     "is_metaphor": true
+    }
+   ],
+   "verified": [
+    "head",
+    "spend",
+    "way",
+    "tinkering"
+   ],
+   "phrases": [
+    {
+     "phrase": "spend a lot of time in my own head",
+     "conventionality": "conventional",
+     "triggers": [
+      "spend",
+      "head"
+     ],
+     "source_domain": "FINANCE",
+     "target_domain": "THOUGHT",
+     "explanation_uk": "Витрачати час на роздуми, як витрачати гроші.",
+     "span": [
+      42,
+      76
+     ],
+     "agreement": "3/3"
+    }
+   ],
+   "passes": 3,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 104,
+     "out": 15
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 600,
+     "out": 322
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 600,
+     "out": 279
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 600,
+     "out": 311
+    }
+   ]
+  },
+  {
+   "id": 17,
+   "start": 76.95999908447266,
+   "text": "like a scientist kind of way.",
+   "detector_raw": "none",
+   "candidates": [],
+   "verification": [],
+   "verified": [],
+   "phrases": [],
+   "passes": 3,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 57,
+     "out": 1
+    }
+   ]
+  },
+  {
+   "id": 18,
+   "start": 86.68000030517578,
+   "text": "I'm always, like, trying to modify, I'm trying to think, how can I be better?",
+   "detector_raw": "none",
+   "candidates": [],
+   "verification": [],
+   "verified": [],
+   "phrases": [],
+   "passes": 3,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 70,
+     "out": 1
+    }
+   ]
+  },
+  {
+   "id": 19,
+   "start": 89.55999755859375,
+   "text": "How can I approach my own brain, the way that I approach my craft of free skiing, so that I can be better tomorrow than I was today?",
+   "detector_raw": "approach, approach, free, better",
+   "candidates": [
+    "approach",
+    "free",
+    "better"
+   ],
+   "verification": [
+    {
+     "word": "approach",
+     "contextual_meaning": "to deal with or handle a situation or task in a certain way",
+     "basic_meaning": "to come near or nearer to something in distance or time",
+     "is_metaphor": true
+    },
+    {
+     "word": "free",
+     "contextual_meaning": "not restricted or constrained in style or method",
+     "basic_meaning": "not under the control or in the power of another; able to act or be done as one wishes",
+     "is_metaphor": true
+    },
+    {
+     "word": "better",
+     "contextual_meaning": "to improve or enhance one's abilities or situation",
+     "basic_meaning": "of a more excellent or effective type or quality",
+     "is_metaphor": true
+    }
+   ],
+   "verified": [
+    "approach"
+   ],
+   "phrases": [
+    {
+     "phrase": "approach my own brain",
+     "conventionality": "creative",
+     "triggers": [
+      "approach"
+     ],
+     "source_domain": "PHYSICAL MOVEMENT",
+     "target_domain": "THOUGHT PROCESS",
+     "explanation_uk": "Підхід до власного мозку порівнюється з фізичним наближенням до чогось.",
+     "span": [
+      10,
+      31
+     ],
+     "agreement": "3/3"
+    }
+   ],
+   "passes": 3,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 81,
+     "out": 8
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 559,
+     "out": 335
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 559,
+     "out": 214
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 559,
+     "out": 211
+    }
+   ]
+  }
+ ],
+ "stats": {
+  "sentences": 19,
+  "words": 325,
+  "phrases": 13,
+  "verified_words": 16,
+  "creative": 2,
+  "conventional": 11,
+  "density_per_100_words": 4.0,
+  "creative_per_100_words": 0.62,
+  "errors": 0,
+  "borderline": 1,
+  "stable": 12,
+  "verifier_passes": 3,
+  "cost_usd_estimate": 0.1162
+ }
+}

@@ -1,0 +1,1141 @@
+{
+ "source": {
+  "type": "youtube",
+  "url": "https://www.youtube.com/shorts/umj_tA3gSVY",
+  "id": "umj_tA3gSVY",
+  "title": "New Dad Brain is a Whole Different Vibe! 🍼🧠😂",
+  "uploader": "MistyBreeze ",
+  "duration": 85,
+  "webpage_url": "https://www.youtube.com/watch?v=umj_tA3gSVY",
+  "upload_date": "20260903"
+ },
+ "created": "2026-09-23T01:44:02",
+ "models": {
+  "asr": "whisper-1",
+  "detector": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+  "verifier": "gpt-4o-2024-08-06"
+ },
+ "transcript": "Hey, is that one of our carts? No, it's my family's cart. It's been in our backyard since I was three. Yeah, right. Come on, just give it back. I'm not lying. It's ours. When it's nice out, we put it over a fire and use it as a grill. Hey, look. There's a little cheese left. Why is there a baby in there? I don't have a regular baby pusher thing yet. Sir, whose baby is that? Mine. Her name is Princess Beyoncé, but I'm thinking of changing that. See, I don't have a bottle yet. I just got her a few hours ago. Sabrina, what the dog do? Break's over. I need you. Promise me that that's your baby. Oh, I promise. Oh, hey. It's you. Weird guy. Nice car seat. Oh, yeah, thanks. It's a used one. I can see that. Who used it? Baby Jesus? Yeah, it's an earlier model. Listen, I have a question about this food, and it might be a stupid question, but I feel I should ask. Sure, it's not stupid. The book I have says I should feed her vegetables, and I want to do that. But the only vegetable jars I've found have pictures of either black babies or Asian babies on them. And I don't know if the pictures are random, you know, or if there's a reason Asian babies instead of white ones should eat these particular string beans. That is a really good question. The color of the babies on the jars doesn't matter. However, it's really important that you do not feed her anything with a picture of a boy on it, or else she will grow a penis and a mustache. I said it might be a stupid question. Yeah, you did. I just wasn't really prepared for that.",
+ "sentences": [
+  {
+   "id": 1,
+   "start": 0.0,
+   "text": "Hey, is that one of our carts?",
+   "detector_raw": "that",
+   "candidates": [],
+   "verification": [],
+   "verified": [],
+   "phrases": [],
+   "passes": 3,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 59,
+     "out": 1
+    }
+   ]
+  },
+  {
+   "id": 2,
+   "start": 1.840000033378601,
+   "text": "No, it's my family's cart.",
+   "detector_raw": "none",
+   "candidates": [],
+   "verification": [],
+   "verified": [],
+   "phrases": [],
+   "passes": 3,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 57,
+     "out": 1
+    }
+   ]
+  },
+  {
+   "id": 3,
+   "start": 1.840000033378601,
+   "text": "It's been in our backyard since I was three.",
+   "detector_raw": "none",
+   "candidates": [],
+   "verification": [],
+   "verified": [],
+   "phrases": [],
+   "passes": 3,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 60,
+     "out": 1
+    }
+   ]
+  },
+  {
+   "id": 4,
+   "start": 4.920000076293945,
+   "text": "Yeah, right.",
+   "detector_raw": "none",
+   "candidates": [],
+   "verification": [],
+   "verified": [],
+   "phrases": [],
+   "passes": 3,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 54,
+     "out": 1
+    }
+   ]
+  },
+  {
+   "id": 5,
+   "start": 4.920000076293945,
+   "text": "Come on, just give it back.",
+   "detector_raw": "Come, give, back",
+   "candidates": [
+    "come",
+    "give",
+    "back"
+   ],
+   "verification": [
+    {
+     "word": "come",
+     "contextual_meaning": "an expression urging someone to do something",
+     "basic_meaning": "to move or travel toward or into a place thought of as near or familiar to the speaker",
+     "is_metaphor": true
+    },
+    {
+     "word": "give",
+     "contextual_meaning": "to return something to someone",
+     "basic_meaning": "to hand over or present something to someone",
+     "is_metaphor": false
+    },
+    {
+     "word": "back",
+     "contextual_meaning": "to return something to its original owner",
+     "basic_meaning": "the rear surface of the human body from the shoulders to the hips",
+     "is_metaphor": true
+    }
+   ],
+   "verified": [
+    "come",
+    "back"
+   ],
+   "phrases": [
+    {
+     "phrase": "Come on",
+     "conventionality": "conventional",
+     "triggers": [
+      "come"
+     ],
+     "source_domain": "MOVEMENT",
+     "target_domain": "ACTION",
+     "explanation_uk": "Це вираз, що спонукає когось до дії, як рух до чогось.",
+     "span": [
+      0,
+      7
+     ],
+     "agreement": "3/3"
+    },
+    {
+     "phrase": "give it back",
+     "conventionality": "conventional",
+     "triggers": [
+      "back"
+     ],
+     "source_domain": "DIRECTION",
+     "target_domain": "RETURN",
+     "explanation_uk": "Це означає повернути щось назад власнику, як рух у зворотному напрямку.",
+     "span": [
+      14,
+      26
+     ],
+     "agreement": "3/3"
+    }
+   ],
+   "passes": 3,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 58,
+     "out": 5
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 524,
+     "out": 250
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 524,
+     "out": 259
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 524,
+     "out": 263
+    }
+   ]
+  },
+  {
+   "id": 6,
+   "start": 6.300000190734863,
+   "text": "I'm not lying.",
+   "detector_raw": "none",
+   "candidates": [],
+   "verification": [],
+   "verified": [],
+   "phrases": [],
+   "passes": 3,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 54,
+     "out": 1
+    }
+   ]
+  },
+  {
+   "id": 7,
+   "start": 6.300000190734863,
+   "text": "It's ours.",
+   "detector_raw": "none",
+   "candidates": [],
+   "verification": [],
+   "verified": [],
+   "phrases": [],
+   "passes": 3,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 53,
+     "out": 1
+    }
+   ]
+  },
+  {
+   "id": 8,
+   "start": 7.800000190734863,
+   "text": "When it's nice out, we put it over a fire and use it as a grill.",
+   "detector_raw": "none",
+   "candidates": [],
+   "verification": [],
+   "verified": [],
+   "phrases": [],
+   "passes": 3,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 68,
+     "out": 1
+    }
+   ]
+  },
+  {
+   "id": 9,
+   "start": 10.220000267028809,
+   "text": "Hey, look.",
+   "detector_raw": "none",
+   "candidates": [],
+   "verification": [],
+   "verified": [],
+   "phrases": [],
+   "passes": 3,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 54,
+     "out": 1
+    }
+   ]
+  },
+  {
+   "id": 10,
+   "start": 10.220000267028809,
+   "text": "There's a little cheese left.",
+   "detector_raw": "none",
+   "candidates": [],
+   "verification": [],
+   "verified": [],
+   "phrases": [],
+   "passes": 3,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 56,
+     "out": 1
+    }
+   ]
+  },
+  {
+   "id": 11,
+   "start": 13.140000343322754,
+   "text": "Why is there a baby in there?",
+   "detector_raw": "none",
+   "candidates": [],
+   "verification": [],
+   "verified": [],
+   "phrases": [],
+   "passes": 3,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 58,
+     "out": 1
+    }
+   ]
+  },
+  {
+   "id": 12,
+   "start": 14.180000305175781,
+   "text": "I don't have a regular baby pusher thing yet.",
+   "detector_raw": "have",
+   "candidates": [],
+   "verification": [],
+   "verified": [],
+   "phrases": [],
+   "passes": 3,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 61,
+     "out": 1
+    }
+   ]
+  },
+  {
+   "id": 13,
+   "start": 16.799999237060547,
+   "text": "Sir, whose baby is that?",
+   "detector_raw": "none",
+   "candidates": [],
+   "verification": [],
+   "verified": [],
+   "phrases": [],
+   "passes": 3,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 57,
+     "out": 1
+    }
+   ]
+  },
+  {
+   "id": 14,
+   "start": 18.68000030517578,
+   "text": "Mine.",
+   "detector_raw": "none",
+   "candidates": [],
+   "verification": [],
+   "verified": [],
+   "phrases": [],
+   "passes": 3,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 52,
+     "out": 1
+    }
+   ]
+  },
+  {
+   "id": 15,
+   "start": 18.68000030517578,
+   "text": "Her name is Princess Beyoncé, but I'm thinking of changing that.",
+   "detector_raw": "that",
+   "candidates": [],
+   "verification": [],
+   "verified": [],
+   "phrases": [],
+   "passes": 3,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 63,
+     "out": 1
+    }
+   ]
+  },
+  {
+   "id": 16,
+   "start": 23.239999771118164,
+   "text": "See, I don't have a bottle yet.",
+   "detector_raw": "none",
+   "candidates": [],
+   "verification": [],
+   "verified": [],
+   "phrases": [],
+   "passes": 3,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 59,
+     "out": 1
+    }
+   ]
+  },
+  {
+   "id": 17,
+   "start": 25.059999465942383,
+   "text": "I just got her a few hours ago.",
+   "detector_raw": "got",
+   "candidates": [
+    "got"
+   ],
+   "verification": [
+    {
+     "word": "got",
+     "contextual_meaning": "acquired or received possession of something",
+     "basic_meaning": "to obtain or come into possession of something",
+     "is_metaphor": false
+    }
+   ],
+   "verified": [],
+   "phrases": [],
+   "passes": 3,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 59,
+     "out": 1
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 529,
+     "out": 46
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 529,
+     "out": 46
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 529,
+     "out": 46
+    }
+   ]
+  },
+  {
+   "id": 18,
+   "start": 26.479999542236328,
+   "text": "Sabrina, what the dog do?",
+   "detector_raw": "none",
+   "candidates": [],
+   "verification": [],
+   "verified": [],
+   "phrases": [],
+   "passes": 3,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 57,
+     "out": 1
+    }
+   ]
+  },
+  {
+   "id": 19,
+   "start": 28.31999969482422,
+   "text": "Break's over.",
+   "detector_raw": "Break, over",
+   "candidates": [],
+   "verification": [],
+   "verified": [],
+   "phrases": [],
+   "passes": 3,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 54,
+     "out": 3
+    }
+   ]
+  },
+  {
+   "id": 20,
+   "start": 28.31999969482422,
+   "text": "I need you.",
+   "detector_raw": "none",
+   "candidates": [],
+   "verification": [],
+   "verified": [],
+   "phrases": [],
+   "passes": 3,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 54,
+     "out": 1
+    }
+   ]
+  },
+  {
+   "id": 21,
+   "start": 30.059999465942383,
+   "text": "Promise me that that's your baby.",
+   "detector_raw": "that, baby",
+   "candidates": [
+    "baby"
+   ],
+   "verification": [
+    {
+     "word": "baby",
+     "contextual_meaning": "a term of endearment or affection for a person",
+     "basic_meaning": "a very young child or infant",
+     "is_metaphor": true
+    }
+   ],
+   "verified": [
+    "baby"
+   ],
+   "phrases": [
+    {
+     "phrase": "that's your baby",
+     "conventionality": "conventional",
+     "triggers": [
+      "baby"
+     ],
+     "source_domain": "FAMILY",
+     "target_domain": "RELATIONSHIP",
+     "explanation_uk": "Використання слова 'дитина' для позначення близької людини або об'єкта прихильності.",
+     "span": [
+      16,
+      32
+     ],
+     "agreement": "2/3"
+    }
+   ],
+   "passes": 3,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 57,
+     "out": 3
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 520,
+     "out": 108
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 520,
+     "out": 114
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 520,
+     "out": 107
+    }
+   ]
+  },
+  {
+   "id": 22,
+   "start": 31.440000534057617,
+   "text": "Oh, I promise.",
+   "detector_raw": "none",
+   "candidates": [],
+   "verification": [],
+   "verified": [],
+   "phrases": [],
+   "passes": 3,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 55,
+     "out": 1
+    }
+   ]
+  },
+  {
+   "id": 23,
+   "start": 38.97999954223633,
+   "text": "Oh, hey.",
+   "detector_raw": "none",
+   "candidates": [],
+   "verification": [],
+   "verified": [],
+   "phrases": [],
+   "passes": 3,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 54,
+     "out": 1
+    }
+   ]
+  },
+  {
+   "id": 24,
+   "start": 38.97999954223633,
+   "text": "It's you.",
+   "detector_raw": "none",
+   "candidates": [],
+   "verification": [],
+   "verified": [],
+   "phrases": [],
+   "passes": 3,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 53,
+     "out": 1
+    }
+   ]
+  },
+  {
+   "id": 25,
+   "start": 38.97999954223633,
+   "text": "Weird guy.",
+   "detector_raw": "none",
+   "candidates": [],
+   "verification": [],
+   "verified": [],
+   "phrases": [],
+   "passes": 3,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 53,
+     "out": 1
+    }
+   ]
+  },
+  {
+   "id": 26,
+   "start": 41.31999969482422,
+   "text": "Nice car seat.",
+   "detector_raw": "none",
+   "candidates": [],
+   "verification": [],
+   "verified": [],
+   "phrases": [],
+   "passes": 3,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 54,
+     "out": 1
+    }
+   ]
+  },
+  {
+   "id": 27,
+   "start": 42.15999984741211,
+   "text": "Oh, yeah, thanks.",
+   "detector_raw": "none",
+   "candidates": [],
+   "verification": [],
+   "verified": [],
+   "phrases": [],
+   "passes": 3,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 56,
+     "out": 1
+    }
+   ]
+  },
+  {
+   "id": 28,
+   "start": 42.15999984741211,
+   "text": "It's a used one.",
+   "detector_raw": "none",
+   "candidates": [],
+   "verification": [],
+   "verified": [],
+   "phrases": [],
+   "passes": 3,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 55,
+     "out": 1
+    }
+   ]
+  },
+  {
+   "id": 29,
+   "start": 44.2400016784668,
+   "text": "I can see that.",
+   "detector_raw": "see, that",
+   "candidates": [
+    "see"
+   ],
+   "verification": [
+    {
+     "word": "see",
+     "contextual_meaning": "understand or realize",
+     "basic_meaning": "perceive with the eyes",
+     "is_metaphor": true
+    }
+   ],
+   "verified": [
+    "see"
+   ],
+   "phrases": [
+    {
+     "phrase": "see that",
+     "conventionality": "conventional",
+     "triggers": [
+      "see"
+     ],
+     "source_domain": "VISION",
+     "target_domain": "UNDERSTANDING",
+     "explanation_uk": "Розуміння прирівнюється до бачення.",
+     "span": [
+      6,
+      14
+     ],
+     "agreement": "3/3"
+    }
+   ],
+   "passes": 3,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 55,
+     "out": 3
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 518,
+     "out": 90
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 518,
+     "out": 91
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 518,
+     "out": 91
+    }
+   ]
+  },
+  {
+   "id": 30,
+   "start": 44.2400016784668,
+   "text": "Who used it?",
+   "detector_raw": "none",
+   "candidates": [],
+   "verification": [],
+   "verified": [],
+   "phrases": [],
+   "passes": 3,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 54,
+     "out": 1
+    }
+   ]
+  },
+  {
+   "id": 31,
+   "start": 44.2400016784668,
+   "text": "Baby Jesus?",
+   "detector_raw": "none",
+   "candidates": [],
+   "verification": [],
+   "verified": [],
+   "phrases": [],
+   "passes": 3,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 53,
+     "out": 1
+    }
+   ]
+  },
+  {
+   "id": 32,
+   "start": 46.119998931884766,
+   "text": "Yeah, it's an earlier model.",
+   "detector_raw": "none",
+   "candidates": [],
+   "verification": [],
+   "verified": [],
+   "phrases": [],
+   "passes": 3,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 57,
+     "out": 1
+    }
+   ]
+  },
+  {
+   "id": 33,
+   "start": 47.779998779296875,
+   "text": "Listen, I have a question about this food, and it might be a stupid question, but I feel I should ask.",
+   "detector_raw": "about, this, feel",
+   "candidates": [
+    "feel"
+   ],
+   "verification": [
+    {
+     "word": "feel",
+     "contextual_meaning": "believe or think in a certain way",
+     "basic_meaning": "experience a physical sensation",
+     "is_metaphor": true
+    }
+   ],
+   "verified": [
+    "feel"
+   ],
+   "phrases": [
+    {
+     "phrase": "I feel I should ask",
+     "conventionality": "conventional",
+     "triggers": [
+      "feel"
+     ],
+     "source_domain": "PHYSICAL SENSATION",
+     "target_domain": "THOUGHT",
+     "explanation_uk": "Відчуття фізичного стану використовується для опису думки або переконання.",
+     "span": [
+      82,
+      101
+     ],
+     "agreement": "2/3"
+    }
+   ],
+   "passes": 3,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 75,
+     "out": 5
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 542,
+     "out": 109
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 542,
+     "out": 107
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 542,
+     "out": 115
+    }
+   ]
+  },
+  {
+   "id": 34,
+   "start": 53.15999984741211,
+   "text": "Sure, it's not stupid.",
+   "detector_raw": "none",
+   "candidates": [],
+   "verification": [],
+   "verified": [],
+   "phrases": [],
+   "passes": 3,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 56,
+     "out": 1
+    }
+   ]
+  },
+  {
+   "id": 35,
+   "start": 53.959999084472656,
+   "text": "The book I have says I should feed her vegetables, and I want to do that.",
+   "detector_raw": "says, that",
+   "candidates": [
+    "says"
+   ],
+   "verification": [
+    {
+     "word": "says",
+     "contextual_meaning": "states or instructs in written form",
+     "basic_meaning": "to speak or utter words",
+     "is_metaphor": true
+    }
+   ],
+   "verified": [
+    "says"
+   ],
+   "phrases": [
+    {
+     "phrase": "The book I have says",
+     "conventionality": "conventional",
+     "triggers": [
+      "says"
+     ],
+     "source_domain": "COMMUNICATION",
+     "target_domain": "INFORMATION",
+     "explanation_uk": "Книга «говорить» у значенні передачі інформації або інструкцій.",
+     "span": [
+      0,
+      20
+     ],
+     "agreement": "3/3"
+    }
+   ],
+   "passes": 3,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 68,
+     "out": 4
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 547,
+     "out": 103
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 547,
+     "out": 103
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 547,
+     "out": 103
+    }
+   ]
+  },
+  {
+   "id": 36,
+   "start": 56.47999954223633,
+   "text": "But the only vegetable jars I've found have pictures of either black babies or Asian babies on them.",
+   "detector_raw": "none",
+   "candidates": [],
+   "verification": [],
+   "verified": [],
+   "phrases": [],
+   "passes": 3,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 69,
+     "out": 1
+    }
+   ]
+  },
+  {
+   "id": 37,
+   "start": 62.08000183105469,
+   "text": "And I don't know if the pictures are random, you know, or if there's a reason Asian babies instead of white ones should eat these particular string beans.",
+   "detector_raw": "none",
+   "candidates": [],
+   "verification": [],
+   "verified": [],
+   "phrases": [],
+   "passes": 3,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 81,
+     "out": 1
+    }
+   ]
+  },
+  {
+   "id": 38,
+   "start": 67.73999786376953,
+   "text": "That is a really good question.",
+   "detector_raw": "That",
+   "candidates": [],
+   "verification": [],
+   "verified": [],
+   "phrases": [],
+   "passes": 3,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 57,
+     "out": 1
+    }
+   ]
+  },
+  {
+   "id": 39,
+   "start": 69.12000274658203,
+   "text": "The color of the babies on the jars doesn't matter.",
+   "detector_raw": "none",
+   "candidates": [],
+   "verification": [],
+   "verified": [],
+   "phrases": [],
+   "passes": 3,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 61,
+     "out": 1
+    }
+   ]
+  },
+  {
+   "id": 40,
+   "start": 71.26000213623047,
+   "text": "However, it's really important that you do not feed her anything with a picture of a boy on it, or else she will grow a penis and a mustache.",
+   "detector_raw": "none",
+   "candidates": [],
+   "verification": [],
+   "verified": [],
+   "phrases": [],
+   "passes": 3,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 83,
+     "out": 1
+    }
+   ]
+  },
+  {
+   "id": 41,
+   "start": 78.45999908447266,
+   "text": "I said it might be a stupid question.",
+   "detector_raw": "none",
+   "candidates": [],
+   "verification": [],
+   "verified": [],
+   "phrases": [],
+   "passes": 3,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 59,
+     "out": 1
+    }
+   ]
+  },
+  {
+   "id": 42,
+   "start": 80.80000305175781,
+   "text": "Yeah, you did.",
+   "detector_raw": "none",
+   "candidates": [],
+   "verification": [],
+   "verified": [],
+   "phrases": [],
+   "passes": 3,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 55,
+     "out": 1
+    }
+   ]
+  },
+  {
+   "id": 43,
+   "start": 80.80000305175781,
+   "text": "I just wasn't really prepared for that.",
+   "detector_raw": "prepared, that",
+   "candidates": [
+    "prepared"
+   ],
+   "verification": [
+    {
+     "word": "prepared",
+     "contextual_meaning": "ready or equipped to handle a situation",
+     "basic_meaning": "made ready or put together in advance",
+     "is_metaphor": false
+    }
+   ],
+   "verified": [],
+   "phrases": [],
+   "passes": 3,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 58,
+     "out": 3
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 517,
+     "out": 45
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 517,
+     "out": 43
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 517,
+     "out": 45
+    }
+   ]
+  }
+ ],
+ "stats": {
+  "sentences": 43,
+  "words": 304,
+  "phrases": 6,
+  "verified_words": 6,
+  "creative": 0,
+  "conventional": 6,
+  "density_per_100_words": 1.97,
+  "creative_per_100_words": 0.0,
+  "errors": 0,
+  "borderline": 2,
+  "stable": 4,
+  "verifier_passes": 3,
+  "cost_usd_estimate": 0.0695
+ }
+}

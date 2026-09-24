@@ -1,0 +1,354 @@
+{
+ "source": {
+  "type": "youtube",
+  "url": "https://www.youtube.com/shorts/t75oq29Mbgc",
+  "id": "t75oq29Mbgc",
+  "title": "Rumi 🥀🖤 #poetry #poetrylover #quotesaesthetic #deeplines #cinematic #Love #poems #deepthoughts",
+  "uploader": "soulxsigh",
+  "duration": 31,
+  "webpage_url": "https://www.youtube.com/watch?v=t75oq29Mbgc",
+  "upload_date": "20240422"
+ },
+ "created": "2026-09-23T02:21:25",
+ "models": {
+  "asr": "whisper-1",
+  "detector": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+  "verifier": "gpt-4o-2024-08-06"
+ },
+ "transcript": "I choose to love you in silence, for in silence I find no rejection. I choose to love you in loneliness, for in loneliness no one owns you but me. I choose to adore you from a distance, for distance will shield me from pain. I choose to kiss you in the wind, for the wind is gentler than my lips. I choose to hold you in my dreams, for in my dreams you have no end.",
+ "sentences": [
+  {
+   "id": 1,
+   "start": 0.0,
+   "text": "I choose to love you in silence, for in silence I find no rejection.",
+   "detector_raw": "in, in, find",
+   "candidates": [
+    "find"
+   ],
+   "verification": [
+    {
+     "word": "find",
+     "contextual_meaning": "to experience or encounter a state or feeling",
+     "basic_meaning": "to discover or locate something",
+     "is_metaphor": true
+    }
+   ],
+   "verified": [
+    "find"
+   ],
+   "phrases": [
+    {
+     "phrase": "find no rejection",
+     "conventionality": "conventional",
+     "triggers": [
+      "find"
+     ],
+     "source_domain": "DISCOVERY",
+     "target_domain": "EMOTIONAL EXPERIENCE",
+     "explanation_uk": "Відчуття відсутності відмови описується як знаходження чогось.",
+     "span": [
+      50,
+      67
+     ],
+     "agreement": "3/3"
+    }
+   ],
+   "passes": 3,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 66,
+     "out": 5
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 538,
+     "out": 105
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 538,
+     "out": 103
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 538,
+     "out": 112
+    }
+   ]
+  },
+  {
+   "id": 2,
+   "start": 6.5,
+   "text": "I choose to love you in loneliness, for in loneliness no one owns you but me.",
+   "detector_raw": "in, in, owns",
+   "candidates": [
+    "owns"
+   ],
+   "verification": [
+    {
+     "word": "owns",
+     "contextual_meaning": "to have exclusive emotional possession or connection with someone",
+     "basic_meaning": "to possess something as property or have legal title to it",
+     "is_metaphor": true
+    }
+   ],
+   "verified": [
+    "owns"
+   ],
+   "phrases": [
+    {
+     "phrase": "owns you",
+     "conventionality": "conventional",
+     "triggers": [
+      "owns"
+     ],
+     "source_domain": "POSSESSION",
+     "target_domain": "RELATIONSHIP",
+     "explanation_uk": "Відносини описуються як володіння власністю.",
+     "span": [
+      61,
+      69
+     ],
+     "agreement": "3/3"
+    }
+   ],
+   "passes": 3,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 68,
+     "out": 5
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 555,
+     "out": 102
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 555,
+     "out": 96
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 555,
+     "out": 96
+    }
+   ]
+  },
+  {
+   "id": 3,
+   "start": 12.699999809265137,
+   "text": "I choose to adore you from a distance, for distance will shield me from pain.",
+   "detector_raw": "adore, shield, from, pain",
+   "candidates": [
+    "adore",
+    "shield",
+    "pain"
+   ],
+   "verification": [
+    {
+     "word": "adore",
+     "contextual_meaning": "to love and admire deeply from afar",
+     "basic_meaning": "to worship or regard with deep respect and love",
+     "is_metaphor": true
+    },
+    {
+     "word": "shield",
+     "contextual_meaning": "to protect from emotional harm",
+     "basic_meaning": "a broad piece of armor carried to deflect blows",
+     "is_metaphor": true
+    },
+    {
+     "word": "pain",
+     "contextual_meaning": "emotional suffering or distress",
+     "basic_meaning": "physical discomfort or suffering",
+     "is_metaphor": true
+    }
+   ],
+   "verified": [
+    "shield",
+    "adore",
+    "pain"
+   ],
+   "phrases": [
+    {
+     "phrase": "adore you from a distance",
+     "conventionality": "creative",
+     "triggers": [
+      "adore"
+     ],
+     "source_domain": "WORSHIP",
+     "target_domain": "LOVE",
+     "explanation_uk": "Любов на відстані порівнюється з поклонінням.",
+     "span": [
+      12,
+      37
+     ],
+     "agreement": "3/3"
+    },
+    {
+     "phrase": "distance will shield me from pain",
+     "conventionality": "creative",
+     "triggers": [
+      "shield",
+      "pain"
+     ],
+     "source_domain": "PROTECTION",
+     "target_domain": "EMOTIONAL SAFETY",
+     "explanation_uk": "Відстань порівнюється з щитом, що захищає від емоційного болю.",
+     "span": [
+      43,
+      76
+     ],
+     "agreement": "3/3"
+    }
+   ],
+   "passes": 3,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 67,
+     "out": 8
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 562,
+     "out": 240
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 562,
+     "out": 242
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 562,
+     "out": 241
+    }
+   ]
+  },
+  {
+   "id": 4,
+   "start": 18.799999237060547,
+   "text": "I choose to kiss you in the wind, for the wind is gentler than my lips.",
+   "detector_raw": "none",
+   "candidates": [],
+   "verification": [],
+   "verified": [],
+   "phrases": [],
+   "passes": 3,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 69,
+     "out": 1
+    }
+   ]
+  },
+  {
+   "id": 5,
+   "start": 24.5,
+   "text": "I choose to hold you in my dreams, for in my dreams you have no end.",
+   "detector_raw": "hold, in, in, have, no, end",
+   "candidates": [
+    "hold",
+    "end"
+   ],
+   "verification": [
+    {
+     "word": "hold",
+     "contextual_meaning": "to keep someone in one's thoughts or imagination",
+     "basic_meaning": "to physically grasp or carry something",
+     "is_metaphor": true
+    },
+    {
+     "word": "end",
+     "contextual_meaning": "a point where something ceases to exist",
+     "basic_meaning": "the final part of something",
+     "is_metaphor": true
+    }
+   ],
+   "verified": [
+    "end",
+    "hold"
+   ],
+   "phrases": [
+    {
+     "phrase": "hold you in my dreams",
+     "conventionality": "creative",
+     "triggers": [
+      "hold"
+     ],
+     "source_domain": "PHYSICAL ACTION",
+     "target_domain": "THOUGHTS",
+     "explanation_uk": "Тримати когось у снах означає зберігати їх у своїх думках.",
+     "span": [
+      12,
+      33
+     ],
+     "agreement": "3/3"
+    },
+    {
+     "phrase": "you have no end",
+     "conventionality": "creative",
+     "triggers": [
+      "end"
+     ],
+     "source_domain": "TIME",
+     "target_domain": "EXISTENCE",
+     "explanation_uk": "Вираження \"ти не маєш кінця\" означає, що щось триває вічно.",
+     "span": [
+      52,
+      67
+     ],
+     "agreement": "3/3"
+    }
+   ],
+   "passes": 3,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 68,
+     "out": 11
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 543,
+     "out": 205
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 543,
+     "out": 198
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 543,
+     "out": 214
+    }
+   ]
+  }
+ ],
+ "stats": {
+  "sentences": 5,
+  "words": 77,
+  "phrases": 6,
+  "verified_words": 7,
+  "creative": 4,
+  "conventional": 2,
+  "density_per_100_words": 7.79,
+  "creative_per_100_words": 5.19,
+  "errors": 0,
+  "borderline": 0,
+  "stable": 6,
+  "verifier_passes": 3,
+  "cost_usd_estimate": 0.0408
+ }
+}

@@ -1,0 +1,892 @@
+{
+ "source": {
+  "type": "youtube",
+  "url": "https://www.youtube.com/shorts/NqtKIa347bw",
+  "id": "NqtKIa347bw",
+  "title": "Why making your bed can change your life #motivation #dicsipline #makeyourbed #shorts",
+  "uploader": "Skrouby Production",
+  "duration": 96,
+  "webpage_url": "https://www.youtube.com/watch?v=NqtKIa347bw",
+  "upload_date": "20260920"
+ },
+ "created": "2026-09-23T01:22:39",
+ "models": {
+  "asr": "whisper-1",
+  "detector": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+  "verifier": "gpt-4o-2024-08-06"
+ },
+ "transcript": "So here are the 10 lessons I learned from basic SEAL training that hopefully will be of value to you as you move forward in life. Every morning in SEAL training, my instructors, who at the time were all Vietnam veterans, would show up in my barracks room, and the first thing they'd do was inspect my bed. If you did it right, the corners would be square, the covers would be pulled tight, the pillow centered just under the headboard, and the extra blanket folded neatly at the foot of the rack. It was a simple task, mundane at best, but every morning we were required to make our bed to perfection. It seemed a little ridiculous at the time, particularly in light of the fact that we were aspiring to be real warriors, tough, battle-hardened SEALs, but the wisdom of this simple act has been proven to me many times over. If you make your bed every morning, you will have accomplished the first task of the day. It will give you a small sense of pride, and it will encourage you to do another task, and another, and another, and by the end of the day, that one task completed will have turned into many tasks completed. Making your bed will also reinforce the fact that the little things in life matter. If you can't do the little things right, you'll never be able to do the big things right. And if by chance you have a miserable day, you will come home to a bed that is made. And a made bed gives you encouragement that tomorrow will be better. So if you want to change the world, start off by making your bed.",
+ "sentences": [
+  {
+   "id": 1,
+   "start": 0.0,
+   "text": "So here are the 10 lessons I learned from basic SEAL training that hopefully will be of value to you as you move forward in life.",
+   "detector_raw": "here, from, of, move, forward, in",
+   "candidates": [
+    "move",
+    "forward"
+   ],
+   "verification": [
+    {
+     "word": "move",
+     "contextual_meaning": "progress or advance in life",
+     "basic_meaning": "change position or go from one place to another",
+     "is_metaphor": true
+    },
+    {
+     "word": "forward",
+     "contextual_meaning": "progressing or advancing in life",
+     "basic_meaning": "toward the front or a place ahead",
+     "is_metaphor": true
+    }
+   ],
+   "verified": [
+    "forward",
+    "move"
+   ],
+   "phrases": [
+    {
+     "phrase": "move forward in life",
+     "conventionality": "conventional",
+     "triggers": [
+      "move",
+      "forward"
+     ],
+     "source_domain": "MOTION",
+     "target_domain": "LIFE",
+     "explanation_uk": "Прогрес у житті порівнюється з рухом уперед.",
+     "span": [
+      108,
+      128
+     ],
+     "agreement": "3/3"
+    }
+   ],
+   "passes": 3,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 79,
+     "out": 11
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 574,
+     "out": 138
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 574,
+     "out": 140
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 574,
+     "out": 140
+    }
+   ]
+  },
+  {
+   "id": 2,
+   "start": 7.940000057220459,
+   "text": "Every morning in SEAL training, my instructors, who at the time were all Vietnam veterans, would show up in my barracks room, and the first thing they'd do was inspect my bed.",
+   "detector_raw": "at, thing",
+   "candidates": [
+    "thing"
+   ],
+   "verification": [
+    {
+     "word": "thing",
+     "contextual_meaning": "an action or task that is done or performed",
+     "basic_meaning": "an object or item",
+     "is_metaphor": true
+    }
+   ],
+   "verified": [
+    "thing"
+   ],
+   "phrases": [
+    {
+     "phrase": "the first thing",
+     "conventionality": "conventional",
+     "triggers": [
+      "thing"
+     ],
+     "source_domain": "OBJECT",
+     "target_domain": "ACTION",
+     "explanation_uk": "Дії розглядаються як об'єкти, які можна виконати.",
+     "span": [
+      130,
+      145
+     ],
+     "agreement": "2/3"
+    }
+   ],
+   "passes": 3,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 89,
+     "out": 3
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 613,
+     "out": 103
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 613,
+     "out": 96
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 613,
+     "out": 101
+    }
+   ]
+  },
+  {
+   "id": 3,
+   "start": 18.639999389648438,
+   "text": "If you did it right, the corners would be square, the covers would be pulled tight, the pillow centered just under the headboard, and the extra blanket folded neatly at the foot of the rack.",
+   "detector_raw": "none",
+   "candidates": [],
+   "verification": [],
+   "verified": [],
+   "phrases": [],
+   "passes": 3,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 91,
+     "out": 1
+    }
+   ]
+  },
+  {
+   "id": 4,
+   "start": 28.799999237060547,
+   "text": "It was a simple task, mundane at best, but every morning we were required to make our bed to perfection.",
+   "detector_raw": "at, make, to",
+   "candidates": [
+    "make"
+   ],
+   "verification": [
+    {
+     "word": "make",
+     "contextual_meaning": "to arrange or prepare the bed neatly and correctly",
+     "basic_meaning": "to create or bring into existence",
+     "is_metaphor": true
+    }
+   ],
+   "verified": [
+    "make"
+   ],
+   "phrases": [
+    {
+     "phrase": "make our bed",
+     "conventionality": "conventional",
+     "triggers": [
+      "make"
+     ],
+     "source_domain": "CREATION",
+     "target_domain": "TASK",
+     "explanation_uk": "Завдання з прибирання ліжка розглядається як акт створення чогось нового.",
+     "span": [
+      77,
+      89
+     ],
+     "agreement": "3/3"
+    }
+   ],
+   "passes": 3,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 73,
+     "out": 5
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 618,
+     "out": 107
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 618,
+     "out": 107
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 618,
+     "out": 105
+    }
+   ]
+  },
+  {
+   "id": 5,
+   "start": 36.279998779296875,
+   "text": "It seemed a little ridiculous at the time, particularly in light of the fact that we were aspiring to be real warriors, tough, battle-hardened SEALs, but the wisdom of this simple act has been proven to me many times over.",
+   "detector_raw": "at, in, light, aspiring, this, over",
+   "candidates": [
+    "light",
+    "aspiring"
+   ],
+   "verification": [
+    {
+     "word": "light",
+     "contextual_meaning": "considering or taking into account the fact",
+     "basic_meaning": "the natural agent that makes things visible",
+     "is_metaphor": true
+    },
+    {
+     "word": "aspiring",
+     "contextual_meaning": "having ambitions to achieve something",
+     "basic_meaning": "rising or soaring to a great height",
+     "is_metaphor": true
+    }
+   ],
+   "verified": [
+    "light",
+    "aspiring"
+   ],
+   "phrases": [
+    {
+     "phrase": "in light of",
+     "conventionality": "conventional",
+     "triggers": [
+      "light"
+     ],
+     "source_domain": "VISION",
+     "target_domain": "UNDERSTANDING",
+     "explanation_uk": "Фраза означає розглядати щось з урахуванням певних фактів, як ніби вони освітлюють ситуацію.",
+     "span": [
+      56,
+      67
+     ],
+     "agreement": "2/3"
+    },
+    {
+     "phrase": "aspiring to be",
+     "conventionality": "conventional",
+     "triggers": [
+      "aspiring"
+     ],
+     "source_domain": "ASCENT",
+     "target_domain": "AMBITION",
+     "explanation_uk": "Фраза означає прагнення досягти чогось, як ніби піднімаючись до висоти.",
+     "span": [
+      90,
+      104
+     ],
+     "agreement": "2/3"
+    }
+   ],
+   "passes": 3,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 100,
+     "out": 11
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 598,
+     "out": 216
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 598,
+     "out": 211
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 598,
+     "out": 217
+    }
+   ]
+  },
+  {
+   "id": 6,
+   "start": 51.47999954223633,
+   "text": "If you make your bed every morning, you will have accomplished the first task of the day.",
+   "detector_raw": "make, have",
+   "candidates": [
+    "make"
+   ],
+   "verification": [
+    {
+     "word": "make",
+     "contextual_meaning": "to arrange or tidy up the bed",
+     "basic_meaning": "to create or bring into existence",
+     "is_metaphor": true
+    }
+   ],
+   "verified": [
+    "make"
+   ],
+   "phrases": [
+    {
+     "phrase": "make your bed",
+     "conventionality": "conventional",
+     "triggers": [
+      "make"
+     ],
+     "source_domain": "CREATION",
+     "target_domain": "DAILY ROUTINE",
+     "explanation_uk": "Вислів «застелити ліжко» переносить значення створення чогось нового на виконання щоденних рутинних завдань.",
+     "span": [
+      7,
+      20
+     ],
+     "agreement": "3/3"
+    }
+   ],
+   "passes": 3,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 69,
+     "out": 3
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 619,
+     "out": 120
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 619,
+     "out": 115
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 619,
+     "out": 102
+    }
+   ]
+  },
+  {
+   "id": 7,
+   "start": 56.599998474121094,
+   "text": "It will give you a small sense of pride, and it will encourage you to do another task, and another, and another, and by the end of the day, that one task completed will have turned into many tasks completed.",
+   "detector_raw": "give, sense, of, encourage, that, turned, into",
+   "candidates": [
+    "give",
+    "sense",
+    "encourage",
+    "turned"
+   ],
+   "verification": [
+    {
+     "word": "give",
+     "contextual_meaning": "provide or grant a feeling or emotion",
+     "basic_meaning": "transfer possession of something to someone",
+     "is_metaphor": true
+    },
+    {
+     "word": "sense",
+     "contextual_meaning": "a feeling or perception of pride",
+     "basic_meaning": "a faculty by which the body perceives an external stimulus",
+     "is_metaphor": true
+    },
+    {
+     "word": "encourage",
+     "contextual_meaning": "motivate or inspire to take action",
+     "basic_meaning": "give support, confidence, or hope to someone",
+     "is_metaphor": true
+    },
+    {
+     "word": "turned",
+     "contextual_meaning": "transformed or changed into something else",
+     "basic_meaning": "move in a circular direction",
+     "is_metaphor": true
+    }
+   ],
+   "verified": [
+    "encourage",
+    "give",
+    "turned",
+    "sense"
+   ],
+   "phrases": [
+    {
+     "phrase": "give you a small sense of pride",
+     "conventionality": "conventional",
+     "triggers": [
+      "give",
+      "sense"
+     ],
+     "source_domain": "TRANSFER",
+     "target_domain": "EMOTION",
+     "explanation_uk": "Емоції передаються як об'єкти.",
+     "span": [
+      8,
+      39
+     ],
+     "agreement": "3/3"
+    },
+    {
+     "phrase": "encourage you to do another task",
+     "conventionality": "conventional",
+     "triggers": [
+      "encourage"
+     ],
+     "source_domain": "SUPPORT",
+     "target_domain": "MOTIVATION",
+     "explanation_uk": "Мотивація подається як підтримка.",
+     "span": [
+      53,
+      85
+     ],
+     "agreement": "3/3"
+    },
+    {
+     "phrase": "turned into many tasks completed",
+     "conventionality": "conventional",
+     "triggers": [
+      "turned"
+     ],
+     "source_domain": "TRANSFORMATION",
+     "target_domain": "ACHIEVEMENT",
+     "explanation_uk": "Завершення завдань подається як перетворення.",
+     "span": [
+      174,
+      206
+     ],
+     "agreement": "3/3"
+    }
+   ],
+   "passes": 3,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 96,
+     "out": 13
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 591,
+     "out": 322
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 591,
+     "out": 318
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 591,
+     "out": 331
+    }
+   ]
+  },
+  {
+   "id": 8,
+   "start": 69.27999877929688,
+   "text": "Making your bed will also reinforce the fact that the little things in life matter.",
+   "detector_raw": "reinforce, things, in",
+   "candidates": [
+    "reinforce",
+    "things"
+   ],
+   "verification": [
+    {
+     "word": "reinforce",
+     "contextual_meaning": "to strengthen or support an idea or belief",
+     "basic_meaning": "to strengthen a physical structure or material",
+     "is_metaphor": true
+    },
+    {
+     "word": "things",
+     "contextual_meaning": "tasks or actions in life",
+     "basic_meaning": "physical objects",
+     "is_metaphor": true
+    }
+   ],
+   "verified": [
+    "things",
+    "reinforce"
+   ],
+   "phrases": [
+    {
+     "phrase": "reinforce the fact",
+     "conventionality": "conventional",
+     "triggers": [
+      "reinforce"
+     ],
+     "source_domain": "PHYSICAL STRENGTHENING",
+     "target_domain": "MENTAL SUPPORT",
+     "explanation_uk": "Посилити факт означає зміцнити або підтримати ідею чи переконання.",
+     "span": [
+      26,
+      44
+     ],
+     "agreement": "3/3"
+    },
+    {
+     "phrase": "the little things in life",
+     "conventionality": "conventional",
+     "triggers": [
+      "things"
+     ],
+     "source_domain": "OBJECTS",
+     "target_domain": "TASKS",
+     "explanation_uk": "Маленькі речі в житті означають незначні завдання або дії.",
+     "span": [
+      50,
+      75
+     ],
+     "agreement": "3/3"
+    }
+   ],
+   "passes": 3,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 66,
+     "out": 6
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 588,
+     "out": 203
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 588,
+     "out": 207
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 588,
+     "out": 198
+    }
+   ]
+  },
+  {
+   "id": 9,
+   "start": 74.4000015258789,
+   "text": "If you can't do the little things right, you'll never be able to do the big things right.",
+   "detector_raw": "little, things, big, things",
+   "candidates": [
+    "little",
+    "things",
+    "big"
+   ],
+   "verification": [
+    {
+     "word": "little",
+     "contextual_meaning": "of minor importance or significance",
+     "basic_meaning": "small in size",
+     "is_metaphor": true
+    },
+    {
+     "word": "things",
+     "contextual_meaning": "tasks or actions",
+     "basic_meaning": "physical objects",
+     "is_metaphor": true
+    },
+    {
+     "word": "big",
+     "contextual_meaning": "of major importance or significance",
+     "basic_meaning": "large in size",
+     "is_metaphor": true
+    }
+   ],
+   "verified": [
+    "little",
+    "things",
+    "big"
+   ],
+   "phrases": [
+    {
+     "phrase": "the little things",
+     "conventionality": "conventional",
+     "triggers": [
+      "little",
+      "things"
+     ],
+     "source_domain": "SIZE",
+     "target_domain": "IMPORTANCE",
+     "explanation_uk": "Маленькі речі символізують незначні, але важливі завдання.",
+     "span": [
+      16,
+      33
+     ],
+     "agreement": "3/3"
+    },
+    {
+     "phrase": "the big things",
+     "conventionality": "conventional",
+     "triggers": [
+      "big",
+      "things"
+     ],
+     "source_domain": "SIZE",
+     "target_domain": "IMPORTANCE",
+     "explanation_uk": "Великі речі символізують значні та важливі завдання.",
+     "span": [
+      68,
+      82
+     ],
+     "agreement": "3/3"
+    }
+   ],
+   "passes": 3,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 70,
+     "out": 7
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 565,
+     "out": 210
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 565,
+     "out": 207
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 565,
+     "out": 211
+    }
+   ]
+  },
+  {
+   "id": 10,
+   "start": 79.63999938964844,
+   "text": "And if by chance you have a miserable day, you will come home to a bed that is made.",
+   "detector_raw": "have, made",
+   "candidates": [
+    "made"
+   ],
+   "verification": [
+    {
+     "word": "made",
+     "contextual_meaning": "prepared or arranged neatly",
+     "basic_meaning": "created or constructed",
+     "is_metaphor": true
+    }
+   ],
+   "verified": [
+    "made"
+   ],
+   "phrases": [
+    {
+     "phrase": "a bed that is made",
+     "conventionality": "conventional",
+     "triggers": [
+      "made"
+     ],
+     "source_domain": "CREATION",
+     "target_domain": "ORDER",
+     "explanation_uk": "Зроблене ліжко символізує порядок і контроль у житті.",
+     "span": [
+      65,
+      83
+     ],
+     "agreement": "2/3"
+    }
+   ],
+   "passes": 3,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 71,
+     "out": 3
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 558,
+     "out": 94
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 558,
+     "out": 94
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 558,
+     "out": 38
+    }
+   ]
+  },
+  {
+   "id": 11,
+   "start": 86.87999725341797,
+   "text": "And a made bed gives you encouragement that tomorrow will be better.",
+   "detector_raw": "gives",
+   "candidates": [
+    "gives"
+   ],
+   "verification": [
+    {
+     "word": "gives",
+     "contextual_meaning": "provides or offers encouragement",
+     "basic_meaning": "to physically hand over or present something to someone",
+     "is_metaphor": true
+    }
+   ],
+   "verified": [
+    "gives"
+   ],
+   "phrases": [
+    {
+     "phrase": "gives you encouragement",
+     "conventionality": "conventional",
+     "triggers": [
+      "gives"
+     ],
+     "source_domain": "TRANSFER",
+     "target_domain": "EMOTION",
+     "explanation_uk": "Емоційна підтримка представлена як фізичний об'єкт, який можна передати.",
+     "span": [
+      15,
+      38
+     ],
+     "agreement": "3/3"
+    }
+   ],
+   "passes": 3,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 63,
+     "out": 2
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 554,
+     "out": 106
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 554,
+     "out": 106
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 554,
+     "out": 106
+    }
+   ]
+  },
+  {
+   "id": 12,
+   "start": 92.16000366210938,
+   "text": "So if you want to change the world, start off by making your bed.",
+   "detector_raw": "change, world, start, off, making",
+   "candidates": [
+    "change",
+    "world",
+    "start",
+    "making"
+   ],
+   "verification": [
+    {
+     "word": "change",
+     "contextual_meaning": "to make a significant impact or difference in the world.",
+     "basic_meaning": "to make or become different.",
+     "is_metaphor": true
+    },
+    {
+     "word": "world",
+     "contextual_meaning": "the state of human society or the environment in general.",
+     "basic_meaning": "the earth, together with all of its countries, peoples, and natural features.",
+     "is_metaphor": true
+    },
+    {
+     "word": "start",
+     "contextual_meaning": "to begin a process or action.",
+     "basic_meaning": "to set out on a journey or activity.",
+     "is_metaphor": false
+    },
+    {
+     "word": "making",
+     "contextual_meaning": "to arrange or prepare the bed neatly.",
+     "basic_meaning": "to create or form something.",
+     "is_metaphor": false
+    }
+   ],
+   "verified": [
+    "change",
+    "world"
+   ],
+   "phrases": [
+    {
+     "phrase": "change the world",
+     "conventionality": "conventional",
+     "triggers": [
+      "change",
+      "world"
+     ],
+     "source_domain": "TRANSFORMATION",
+     "target_domain": "SOCIETY",
+     "explanation_uk": "Змінити світ означає зробити значний вплив на суспільство або навколишнє середовище.",
+     "span": [
+      18,
+      34
+     ],
+     "agreement": "3/3"
+    }
+   ],
+   "passes": 3,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 66,
+     "out": 9
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 539,
+     "out": 231
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 539,
+     "out": 232
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 539,
+     "out": 227
+    }
+   ]
+  }
+ ],
+ "stats": {
+  "sentences": 12,
+  "words": 287,
+  "phrases": 16,
+  "verified_words": 20,
+  "creative": 0,
+  "conventional": 16,
+  "density_per_100_words": 5.57,
+  "creative_per_100_words": 0.0,
+  "errors": 0,
+  "borderline": 4,
+  "stable": 12,
+  "verifier_passes": 3,
+  "cost_usd_estimate": 0.117
+ }
+}

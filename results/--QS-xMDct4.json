@@ -1,0 +1,2185 @@
+{
+ "source": {
+  "type": "youtube",
+  "url": "https://www.youtube.com/shorts/--QS-xMDct4",
+  "id": "--QS-xMDct4",
+  "title": "When the RIZZ is TOO GOOD #relatable #meme #funny #skit #comedy",
+  "uploader": "Nathan Doan Comedy",
+  "duration": 179,
+  "webpage_url": "https://www.youtube.com/watch?v=--QS-xMDct4",
+  "upload_date": "20260718"
+ },
+ "created": "2026-09-23T01:11:46",
+ "models": {
+  "asr": "whisper-1",
+  "detector": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+  "verifier": "gpt-4o-2024-08-06"
+ },
+ "transcript": "When a girl you like asks you if you're up, what's the best way to respond? With a funny joke? Or with a confident flirt? Answer is... It depends. If it's Lizzie, a witty joke a day will make her fall in love with you right away. From that ping pong game against you today? Yeah, I'm still up. If it's Rachel, she's a little wild so something risky will be perfect. Yeah, I'm up. If you know the kind of fish you're up against, you'll know the exact kind of bait you need to use to reel it in. If you don't? Well, it'll probably just ignore you and swim far, far away until you've completely lost sight of it. Um, that's a little quick though. Sorry, I'm looking for something long term. We can be friends though. It was the wrong bait. Or rather, the wrong fish. See, I thought salmon was like the others. Small betta fish waiting to get caught. But she was something much, much bigger. I had used the wrong bait on her, but hear me out. I've been talking to Sammy for two months now, taken her out on two dates, met her dog, yada yada yada, and now she was swimming away. But I didn't lose sight of her just yet. You know I don't want to just be friends with you. Well, what do you want to be then? Something long term? Yeah. Saying yes to her was like my free get out of jail card. She basically just handed it to me, and all I had to do was take it. But my intention with her was to have a bit of fun, not to be her boyfriend. I ain't no liar. I'll be straightforward with you. I'm not looking for a long term relationship right now, but I think you're really cute, and I always look forward to hanging with you. Okay. I respect your decision if you want to end things here, but I just want you to know you're not just some random girl I don't care about. I can't tell if you actually care or if you're just desperate. You think I would have happily dog sat dumpling for you despite my allergy to dogs if I didn't care? Okay, true. How many other girls are you talking to, talking to, or crushing on? Because depending on which one, one is the answer. I just don't want to get hurt from this. Just don't fall in love with me. I know, I know. It might be hard. My dad has a shotgun FYI. I'm more scared of your allergy filled dog. You see, when other people try to fish, they're fishing in the whole ocean where the fish can get away. When I'm fishing, it's in a confined tank. No matter how far away the fish tries to swim, I'll always be able to catch it.",
+ "sentences": [
+  {
+   "id": 1,
+   "start": 0.0,
+   "text": "When a girl you like asks you if you're up, what's the best way to respond?",
+   "detector_raw": "asks, up, way",
+   "candidates": [
+    "asks",
+    "way"
+   ],
+   "verification": [
+    {
+     "word": "asks",
+     "contextual_meaning": "to inquire or request information from someone.",
+     "basic_meaning": "to say something in order to obtain an answer or some information.",
+     "is_metaphor": false
+    },
+    {
+     "word": "way",
+     "contextual_meaning": "a method or manner of doing something.",
+     "basic_meaning": "a path or road for traveling.",
+     "is_metaphor": true
+    }
+   ],
+   "verified": [
+    "way"
+   ],
+   "phrases": [
+    {
+     "phrase": "way to respond",
+     "conventionality": "conventional",
+     "triggers": [
+      "way"
+     ],
+     "source_domain": "PATH",
+     "target_domain": "METHOD",
+     "explanation_uk": "Спосіб відповіді розглядається як шлях, яким можна піти.",
+     "span": [
+      60,
+      74
+     ],
+     "agreement": "3/3"
+    }
+   ],
+   "passes": 3,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 68,
+     "out": 5
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 529,
+     "out": 140
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 529,
+     "out": 140
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 529,
+     "out": 141
+    }
+   ]
+  },
+  {
+   "id": 2,
+   "start": 4.480000019073486,
+   "text": "With a funny joke?",
+   "detector_raw": "With",
+   "candidates": [],
+   "verification": [],
+   "verified": [],
+   "phrases": [],
+   "passes": 3,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 55,
+     "out": 1
+    }
+   ]
+  },
+  {
+   "id": 3,
+   "start": 6.239999771118164,
+   "text": "Or with a confident flirt?",
+   "detector_raw": "with",
+   "candidates": [],
+   "verification": [],
+   "verified": [],
+   "phrases": [],
+   "passes": 3,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 56,
+     "out": 1
+    }
+   ]
+  },
+  {
+   "id": 4,
+   "start": 8.399999618530273,
+   "text": "Answer is...",
+   "detector_raw": "none",
+   "candidates": [],
+   "verification": [],
+   "verified": [],
+   "phrases": [],
+   "passes": 3,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 53,
+     "out": 1
+    }
+   ]
+  },
+  {
+   "id": 5,
+   "start": 10.239999771118164,
+   "text": "It depends.",
+   "detector_raw": "none",
+   "candidates": [],
+   "verification": [],
+   "verified": [],
+   "phrases": [],
+   "passes": 3,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 53,
+     "out": 1
+    }
+   ]
+  },
+  {
+   "id": 6,
+   "start": 11.520000457763672,
+   "text": "If it's Lizzie, a witty joke a day will make her fall in love with you right away.",
+   "detector_raw": "make, fall, with",
+   "candidates": [
+    "make",
+    "fall"
+   ],
+   "verification": [
+    {
+     "word": "make",
+     "contextual_meaning": "cause or bring about a certain action or state",
+     "basic_meaning": "create or construct something",
+     "is_metaphor": false
+    },
+    {
+     "word": "fall",
+     "contextual_meaning": "develop a romantic attraction",
+     "basic_meaning": "move downward freely under the influence of gravity",
+     "is_metaphor": true
+    }
+   ],
+   "verified": [
+    "fall"
+   ],
+   "phrases": [
+    {
+     "phrase": "fall in love",
+     "conventionality": "conventional",
+     "triggers": [
+      "fall"
+     ],
+     "source_domain": "PHYSICAL MOVEMENT",
+     "target_domain": "EMOTION",
+     "explanation_uk": "Закохатися описується як фізичне падіння.",
+     "span": [
+      49,
+      61
+     ],
+     "agreement": "2/3"
+    }
+   ],
+   "passes": 3,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 71,
+     "out": 5
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 539,
+     "out": 131
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 539,
+     "out": 135
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 539,
+     "out": 139
+    }
+   ]
+  },
+  {
+   "id": 7,
+   "start": 15.279999732971191,
+   "text": "From that ping pong game against you today?",
+   "detector_raw": "From, that, against",
+   "candidates": [],
+   "verification": [],
+   "verified": [],
+   "phrases": [],
+   "passes": 3,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 59,
+     "out": 5
+    }
+   ]
+  },
+  {
+   "id": 8,
+   "start": 17.360000610351562,
+   "text": "Yeah, I'm still up.",
+   "detector_raw": "up",
+   "candidates": [],
+   "verification": [],
+   "verified": [],
+   "phrases": [],
+   "passes": 3,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 56,
+     "out": 1
+    }
+   ]
+  },
+  {
+   "id": 9,
+   "start": 19.760000228881836,
+   "text": "If it's Rachel, she's a little wild so something risky will be perfect.",
+   "detector_raw": "wild",
+   "candidates": [
+    "wild"
+   ],
+   "verification": [
+    {
+     "word": "wild",
+     "contextual_meaning": "unconventional or adventurous in behavior",
+     "basic_meaning": "living or growing in the natural environment; not domesticated or cultivated",
+     "is_metaphor": true
+    }
+   ],
+   "verified": [
+    "wild"
+   ],
+   "phrases": [
+    {
+     "phrase": "a little wild",
+     "conventionality": "conventional",
+     "triggers": [
+      "wild"
+     ],
+     "source_domain": "NATURE",
+     "target_domain": "BEHAVIOR",
+     "explanation_uk": "Дикість природи переноситься на поведінку людини, яка є непередбачуваною або авантюрною.",
+     "span": [
+      22,
+      35
+     ],
+     "agreement": "3/3"
+    }
+   ],
+   "passes": 3,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 65,
+     "out": 1
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 530,
+     "out": 118
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 530,
+     "out": 118
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 530,
+     "out": 118
+    }
+   ]
+  },
+  {
+   "id": 10,
+   "start": 24.239999771118164,
+   "text": "Yeah, I'm up.",
+   "detector_raw": "up",
+   "candidates": [],
+   "verification": [],
+   "verified": [],
+   "phrases": [],
+   "passes": 3,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 55,
+     "out": 1
+    }
+   ]
+  },
+  {
+   "id": 11,
+   "start": 25.84000015258789,
+   "text": "If you know the kind of fish you're up against, you'll know the exact kind of bait you need to use to reel it in.",
+   "detector_raw": "up, against, bait, reel, in",
+   "candidates": [
+    "bait",
+    "reel"
+   ],
+   "verification": [
+    {
+     "word": "bait",
+     "contextual_meaning": "something used to entice or attract someone or something.",
+     "basic_meaning": "food used to entice fish or other animals as prey.",
+     "is_metaphor": true
+    },
+    {
+     "word": "reel",
+     "contextual_meaning": "to bring something in or under control, often with effort.",
+     "basic_meaning": "to wind a line onto a reel, typically in fishing.",
+     "is_metaphor": true
+    }
+   ],
+   "verified": [
+    "bait",
+    "reel"
+   ],
+   "phrases": [
+    {
+     "phrase": "bait you need to use to reel it in",
+     "conventionality": "creative",
+     "triggers": [
+      "bait",
+      "reel"
+     ],
+     "source_domain": "FISHING",
+     "target_domain": "STRATEGY",
+     "explanation_uk": "Якщо ви знаєте, з якою рибою маєте справу, ви знаєте, яку приманку використовувати, щоб її зловити.",
+     "span": [
+      78,
+      112
+     ],
+     "agreement": "3/3"
+    }
+   ],
+   "passes": 3,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 77,
+     "out": 9
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 542,
+     "out": 179
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 542,
+     "out": 186
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 542,
+     "out": 180
+    }
+   ]
+  },
+  {
+   "id": 12,
+   "start": 33.91999816894531,
+   "text": "If you don't?",
+   "detector_raw": "none",
+   "candidates": [],
+   "verification": [],
+   "verified": [],
+   "phrases": [],
+   "passes": 3,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 54,
+     "out": 1
+    }
+   ]
+  },
+  {
+   "id": 13,
+   "start": 35.68000030517578,
+   "text": "Well, it'll probably just ignore you and swim far, far away until you've completely lost sight of it.",
+   "detector_raw": "ignore, swim",
+   "candidates": [
+    "ignore",
+    "swim"
+   ],
+   "verification": [
+    {
+     "word": "ignore",
+     "contextual_meaning": "to not pay attention to or acknowledge something or someone.",
+     "basic_meaning": "to refuse to take notice of or acknowledge; disregard intentionally.",
+     "is_metaphor": false
+    },
+    {
+     "word": "swim",
+     "contextual_meaning": "to move through water by moving parts of the body.",
+     "basic_meaning": "to propel oneself in water by natural means, such as moving limbs or fins.",
+     "is_metaphor": false
+    }
+   ],
+   "verified": [],
+   "phrases": [],
+   "passes": 3,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 71,
+     "out": 3
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 539,
+     "out": 100
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 539,
+     "out": 89
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 539,
+     "out": 89
+    }
+   ]
+  },
+  {
+   "id": 14,
+   "start": 44.959999084472656,
+   "text": "Um, that's a little quick though.",
+   "detector_raw": "that's, quick",
+   "candidates": [
+    "quick"
+   ],
+   "verification": [
+    {
+     "word": "quick",
+     "contextual_meaning": "happening sooner than expected or desired",
+     "basic_meaning": "moving or happening at a fast speed",
+     "is_metaphor": true
+    }
+   ],
+   "verified": [
+    "quick"
+   ],
+   "phrases": [
+    {
+     "phrase": "a little quick",
+     "conventionality": "conventional",
+     "triggers": [
+      "quick"
+     ],
+     "source_domain": "SPEED",
+     "target_domain": "TIME",
+     "explanation_uk": "Швидкість використовується для опису несподіваної швидкості подій у часі.",
+     "span": [
+      11,
+      25
+     ],
+     "agreement": "3/3"
+    }
+   ],
+   "passes": 3,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 58,
+     "out": 3
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 542,
+     "out": 106
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 542,
+     "out": 101
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 542,
+     "out": 99
+    }
+   ]
+  },
+  {
+   "id": 15,
+   "start": 46.2400016784668,
+   "text": "Sorry, I'm looking for something long term.",
+   "detector_raw": "looking, long",
+   "candidates": [
+    "looking",
+    "long"
+   ],
+   "verification": [
+    {
+     "word": "looking",
+     "contextual_meaning": "searching or seeking for something",
+     "basic_meaning": "using one's eyes to see",
+     "is_metaphor": true
+    },
+    {
+     "word": "long",
+     "contextual_meaning": "lasting for a significant amount of time",
+     "basic_meaning": "having great physical length",
+     "is_metaphor": true
+    }
+   ],
+   "verified": [
+    "looking",
+    "long"
+   ],
+   "phrases": [
+    {
+     "phrase": "looking for something long term",
+     "conventionality": "conventional",
+     "triggers": [
+      "looking",
+      "long"
+     ],
+     "source_domain": "VISION / TIME",
+     "target_domain": "SEARCH / DURATION",
+     "explanation_uk": "Пошук чогось тривалого порівнюється з фізичним баченням і довжиною.",
+     "span": [
+      11,
+      42
+     ],
+     "agreement": "3/3"
+    }
+   ],
+   "passes": 3,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 59,
+     "out": 3
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 529,
+     "out": 146
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 529,
+     "out": 138
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 529,
+     "out": 142
+    }
+   ]
+  },
+  {
+   "id": 16,
+   "start": 47.599998474121094,
+   "text": "We can be friends though.",
+   "detector_raw": "none",
+   "candidates": [],
+   "verification": [],
+   "verified": [],
+   "phrases": [],
+   "passes": 3,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 56,
+     "out": 1
+    }
+   ]
+  },
+  {
+   "id": 17,
+   "start": 49.52000045776367,
+   "text": "It was the wrong bait.",
+   "detector_raw": "bait",
+   "candidates": [
+    "bait"
+   ],
+   "verification": [
+    {
+     "word": "bait",
+     "contextual_meaning": "something used to attract or entice someone or something",
+     "basic_meaning": "food used to entice fish or other animals as prey",
+     "is_metaphor": true
+    }
+   ],
+   "verified": [
+    "bait"
+   ],
+   "phrases": [
+    {
+     "phrase": "the wrong bait",
+     "conventionality": "conventional",
+     "triggers": [
+      "bait"
+     ],
+     "source_domain": "FISHING",
+     "target_domain": "ENTICEMENT",
+     "explanation_uk": "Неправильна приманка означає щось, що не приваблює або не спокушає так, як очікувалося.",
+     "span": [
+      7,
+      21
+     ],
+     "agreement": "3/3"
+    }
+   ],
+   "passes": 3,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 56,
+     "out": 1
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 523,
+     "out": 124
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 523,
+     "out": 118
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 523,
+     "out": 121
+    }
+   ]
+  },
+  {
+   "id": 18,
+   "start": 51.439998626708984,
+   "text": "Or rather, the wrong fish.",
+   "detector_raw": "none",
+   "candidates": [],
+   "verification": [],
+   "verified": [],
+   "phrases": [],
+   "passes": 3,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 57,
+     "out": 1
+    }
+   ]
+  },
+  {
+   "id": 19,
+   "start": 54.31999969482422,
+   "text": "See, I thought salmon was like the others.",
+   "detector_raw": "See",
+   "candidates": [
+    "see"
+   ],
+   "verification": [
+    {
+     "word": "see",
+     "contextual_meaning": "used to draw attention to a statement or to explain something",
+     "basic_meaning": "to perceive with the eyes",
+     "is_metaphor": true
+    }
+   ],
+   "verified": [
+    "see"
+   ],
+   "phrases": [
+    {
+     "phrase": "See,",
+     "conventionality": "conventional",
+     "triggers": [
+      "see"
+     ],
+     "source_domain": "VISION",
+     "target_domain": "UNDERSTANDING",
+     "explanation_uk": "Слово 'дивись' використовується для привернення уваги до пояснення, як бачення допомагає зрозуміти.",
+     "span": [
+      0,
+      4
+     ],
+     "agreement": "2/3"
+    }
+   ],
+   "passes": 3,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 60,
+     "out": 1
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 530,
+     "out": 116
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 530,
+     "out": 116
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 530,
+     "out": 47
+    }
+   ]
+  },
+  {
+   "id": 20,
+   "start": 56.560001373291016,
+   "text": "Small betta fish waiting to get caught.",
+   "detector_raw": "none",
+   "candidates": [],
+   "verification": [],
+   "verified": [],
+   "phrases": [],
+   "passes": 3,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 59,
+     "out": 1
+    }
+   ]
+  },
+  {
+   "id": 21,
+   "start": 59.439998626708984,
+   "text": "But she was something much, much bigger.",
+   "detector_raw": "none",
+   "candidates": [],
+   "verification": [],
+   "verified": [],
+   "phrases": [],
+   "passes": 3,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 59,
+     "out": 1
+    }
+   ]
+  },
+  {
+   "id": 22,
+   "start": 63.91999816894531,
+   "text": "I had used the wrong bait on her, but hear me out.",
+   "detector_raw": "bait, on",
+   "candidates": [
+    "bait"
+   ],
+   "verification": [
+    {
+     "word": "bait",
+     "contextual_meaning": "a strategy or approach used to attract or win over someone.",
+     "basic_meaning": "food or lure used to attract fish or animals.",
+     "is_metaphor": true
+    }
+   ],
+   "verified": [
+    "bait"
+   ],
+   "phrases": [
+    {
+     "phrase": "used the wrong bait",
+     "conventionality": "conventional",
+     "triggers": [
+      "bait"
+     ],
+     "source_domain": "FISHING",
+     "target_domain": "RELATIONSHIPS",
+     "explanation_uk": "Використання неправильного приманки означає неправильний підхід у стосунках.",
+     "span": [
+      6,
+      25
+     ],
+     "agreement": "3/3"
+    }
+   ],
+   "passes": 3,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 64,
+     "out": 3
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 559,
+     "out": 114
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 559,
+     "out": 120
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 559,
+     "out": 120
+    }
+   ]
+  },
+  {
+   "id": 23,
+   "start": 66.72000122070312,
+   "text": "I've been talking to Sammy for two months now, taken her out on two dates, met her dog, yada yada yada, and now she was swimming away.",
+   "detector_raw": "to, on, swimming, away",
+   "candidates": [
+    "swimming",
+    "away"
+   ],
+   "verification": [
+    {
+     "word": "swimming",
+     "contextual_meaning": "moving away or distancing herself from the relationship",
+     "basic_meaning": "propelling oneself through water using limbs or fins",
+     "is_metaphor": true
+    },
+    {
+     "word": "away",
+     "contextual_meaning": "to a different or distant place or state",
+     "basic_meaning": "at a distance from a particular place, person, or thing",
+     "is_metaphor": false
+    }
+   ],
+   "verified": [
+    "swimming"
+   ],
+   "phrases": [
+    {
+     "phrase": "swimming away",
+     "conventionality": "creative",
+     "triggers": [
+      "swimming"
+     ],
+     "source_domain": "WATER",
+     "target_domain": "RELATIONSHIP",
+     "explanation_uk": "Відносини описуються як плавання, де людина віддаляється, як риба, що пливе геть.",
+     "span": [
+      120,
+      133
+     ],
+     "agreement": "3/3"
+    }
+   ],
+   "passes": 3,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 82,
+     "out": 7
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 562,
+     "out": 159
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 562,
+     "out": 164
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 562,
+     "out": 158
+    }
+   ]
+  },
+  {
+   "id": 24,
+   "start": 75.27999877929688,
+   "text": "But I didn't lose sight of her just yet.",
+   "detector_raw": "lose, sight",
+   "candidates": [
+    "lose",
+    "sight"
+   ],
+   "verification": [
+    {
+     "word": "lose",
+     "contextual_meaning": "to fail to maintain a connection or understanding with someone",
+     "basic_meaning": "to no longer have something because it has been taken away or misplaced",
+     "is_metaphor": true
+    },
+    {
+     "word": "sight",
+     "contextual_meaning": "awareness or understanding of someone's actions or feelings",
+     "basic_meaning": "the ability to see with the eyes",
+     "is_metaphor": true
+    }
+   ],
+   "verified": [
+    "sight",
+    "lose"
+   ],
+   "phrases": [
+    {
+     "phrase": "lose sight of her",
+     "conventionality": "conventional",
+     "triggers": [
+      "lose",
+      "sight"
+     ],
+     "source_domain": "VISION",
+     "target_domain": "UNDERSTANDING",
+     "explanation_uk": "Втрата зору тут означає втрату розуміння або зв'язку з кимось.",
+     "span": [
+      13,
+      30
+     ],
+     "agreement": "3/3"
+    }
+   ],
+   "passes": 3,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 60,
+     "out": 3
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 560,
+     "out": 157
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 560,
+     "out": 164
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 560,
+     "out": 162
+    }
+   ]
+  },
+  {
+   "id": 25,
+   "start": 78.23999786376953,
+   "text": "You know I don't want to just be friends with you.",
+   "detector_raw": "none",
+   "candidates": [],
+   "verification": [],
+   "verified": [],
+   "phrases": [],
+   "passes": 3,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 62,
+     "out": 1
+    }
+   ]
+  },
+  {
+   "id": 26,
+   "start": 82.23999786376953,
+   "text": "Well, what do you want to be then?",
+   "detector_raw": "none",
+   "candidates": [],
+   "verification": [],
+   "verified": [],
+   "phrases": [],
+   "passes": 3,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 60,
+     "out": 1
+    }
+   ]
+  },
+  {
+   "id": 27,
+   "start": 84.08000183105469,
+   "text": "Something long term?",
+   "detector_raw": "long",
+   "candidates": [
+    "long"
+   ],
+   "verification": [
+    {
+     "word": "long",
+     "contextual_meaning": "lasting for a significant duration of time",
+     "basic_meaning": "having a great linear extent from end to end",
+     "is_metaphor": true
+    }
+   ],
+   "verified": [
+    "long"
+   ],
+   "phrases": [
+    {
+     "phrase": "long term",
+     "conventionality": "conventional",
+     "triggers": [
+      "long"
+     ],
+     "source_domain": "PHYSICAL LENGTH",
+     "target_domain": "TIME",
+     "explanation_uk": "Тривалість часу порівнюється з фізичною довжиною.",
+     "span": [
+      10,
+      19
+     ],
+     "agreement": "3/3"
+    }
+   ],
+   "passes": 3,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 54,
+     "out": 1
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 520,
+     "out": 102
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 520,
+     "out": 102
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 520,
+     "out": 102
+    }
+   ]
+  },
+  {
+   "id": 28,
+   "start": 85.68000030517578,
+   "text": "Yeah.",
+   "detector_raw": "none",
+   "candidates": [],
+   "verification": [],
+   "verified": [],
+   "phrases": [],
+   "passes": 3,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 52,
+     "out": 1
+    }
+   ]
+  },
+  {
+   "id": 29,
+   "start": 87.12000274658203,
+   "text": "Saying yes to her was like my free get out of jail card.",
+   "detector_raw": "Saying, to, free, get, out, of, jail, card",
+   "candidates": [
+    "saying",
+    "free",
+    "get",
+    "jail",
+    "card"
+   ],
+   "verification": [
+    {
+     "word": "jail",
+     "contextual_meaning": "a situation or obligation that feels confining or restrictive.",
+     "basic_meaning": "a place where people are held as a punishment for a crime.",
+     "is_metaphor": true
+    },
+    {
+     "word": "card",
+     "contextual_meaning": "an opportunity or means to escape a difficult situation.",
+     "basic_meaning": "a small piece of paper or plastic used for identification or playing games.",
+     "is_metaphor": true
+    }
+   ],
+   "verified": [
+    "card",
+    "jail"
+   ],
+   "phrases": [
+    {
+     "phrase": "get out of jail card",
+     "conventionality": "conventional",
+     "triggers": [
+      "jail",
+      "card"
+     ],
+     "source_domain": "PRISON",
+     "target_domain": "DIFFICULT SITUATION",
+     "explanation_uk": "Це можливість уникнути складної ситуації, як вийти з в'язниці.",
+     "span": [
+      35,
+      55
+     ],
+     "agreement": "3/3"
+    }
+   ],
+   "passes": 3,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 64,
+     "out": 16
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 546,
+     "out": 166
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 546,
+     "out": 249
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 546,
+     "out": 252
+    }
+   ]
+  },
+  {
+   "id": 30,
+   "start": 89.91999816894531,
+   "text": "She basically just handed it to me, and all I had to do was take it.",
+   "detector_raw": "none",
+   "candidates": [],
+   "verification": [],
+   "verified": [],
+   "phrases": [],
+   "passes": 3,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 68,
+     "out": 1
+    }
+   ]
+  },
+  {
+   "id": 31,
+   "start": 93.36000061035156,
+   "text": "But my intention with her was to have a bit of fun, not to be her boyfriend.",
+   "detector_raw": "with, have, bit",
+   "candidates": [
+    "bit"
+   ],
+   "verification": [
+    {
+     "word": "bit",
+     "contextual_meaning": "a small amount or degree",
+     "basic_meaning": "a small piece or fragment",
+     "is_metaphor": true
+    }
+   ],
+   "verified": [
+    "bit"
+   ],
+   "phrases": [
+    {
+     "phrase": "a bit of fun",
+     "conventionality": "conventional",
+     "triggers": [
+      "bit"
+     ],
+     "source_domain": "SIZE",
+     "target_domain": "QUANTITY",
+     "explanation_uk": "Маленький розмір використовується для позначення невеликої кількості або ступеня.",
+     "span": [
+      38,
+      50
+     ],
+     "agreement": "3/3"
+    }
+   ],
+   "passes": 3,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 69,
+     "out": 5
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 546,
+     "out": 104
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 546,
+     "out": 111
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 546,
+     "out": 104
+    }
+   ]
+  },
+  {
+   "id": 32,
+   "start": 98.23999786376953,
+   "text": "I ain't no liar.",
+   "detector_raw": "none",
+   "candidates": [],
+   "verification": [],
+   "verified": [],
+   "phrases": [],
+   "passes": 3,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 55,
+     "out": 1
+    }
+   ]
+  },
+  {
+   "id": 33,
+   "start": 100.16000366210938,
+   "text": "I'll be straightforward with you.",
+   "detector_raw": "straightforward, with",
+   "candidates": [
+    "straightforward"
+   ],
+   "verification": [
+    {
+     "word": "straightforward",
+     "contextual_meaning": "honest and direct in communication",
+     "basic_meaning": "moving in a straight line without deviation",
+     "is_metaphor": true
+    }
+   ],
+   "verified": [
+    "straightforward"
+   ],
+   "phrases": [
+    {
+     "phrase": "be straightforward",
+     "conventionality": "conventional",
+     "triggers": [
+      "straightforward"
+     ],
+     "source_domain": "MOVEMENT",
+     "target_domain": "COMMUNICATION",
+     "explanation_uk": "Бути чесним і прямолінійним у спілкуванні порівнюється з рухом по прямій лінії.",
+     "span": [
+      5,
+      23
+     ],
+     "agreement": "2/3"
+    }
+   ],
+   "passes": 3,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 56,
+     "out": 4
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 543,
+     "out": 112
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 543,
+     "out": 113
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 543,
+     "out": 116
+    }
+   ]
+  },
+  {
+   "id": 34,
+   "start": 101.5999984741211,
+   "text": "I'm not looking for a long term relationship right now, but I think you're really cute, and I always look forward to hanging with you.",
+   "detector_raw": "looking, long, term, relationship, cute, look, forward, hanging",
+   "candidates": [
+    "looking",
+    "long",
+    "term",
+    "relationship",
+    "cute",
+    "look",
+    "forward",
+    "hanging"
+   ],
+   "verification": [
+    {
+     "word": "looking",
+     "contextual_meaning": "seeking or searching for something",
+     "basic_meaning": "directing one's eyes in a particular direction",
+     "is_metaphor": true
+    },
+    {
+     "word": "long",
+     "contextual_meaning": "extended duration",
+     "basic_meaning": "having great length",
+     "is_metaphor": true
+    },
+    {
+     "word": "term",
+     "contextual_meaning": "a period of time",
+     "basic_meaning": "a word or expression",
+     "is_metaphor": false
+    },
+    {
+     "word": "relationship",
+     "contextual_meaning": "a connection or association between people",
+     "basic_meaning": "a connection or association between people",
+     "is_metaphor": false
+    },
+    {
+     "word": "cute",
+     "contextual_meaning": "attractive in a pretty or endearing way",
+     "basic_meaning": "clever or shrewd, often in a self-serving way",
+     "is_metaphor": false
+    },
+    {
+     "word": "look",
+     "contextual_meaning": "anticipate or expect with pleasure",
+     "basic_meaning": "direct one's gaze towards something",
+     "is_metaphor": true
+    },
+    {
+     "word": "forward",
+     "contextual_meaning": "towards the future",
+     "basic_meaning": "towards the front",
+     "is_metaphor": true
+    },
+    {
+     "word": "hanging",
+     "contextual_meaning": "spending time with someone",
+     "basic_meaning": "suspending or being suspended",
+     "is_metaphor": true
+    }
+   ],
+   "verified": [
+    "hanging",
+    "look",
+    "looking",
+    "long",
+    "forward"
+   ],
+   "phrases": [
+    {
+     "phrase": "looking for a long term relationship",
+     "conventionality": "conventional",
+     "triggers": [
+      "looking",
+      "long"
+     ],
+     "source_domain": "VISION",
+     "target_domain": "PURPOSE",
+     "explanation_uk": "Шукати стосунки означає прагнути їх знайти, як щось видиме.",
+     "span": [
+      8,
+      44
+     ],
+     "agreement": "3/3"
+    }
+   ],
+   "passes": 3,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 78,
+     "out": 15
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 554,
+     "out": 411
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 554,
+     "out": 414
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 554,
+     "out": 506
+    }
+   ]
+  },
+  {
+   "id": 35,
+   "start": 109.5199966430664,
+   "text": "Okay.",
+   "detector_raw": "none",
+   "candidates": [],
+   "verification": [],
+   "verified": [],
+   "phrases": [],
+   "passes": 3,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 52,
+     "out": 1
+    }
+   ]
+  },
+  {
+   "id": 36,
+   "start": 113.12000274658203,
+   "text": "I respect your decision if you want to end things here, but I just want you to know you're not just some random girl I don't care about.",
+   "detector_raw": "respect, things, here, about",
+   "candidates": [
+    "respect",
+    "things"
+   ],
+   "verification": [
+    {
+     "word": "respect",
+     "contextual_meaning": "to hold in high regard or esteem",
+     "basic_meaning": "to look back at something",
+     "is_metaphor": true
+    },
+    {
+     "word": "things",
+     "contextual_meaning": "the situation or relationship between people",
+     "basic_meaning": "physical objects or items",
+     "is_metaphor": true
+    }
+   ],
+   "verified": [
+    "respect",
+    "things"
+   ],
+   "phrases": [
+    {
+     "phrase": "respect your decision",
+     "conventionality": "conventional",
+     "triggers": [
+      "respect"
+     ],
+     "source_domain": "VISION",
+     "target_domain": "EMOTION",
+     "explanation_uk": "Повага до рішення означає ставлення до нього з високою оцінкою, як до чогось важливого.",
+     "span": [
+      2,
+      23
+     ],
+     "agreement": "3/3"
+    },
+    {
+     "phrase": "end things",
+     "conventionality": "conventional",
+     "triggers": [
+      "things"
+     ],
+     "source_domain": "OBJECTS",
+     "target_domain": "RELATIONSHIP",
+     "explanation_uk": "Завершити стосунки означає припинити їх, як ніби це фізичний об'єкт, який можна закінчити.",
+     "span": [
+      39,
+      49
+     ],
+     "agreement": "3/3"
+    }
+   ],
+   "passes": 3,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 80,
+     "out": 7
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 551,
+     "out": 210
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 551,
+     "out": 205
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 551,
+     "out": 198
+    }
+   ]
+  },
+  {
+   "id": 37,
+   "start": 120.87999725341797,
+   "text": "I can't tell if you actually care or if you're just desperate.",
+   "detector_raw": "none",
+   "candidates": [],
+   "verification": [],
+   "verified": [],
+   "phrases": [],
+   "passes": 3,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 63,
+     "out": 1
+    }
+   ]
+  },
+  {
+   "id": 38,
+   "start": 123.27999877929688,
+   "text": "You think I would have happily dog sat dumpling for you despite my allergy to dogs if I didn't care?",
+   "detector_raw": "none",
+   "candidates": [],
+   "verification": [],
+   "verified": [],
+   "phrases": [],
+   "passes": 3,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 72,
+     "out": 1
+    }
+   ]
+  },
+  {
+   "id": 39,
+   "start": 128.9600067138672,
+   "text": "Okay, true.",
+   "detector_raw": "none",
+   "candidates": [],
+   "verification": [],
+   "verified": [],
+   "phrases": [],
+   "passes": 3,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 54,
+     "out": 1
+    }
+   ]
+  },
+  {
+   "id": 40,
+   "start": 131.83999633789062,
+   "text": "How many other girls are you talking to, talking to, or crushing on?",
+   "detector_raw": "crushing, on",
+   "candidates": [
+    "crushing"
+   ],
+   "verification": [
+    {
+     "word": "crushing",
+     "contextual_meaning": "having a romantic interest in someone",
+     "basic_meaning": "applying force to something to break or deform it",
+     "is_metaphor": true
+    }
+   ],
+   "verified": [
+    "crushing"
+   ],
+   "phrases": [
+    {
+     "phrase": "crushing on",
+     "conventionality": "conventional",
+     "triggers": [
+      "crushing"
+     ],
+     "source_domain": "PHYSICAL FORCE",
+     "target_domain": "EMOTION",
+     "explanation_uk": "Відчуття сильного романтичного інтересу описується як фізичний тиск.",
+     "span": [
+      56,
+      67
+     ],
+     "agreement": "3/3"
+    }
+   ],
+   "passes": 3,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 66,
+     "out": 4
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 535,
+     "out": 111
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 535,
+     "out": 111
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 535,
+     "out": 111
+    }
+   ]
+  },
+  {
+   "id": 41,
+   "start": 135.44000244140625,
+   "text": "Because depending on which one, one is the answer.",
+   "detector_raw": "on",
+   "candidates": [],
+   "verification": [],
+   "verified": [],
+   "phrases": [],
+   "passes": 3,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 61,
+     "out": 1
+    }
+   ]
+  },
+  {
+   "id": 42,
+   "start": 140.9600067138672,
+   "text": "I just don't want to get hurt from this.",
+   "detector_raw": "get, hurt, from, this",
+   "candidates": [
+    "get",
+    "hurt"
+   ],
+   "verification": [
+    {
+     "word": "get",
+     "contextual_meaning": "to experience or suffer from something",
+     "basic_meaning": "to obtain or receive something",
+     "is_metaphor": true
+    },
+    {
+     "word": "hurt",
+     "contextual_meaning": "to experience emotional pain or distress",
+     "basic_meaning": "to cause physical injury or damage",
+     "is_metaphor": true
+    }
+   ],
+   "verified": [
+    "hurt",
+    "get"
+   ],
+   "phrases": [
+    {
+     "phrase": "get hurt",
+     "conventionality": "conventional",
+     "triggers": [
+      "get",
+      "hurt"
+     ],
+     "source_domain": "PHYSICAL INJURY",
+     "target_domain": "EMOTIONAL PAIN",
+     "explanation_uk": "Емоційний біль описується як фізичне поранення.",
+     "span": [
+      21,
+      29
+     ],
+     "agreement": "3/3"
+    }
+   ],
+   "passes": 3,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 60,
+     "out": 7
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 535,
+     "out": 137
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 535,
+     "out": 132
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 535,
+     "out": 131
+    }
+   ]
+  },
+  {
+   "id": 43,
+   "start": 142.8000030517578,
+   "text": "Just don't fall in love with me.",
+   "detector_raw": "fall, in, with",
+   "candidates": [
+    "fall"
+   ],
+   "verification": [
+    {
+     "word": "fall",
+     "contextual_meaning": "to begin to feel love for someone",
+     "basic_meaning": "to move downward freely under the influence of gravity",
+     "is_metaphor": true
+    }
+   ],
+   "verified": [
+    "fall"
+   ],
+   "phrases": [
+    {
+     "phrase": "fall in love",
+     "conventionality": "conventional",
+     "triggers": [
+      "fall"
+     ],
+     "source_domain": "PHYSICAL MOVEMENT",
+     "target_domain": "EMOTIONAL EXPERIENCE",
+     "explanation_uk": "Закохатися описується як фізичне падіння.",
+     "span": [
+      11,
+      23
+     ],
+     "agreement": "3/3"
+    }
+   ],
+   "passes": 3,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 58,
+     "out": 5
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 528,
+     "out": 102
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 528,
+     "out": 102
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 528,
+     "out": 107
+    }
+   ]
+  },
+  {
+   "id": 44,
+   "start": 144.39999389648438,
+   "text": "I know, I know.",
+   "detector_raw": "none",
+   "candidates": [],
+   "verification": [],
+   "verified": [],
+   "phrases": [],
+   "passes": 3,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 56,
+     "out": 1
+    }
+   ]
+  },
+  {
+   "id": 45,
+   "start": 145.44000244140625,
+   "text": "It might be hard.",
+   "detector_raw": "hard",
+   "candidates": [
+    "hard"
+   ],
+   "verification": [
+    {
+     "word": "hard",
+     "contextual_meaning": "difficult to do or accomplish",
+     "basic_meaning": "physically solid or firm",
+     "is_metaphor": true
+    }
+   ],
+   "verified": [
+    "hard"
+   ],
+   "phrases": [
+    {
+     "phrase": "be hard",
+     "conventionality": "conventional",
+     "triggers": [
+      "hard"
+     ],
+     "source_domain": "PHYSICAL OBJECTS",
+     "target_domain": "TASKS",
+     "explanation_uk": "Складні завдання порівнюються з твердими об'єктами, які важко зламати.",
+     "span": [
+      9,
+      16
+     ],
+     "agreement": "3/3"
+    }
+   ],
+   "passes": 3,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 55,
+     "out": 1
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 523,
+     "out": 106
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 523,
+     "out": 113
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 523,
+     "out": 105
+    }
+   ]
+  },
+  {
+   "id": 46,
+   "start": 148.63999938964844,
+   "text": "My dad has a shotgun FYI.",
+   "detector_raw": "has",
+   "candidates": [],
+   "verification": [],
+   "verified": [],
+   "phrases": [],
+   "passes": 3,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 58,
+     "out": 1
+    }
+   ]
+  },
+  {
+   "id": 47,
+   "start": 150.47999572753906,
+   "text": "I'm more scared of your allergy filled dog.",
+   "detector_raw": "scared, of",
+   "candidates": [
+    "scared"
+   ],
+   "verification": [
+    {
+     "word": "scared",
+     "contextual_meaning": "feeling fear or anxiety about something",
+     "basic_meaning": "to cause fear or frighten someone",
+     "is_metaphor": false
+    }
+   ],
+   "verified": [],
+   "phrases": [],
+   "passes": 3,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 59,
+     "out": 4
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 544,
+     "out": 46
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 544,
+     "out": 46
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 544,
+     "out": 46
+    }
+   ]
+  },
+  {
+   "id": 48,
+   "start": 159.67999267578125,
+   "text": "You see, when other people try to fish, they're fishing in the whole ocean where the fish can get away.",
+   "detector_raw": "see, fish, fishing, in, whole, ocean, fish, get, away",
+   "candidates": [
+    "see",
+    "fish",
+    "fishing",
+    "whole",
+    "ocean",
+    "get",
+    "away"
+   ],
+   "verification": [
+    {
+     "word": "see",
+     "contextual_meaning": "understand or realize something",
+     "basic_meaning": "perceive with the eyes",
+     "is_metaphor": true
+    },
+    {
+     "word": "fish",
+     "contextual_meaning": "attempt to catch fish",
+     "basic_meaning": "a cold-blooded aquatic animal with gills",
+     "is_metaphor": false
+    },
+    {
+     "word": "fishing",
+     "contextual_meaning": "attempting to catch fish",
+     "basic_meaning": "catching fish as an activity",
+     "is_metaphor": false
+    },
+    {
+     "word": "whole",
+     "contextual_meaning": "entire or complete",
+     "basic_meaning": "all of something",
+     "is_metaphor": false
+    },
+    {
+     "word": "ocean",
+     "contextual_meaning": "a large expanse or quantity",
+     "basic_meaning": "a vast body of salt water covering most of the earth's surface",
+     "is_metaphor": false
+    },
+    {
+     "word": "get",
+     "contextual_meaning": "escape or avoid capture",
+     "basic_meaning": "obtain or receive something",
+     "is_metaphor": true
+    },
+    {
+     "word": "away",
+     "contextual_meaning": "to a different place or position",
+     "basic_meaning": "at a distance from a particular place",
+     "is_metaphor": false
+    }
+   ],
+   "verified": [
+    "see",
+    "get",
+    "ocean"
+   ],
+   "phrases": [
+    {
+     "phrase": "You see",
+     "conventionality": "conventional",
+     "triggers": [
+      "see"
+     ],
+     "source_domain": "VISION",
+     "target_domain": "UNDERSTANDING",
+     "explanation_uk": "Розуміння чогось порівнюється з баченням.",
+     "span": [
+      0,
+      7
+     ],
+     "agreement": "2/3"
+    },
+    {
+     "phrase": "the whole ocean",
+     "conventionality": "conventional",
+     "triggers": [
+      "ocean"
+     ],
+     "source_domain": "WATER",
+     "target_domain": "LARGE QUANTITY",
+     "explanation_uk": "Велика кількість чогось порівнюється з океаном.",
+     "span": [
+      59,
+      74
+     ],
+     "agreement": "2/3"
+    },
+    {
+     "phrase": "get away",
+     "conventionality": "conventional",
+     "triggers": [
+      "get"
+     ],
+     "source_domain": "MOVEMENT",
+     "target_domain": "ESCAPE",
+     "explanation_uk": "Втеча порівнюється з рухом у просторі.",
+     "span": [
+      94,
+      102
+     ],
+     "agreement": "3/3"
+    }
+   ],
+   "passes": 3,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 73,
+     "out": 17
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 558,
+     "out": 352
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 558,
+     "out": 410
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 558,
+     "out": 391
+    }
+   ]
+  },
+  {
+   "id": 49,
+   "start": 167.83999633789062,
+   "text": "When I'm fishing, it's in a confined tank.",
+   "detector_raw": "none",
+   "candidates": [],
+   "verification": [],
+   "verified": [],
+   "phrases": [],
+   "passes": 3,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 60,
+     "out": 1
+    }
+   ]
+  },
+  {
+   "id": 50,
+   "start": 172.24000549316406,
+   "text": "No matter how far away the fish tries to swim, I'll always be able to catch it.",
+   "detector_raw": "none",
+   "candidates": [],
+   "verification": [],
+   "verified": [],
+   "phrases": [],
+   "passes": 3,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 69,
+     "out": 1
+    }
+   ]
+  }
+ ],
+ "stats": {
+  "sentences": 50,
+  "words": 490,
+  "phrases": 25,
+  "verified_words": 34,
+  "creative": 2,
+  "conventional": 23,
+  "density_per_100_words": 5.1,
+  "creative_per_100_words": 0.41,
+  "errors": 0,
+  "borderline": 5,
+  "stable": 20,
+  "verifier_passes": 3,
+  "cost_usd_estimate": 0.2384
+ }
+}

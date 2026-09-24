@@ -1,0 +1,649 @@
+{
+ "source": {
+  "type": "youtube",
+  "url": "https://www.youtube.com/shorts/YiPDFYqG4qc",
+  "id": "YiPDFYqG4qc",
+  "title": "When Germans visit America",
+  "uploader": "Content Machine",
+  "duration": 57,
+  "webpage_url": "https://www.youtube.com/watch?v=YiPDFYqG4qc",
+  "upload_date": "20260613"
+ },
+ "created": "2026-09-23T02:01:25",
+ "models": {
+  "asr": "whisper-1",
+  "detector": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+  "verifier": "gpt-4o-2024-08-06"
+ },
+ "transcript": "A FEW HOURS EARLIER Oh, Klaus. They're having air conditioning here. I'm going to get sick. Hi, can I help you? This is our first time in America for the World Cup and I am very excited. Normally, he's not this energetic. We would like now our car so we can get going. Yes, we are three minutes late from being 15 minutes early. Do you have a reservation? Yes. Oh, Mr. Schmidt, do it now, Klaus. Faster, calendar, faster. Ah, here. These look very protected. Yes, and please do not lose them because I only have five more copies. It looks like your BMW X5 is ready to go. Would you like the protection plan? Yes. Okay, you're all set. Alright, enjoy your BMW X5. Have a nice time at your soccer game. It is not soccer, it is foosball. And it's not BMW, it's BMW. Klaus.",
+ "sentences": [
+  {
+   "id": 1,
+   "start": 0.0,
+   "text": "A FEW HOURS EARLIER Oh, Klaus.",
+   "detector_raw": "none",
+   "candidates": [],
+   "verification": [],
+   "verified": [],
+   "phrases": [],
+   "passes": 3,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 61,
+     "out": 1
+    }
+   ]
+  },
+  {
+   "id": 2,
+   "start": 3.799999952316284,
+   "text": "They're having air conditioning here.",
+   "detector_raw": "having",
+   "candidates": [],
+   "verification": [],
+   "verified": [],
+   "phrases": [],
+   "passes": 3,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 56,
+     "out": 1
+    }
+   ]
+  },
+  {
+   "id": 3,
+   "start": 7.0,
+   "text": "I'm going to get sick.",
+   "detector_raw": "get",
+   "candidates": [
+    "get"
+   ],
+   "verification": [
+    {
+     "word": "get",
+     "contextual_meaning": "to become sick",
+     "basic_meaning": "to obtain or receive something",
+     "is_metaphor": true
+    }
+   ],
+   "verified": [
+    "get"
+   ],
+   "phrases": [
+    {
+     "phrase": "get sick",
+     "conventionality": "conventional",
+     "triggers": [
+      "get"
+     ],
+     "source_domain": "ACQUISITION",
+     "target_domain": "CHANGE OF STATE",
+     "explanation_uk": "Зміна стану здоров'я описується як отримання чогось.",
+     "span": [
+      13,
+      21
+     ],
+     "agreement": "3/3"
+    }
+   ],
+   "passes": 3,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 56,
+     "out": 1
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 523,
+     "out": 97
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 523,
+     "out": 98
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 523,
+     "out": 98
+    }
+   ]
+  },
+  {
+   "id": 4,
+   "start": 8.199999809265137,
+   "text": "Hi, can I help you?",
+   "detector_raw": "help",
+   "candidates": [
+    "help"
+   ],
+   "verification": [
+    {
+     "word": "help",
+     "contextual_meaning": "to assist or aid someone in need",
+     "basic_meaning": "to provide assistance or support",
+     "is_metaphor": false
+    }
+   ],
+   "verified": [],
+   "phrases": [],
+   "passes": 3,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 57,
+     "out": 1
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 534,
+     "out": 43
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 534,
+     "out": 48
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 534,
+     "out": 53
+    }
+   ]
+  },
+  {
+   "id": 5,
+   "start": 9.199999809265137,
+   "text": "This is our first time in America for the World Cup and I am very excited.",
+   "detector_raw": "This",
+   "candidates": [],
+   "verification": [],
+   "verified": [],
+   "phrases": [],
+   "passes": 3,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 67,
+     "out": 1
+    }
+   ]
+  },
+  {
+   "id": 6,
+   "start": 12.800000190734863,
+   "text": "Normally, he's not this energetic.",
+   "detector_raw": "this",
+   "candidates": [],
+   "verification": [],
+   "verified": [],
+   "phrases": [],
+   "passes": 3,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 57,
+     "out": 1
+    }
+   ]
+  },
+  {
+   "id": 7,
+   "start": 15.399999618530273,
+   "text": "We would like now our car so we can get going.",
+   "detector_raw": "none",
+   "candidates": [],
+   "verification": [],
+   "verified": [],
+   "phrases": [],
+   "passes": 3,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 62,
+     "out": 1
+    }
+   ]
+  },
+  {
+   "id": 8,
+   "start": 17.600000381469727,
+   "text": "Yes, we are three minutes late from being 15 minutes early.",
+   "detector_raw": "from",
+   "candidates": [],
+   "verification": [],
+   "verified": [],
+   "phrases": [],
+   "passes": 3,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 64,
+     "out": 1
+    }
+   ]
+  },
+  {
+   "id": 9,
+   "start": 21.0,
+   "text": "Do you have a reservation?",
+   "detector_raw": "have",
+   "candidates": [],
+   "verification": [],
+   "verified": [],
+   "phrases": [],
+   "passes": 3,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 56,
+     "out": 1
+    }
+   ]
+  },
+  {
+   "id": 10,
+   "start": 22.200000762939453,
+   "text": "Yes.",
+   "detector_raw": "none",
+   "candidates": [],
+   "verification": [],
+   "verified": [],
+   "phrases": [],
+   "passes": 3,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 52,
+     "out": 1
+    }
+   ]
+  },
+  {
+   "id": 11,
+   "start": 23.200000762939453,
+   "text": "Oh, Mr. Schmidt, do it now, Klaus.",
+   "detector_raw": "none",
+   "candidates": [],
+   "verification": [],
+   "verified": [],
+   "phrases": [],
+   "passes": 3,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 62,
+     "out": 1
+    }
+   ]
+  },
+  {
+   "id": 12,
+   "start": 26.200000762939453,
+   "text": "Faster, calendar, faster.",
+   "detector_raw": "none",
+   "candidates": [],
+   "verification": [],
+   "verified": [],
+   "phrases": [],
+   "passes": 3,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 56,
+     "out": 1
+    }
+   ]
+  },
+  {
+   "id": 13,
+   "start": 28.0,
+   "text": "Ah, here.",
+   "detector_raw": "none",
+   "candidates": [],
+   "verification": [],
+   "verified": [],
+   "phrases": [],
+   "passes": 3,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 54,
+     "out": 1
+    }
+   ]
+  },
+  {
+   "id": 14,
+   "start": 30.0,
+   "text": "These look very protected.",
+   "detector_raw": "These",
+   "candidates": [],
+   "verification": [],
+   "verified": [],
+   "phrases": [],
+   "passes": 3,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 55,
+     "out": 1
+    }
+   ]
+  },
+  {
+   "id": 15,
+   "start": 31.799999237060547,
+   "text": "Yes, and please do not lose them because I only have five more copies.",
+   "detector_raw": "none",
+   "candidates": [],
+   "verification": [],
+   "verified": [],
+   "phrases": [],
+   "passes": 3,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 66,
+     "out": 1
+    }
+   ]
+  },
+  {
+   "id": 16,
+   "start": 35.599998474121094,
+   "text": "It looks like your BMW X5 is ready to go.",
+   "detector_raw": "ready, go",
+   "candidates": [
+    "ready",
+    "go"
+   ],
+   "verification": [
+    {
+     "word": "ready",
+     "contextual_meaning": "prepared for use or action",
+     "basic_meaning": "completely prepared or in fit condition for immediate action or use",
+     "is_metaphor": false
+    },
+    {
+     "word": "go",
+     "contextual_meaning": "to be in a state of functioning or operation",
+     "basic_meaning": "to move or proceed, especially to or from something",
+     "is_metaphor": true
+    }
+   ],
+   "verified": [
+    "go"
+   ],
+   "phrases": [
+    {
+     "phrase": "ready to go",
+     "conventionality": "conventional",
+     "triggers": [
+      "go"
+     ],
+     "source_domain": "MOVEMENT",
+     "target_domain": "FUNCTIONALITY",
+     "explanation_uk": "Фраза 'ready to go' використовує концепцію руху для опису готовності до функціонування.",
+     "span": [
+      29,
+      40
+     ],
+     "agreement": "3/3"
+    }
+   ],
+   "passes": 3,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 62,
+     "out": 3
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 541,
+     "out": 152
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 541,
+     "out": 135
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 541,
+     "out": 138
+    }
+   ]
+  },
+  {
+   "id": 17,
+   "start": 38.0,
+   "text": "Would you like the protection plan?",
+   "detector_raw": "none",
+   "candidates": [],
+   "verification": [],
+   "verified": [],
+   "phrases": [],
+   "passes": 3,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 57,
+     "out": 1
+    }
+   ]
+  },
+  {
+   "id": 18,
+   "start": 39.599998474121094,
+   "text": "Yes.",
+   "detector_raw": "none",
+   "candidates": [],
+   "verification": [],
+   "verified": [],
+   "phrases": [],
+   "passes": 3,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 52,
+     "out": 1
+    }
+   ]
+  },
+  {
+   "id": 19,
+   "start": 40.20000076293945,
+   "text": "Okay, you're all set.",
+   "detector_raw": "set",
+   "candidates": [
+    "set"
+   ],
+   "verification": [
+    {
+     "word": "set",
+     "contextual_meaning": "prepared or ready to proceed",
+     "basic_meaning": "to put or place something in a specific position",
+     "is_metaphor": true
+    }
+   ],
+   "verified": [
+    "set"
+   ],
+   "phrases": [
+    {
+     "phrase": "you're all set",
+     "conventionality": "conventional",
+     "triggers": [
+      "set"
+     ],
+     "source_domain": "ARRANGEMENT",
+     "target_domain": "PREPARATION",
+     "explanation_uk": "Бути готовим до чогось означає бути налаштованим або підготовленим, як об'єкт, що знаходиться на своєму місці.",
+     "span": [
+      6,
+      20
+     ],
+     "agreement": "3/3"
+    }
+   ],
+   "passes": 3,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 56,
+     "out": 1
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 521,
+     "out": 121
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 521,
+     "out": 113
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 521,
+     "out": 109
+    }
+   ]
+  },
+  {
+   "id": 20,
+   "start": 44.0,
+   "text": "Alright, enjoy your BMW X5.",
+   "detector_raw": "none",
+   "candidates": [],
+   "verification": [],
+   "verified": [],
+   "phrases": [],
+   "passes": 3,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 59,
+     "out": 1
+    }
+   ]
+  },
+  {
+   "id": 21,
+   "start": 46.400001525878906,
+   "text": "Have a nice time at your soccer game.",
+   "detector_raw": "Have",
+   "candidates": [],
+   "verification": [],
+   "verified": [],
+   "phrases": [],
+   "passes": 3,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 59,
+     "out": 1
+    }
+   ]
+  },
+  {
+   "id": 22,
+   "start": 48.0,
+   "text": "It is not soccer, it is foosball.",
+   "detector_raw": "none",
+   "candidates": [],
+   "verification": [],
+   "verified": [],
+   "phrases": [],
+   "passes": 3,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 61,
+     "out": 1
+    }
+   ]
+  },
+  {
+   "id": 23,
+   "start": 51.0,
+   "text": "And it's not BMW, it's BMW.",
+   "detector_raw": "none",
+   "candidates": [],
+   "verification": [],
+   "verified": [],
+   "phrases": [],
+   "passes": 3,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 58,
+     "out": 1
+    }
+   ]
+  },
+  {
+   "id": 24,
+   "start": 55.400001525878906,
+   "text": "Klaus.",
+   "detector_raw": "none",
+   "candidates": [],
+   "verification": [],
+   "verified": [],
+   "phrases": [],
+   "passes": 3,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 52,
+     "out": 1
+    }
+   ]
+  }
+ ],
+ "stats": {
+  "sentences": 24,
+  "words": 147,
+  "phrases": 3,
+  "verified_words": 3,
+  "creative": 0,
+  "conventional": 3,
+  "density_per_100_words": 2.04,
+  "creative_per_100_words": 0.0,
+  "errors": 0,
+  "borderline": 0,
+  "stable": 3,
+  "verifier_passes": 3,
+  "cost_usd_estimate": 0.0393
+ }
+}

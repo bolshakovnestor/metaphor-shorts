@@ -1,0 +1,509 @@
+{
+ "source": {
+  "type": "youtube",
+  "url": "https://www.youtube.com/shorts/e5hCM5-mHdc",
+  "id": "e5hCM5-mHdc",
+  "title": "You Don't Get Rich By Being Paid A Salary",
+  "uploader": "Invest Path",
+  "duration": 16,
+  "webpage_url": "https://www.youtube.com/watch?v=e5hCM5-mHdc",
+  "upload_date": "20260921"
+ },
+ "created": "2026-09-23T01:25:12",
+ "models": {
+  "asr": "whisper-1",
+  "detector": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+  "verifier": "gpt-4o-2024-08-06"
+ },
+ "transcript": "You don't get rich by working for someone else. You don't get rich by being paid a salary. You don't get rich by starting your own business. You slave your guts out, night and day, meeting cash flow crises. You get rich by selling your business. So my advice to someone who wants to get rich, start a business. Build it up for a couple of years and then sell it.",
+ "sentences": [
+  {
+   "id": 1,
+   "start": 0.0,
+   "text": "You don't get rich by working for someone else.",
+   "detector_raw": "get",
+   "candidates": [
+    "get"
+   ],
+   "verification": [
+    {
+     "word": "get",
+     "contextual_meaning": "to become or achieve a state of being rich",
+     "basic_meaning": "to receive or obtain something",
+     "is_metaphor": true
+    }
+   ],
+   "verified": [
+    "get"
+   ],
+   "phrases": [
+    {
+     "phrase": "get rich",
+     "conventionality": "conventional",
+     "triggers": [
+      "get"
+     ],
+     "source_domain": "ACQUISITION",
+     "target_domain": "ACHIEVEMENT",
+     "explanation_uk": "Досягнення багатства описується як отримання чогось.",
+     "span": [
+      10,
+      18
+     ],
+     "agreement": "3/3"
+    }
+   ],
+   "passes": 3,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 60,
+     "out": 1
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 524,
+     "out": 102
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 524,
+     "out": 105
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 524,
+     "out": 99
+    }
+   ]
+  },
+  {
+   "id": 2,
+   "start": 2.0,
+   "text": "You don't get rich by being paid a salary.",
+   "detector_raw": "get",
+   "candidates": [
+    "get"
+   ],
+   "verification": [
+    {
+     "word": "get",
+     "contextual_meaning": "to become or achieve a state of being rich",
+     "basic_meaning": "to receive or obtain something",
+     "is_metaphor": true
+    }
+   ],
+   "verified": [
+    "get"
+   ],
+   "phrases": [
+    {
+     "phrase": "get rich",
+     "conventionality": "conventional",
+     "triggers": [
+      "get"
+     ],
+     "source_domain": "ACQUISITION",
+     "target_domain": "ACHIEVEMENT",
+     "explanation_uk": "Досягнення багатства описується як отримання чогось.",
+     "span": [
+      10,
+      18
+     ],
+     "agreement": "3/3"
+    }
+   ],
+   "passes": 3,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 60,
+     "out": 1
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 534,
+     "out": 102
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 534,
+     "out": 105
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 534,
+     "out": 98
+    }
+   ]
+  },
+  {
+   "id": 3,
+   "start": 4.0,
+   "text": "You don't get rich by starting your own business.",
+   "detector_raw": "get, starting",
+   "candidates": [
+    "get",
+    "starting"
+   ],
+   "verification": [
+    {
+     "word": "get",
+     "contextual_meaning": "to become wealthy or accumulate wealth",
+     "basic_meaning": "to receive or obtain something",
+     "is_metaphor": true
+    },
+    {
+     "word": "starting",
+     "contextual_meaning": "to initiate or establish a business",
+     "basic_meaning": "to begin or commence an action or process",
+     "is_metaphor": false
+    }
+   ],
+   "verified": [
+    "get"
+   ],
+   "phrases": [
+    {
+     "phrase": "get rich",
+     "conventionality": "conventional",
+     "triggers": [
+      "get"
+     ],
+     "source_domain": "ACQUISITION",
+     "target_domain": "WEALTH",
+     "explanation_uk": "Отримання багатства описується як здобуття чогось.",
+     "span": [
+      10,
+      18
+     ],
+     "agreement": "3/3"
+    }
+   ],
+   "passes": 3,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 60,
+     "out": 3
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 541,
+     "out": 135
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 541,
+     "out": 133
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 541,
+     "out": 135
+    }
+   ]
+  },
+  {
+   "id": 4,
+   "start": 6.0,
+   "text": "You slave your guts out, night and day, meeting cash flow crises.",
+   "detector_raw": "slave, guts, out, meeting",
+   "candidates": [
+    "slave",
+    "guts",
+    "meeting"
+   ],
+   "verification": [
+    {
+     "word": "slave",
+     "contextual_meaning": "work extremely hard and tirelessly",
+     "basic_meaning": "a person who is the legal property of another and is forced to obey them",
+     "is_metaphor": true
+    },
+    {
+     "word": "guts",
+     "contextual_meaning": "putting in a lot of effort and determination",
+     "basic_meaning": "the internal organs of an animal or person",
+     "is_metaphor": true
+    },
+    {
+     "word": "meeting",
+     "contextual_meaning": "dealing with or confronting",
+     "basic_meaning": "coming together with someone by arrangement or chance",
+     "is_metaphor": true
+    }
+   ],
+   "verified": [
+    "guts",
+    "slave",
+    "meeting"
+   ],
+   "phrases": [
+    {
+     "phrase": "slave your guts out",
+     "conventionality": "creative",
+     "triggers": [
+      "slave",
+      "guts"
+     ],
+     "source_domain": "LABOR",
+     "target_domain": "EFFORT",
+     "explanation_uk": "Працювати дуже важко, докладаючи максимум зусиль.",
+     "span": [
+      4,
+      23
+     ],
+     "agreement": "3/3"
+    },
+    {
+     "phrase": "meeting cash flow crises",
+     "conventionality": "conventional",
+     "triggers": [
+      "meeting"
+     ],
+     "source_domain": "ENCOUNTER",
+     "target_domain": "CHALLENGE",
+     "explanation_uk": "Стикатися з фінансовими труднощами.",
+     "span": [
+      40,
+      64
+     ],
+     "agreement": "3/3"
+    }
+   ],
+   "passes": 3,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 65,
+     "out": 7
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 541,
+     "out": 234
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 541,
+     "out": 237
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 541,
+     "out": 255
+    }
+   ]
+  },
+  {
+   "id": 5,
+   "start": 10.0,
+   "text": "You get rich by selling your business.",
+   "detector_raw": "get",
+   "candidates": [
+    "get"
+   ],
+   "verification": [
+    {
+     "word": "get",
+     "contextual_meaning": "to become or to achieve a state of being rich",
+     "basic_meaning": "to obtain or receive something",
+     "is_metaphor": true
+    }
+   ],
+   "verified": [
+    "get"
+   ],
+   "phrases": [
+    {
+     "phrase": "get rich",
+     "conventionality": "conventional",
+     "triggers": [
+      "get"
+     ],
+     "source_domain": "ACQUISITION",
+     "target_domain": "ACHIEVEMENT",
+     "explanation_uk": "Досягнення багатства описується як отримання чогось.",
+     "span": [
+      4,
+      12
+     ],
+     "agreement": "3/3"
+    }
+   ],
+   "passes": 3,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 58,
+     "out": 1
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 542,
+     "out": 103
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 542,
+     "out": 103
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 542,
+     "out": 103
+    }
+   ]
+  },
+  {
+   "id": 6,
+   "start": 12.0,
+   "text": "So my advice to someone who wants to get rich, start a business.",
+   "detector_raw": "to, get, rich",
+   "candidates": [
+    "get",
+    "rich"
+   ],
+   "verification": [
+    {
+     "word": "get",
+     "contextual_meaning": "to become or achieve a state of being",
+     "basic_meaning": "to obtain or receive something",
+     "is_metaphor": true
+    },
+    {
+     "word": "rich",
+     "contextual_meaning": "having a lot of money or wealth",
+     "basic_meaning": "abundant or plentiful in resources or qualities",
+     "is_metaphor": false
+    }
+   ],
+   "verified": [
+    "get"
+   ],
+   "phrases": [
+    {
+     "phrase": "get rich",
+     "conventionality": "conventional",
+     "triggers": [
+      "get"
+     ],
+     "source_domain": "ACQUISITION",
+     "target_domain": "ACHIEVEMENT",
+     "explanation_uk": "Отримання багатства описується як досягнення певного стану.",
+     "span": [
+      37,
+      45
+     ],
+     "agreement": "3/3"
+    }
+   ],
+   "passes": 3,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 65,
+     "out": 5
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 542,
+     "out": 140
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 542,
+     "out": 143
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 542,
+     "out": 138
+    }
+   ]
+  },
+  {
+   "id": 7,
+   "start": 14.0,
+   "text": "Build it up for a couple of years and then sell it.",
+   "detector_raw": "Build, up",
+   "candidates": [
+    "build"
+   ],
+   "verification": [
+    {
+     "word": "build",
+     "contextual_meaning": "develop or grow a business over time",
+     "basic_meaning": "construct or assemble something physical",
+     "is_metaphor": true
+    }
+   ],
+   "verified": [
+    "build"
+   ],
+   "phrases": [
+    {
+     "phrase": "Build it up",
+     "conventionality": "conventional",
+     "triggers": [
+      "build"
+     ],
+     "source_domain": "CONSTRUCTION",
+     "target_domain": "BUSINESS",
+     "explanation_uk": "Розвиток бізнесу порівнюється з будівництвом фізичного об'єкта.",
+     "span": [
+      0,
+      11
+     ],
+     "agreement": "3/3"
+    }
+   ],
+   "passes": 3,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 63,
+     "out": 3
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 532,
+     "out": 103
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 532,
+     "out": 105
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 532,
+     "out": 103
+    }
+   ]
+  }
+ ],
+ "stats": {
+  "sentences": 7,
+  "words": 71,
+  "phrases": 8,
+  "verified_words": 9,
+  "creative": 1,
+  "conventional": 7,
+  "density_per_100_words": 11.27,
+  "creative_per_100_words": 1.41,
+  "errors": 0,
+  "borderline": 0,
+  "stable": 8,
+  "verifier_passes": 3,
+  "cost_usd_estimate": 0.0595
+ }
+}

@@ -1,0 +1,394 @@
+{
+ "source": {
+  "type": "youtube",
+  "url": "https://www.youtube.com/shorts/6UwW97Y-lvo",
+  "id": "6UwW97Y-lvo",
+  "title": "Ranking Philomena Cunk Moments",
+  "uploader": "emo-blox",
+  "duration": 51,
+  "webpage_url": "https://www.youtube.com/watch?v=6UwW97Y-lvo",
+  "upload_date": "20250205"
+ },
+ "created": "2026-09-22T22:27:23",
+ "models": {
+  "asr": "whisper-1",
+  "detector": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+  "verifier": "gpt-4o-2024-08-06"
+ },
+ "transcript": "What is a building? A building is anything that anyone has built. So my shoes are a building. How many Three Wise Men were there? Who knows? And to add insult to injury, that money will most likely have a picture of a man on it, because most banknotes don't have women on them, apart from the Queen, who's on all of them. I think that they can build... Let's go, girls. Sorry about that. In Victorian times, women weren't allowed to vote, even though we had a female king. One in 20 people has been a victim of crime, which means that 19 out of 20 people are criminals.",
+ "sentences": [
+  {
+   "id": 1,
+   "start": 0.0,
+   "text": "What is a building?",
+   "detector_raw": "none",
+   "candidates": [],
+   "verification": [],
+   "verified": [],
+   "phrases": [],
+   "passes": 3,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 55,
+     "out": 1
+    }
+   ]
+  },
+  {
+   "id": 2,
+   "start": 2.0,
+   "text": "A building is anything that anyone has built.",
+   "detector_raw": "none",
+   "candidates": [],
+   "verification": [],
+   "verified": [],
+   "phrases": [],
+   "passes": 3,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 59,
+     "out": 1
+    }
+   ]
+  },
+  {
+   "id": 3,
+   "start": 5.0,
+   "text": "So my shoes are a building.",
+   "detector_raw": "building",
+   "candidates": [
+    "building"
+   ],
+   "verification": [
+    {
+     "word": "building",
+     "contextual_meaning": "a constructed object or entity",
+     "basic_meaning": "a structure with walls and a roof",
+     "is_metaphor": true
+    }
+   ],
+   "verified": [
+    "building"
+   ],
+   "phrases": [
+    {
+     "phrase": "shoes are a building",
+     "conventionality": "creative",
+     "triggers": [
+      "building"
+     ],
+     "source_domain": "CONSTRUCTION",
+     "target_domain": "OBJECTS",
+     "explanation_uk": "Взуття порівнюється з будівлею, щоб підкреслити, що воно створене людиною.",
+     "span": [
+      6,
+      26
+     ],
+     "agreement": "3/3"
+    }
+   ],
+   "passes": 3,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 57,
+     "out": 1
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 528,
+     "out": 111
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 528,
+     "out": 133
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 528,
+     "out": 137
+    }
+   ]
+  },
+  {
+   "id": 4,
+   "start": 7.0,
+   "text": "How many Three Wise Men were there?",
+   "detector_raw": "none",
+   "candidates": [],
+   "verification": [],
+   "verified": [],
+   "phrases": [],
+   "passes": 3,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 58,
+     "out": 1
+    }
+   ]
+  },
+  {
+   "id": 5,
+   "start": 10.0,
+   "text": "Who knows?",
+   "detector_raw": "none",
+   "candidates": [],
+   "verification": [],
+   "verified": [],
+   "phrases": [],
+   "passes": 3,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 53,
+     "out": 1
+    }
+   ]
+  },
+  {
+   "id": 6,
+   "start": 12.0,
+   "text": "And to add insult to injury, that money will most likely have a picture of a man on it, because most banknotes don't have women on them, apart from the Queen, who's on all of them.",
+   "detector_raw": "add, insult, to, injury, that, have, on, have, on, apart, from, on",
+   "candidates": [
+    "add",
+    "insult",
+    "injury",
+    "apart"
+   ],
+   "verification": [
+    {
+     "word": "add",
+     "contextual_meaning": "to make a situation worse by introducing another negative element",
+     "basic_meaning": "to combine or join something to something else",
+     "is_metaphor": true
+    },
+    {
+     "word": "insult",
+     "contextual_meaning": "an action or remark that causes offense or disrespect",
+     "basic_meaning": "a disrespectful or scornful remark or action",
+     "is_metaphor": false
+    },
+    {
+     "word": "injury",
+     "contextual_meaning": "a situation that is already negative or harmful",
+     "basic_meaning": "physical harm or damage to someone's body",
+     "is_metaphor": true
+    },
+    {
+     "word": "apart",
+     "contextual_meaning": "except for",
+     "basic_meaning": "separated by a distance",
+     "is_metaphor": false
+    }
+   ],
+   "verified": [
+    "injury",
+    "add"
+   ],
+   "phrases": [
+    {
+     "phrase": "add insult to injury",
+     "conventionality": "conventional",
+     "triggers": [
+      "add",
+      "injury"
+     ],
+     "source_domain": "PHYSICAL HARM",
+     "target_domain": "EMOTIONAL HARM",
+     "explanation_uk": "Це означає погіршити ситуацію, додаючи ще одну образу до вже існуючої проблеми.",
+     "span": [
+      7,
+      27
+     ],
+     "agreement": "3/3"
+    }
+   ],
+   "passes": 3,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 92,
+     "out": 23
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 562,
+     "out": 231
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 562,
+     "out": 219
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 562,
+     "out": 221
+    }
+   ]
+  },
+  {
+   "id": 7,
+   "start": 23.0,
+   "text": "I think that they can build...",
+   "detector_raw": "none",
+   "candidates": [],
+   "verification": [],
+   "verified": [],
+   "phrases": [],
+   "passes": 3,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 57,
+     "out": 1
+    }
+   ]
+  },
+  {
+   "id": 8,
+   "start": 29.0,
+   "text": "Let's go, girls.",
+   "detector_raw": "none",
+   "candidates": [],
+   "verification": [],
+   "verified": [],
+   "phrases": [],
+   "passes": 3,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 55,
+     "out": 1
+    }
+   ]
+  },
+  {
+   "id": 9,
+   "start": 34.0,
+   "text": "Sorry about that.",
+   "detector_raw": "about, that",
+   "candidates": [],
+   "verification": [],
+   "verified": [],
+   "phrases": [],
+   "passes": 3,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 54,
+     "out": 3
+    }
+   ]
+  },
+  {
+   "id": 10,
+   "start": 35.0,
+   "text": "In Victorian times, women weren't allowed to vote, even though we had a female king.",
+   "detector_raw": "In, had, king",
+   "candidates": [
+    "king"
+   ],
+   "verification": [
+    {
+     "word": "king",
+     "contextual_meaning": "a female monarch or ruler",
+     "basic_meaning": "a male monarch or ruler",
+     "is_metaphor": true
+    }
+   ],
+   "verified": [
+    "king"
+   ],
+   "phrases": [
+    {
+     "phrase": "female king",
+     "conventionality": "creative",
+     "triggers": [
+      "king"
+     ],
+     "source_domain": "ROYALTY",
+     "target_domain": "GENDER",
+     "explanation_uk": "Жінка описується як король, щоб підкреслити її владу, незважаючи на стать.",
+     "span": [
+      72,
+      83
+     ],
+     "agreement": "2/3"
+    }
+   ],
+   "passes": 3,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 68,
+     "out": 5
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 551,
+     "out": 104
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 551,
+     "out": 122
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 551,
+     "out": 104
+    }
+   ]
+  },
+  {
+   "id": 11,
+   "start": 40.0,
+   "text": "One in 20 people has been a victim of crime, which means that 19 out of 20 people are criminals.",
+   "detector_raw": "in, out, of",
+   "candidates": [],
+   "verification": [],
+   "verified": [],
+   "phrases": [],
+   "passes": 3,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 75,
+     "out": 5
+    }
+   ]
+  }
+ ],
+ "stats": {
+  "sentences": 11,
+  "words": 107,
+  "phrases": 3,
+  "verified_words": 4,
+  "creative": 2,
+  "conventional": 1,
+  "density_per_100_words": 2.8,
+  "creative_per_100_words": 1.87,
+  "errors": 0,
+  "borderline": 1,
+  "stable": 2,
+  "verifier_passes": 3,
+  "cost_usd_estimate": 0.0344
+ }
+}

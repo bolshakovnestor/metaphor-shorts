@@ -1,0 +1,428 @@
+{
+ "source": {
+  "type": "youtube",
+  "url": "https://www.youtube.com/shorts/RK6ZDxtwIvQ",
+  "id": "RK6ZDxtwIvQ",
+  "title": "Startup hires an adult",
+  "uploader": "Alberta Tech",
+  "duration": 24,
+  "webpage_url": "https://www.youtube.com/watch?v=RK6ZDxtwIvQ",
+  "upload_date": "20260513"
+ },
+ "created": "2026-09-23T01:51:30",
+ "models": {
+  "asr": "whisper-1",
+  "detector": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+  "verifier": "gpt-4o-2024-08-06"
+ },
+ "transcript": "Why didn't you hire Jeff? Ash told me to hire an ABG. OK, that's illegal. I can't hear that. Oh, you're a parent? That's crazy. I mean, that's sick. So you think you're going to have more, or are you good? What if we just tell our investors the product works? That's defrauding investors. What if we just fake a working demo? How would that be better? Is it cool with you guys if I vape in here? Yeah.",
+ "sentences": [
+  {
+   "id": 1,
+   "start": 0.0,
+   "text": "Why didn't you hire Jeff?",
+   "detector_raw": "none",
+   "candidates": [],
+   "verification": [],
+   "verified": [],
+   "phrases": [],
+   "passes": 3,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 56,
+     "out": 1
+    }
+   ]
+  },
+  {
+   "id": 2,
+   "start": 1.0399999618530273,
+   "text": "Ash told me to hire an ABG.",
+   "detector_raw": "none",
+   "candidates": [],
+   "verification": [],
+   "verified": [],
+   "phrases": [],
+   "passes": 3,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 59,
+     "out": 1
+    }
+   ]
+  },
+  {
+   "id": 3,
+   "start": 2.4800000190734863,
+   "text": "OK, that's illegal.",
+   "detector_raw": "that's",
+   "candidates": [],
+   "verification": [],
+   "verified": [],
+   "phrases": [],
+   "passes": 3,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 55,
+     "out": 1
+    }
+   ]
+  },
+  {
+   "id": 4,
+   "start": 3.359999895095825,
+   "text": "I can't hear that.",
+   "detector_raw": "none",
+   "candidates": [],
+   "verification": [],
+   "verified": [],
+   "phrases": [],
+   "passes": 3,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 55,
+     "out": 1
+    }
+   ]
+  },
+  {
+   "id": 5,
+   "start": 6.360000133514404,
+   "text": "Oh, you're a parent?",
+   "detector_raw": "none",
+   "candidates": [],
+   "verification": [],
+   "verified": [],
+   "phrases": [],
+   "passes": 3,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 56,
+     "out": 1
+    }
+   ]
+  },
+  {
+   "id": 6,
+   "start": 7.199999809265137,
+   "text": "That's crazy.",
+   "detector_raw": "none",
+   "candidates": [],
+   "verification": [],
+   "verified": [],
+   "phrases": [],
+   "passes": 3,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 53,
+     "out": 1
+    }
+   ]
+  },
+  {
+   "id": 7,
+   "start": 9.5600004196167,
+   "text": "I mean, that's sick.",
+   "detector_raw": "that's, sick",
+   "candidates": [
+    "sick"
+   ],
+   "verification": [
+    {
+     "word": "sick",
+     "contextual_meaning": "impressive or cool",
+     "basic_meaning": "affected by physical or mental illness",
+     "is_metaphor": true
+    }
+   ],
+   "verified": [
+    "sick"
+   ],
+   "phrases": [
+    {
+     "phrase": "that's sick",
+     "conventionality": "conventional",
+     "triggers": [
+      "sick"
+     ],
+     "source_domain": "ILLNESS",
+     "target_domain": "IMPRESSIVENESS",
+     "explanation_uk": "Слово 'хворий' використовується для опису чогось вражаючого або крутого.",
+     "span": [
+      8,
+      19
+     ],
+     "agreement": "3/3"
+    }
+   ],
+   "passes": 3,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 56,
+     "out": 3
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 527,
+     "out": 109
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 527,
+     "out": 96
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 527,
+     "out": 95
+    }
+   ]
+  },
+  {
+   "id": 8,
+   "start": 12.399999618530273,
+   "text": "So you think you're going to have more, or are you good?",
+   "detector_raw": "have, good",
+   "candidates": [
+    "good"
+   ],
+   "verification": [
+    {
+     "word": "good",
+     "contextual_meaning": "satisfied or content with the current situation",
+     "basic_meaning": "morally right or beneficial",
+     "is_metaphor": true
+    }
+   ],
+   "verified": [
+    "good"
+   ],
+   "phrases": [
+    {
+     "phrase": "are you good",
+     "conventionality": "conventional",
+     "triggers": [
+      "good"
+     ],
+     "source_domain": "MORALITY",
+     "target_domain": "SATISFACTION",
+     "explanation_uk": "Бути «добрим» означає бути задоволеним або не потребувати більше.",
+     "span": [
+      43,
+      55
+     ],
+     "agreement": "3/3"
+    }
+   ],
+   "passes": 3,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 64,
+     "out": 3
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 535,
+     "out": 105
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 535,
+     "out": 105
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 535,
+     "out": 105
+    }
+   ]
+  },
+  {
+   "id": 9,
+   "start": 14.800000190734863,
+   "text": "What if we just tell our investors the product works?",
+   "detector_raw": "none",
+   "candidates": [],
+   "verification": [],
+   "verified": [],
+   "phrases": [],
+   "passes": 3,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 61,
+     "out": 1
+    }
+   ]
+  },
+  {
+   "id": 10,
+   "start": 17.31999969482422,
+   "text": "That's defrauding investors.",
+   "detector_raw": "none",
+   "candidates": [],
+   "verification": [],
+   "verified": [],
+   "phrases": [],
+   "passes": 3,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 56,
+     "out": 1
+    }
+   ]
+  },
+  {
+   "id": 11,
+   "start": 18.84000015258789,
+   "text": "What if we just fake a working demo?",
+   "detector_raw": "none",
+   "candidates": [],
+   "verification": [],
+   "verified": [],
+   "phrases": [],
+   "passes": 3,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 59,
+     "out": 1
+    }
+   ]
+  },
+  {
+   "id": 12,
+   "start": 20.31999969482422,
+   "text": "How would that be better?",
+   "detector_raw": "that",
+   "candidates": [],
+   "verification": [],
+   "verified": [],
+   "phrases": [],
+   "passes": 3,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 56,
+     "out": 1
+    }
+   ]
+  },
+  {
+   "id": 13,
+   "start": 21.399999618530273,
+   "text": "Is it cool with you guys if I vape in here?",
+   "detector_raw": "cool, with",
+   "candidates": [
+    "cool"
+   ],
+   "verification": [
+    {
+     "word": "cool",
+     "contextual_meaning": "acceptable or okay",
+     "basic_meaning": "moderately cold in temperature",
+     "is_metaphor": true
+    }
+   ],
+   "verified": [
+    "cool"
+   ],
+   "phrases": [
+    {
+     "phrase": "cool with you guys",
+     "conventionality": "conventional",
+     "triggers": [
+      "cool"
+     ],
+     "source_domain": "TEMPERATURE",
+     "target_domain": "ACCEPTABILITY",
+     "explanation_uk": "Щось, що є «прохолодним», сприймається як прийнятне або нормальне.",
+     "span": [
+      6,
+      24
+     ],
+     "agreement": "3/3"
+    }
+   ],
+   "passes": 3,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 62,
+     "out": 3
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 524,
+     "out": 103
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 524,
+     "out": 103
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 524,
+     "out": 104
+    }
+   ]
+  },
+  {
+   "id": 14,
+   "start": 23.200000762939453,
+   "text": "Yeah.",
+   "detector_raw": "none",
+   "candidates": [],
+   "verification": [],
+   "verified": [],
+   "phrases": [],
+   "passes": 3,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 52,
+     "out": 1
+    }
+   ]
+  }
+ ],
+ "stats": {
+  "sentences": 14,
+  "words": 79,
+  "phrases": 3,
+  "verified_words": 3,
+  "creative": 0,
+  "conventional": 3,
+  "density_per_100_words": 3.8,
+  "creative_per_100_words": 0.0,
+  "errors": 0,
+  "borderline": 0,
+  "stable": 3,
+  "verifier_passes": 3,
+  "cost_usd_estimate": 0.0268
+ }
+}

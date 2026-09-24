@@ -1,0 +1,814 @@
+{
+ "source": {
+  "type": "youtube",
+  "url": "https://www.youtube.com/shorts/l-fhCjr0beM",
+  "id": "l-fhCjr0beM",
+  "title": "How A Fruit Became A Toilet",
+  "uploader": "Shawn Grows",
+  "duration": 48,
+  "webpage_url": "https://www.youtube.com/watch?v=l-fhCjr0beM",
+  "upload_date": "20260520"
+ },
+ "created": "2026-09-23T01:34:54",
+ "models": {
+  "asr": "whisper-1",
+  "detector": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+  "verifier": "gpt-4o-2024-08-06"
+ },
+ "transcript": "Most people don't know this, but the dirtiest thing you can have in your bathroom is a fruit. Luffas are in the same plant family as cucumbers. They grow in a vine as a gourd, and when you dry them out, they turn into these natural sponges. And these fibers can absorb and trap almost anything that they touch. For centuries, this was the greatest bathing tool ever created. So while some people would eat it, others would turn it into this. But the same thing that makes it the best tool makes it the worst. That actually doesn't feel nice at all. Every time you use one of these, dead skin cells get trapped in these fibers. In 1994, scientists discovered that bacterial growth happens overnight on luffas. So luffas can grow more bacteria than a public toilet. So now every time you use it, you're scrubbing that bacteria back onto your skin. You spent centuries cleaning people, only to become the dirtiest thing that ever touched them. Which is pretty insane.",
+ "sentences": [
+  {
+   "id": 1,
+   "start": 0.0,
+   "text": "Most people don't know this, but the dirtiest thing you can have in your bathroom is a fruit.",
+   "detector_raw": "this, dirtiest, have",
+   "candidates": [
+    "dirtiest"
+   ],
+   "verification": [
+    {
+     "word": "dirtiest",
+     "contextual_meaning": "most contaminated or unhygienic",
+     "basic_meaning": "covered or marked with an unclean substance",
+     "is_metaphor": false
+    }
+   ],
+   "verified": [],
+   "phrases": [],
+   "passes": 3,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 72,
+     "out": 7
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 541,
+     "out": 48
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 541,
+     "out": 48
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 541,
+     "out": 48
+    }
+   ]
+  },
+  {
+   "id": 2,
+   "start": 4.639999866485596,
+   "text": "Luffas are in the same plant family as cucumbers.",
+   "detector_raw": "in, family",
+   "candidates": [
+    "family"
+   ],
+   "verification": [
+    {
+     "word": "family",
+     "contextual_meaning": "a group of related plants sharing common characteristics",
+     "basic_meaning": "a group of related individuals, typically consisting of parents and their children",
+     "is_metaphor": true
+    }
+   ],
+   "verified": [
+    "family"
+   ],
+   "phrases": [
+    {
+     "phrase": "in the same plant family",
+     "conventionality": "conventional",
+     "triggers": [
+      "family"
+     ],
+     "source_domain": "FAMILY",
+     "target_domain": "PLANTS",
+     "explanation_uk": "Рослини, що мають спільні характеристики, описуються як члени однієї родини.",
+     "span": [
+      11,
+      35
+     ],
+     "agreement": "3/3"
+    }
+   ],
+   "passes": 3,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 63,
+     "out": 3
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 564,
+     "out": 115
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 564,
+     "out": 112
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 564,
+     "out": 115
+    }
+   ]
+  },
+  {
+   "id": 3,
+   "start": 7.440000057220459,
+   "text": "They grow in a vine as a gourd, and when you dry them out, they turn into these natural sponges.",
+   "detector_raw": "grow, vine, gourd, these",
+   "candidates": [
+    "grow",
+    "vine",
+    "gourd"
+   ],
+   "verification": [
+    {
+     "word": "grow",
+     "contextual_meaning": "develop or increase in size as a plant",
+     "basic_meaning": "increase in size or amount",
+     "is_metaphor": false
+    },
+    {
+     "word": "vine",
+     "contextual_meaning": "a plant with a long, thin stem that grows along the ground or climbs up a support",
+     "basic_meaning": "a plant with a long, thin stem that grows along the ground or climbs up a support",
+     "is_metaphor": false
+    },
+    {
+     "word": "gourd",
+     "contextual_meaning": "a fleshy, typically large fruit with a hard skin, some varieties of which are edible",
+     "basic_meaning": "a fleshy, typically large fruit with a hard skin, some varieties of which are edible",
+     "is_metaphor": false
+    }
+   ],
+   "verified": [],
+   "phrases": [],
+   "passes": 3,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 75,
+     "out": 8
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 560,
+     "out": 161
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 560,
+     "out": 141
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 560,
+     "out": 161
+    }
+   ]
+  },
+  {
+   "id": 4,
+   "start": 11.760000228881836,
+   "text": "And these fibers can absorb and trap almost anything that they touch.",
+   "detector_raw": "these, trap",
+   "candidates": [
+    "trap"
+   ],
+   "verification": [
+    {
+     "word": "trap",
+     "contextual_meaning": "to catch and hold substances within the fibers",
+     "basic_meaning": "to catch and hold animals or people in a trap",
+     "is_metaphor": true
+    }
+   ],
+   "verified": [
+    "trap"
+   ],
+   "phrases": [
+    {
+     "phrase": "trap almost anything",
+     "conventionality": "conventional",
+     "triggers": [
+      "trap"
+     ],
+     "source_domain": "CAPTURE",
+     "target_domain": "CONTAINMENT",
+     "explanation_uk": "Волокна можуть захоплювати і утримувати речовини, як пастка утримує здобич.",
+     "span": [
+      32,
+      52
+     ],
+     "agreement": "3/3"
+    }
+   ],
+   "passes": 3,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 63,
+     "out": 3
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 554,
+     "out": 115
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 554,
+     "out": 109
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 554,
+     "out": 109
+    }
+   ]
+  },
+  {
+   "id": 5,
+   "start": 14.720000267028809,
+   "text": "For centuries, this was the greatest bathing tool ever created.",
+   "detector_raw": "this, greatest",
+   "candidates": [
+    "greatest"
+   ],
+   "verification": [
+    {
+     "word": "greatest",
+     "contextual_meaning": "the most effective or superior in quality",
+     "basic_meaning": "largest in size or amount",
+     "is_metaphor": true
+    }
+   ],
+   "verified": [
+    "greatest"
+   ],
+   "phrases": [
+    {
+     "phrase": "greatest bathing tool",
+     "conventionality": "conventional",
+     "triggers": [
+      "greatest"
+     ],
+     "source_domain": "SIZE",
+     "target_domain": "QUALITY",
+     "explanation_uk": "Найбільший за розміром переноситься на найкращий за якістю.",
+     "span": [
+      28,
+      49
+     ],
+     "agreement": "3/3"
+    }
+   ],
+   "passes": 3,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 62,
+     "out": 3
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 544,
+     "out": 102
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 544,
+     "out": 100
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 544,
+     "out": 99
+    }
+   ]
+  },
+  {
+   "id": 6,
+   "start": 17.719999313354492,
+   "text": "So while some people would eat it, others would turn it into this.",
+   "detector_raw": "turn, this",
+   "candidates": [
+    "turn"
+   ],
+   "verification": [
+    {
+     "word": "turn",
+     "contextual_meaning": "transform or change something into a different form or use",
+     "basic_meaning": "physically rotate or revolve something",
+     "is_metaphor": true
+    }
+   ],
+   "verified": [
+    "turn"
+   ],
+   "phrases": [
+    {
+     "phrase": "turn it into",
+     "conventionality": "conventional",
+     "triggers": [
+      "turn"
+     ],
+     "source_domain": "TRANSFORMATION",
+     "target_domain": "CHANGE",
+     "explanation_uk": "Перетворення одного об'єкта на інший описується як фізичне обертання.",
+     "span": [
+      48,
+      60
+     ],
+     "agreement": "3/3"
+    }
+   ],
+   "passes": 3,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 65,
+     "out": 3
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 546,
+     "out": 106
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 546,
+     "out": 110
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 546,
+     "out": 111
+    }
+   ]
+  },
+  {
+   "id": 7,
+   "start": 20.8799991607666,
+   "text": "But the same thing that makes it the best tool makes it the worst.",
+   "detector_raw": "thing, makes, tool, makes",
+   "candidates": [
+    "thing",
+    "makes",
+    "tool"
+   ],
+   "verification": [
+    {
+     "word": "thing",
+     "contextual_meaning": "an object or concept being discussed or referred to",
+     "basic_meaning": "a physical object",
+     "is_metaphor": false
+    },
+    {
+     "word": "makes",
+     "contextual_meaning": "causes or results in something",
+     "basic_meaning": "to create or construct something",
+     "is_metaphor": true
+    },
+    {
+     "word": "tool",
+     "contextual_meaning": "something used to achieve a purpose or function",
+     "basic_meaning": "a physical instrument used to carry out a particular function",
+     "is_metaphor": true
+    }
+   ],
+   "verified": [
+    "tool",
+    "makes"
+   ],
+   "phrases": [
+    {
+     "phrase": "makes it the best tool",
+     "conventionality": "conventional",
+     "triggers": [
+      "makes",
+      "tool"
+     ],
+     "source_domain": "CREATION",
+     "target_domain": "FUNCTIONALITY",
+     "explanation_uk": "Те, що робить його найкращим інструментом, означає, що воно найкраще виконує свою функцію.",
+     "span": [
+      24,
+      46
+     ],
+     "agreement": "3/3"
+    },
+    {
+     "phrase": "makes it the worst",
+     "conventionality": "conventional",
+     "triggers": [
+      "makes"
+     ],
+     "source_domain": "CREATION",
+     "target_domain": "FUNCTIONALITY",
+     "explanation_uk": "Те, що робить його найгіршим, означає, що воно найгірше виконує свою функцію.",
+     "span": [
+      47,
+      65
+     ],
+     "agreement": "3/3"
+    }
+   ],
+   "passes": 3,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 65,
+     "out": 7
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 546,
+     "out": 259
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 546,
+     "out": 267
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 546,
+     "out": 264
+    }
+   ]
+  },
+  {
+   "id": 8,
+   "start": 25.040000915527344,
+   "text": "That actually doesn't feel nice at all.",
+   "detector_raw": "feel, nice",
+   "candidates": [
+    "feel",
+    "nice"
+   ],
+   "verification": [
+    {
+     "word": "feel",
+     "contextual_meaning": "to experience a sensation or emotion",
+     "basic_meaning": "to touch or perceive through physical contact",
+     "is_metaphor": true
+    },
+    {
+     "word": "nice",
+     "contextual_meaning": "pleasant or agreeable",
+     "basic_meaning": "fine or good in quality",
+     "is_metaphor": false
+    }
+   ],
+   "verified": [
+    "feel"
+   ],
+   "phrases": [
+    {
+     "phrase": "feel nice",
+     "conventionality": "conventional",
+     "triggers": [
+      "feel"
+     ],
+     "source_domain": "PHYSICAL SENSATION",
+     "target_domain": "EMOTIONAL EXPERIENCE",
+     "explanation_uk": "Відчуття фізичного дотику порівнюється з емоційним переживанням.",
+     "span": [
+      22,
+      31
+     ],
+     "agreement": "3/3"
+    }
+   ],
+   "passes": 3,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 58,
+     "out": 3
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 546,
+     "out": 140
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 546,
+     "out": 140
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 546,
+     "out": 139
+    }
+   ]
+  },
+  {
+   "id": 9,
+   "start": 26.84000015258789,
+   "text": "Every time you use one of these, dead skin cells get trapped in these fibers.",
+   "detector_raw": "these, trapped, these",
+   "candidates": [
+    "trapped"
+   ],
+   "verification": [
+    {
+     "word": "trapped",
+     "contextual_meaning": "caught and held in a place where escape is difficult",
+     "basic_meaning": "captured or confined, typically in a trap",
+     "is_metaphor": true
+    }
+   ],
+   "verified": [
+    "trapped"
+   ],
+   "phrases": [
+    {
+     "phrase": "trapped in these fibers",
+     "conventionality": "conventional",
+     "triggers": [
+      "trapped"
+     ],
+     "source_domain": "CAPTURE",
+     "target_domain": "CONTAINMENT",
+     "explanation_uk": "Мертві клітини шкіри описуються як захоплені у волокнах, що передає ідею їх утримання.",
+     "span": [
+      53,
+      76
+     ],
+     "agreement": "2/3"
+    }
+   ],
+   "passes": 3,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 67,
+     "out": 5
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 546,
+     "out": 124
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 546,
+     "out": 53
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 546,
+     "out": 124
+    }
+   ]
+  },
+  {
+   "id": 10,
+   "start": 30.040000915527344,
+   "text": "In 1994, scientists discovered that bacterial growth happens overnight on luffas.",
+   "detector_raw": "In, discovered, growth",
+   "candidates": [
+    "discovered",
+    "growth"
+   ],
+   "verification": [
+    {
+     "word": "discovered",
+     "contextual_meaning": "found out or learned about something previously unknown",
+     "basic_meaning": "to find something that was hidden or not known",
+     "is_metaphor": false
+    },
+    {
+     "word": "growth",
+     "contextual_meaning": "the process of bacteria increasing in number",
+     "basic_meaning": "the process of growing physically larger",
+     "is_metaphor": true
+    }
+   ],
+   "verified": [],
+   "phrases": [],
+   "passes": 3,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 67,
+     "out": 5
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 553,
+     "out": 143
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 553,
+     "out": 89
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 553,
+     "out": 86
+    }
+   ]
+  },
+  {
+   "id": 11,
+   "start": 35.31999969482422,
+   "text": "So luffas can grow more bacteria than a public toilet.",
+   "detector_raw": "grow",
+   "candidates": [
+    "grow"
+   ],
+   "verification": [
+    {
+     "word": "grow",
+     "contextual_meaning": "to increase in number or amount",
+     "basic_meaning": "to develop or increase in size or stature",
+     "is_metaphor": true
+    }
+   ],
+   "verified": [
+    "grow"
+   ],
+   "phrases": [
+    {
+     "phrase": "grow more bacteria",
+     "conventionality": "conventional",
+     "triggers": [
+      "grow"
+     ],
+     "source_domain": "PLANTS",
+     "target_domain": "INCREASE",
+     "explanation_uk": "Ріст бактерій на люфах порівнюється з ростом рослин.",
+     "span": [
+      14,
+      32
+     ],
+     "agreement": "3/3"
+    }
+   ],
+   "passes": 3,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 63,
+     "out": 1
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 552,
+     "out": 101
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 552,
+     "out": 101
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 552,
+     "out": 119
+    }
+   ]
+  },
+  {
+   "id": 12,
+   "start": 38.279998779296875,
+   "text": "So now every time you use it, you're scrubbing that bacteria back onto your skin.",
+   "detector_raw": "none",
+   "candidates": [],
+   "verification": [],
+   "verified": [],
+   "phrases": [],
+   "passes": 3,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 68,
+     "out": 1
+    }
+   ]
+  },
+  {
+   "id": 13,
+   "start": 41.959999084472656,
+   "text": "You spent centuries cleaning people, only to become the dirtiest thing that ever touched them.",
+   "detector_raw": "spent, cleaning, dirtiest, touched",
+   "candidates": [
+    "spent",
+    "cleaning",
+    "dirtiest",
+    "touched"
+   ],
+   "verification": [
+    {
+     "word": "spent",
+     "contextual_meaning": "used a long period of time doing something",
+     "basic_meaning": "to use up or exhaust resources or time",
+     "is_metaphor": false
+    },
+    {
+     "word": "cleaning",
+     "contextual_meaning": "removing dirt or impurities from people",
+     "basic_meaning": "making something free of dirt or impurities",
+     "is_metaphor": false
+    },
+    {
+     "word": "dirtiest",
+     "contextual_meaning": "most contaminated or unclean",
+     "basic_meaning": "covered or marked with an unclean substance",
+     "is_metaphor": false
+    },
+    {
+     "word": "touched",
+     "contextual_meaning": "came into contact with",
+     "basic_meaning": "to make physical contact with something",
+     "is_metaphor": false
+    }
+   ],
+   "verified": [],
+   "phrases": [],
+   "passes": 3,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 69,
+     "out": 9
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 554,
+     "out": 154
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 554,
+     "out": 154
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 554,
+     "out": 150
+    }
+   ]
+  },
+  {
+   "id": 14,
+   "start": 46.040000915527344,
+   "text": "Which is pretty insane.",
+   "detector_raw": "none",
+   "candidates": [],
+   "verification": [],
+   "verified": [],
+   "phrases": [],
+   "passes": 3,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 55,
+     "out": 1
+    }
+   ]
+  }
+ ],
+ "stats": {
+  "sentences": 14,
+  "words": 172,
+  "phrases": 9,
+  "verified_words": 9,
+  "creative": 0,
+  "conventional": 9,
+  "density_per_100_words": 5.23,
+  "creative_per_100_words": 0.0,
+  "errors": 0,
+  "borderline": 1,
+  "stable": 8,
+  "verifier_passes": 3,
+  "cost_usd_estimate": 0.1038
+ }
+}

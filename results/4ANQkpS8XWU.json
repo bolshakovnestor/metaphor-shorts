@@ -1,0 +1,772 @@
+{
+ "source": {
+  "type": "youtube",
+  "url": "https://www.youtube.com/shorts/4ANQkpS8XWU",
+  "id": "4ANQkpS8XWU",
+  "title": "She Cracked the Code to Mastering Anything.",
+  "uploader": "GROWTH™",
+  "duration": 59,
+  "webpage_url": "https://www.youtube.com/watch?v=4ANQkpS8XWU",
+  "upload_date": "20260426"
+ },
+ "created": "2026-09-23T01:20:05",
+ "models": {
+  "asr": "whisper-1",
+  "detector": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+  "verifier": "gpt-4o-2024-08-06"
+ },
+ "transcript": "So, if you want to become an expert at anything, it takes 3 months of 18 minutes every single day. And if you want to be a master of something, it'll take 18 minutes every day for a year. And then to bring physics into it, an object in motion is going to stay in motion. It takes 21 days to form a habit. So after 21 days, it's set in stone that this is something that you just do. And it's hard to break a habit once it's started. Meaning that an object in motion will stay in motion unless acted upon by a net external force. So after 21 days, you'll already be in motion and it won't be stopped unless something monumental happens that knocks you off track, like some kind of tragedy or trauma that happens in your life. It'll be difficult for you to stop doing it after 21 days. You'll just keep going. There'll be so much momentum in you that motivation won't even be a thing. You'll just do it without a second thought.",
+ "sentences": [
+  {
+   "id": 1,
+   "start": 0.0,
+   "text": "So, if you want to become an expert at anything, it takes 3 months of 18 minutes every single day.",
+   "detector_raw": "at, takes",
+   "candidates": [
+    "takes"
+   ],
+   "verification": [
+    {
+     "word": "takes",
+     "contextual_meaning": "requires or demands a certain amount of time or effort",
+     "basic_meaning": "to physically carry or move something from one place to another",
+     "is_metaphor": true
+    }
+   ],
+   "verified": [
+    "takes"
+   ],
+   "phrases": [
+    {
+     "phrase": "takes 3 months",
+     "conventionality": "conventional",
+     "triggers": [
+      "takes"
+     ],
+     "source_domain": "POSSESSION",
+     "target_domain": "TIME",
+     "explanation_uk": "Час представлений як річ, яку можна взяти або вимагати.",
+     "span": [
+      52,
+      66
+     ],
+     "agreement": "3/3"
+    }
+   ],
+   "passes": 3,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 75,
+     "out": 3
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 551,
+     "out": 107
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 551,
+     "out": 107
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 551,
+     "out": 107
+    }
+   ]
+  },
+  {
+   "id": 2,
+   "start": 7.840000152587891,
+   "text": "And if you want to be a master of something, it'll take 18 minutes every day for a year.",
+   "detector_raw": "master, take",
+   "candidates": [
+    "master",
+    "take"
+   ],
+   "verification": [
+    {
+     "word": "master",
+     "contextual_meaning": "to become highly skilled or proficient in something",
+     "basic_meaning": "a person who has control or authority over others",
+     "is_metaphor": true
+    },
+    {
+     "word": "take",
+     "contextual_meaning": "require or need a certain amount of time",
+     "basic_meaning": "to physically grasp or hold something",
+     "is_metaphor": true
+    }
+   ],
+   "verified": [
+    "take",
+    "master"
+   ],
+   "phrases": [
+    {
+     "phrase": "be a master of something",
+     "conventionality": "conventional",
+     "triggers": [
+      "master"
+     ],
+     "source_domain": "CONTROL",
+     "target_domain": "SKILL",
+     "explanation_uk": "Опанування чогось прирівнюється до контролю над цим.",
+     "span": [
+      19,
+      43
+     ],
+     "agreement": "3/3"
+    },
+    {
+     "phrase": "take 18 minutes",
+     "conventionality": "conventional",
+     "triggers": [
+      "take"
+     ],
+     "source_domain": "POSSESSION",
+     "target_domain": "TIME",
+     "explanation_uk": "Час, необхідний для виконання завдання, прирівнюється до володіння ним.",
+     "span": [
+      51,
+      66
+     ],
+     "agreement": "3/3"
+    }
+   ],
+   "passes": 3,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 72,
+     "out": 3
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 572,
+     "out": 198
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 572,
+     "out": 197
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 572,
+     "out": 199
+    }
+   ]
+  },
+  {
+   "id": 3,
+   "start": 14.539999961853027,
+   "text": "And then to bring physics into it, an object in motion is going to stay in motion.",
+   "detector_raw": "bring, into",
+   "candidates": [
+    "bring"
+   ],
+   "verification": [
+    {
+     "word": "bring",
+     "contextual_meaning": "introduce or incorporate a concept or idea into a discussion or context.",
+     "basic_meaning": "carry or convey something to a place.",
+     "is_metaphor": true
+    }
+   ],
+   "verified": [
+    "bring"
+   ],
+   "phrases": [
+    {
+     "phrase": "bring physics into it",
+     "conventionality": "conventional",
+     "triggers": [
+      "bring"
+     ],
+     "source_domain": "PHYSICAL ACTION",
+     "target_domain": "DISCUSSION",
+     "explanation_uk": "Вислів означає введення концепції фізики в обговорення, як ніби її фізично приносять.",
+     "span": [
+      12,
+      33
+     ],
+     "agreement": "3/3"
+    }
+   ],
+   "passes": 3,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 69,
+     "out": 3
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 555,
+     "out": 118
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 555,
+     "out": 119
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 555,
+     "out": 117
+    }
+   ]
+  },
+  {
+   "id": 4,
+   "start": 18.8799991607666,
+   "text": "It takes 21 days to form a habit.",
+   "detector_raw": "takes, form",
+   "candidates": [
+    "takes",
+    "form"
+   ],
+   "verification": [
+    {
+     "word": "takes",
+     "contextual_meaning": "requires a certain amount of time to achieve something",
+     "basic_meaning": "to get into one's possession or control",
+     "is_metaphor": false
+    },
+    {
+     "word": "form",
+     "contextual_meaning": "to develop or establish something over time",
+     "basic_meaning": "to give shape to something",
+     "is_metaphor": true
+    }
+   ],
+   "verified": [
+    "form"
+   ],
+   "phrases": [
+    {
+     "phrase": "form a habit",
+     "conventionality": "conventional",
+     "triggers": [
+      "form"
+     ],
+     "source_domain": "CREATION",
+     "target_domain": "BEHAVIOR",
+     "explanation_uk": "Звичка розглядається як щось, що формується або створюється.",
+     "span": [
+      20,
+      32
+     ],
+     "agreement": "3/3"
+    }
+   ],
+   "passes": 3,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 60,
+     "out": 3
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 554,
+     "out": 140
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 554,
+     "out": 206
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 554,
+     "out": 147
+    }
+   ]
+  },
+  {
+   "id": 5,
+   "start": 22.1200008392334,
+   "text": "So after 21 days, it's set in stone that this is something that you just do.",
+   "detector_raw": "after, this",
+   "candidates": [],
+   "verification": [],
+   "verified": [],
+   "phrases": [],
+   "passes": 3,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 69,
+     "out": 3
+    }
+   ]
+  },
+  {
+   "id": 6,
+   "start": 26.239999771118164,
+   "text": "And it's hard to break a habit once it's started.",
+   "detector_raw": "hard, break, habit, started",
+   "candidates": [
+    "hard",
+    "break",
+    "habit",
+    "started"
+   ],
+   "verification": [
+    {
+     "word": "hard",
+     "contextual_meaning": "difficult to change or stop",
+     "basic_meaning": "physically solid or firm",
+     "is_metaphor": true
+    },
+    {
+     "word": "break",
+     "contextual_meaning": "to stop or interrupt a habit",
+     "basic_meaning": "to separate into pieces by force",
+     "is_metaphor": true
+    },
+    {
+     "word": "habit",
+     "contextual_meaning": "a regular practice or routine",
+     "basic_meaning": "a long, loose garment worn by a member of a religious order",
+     "is_metaphor": false
+    },
+    {
+     "word": "started",
+     "contextual_meaning": "begun or initiated",
+     "basic_meaning": "to cause to begin or happen",
+     "is_metaphor": false
+    }
+   ],
+   "verified": [
+    "break",
+    "hard"
+   ],
+   "phrases": [
+    {
+     "phrase": "hard to break a habit",
+     "conventionality": "conventional",
+     "triggers": [
+      "hard",
+      "break"
+     ],
+     "source_domain": "PHYSICAL FORCE",
+     "target_domain": "BEHAVIOR CHANGE",
+     "explanation_uk": "Звичку важко змінити, як і фізично зламати щось міцне.",
+     "span": [
+      9,
+      30
+     ],
+     "agreement": "3/3"
+    }
+   ],
+   "passes": 3,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 61,
+     "out": 7
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 559,
+     "out": 216
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 559,
+     "out": 212
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 559,
+     "out": 209
+    }
+   ]
+  },
+  {
+   "id": 7,
+   "start": 29.280000686645508,
+   "text": "Meaning that an object in motion will stay in motion unless acted upon by a net external force.",
+   "detector_raw": "none",
+   "candidates": [],
+   "verification": [],
+   "verified": [],
+   "phrases": [],
+   "passes": 3,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 69,
+     "out": 1
+    }
+   ]
+  },
+  {
+   "id": 8,
+   "start": 36.880001068115234,
+   "text": "So after 21 days, you'll already be in motion and it won't be stopped unless something monumental happens that knocks you off track, like some kind of tragedy or trauma that happens in your life.",
+   "detector_raw": "after, in, motion, stopped, monumental, happens, knocks, off, track, trauma, in",
+   "candidates": [
+    "motion",
+    "stopped",
+    "monumental",
+    "happens",
+    "knocks",
+    "track",
+    "trauma"
+   ],
+   "verification": [
+    {
+     "word": "motion",
+     "contextual_meaning": "engaged in a continuous activity or habit",
+     "basic_meaning": "the action or process of moving or being moved",
+     "is_metaphor": true
+    },
+    {
+     "word": "stopped",
+     "contextual_meaning": "ceased the continuous activity or habit",
+     "basic_meaning": "brought to an end or halted",
+     "is_metaphor": true
+    },
+    {
+     "word": "monumental",
+     "contextual_meaning": "extremely significant or impactful",
+     "basic_meaning": "resembling a monument in size or importance",
+     "is_metaphor": true
+    },
+    {
+     "word": "happens",
+     "contextual_meaning": "occurs or takes place",
+     "basic_meaning": "comes about by chance or without planning",
+     "is_metaphor": false
+    },
+    {
+     "word": "knocks",
+     "contextual_meaning": "disrupts or disturbs the current state",
+     "basic_meaning": "strikes a surface noisily to attract attention",
+     "is_metaphor": true
+    },
+    {
+     "word": "track",
+     "contextual_meaning": "the current path or course of action",
+     "basic_meaning": "a path or trail that is followed",
+     "is_metaphor": true
+    },
+    {
+     "word": "trauma",
+     "contextual_meaning": "a deeply distressing or disturbing experience",
+     "basic_meaning": "a physical injury or wound",
+     "is_metaphor": true
+    }
+   ],
+   "verified": [
+    "knocks",
+    "stopped",
+    "monumental",
+    "motion",
+    "trauma",
+    "track"
+   ],
+   "phrases": [
+    {
+     "phrase": "in motion",
+     "conventionality": "conventional",
+     "triggers": [
+      "motion"
+     ],
+     "source_domain": "PHYSICAL MOVEMENT",
+     "target_domain": "ACTIVITY OR HABIT",
+     "explanation_uk": "Бути в русі означає продовжувати діяльність або звичку.",
+     "span": [
+      36,
+      45
+     ],
+     "agreement": "3/3"
+    },
+    {
+     "phrase": "knocks you off track",
+     "conventionality": "conventional",
+     "triggers": [
+      "knocks",
+      "track"
+     ],
+     "source_domain": "PHYSICAL IMPACT",
+     "target_domain": "DISRUPTION OF PLANS",
+     "explanation_uk": "Збити з курсу означає порушити плани або звичний хід подій.",
+     "span": [
+      111,
+      131
+     ],
+     "agreement": "3/3"
+    }
+   ],
+   "passes": 3,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 89,
+     "out": 21
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 588,
+     "out": 400
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 588,
+     "out": 402
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 588,
+     "out": 603
+    }
+   ]
+  },
+  {
+   "id": 9,
+   "start": 48.040000915527344,
+   "text": "It'll be difficult for you to stop doing it after 21 days.",
+   "detector_raw": "after",
+   "candidates": [],
+   "verification": [],
+   "verified": [],
+   "phrases": [],
+   "passes": 3,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 64,
+     "out": 1
+    }
+   ]
+  },
+  {
+   "id": 10,
+   "start": 51.31999969482422,
+   "text": "You'll just keep going.",
+   "detector_raw": "keep, going",
+   "candidates": [
+    "keep",
+    "going"
+   ],
+   "verification": [
+    {
+     "word": "keep",
+     "contextual_meaning": "continue doing something without stopping",
+     "basic_meaning": "possess or retain something",
+     "is_metaphor": true
+    },
+    {
+     "word": "going",
+     "contextual_meaning": "continue moving or proceeding",
+     "basic_meaning": "move from one place to another",
+     "is_metaphor": true
+    }
+   ],
+   "verified": [
+    "going",
+    "keep"
+   ],
+   "phrases": [
+    {
+     "phrase": "keep going",
+     "conventionality": "conventional",
+     "triggers": [
+      "keep",
+      "going"
+     ],
+     "source_domain": "MOTION",
+     "target_domain": "ACTIVITY",
+     "explanation_uk": "Продовжувати діяльність описується як продовження руху.",
+     "span": [
+      12,
+      22
+     ],
+     "agreement": "3/3"
+    }
+   ],
+   "passes": 3,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 55,
+     "out": 3
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 541,
+     "out": 128
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 541,
+     "out": 128
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 541,
+     "out": 126
+    }
+   ]
+  },
+  {
+   "id": 11,
+   "start": 53.31999969482422,
+   "text": "There'll be so much momentum in you that motivation won't even be a thing.",
+   "detector_raw": "momentum, in, thing",
+   "candidates": [
+    "momentum",
+    "thing"
+   ],
+   "verification": [
+    {
+     "word": "momentum",
+     "contextual_meaning": "the driving force or energy that keeps you moving forward in your actions or goals",
+     "basic_meaning": "the quantity of motion of a moving body, measured as a product of its mass and velocity",
+     "is_metaphor": true
+    },
+    {
+     "word": "thing",
+     "contextual_meaning": "something of importance or relevance",
+     "basic_meaning": "an object or entity",
+     "is_metaphor": true
+    }
+   ],
+   "verified": [
+    "momentum",
+    "thing"
+   ],
+   "phrases": [
+    {
+     "phrase": "so much momentum",
+     "conventionality": "conventional",
+     "triggers": [
+      "momentum"
+     ],
+     "source_domain": "PHYSICS",
+     "target_domain": "MOTIVATION",
+     "explanation_uk": "Імпульс у фізиці переноситься на мотивацію, щоб показати, що вона рухає вас вперед.",
+     "span": [
+      12,
+      28
+     ],
+     "agreement": "3/3"
+    },
+    {
+     "phrase": "motivation won't even be a thing",
+     "conventionality": "creative",
+     "triggers": [
+      "thing"
+     ],
+     "source_domain": "OBJECTS",
+     "target_domain": "IMPORTANCE",
+     "explanation_uk": "Мотивація описується як об'єкт, щоб підкреслити її значущість або відсутність такої.",
+     "span": [
+      41,
+      73
+     ],
+     "agreement": "3/3"
+    }
+   ],
+   "passes": 3,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 66,
+     "out": 6
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 536,
+     "out": 235
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 536,
+     "out": 271
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 536,
+     "out": 231
+    }
+   ]
+  },
+  {
+   "id": 12,
+   "start": 57.560001373291016,
+   "text": "You'll just do it without a second thought.",
+   "detector_raw": "without, second",
+   "candidates": [
+    "second"
+   ],
+   "verification": [
+    {
+     "word": "second",
+     "contextual_meaning": "a very short amount of time",
+     "basic_meaning": "the ordinal number following first",
+     "is_metaphor": false
+    }
+   ],
+   "verified": [],
+   "phrases": [],
+   "passes": 3,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 59,
+     "out": 3
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 529,
+     "out": 42
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 529,
+     "out": 43
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 529,
+     "out": 43
+    }
+   ]
+  }
+ ],
+ "stats": {
+  "sentences": 12,
+  "words": 174,
+  "phrases": 11,
+  "verified_words": 17,
+  "creative": 1,
+  "conventional": 10,
+  "density_per_100_words": 6.32,
+  "creative_per_100_words": 0.57,
+  "errors": 0,
+  "borderline": 0,
+  "stable": 11,
+  "verifier_passes": 3,
+  "cost_usd_estimate": 0.0977
+ }
+}

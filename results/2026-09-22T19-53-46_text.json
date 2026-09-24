@@ -1,0 +1,182 @@
+{
+ "source": {
+  "type": "text"
+ },
+ "created": "2026-09-22T19:53:46",
+ "models": {
+  "asr": "whisper-1",
+  "detector": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+  "verifier": "gpt-4o-2024-08-06"
+ },
+ "transcript": "Anxiety was driving the car, so I grabbed the wheel and hit the brakes. My motivation ghosted me, but this routine drags me to work every morning.",
+ "sentences": [
+  {
+   "id": 1,
+   "start": 0.0,
+   "text": "Anxiety was driving the car, so I grabbed the wheel and hit the brakes.",
+   "detector_raw": "driving, grabbed, hit",
+   "candidates": [
+    "driving",
+    "grabbed",
+    "hit"
+   ],
+   "verification": [
+    {
+     "word": "driving",
+     "contextual_meaning": "controlling or influencing the situation",
+     "basic_meaning": "operating and controlling the direction and speed of a vehicle",
+     "is_metaphor": true
+    },
+    {
+     "word": "grabbed",
+     "contextual_meaning": "took control of the situation",
+     "basic_meaning": "took hold of something suddenly or forcefully",
+     "is_metaphor": true
+    },
+    {
+     "word": "hit",
+     "contextual_meaning": "applied force to stop or change the situation",
+     "basic_meaning": "struck something with force",
+     "is_metaphor": true
+    }
+   ],
+   "verified": [
+    "driving",
+    "grabbed",
+    "hit"
+   ],
+   "phrases": [
+    {
+     "phrase": "Anxiety was driving the car",
+     "triggers": [
+      "driving"
+     ],
+     "source_domain": "VEHICLE OPERATION",
+     "target_domain": "EMOTIONAL CONTROL",
+     "explanation_uk": "Тривога керувала ситуацією, як водій керує автомобілем.",
+     "span": [
+      0,
+      27
+     ]
+    },
+    {
+     "phrase": "grabbed the wheel",
+     "triggers": [
+      "grabbed"
+     ],
+     "source_domain": "PHYSICAL CONTROL",
+     "target_domain": "SITUATIONAL CONTROL",
+     "explanation_uk": "Взяти кермо означає взяти контроль над ситуацією.",
+     "span": [
+      34,
+      51
+     ]
+    },
+    {
+     "phrase": "hit the brakes",
+     "triggers": [
+      "hit"
+     ],
+     "source_domain": "VEHICLE OPERATION",
+     "target_domain": "SITUATIONAL CONTROL",
+     "explanation_uk": "Натиснути на гальма означає зупинити або змінити хід ситуації.",
+     "span": [
+      56,
+      70
+     ]
+    }
+   ],
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 66,
+     "out": 6
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 418,
+     "out": 290
+    }
+   ]
+  },
+  {
+   "id": 2,
+   "start": 0.0,
+   "text": "My motivation ghosted me, but this routine drags me to work every morning.",
+   "detector_raw": "ghosted, this, drags, to",
+   "candidates": [
+    "ghosted",
+    "drags"
+   ],
+   "verification": [
+    {
+     "word": "ghosted",
+     "contextual_meaning": "disappeared suddenly and without explanation",
+     "basic_meaning": "to act like a ghost, which is a spirit of a dead person",
+     "is_metaphor": true
+    },
+    {
+     "word": "drags",
+     "contextual_meaning": "forces me to go to work unwillingly",
+     "basic_meaning": "to pull something along the ground with difficulty",
+     "is_metaphor": true
+    }
+   ],
+   "verified": [
+    "ghosted",
+    "drags"
+   ],
+   "phrases": [
+    {
+     "phrase": "motivation ghosted me",
+     "triggers": [
+      "ghosted"
+     ],
+     "source_domain": "SUPERNATURAL",
+     "target_domain": "EMOTIONS",
+     "explanation_uk": "Мотивація зникла, як привид.",
+     "span": [
+      3,
+      24
+     ]
+    },
+    {
+     "phrase": "routine drags me to work",
+     "triggers": [
+      "drags"
+     ],
+     "source_domain": "PHYSICAL FORCE",
+     "target_domain": "OBLIGATIONS",
+     "explanation_uk": "Рутина змушує мене йти на роботу, як щось, що тягне.",
+     "span": [
+      35,
+      59
+     ]
+    }
+   ],
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 67,
+     "out": 9
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 418,
+     "out": 200
+    }
+   ]
+  }
+ ],
+ "stats": {
+  "sentences": 2,
+  "words": 27,
+  "phrases": 5,
+  "verified_words": 5,
+  "density_per_100_words": 18.52,
+  "errors": 0,
+  "cost_usd_estimate": 0.0077
+ }
+}

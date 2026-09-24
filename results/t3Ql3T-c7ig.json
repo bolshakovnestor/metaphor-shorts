@@ -1,0 +1,344 @@
+{
+ "source": {
+  "type": "youtube",
+  "url": "https://www.youtube.com/shorts/t3Ql3T-c7ig",
+  "id": "t3Ql3T-c7ig",
+  "title": "This restaurant is amazing 😃 @Jefferyzang",
+  "uploader": "Steven He",
+  "duration": 18,
+  "webpage_url": "https://www.youtube.com/watch?v=t3Ql3T-c7ig",
+  "upload_date": "20260421"
+ },
+ "created": "2026-09-23T02:08:03",
+ "models": {
+  "asr": "whisper-1",
+  "detector": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+  "verifier": "gpt-4o-2024-08-06"
+ },
+ "transcript": "Here you are, sir. Your premium poke bowl. Enjoy. Wow. This food looks really good. And the service here is amazing. Especially the waiter. He looks really nice. He's smiling and all that stuff. I think I'll tip him 20%. In fact, maybe I'll tip him like 50 bucks or something. Maybe even 100. Honestly, like, I think I'll just tip him my entire wallet. I think it would be really- Can you shut up?",
+ "sentences": [
+  {
+   "id": 1,
+   "start": 0.0,
+   "text": "Here you are, sir.",
+   "detector_raw": "Here",
+   "candidates": [],
+   "verification": [],
+   "verified": [],
+   "phrases": [],
+   "passes": 3,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 56,
+     "out": 1
+    }
+   ]
+  },
+  {
+   "id": 2,
+   "start": 0.0,
+   "text": "Your premium poke bowl.",
+   "detector_raw": "none",
+   "candidates": [],
+   "verification": [],
+   "verified": [],
+   "phrases": [],
+   "passes": 3,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 55,
+     "out": 1
+    }
+   ]
+  },
+  {
+   "id": 3,
+   "start": 0.0,
+   "text": "Enjoy.",
+   "detector_raw": "none",
+   "candidates": [],
+   "verification": [],
+   "verified": [],
+   "phrases": [],
+   "passes": 3,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 52,
+     "out": 1
+    }
+   ]
+  },
+  {
+   "id": 4,
+   "start": 3.0,
+   "text": "Wow.",
+   "detector_raw": "none",
+   "candidates": [],
+   "verification": [],
+   "verified": [],
+   "phrases": [],
+   "passes": 3,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 52,
+     "out": 1
+    }
+   ]
+  },
+  {
+   "id": 5,
+   "start": 3.0,
+   "text": "This food looks really good.",
+   "detector_raw": "This",
+   "candidates": [],
+   "verification": [],
+   "verified": [],
+   "phrases": [],
+   "passes": 3,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 56,
+     "out": 1
+    }
+   ]
+  },
+  {
+   "id": 6,
+   "start": 3.0,
+   "text": "And the service here is amazing.",
+   "detector_raw": "none",
+   "candidates": [],
+   "verification": [],
+   "verified": [],
+   "phrases": [],
+   "passes": 3,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 57,
+     "out": 1
+    }
+   ]
+  },
+  {
+   "id": 7,
+   "start": 6.0,
+   "text": "Especially the waiter.",
+   "detector_raw": "none",
+   "candidates": [],
+   "verification": [],
+   "verified": [],
+   "phrases": [],
+   "passes": 3,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 54,
+     "out": 1
+    }
+   ]
+  },
+  {
+   "id": 8,
+   "start": 6.0,
+   "text": "He looks really nice.",
+   "detector_raw": "none",
+   "candidates": [],
+   "verification": [],
+   "verified": [],
+   "phrases": [],
+   "passes": 3,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 55,
+     "out": 1
+    }
+   ]
+  },
+  {
+   "id": 9,
+   "start": 8.399999618530273,
+   "text": "He's smiling and all that stuff.",
+   "detector_raw": "that, stuff",
+   "candidates": [
+    "stuff"
+   ],
+   "verification": [
+    {
+     "word": "stuff",
+     "contextual_meaning": "various unspecified things or actions related to smiling",
+     "basic_meaning": "physical material or substance",
+     "is_metaphor": true
+    }
+   ],
+   "verified": [
+    "stuff"
+   ],
+   "phrases": [
+    {
+     "phrase": "all that stuff",
+     "conventionality": "conventional",
+     "triggers": [
+      "stuff"
+     ],
+     "source_domain": "PHYSICAL OBJECTS",
+     "target_domain": "ACTIONS",
+     "explanation_uk": "Різні дії або речі порівнюються з фізичними об'єктами.",
+     "span": [
+      17,
+      31
+     ],
+     "agreement": "3/3"
+    }
+   ],
+   "passes": 3,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 57,
+     "out": 3
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 524,
+     "out": 105
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 524,
+     "out": 109
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 524,
+     "out": 98
+    }
+   ]
+  },
+  {
+   "id": 10,
+   "start": 8.399999618530273,
+   "text": "I think I'll tip him 20%.",
+   "detector_raw": "none",
+   "candidates": [],
+   "verification": [],
+   "verified": [],
+   "phrases": [],
+   "passes": 3,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 58,
+     "out": 1
+    }
+   ]
+  },
+  {
+   "id": 11,
+   "start": 10.800000190734863,
+   "text": "In fact, maybe I'll tip him like 50 bucks or something.",
+   "detector_raw": "none",
+   "candidates": [],
+   "verification": [],
+   "verified": [],
+   "phrases": [],
+   "passes": 3,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 64,
+     "out": 1
+    }
+   ]
+  },
+  {
+   "id": 12,
+   "start": 13.0,
+   "text": "Maybe even 100.",
+   "detector_raw": "none",
+   "candidates": [],
+   "verification": [],
+   "verified": [],
+   "phrases": [],
+   "passes": 3,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 55,
+     "out": 1
+    }
+   ]
+  },
+  {
+   "id": 13,
+   "start": 14.199999809265137,
+   "text": "Honestly, like, I think I'll just tip him my entire wallet.",
+   "detector_raw": "none",
+   "candidates": [],
+   "verification": [],
+   "verified": [],
+   "phrases": [],
+   "passes": 3,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 64,
+     "out": 1
+    }
+   ]
+  },
+  {
+   "id": 14,
+   "start": 16.600000381469727,
+   "text": "I think it would be really- Can you shut up?",
+   "detector_raw": "none",
+   "candidates": [],
+   "verification": [],
+   "verified": [],
+   "phrases": [],
+   "passes": 3,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 62,
+     "out": 1
+    }
+   ]
+  }
+ ],
+ "stats": {
+  "sentences": 14,
+  "words": 72,
+  "phrases": 1,
+  "verified_words": 1,
+  "creative": 0,
+  "conventional": 1,
+  "density_per_100_words": 1.39,
+  "creative_per_100_words": 0.0,
+  "errors": 0,
+  "borderline": 0,
+  "stable": 1,
+  "verifier_passes": 3,
+  "cost_usd_estimate": 0.0121
+ }
+}

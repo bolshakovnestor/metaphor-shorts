@@ -1,0 +1,970 @@
+{
+ "source": {
+  "type": "youtube",
+  "url": "https://www.youtube.com/shorts/las1kwy4rB8",
+  "id": "las1kwy4rB8",
+  "title": "a poem about my lonliness",
+  "uploader": "Hayley Grace",
+  "duration": 77,
+  "webpage_url": "https://www.youtube.com/watch?v=las1kwy4rB8",
+  "upload_date": "20250724"
+ },
+ "created": "2026-09-23T02:19:05",
+ "models": {
+  "asr": "whisper-1",
+  "detector": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+  "verifier": "gpt-4o-2024-08-06"
+ },
+ "transcript": "I was a lonely little girl, not the has-no-friends type of lonely, the lonely that has her ears glued to her bedroom door, listening to her parents break glass in the kitchen, their words sharper than the pieces shattered on the floor. I was the kind of lonely that built worlds in her head, imaginary places where love was gentle and voices never rose in anger, the kind of lonely that made her wonder why love always seemed to hurt. Even now, with years between me and that childhood, a part of me still presses her ear to the door, still flinches at the sound of breaking glass, still waits for the storm to pass, hoping the silence will mean peace. Because even when you grow up, a part of you stays, that lonely little girl, the one who learned too young that love could bruise just as easily as it could heal. She's still there, hiding in the quiet corners of my heart, clutching her dreams like fragile pieces of glass, afraid that even the gentlest touch could shatter them. And no matter how much I grow or how strong I become, I know I'll always carry her with me, the girl who learned to love from a distance, who learned to protect herself by staying small, yet still longs for the love she was never sure how to find. I think a part of me will always be a little lonely, that lonely little girl.",
+ "sentences": [
+  {
+   "id": 1,
+   "start": 0.0,
+   "text": "I was a lonely little girl, not the has-no-friends type of lonely, the lonely that has her ears glued to her bedroom door, listening to her parents break glass in the kitchen, their words sharper than the pieces shattered on",
+   "detector_raw": "has, glued, break, sharper, pieces",
+   "candidates": [
+    "glued",
+    "break",
+    "sharper",
+    "pieces"
+   ],
+   "verification": [
+    {
+     "word": "glued",
+     "contextual_meaning": "intently focused or listening closely.",
+     "basic_meaning": "joined or fastened with glue, a sticky substance.",
+     "is_metaphor": true
+    },
+    {
+     "word": "break",
+     "contextual_meaning": "to cause a disruption or conflict.",
+     "basic_meaning": "to separate into pieces as a result of a blow, shock, or strain.",
+     "is_metaphor": true
+    },
+    {
+     "word": "sharper",
+     "contextual_meaning": "more cutting or hurtful in nature.",
+     "basic_meaning": "having an edge or point that is able to cut or pierce something.",
+     "is_metaphor": true
+    },
+    {
+     "word": "pieces",
+     "contextual_meaning": "fragments or parts of something broken.",
+     "basic_meaning": "individual parts of something that was whole.",
+     "is_metaphor": false
+    }
+   ],
+   "verified": [
+    "break",
+    "glued",
+    "sharper"
+   ],
+   "phrases": [
+    {
+     "phrase": "ears glued to her bedroom door",
+     "conventionality": "creative",
+     "triggers": [
+      "glued"
+     ],
+     "source_domain": "ADHESION",
+     "target_domain": "ATTENTION",
+     "explanation_uk": "Вуха дівчинки ніби приклеєні до дверей, що означає її зосередженість на слуханні.",
+     "span": [
+      91,
+      121
+     ],
+     "agreement": "3/3"
+    },
+    {
+     "phrase": "break glass",
+     "conventionality": "conventional",
+     "triggers": [
+      "break"
+     ],
+     "source_domain": "DESTRUCTION",
+     "target_domain": "CONFLICT",
+     "explanation_uk": "Розбиття скла символізує конфлікт або сварку.",
+     "span": [
+      148,
+      159
+     ],
+     "agreement": "3/3"
+    },
+    {
+     "phrase": "words sharper than the pieces",
+     "conventionality": "creative",
+     "triggers": [
+      "sharper"
+     ],
+     "source_domain": "SHARPNESS",
+     "target_domain": "HURTFULNESS",
+     "explanation_uk": "Слова батьків описуються як гостріші за уламки скла, що підкреслює їхню образливість.",
+     "span": [
+      182,
+      211
+     ],
+     "agreement": "3/3"
+    }
+   ],
+   "passes": 3,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 97,
+     "out": 9
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 561,
+     "out": 369
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 561,
+     "out": 348
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 561,
+     "out": 372
+    }
+   ]
+  },
+  {
+   "id": 2,
+   "start": 0.0,
+   "text": "the floor.",
+   "detector_raw": "none",
+   "candidates": [],
+   "verification": [],
+   "verified": [],
+   "phrases": [],
+   "passes": 3,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 53,
+     "out": 1
+    }
+   ]
+  },
+  {
+   "id": 3,
+   "start": 13.680000305175781,
+   "text": "I was the kind of lonely that built worlds in her head, imaginary places where love was gentle and voices never rose in anger, the kind of lonely that made her wonder why love always seemed to hurt.",
+   "detector_raw": "built, worlds, in, places, where, gentle, rose, in, made, hurt",
+   "candidates": [
+    "built",
+    "worlds",
+    "places",
+    "where",
+    "gentle",
+    "rose",
+    "made",
+    "hurt"
+   ],
+   "verification": [
+    {
+     "word": "built",
+     "contextual_meaning": "created or imagined in the mind",
+     "basic_meaning": "constructed physically, as with materials",
+     "is_metaphor": true
+    },
+    {
+     "word": "worlds",
+     "contextual_meaning": "imaginary realms or scenarios in the mind",
+     "basic_meaning": "the earth or a planet, or a realm of existence",
+     "is_metaphor": true
+    },
+    {
+     "word": "rose",
+     "contextual_meaning": "became louder or more intense",
+     "basic_meaning": "moved upward or increased in height",
+     "is_metaphor": true
+    },
+    {
+     "word": "hurt",
+     "contextual_meaning": "caused emotional pain",
+     "basic_meaning": "caused physical injury or damage",
+     "is_metaphor": true
+    }
+   ],
+   "verified": [
+    "rose",
+    "hurt",
+    "built",
+    "worlds"
+   ],
+   "phrases": [
+    {
+     "phrase": "built worlds in her head",
+     "conventionality": "creative",
+     "triggers": [
+      "built",
+      "worlds"
+     ],
+     "source_domain": "CONSTRUCTION",
+     "target_domain": "IMAGINATION",
+     "explanation_uk": "Уява створює нові світи, як будівельник зводить будівлі.",
+     "span": [
+      30,
+      54
+     ],
+     "agreement": "3/3"
+    },
+    {
+     "phrase": "voices never rose in anger",
+     "conventionality": "conventional",
+     "triggers": [
+      "rose"
+     ],
+     "source_domain": "MOVEMENT",
+     "target_domain": "EMOTION",
+     "explanation_uk": "Голос не підвищується від гніву, як об'єкт не піднімається вгору.",
+     "span": [
+      99,
+      125
+     ],
+     "agreement": "3/3"
+    },
+    {
+     "phrase": "love always seemed to hurt",
+     "conventionality": "conventional",
+     "triggers": [
+      "hurt"
+     ],
+     "source_domain": "PHYSICAL PAIN",
+     "target_domain": "EMOTIONAL PAIN",
+     "explanation_uk": "Любов завдає емоційного болю, як фізичне ушкодження завдає фізичного болю.",
+     "span": [
+      171,
+      197
+     ],
+     "agreement": "3/3"
+    }
+   ],
+   "passes": 3,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 91,
+     "out": 19
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 610,
+     "out": 353
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 610,
+     "out": 323
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 610,
+     "out": 325
+    }
+   ]
+  },
+  {
+   "id": 4,
+   "start": 25.68000030517578,
+   "text": "Even now, with years between me and that childhood, a part of me still presses her ear to the door, still flinches at the sound of breaking glass, still waits for the storm to pass, hoping the silence will mean",
+   "detector_raw": "with, between, that, part, presses, ear, to, door, flinches, at, sound, breaking, glass, waits, storm, pass, silence, mean",
+   "candidates": [
+    "part",
+    "presses",
+    "ear",
+    "door",
+    "flinches",
+    "sound",
+    "breaking",
+    "glass",
+    "waits",
+    "storm",
+    "pass",
+    "silence",
+    "mean"
+   ],
+   "verification": [
+    {
+     "word": "presses",
+     "contextual_meaning": "listens intently or tries to hear something through the door.",
+     "basic_meaning": "to apply pressure or push against something.",
+     "is_metaphor": true
+    },
+    {
+     "word": "flinches",
+     "contextual_meaning": "reacts with fear or discomfort to a sound or situation.",
+     "basic_meaning": "to make a quick, nervous movement as an instinctive reaction to fear, pain, or surprise.",
+     "is_metaphor": true
+    },
+    {
+     "word": "storm",
+     "contextual_meaning": "a period of emotional turmoil or conflict.",
+     "basic_meaning": "a violent disturbance of the atmosphere with strong winds and usually rain, thunder, lightning, or snow.",
+     "is_metaphor": true
+    },
+    {
+     "word": "pass",
+     "contextual_meaning": "to end or be over.",
+     "basic_meaning": "to move or cause to move in a specified direction.",
+     "is_metaphor": true
+    }
+   ],
+   "verified": [
+    "storm",
+    "flinches",
+    "presses",
+    "pass"
+   ],
+   "phrases": [
+    {
+     "phrase": "presses her ear to the door",
+     "conventionality": "creative",
+     "triggers": [
+      "presses"
+     ],
+     "source_domain": "PHYSICAL ACTION",
+     "target_domain": "LISTENING",
+     "explanation_uk": "Слухання описується як фізичний тиск вухом до дверей.",
+     "span": [
+      71,
+      98
+     ],
+     "agreement": "3/3"
+    },
+    {
+     "phrase": "flinches at the sound of breaking glass",
+     "conventionality": "creative",
+     "triggers": [
+      "flinches"
+     ],
+     "source_domain": "PHYSICAL REACTION",
+     "target_domain": "EMOTIONAL REACTION",
+     "explanation_uk": "Емоційна реакція описується як фізичний рух від страху.",
+     "span": [
+      106,
+      145
+     ],
+     "agreement": "3/3"
+    },
+    {
+     "phrase": "waits for the storm to pass",
+     "conventionality": "conventional",
+     "triggers": [
+      "storm",
+      "pass"
+     ],
+     "source_domain": "WEATHER",
+     "target_domain": "EMOTIONAL STATE",
+     "explanation_uk": "Емоційний стан описується як буря, яка повинна пройти.",
+     "span": [
+      153,
+      180
+     ],
+     "agreement": "3/3"
+    }
+   ],
+   "passes": 3,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 97,
+     "out": 37
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 621,
+     "out": 384
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 621,
+     "out": 388
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 621,
+     "out": 405
+    }
+   ]
+  },
+  {
+   "id": 5,
+   "start": 25.68000030517578,
+   "text": "peace.",
+   "detector_raw": "none",
+   "candidates": [],
+   "verification": [],
+   "verified": [],
+   "phrases": [],
+   "passes": 3,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 52,
+     "out": 1
+    }
+   ]
+  },
+  {
+   "id": 6,
+   "start": 38.68000030517578,
+   "text": "Because even when you grow up, a part of you stays, that lonely little girl, the one who learned too young that love could bruise just as easily as it could heal.",
+   "detector_raw": "part, stays, that, learned, bruise, heal",
+   "candidates": [
+    "part",
+    "stays",
+    "learned",
+    "bruise",
+    "heal"
+   ],
+   "verification": [
+    {
+     "word": "part",
+     "contextual_meaning": "an aspect or element of a person that remains unchanged over time",
+     "basic_meaning": "a portion or division of a whole",
+     "is_metaphor": true
+    },
+    {
+     "word": "stays",
+     "contextual_meaning": "remains unchanged or constant over time",
+     "basic_meaning": "to continue to be in a particular place or condition",
+     "is_metaphor": true
+    },
+    {
+     "word": "learned",
+     "contextual_meaning": "came to understand or realize through experience",
+     "basic_meaning": "acquired knowledge or skill through study or experience",
+     "is_metaphor": false
+    },
+    {
+     "word": "bruise",
+     "contextual_meaning": "to cause emotional pain or damage",
+     "basic_meaning": "to injure the skin causing a discolored mark",
+     "is_metaphor": true
+    },
+    {
+     "word": "heal",
+     "contextual_meaning": "to make emotionally or mentally better",
+     "basic_meaning": "to restore health or cure a physical injury",
+     "is_metaphor": true
+    }
+   ],
+   "verified": [
+    "part",
+    "stays",
+    "heal",
+    "bruise"
+   ],
+   "phrases": [
+    {
+     "phrase": "a part of you stays",
+     "conventionality": "conventional",
+     "triggers": [
+      "part",
+      "stays"
+     ],
+     "source_domain": "PHYSICAL OBJECTS",
+     "target_domain": "PERSONAL IDENTITY",
+     "explanation_uk": "Частина вашої особистості залишається незмінною, як частина фізичного об'єкта.",
+     "span": [
+      31,
+      50
+     ],
+     "agreement": "2/3"
+    },
+    {
+     "phrase": "love could bruise",
+     "conventionality": "creative",
+     "triggers": [
+      "bruise"
+     ],
+     "source_domain": "PHYSICAL INJURY",
+     "target_domain": "EMOTIONAL PAIN",
+     "explanation_uk": "Любов може завдати емоційного болю, як фізична травма.",
+     "span": [
+      112,
+      129
+     ],
+     "agreement": "3/3"
+    }
+   ],
+   "passes": 3,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 87,
+     "out": 12
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 587,
+     "out": 400
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 587,
+     "out": 218
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 587,
+     "out": 399
+    }
+   ]
+  },
+  {
+   "id": 7,
+   "start": 47.439998626708984,
+   "text": "She's still there, hiding in the quiet corners of my heart, clutching her dreams like fragile pieces of glass, afraid that even the gentlest touch could shatter them.",
+   "detector_raw": "hiding, in, corners, clutching, fragile, pieces, glass, gentlest, touch, shatter",
+   "candidates": [
+    "hiding",
+    "corners",
+    "clutching",
+    "fragile",
+    "pieces",
+    "glass",
+    "gentlest",
+    "touch",
+    "shatter"
+   ],
+   "verification": [
+    {
+     "word": "hiding",
+     "contextual_meaning": "concealing oneself emotionally or psychologically",
+     "basic_meaning": "concealing oneself physically from view",
+     "is_metaphor": true
+    },
+    {
+     "word": "corners",
+     "contextual_meaning": "hidden or less noticeable parts of one's emotions or mind",
+     "basic_meaning": "the place where two lines or surfaces meet at an angle",
+     "is_metaphor": true
+    },
+    {
+     "word": "clutching",
+     "contextual_meaning": "holding onto dreams tightly and protectively",
+     "basic_meaning": "grasping or holding something tightly with one's hands",
+     "is_metaphor": true
+    },
+    {
+     "word": "fragile",
+     "contextual_meaning": "easily damaged or delicate in an emotional sense",
+     "basic_meaning": "easily broken or damaged physically",
+     "is_metaphor": true
+    },
+    {
+     "word": "pieces",
+     "contextual_meaning": "individual parts of dreams or hopes",
+     "basic_meaning": "individual parts of a physical object",
+     "is_metaphor": true
+    },
+    {
+     "word": "glass",
+     "contextual_meaning": "something delicate and easily broken, like dreams",
+     "basic_meaning": "a hard, brittle substance typically transparent or translucent",
+     "is_metaphor": true
+    },
+    {
+     "word": "gentlest",
+     "contextual_meaning": "most careful or tender in an emotional sense",
+     "basic_meaning": "softest or least forceful physically",
+     "is_metaphor": true
+    },
+    {
+     "word": "touch",
+     "contextual_meaning": "interaction or influence that could affect dreams",
+     "basic_meaning": "physical contact with something",
+     "is_metaphor": true
+    },
+    {
+     "word": "shatter",
+     "contextual_meaning": "to break dreams into pieces emotionally",
+     "basic_meaning": "to break something into pieces physically",
+     "is_metaphor": true
+    }
+   ],
+   "verified": [
+    "shatter",
+    "fragile",
+    "clutching",
+    "hiding",
+    "glass",
+    "pieces",
+    "gentlest",
+    "touch",
+    "corners"
+   ],
+   "phrases": [
+    {
+     "phrase": "hiding in the quiet corners of my heart",
+     "conventionality": "creative",
+     "triggers": [
+      "hiding",
+      "corners"
+     ],
+     "source_domain": "PHYSICAL SPACE",
+     "target_domain": "EMOTIONAL STATE",
+     "explanation_uk": "Емоційні стани описуються як фізичні простори, де можна сховатися.",
+     "span": [
+      19,
+      58
+     ],
+     "agreement": "3/3"
+    },
+    {
+     "phrase": "clutching her dreams like fragile pieces of glass",
+     "conventionality": "creative",
+     "triggers": [
+      "clutching",
+      "fragile",
+      "pieces",
+      "glass"
+     ],
+     "source_domain": "PHYSICAL OBJECTS",
+     "target_domain": "HOPES AND DREAMS",
+     "explanation_uk": "Мрії описуються як крихкі об'єкти, які легко розбити.",
+     "span": [
+      60,
+      109
+     ],
+     "agreement": "3/3"
+    },
+    {
+     "phrase": "afraid that even the gentlest touch could shatter them",
+     "conventionality": "creative",
+     "triggers": [
+      "gentlest",
+      "touch",
+      "shatter"
+     ],
+     "source_domain": "PHYSICAL FORCE",
+     "target_domain": "EMOTIONAL IMPACT",
+     "explanation_uk": "Емоційний вплив описується як фізична сила, яка може зруйнувати мрії.",
+     "span": [
+      111,
+      165
+     ],
+     "agreement": "3/3"
+    }
+   ],
+   "passes": 3,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 85,
+     "out": 23
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 640,
+     "out": 573
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 640,
+     "out": 572
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 640,
+     "out": 560
+    }
+   ]
+  },
+  {
+   "id": 8,
+   "start": 53.720001220703125,
+   "text": "And no matter how much I grow or how strong I become, I know I'll always carry her with me, the girl who learned to love from a distance, who learned to protect herself by staying small, yet still longs",
+   "detector_raw": "grow, strong, carry, with, from, distance, longs",
+   "candidates": [
+    "grow",
+    "strong",
+    "carry",
+    "distance",
+    "longs"
+   ],
+   "verification": [
+    {
+     "word": "grow",
+     "contextual_meaning": "to develop or mature emotionally or personally",
+     "basic_meaning": "to increase in size or physical stature",
+     "is_metaphor": true
+    },
+    {
+     "word": "strong",
+     "contextual_meaning": "emotionally resilient or capable",
+     "basic_meaning": "having physical strength or power",
+     "is_metaphor": true
+    },
+    {
+     "word": "carry",
+     "contextual_meaning": "to keep someone in one's thoughts or emotions",
+     "basic_meaning": "to physically transport something from one place to another",
+     "is_metaphor": true
+    },
+    {
+     "word": "distance",
+     "contextual_meaning": "emotional or relational separation",
+     "basic_meaning": "physical space between two points",
+     "is_metaphor": true
+    },
+    {
+     "word": "longs",
+     "contextual_meaning": "to have a deep emotional desire",
+     "basic_meaning": "to extend in length",
+     "is_metaphor": true
+    }
+   ],
+   "verified": [
+    "carry",
+    "longs",
+    "strong",
+    "distance",
+    "grow"
+   ],
+   "phrases": [
+    {
+     "phrase": "carry her with me",
+     "conventionality": "conventional",
+     "triggers": [
+      "carry"
+     ],
+     "source_domain": "PHYSICAL TRANSPORT",
+     "target_domain": "EMOTIONAL CONNECTION",
+     "explanation_uk": "Емоційний зв'язок порівнюється з фізичним перенесенням.",
+     "span": [
+      73,
+      90
+     ],
+     "agreement": "3/3"
+    },
+    {
+     "phrase": "love from a distance",
+     "conventionality": "conventional",
+     "triggers": [
+      "distance"
+     ],
+     "source_domain": "PHYSICAL SPACE",
+     "target_domain": "EMOTIONAL SEPARATION",
+     "explanation_uk": "Емоційна відстань порівнюється з фізичною відстанню.",
+     "span": [
+      116,
+      136
+     ],
+     "agreement": "3/3"
+    },
+    {
+     "phrase": "longs",
+     "conventionality": "conventional",
+     "triggers": [
+      "longs"
+     ],
+     "source_domain": "PHYSICAL EXTENSION / EMOTIONAL DESIRE",
+     "target_domain": "DESIRE",
+     "explanation_uk": "Емоційне бажання описується через фізичне подовження.",
+     "span": [
+      197,
+      202
+     ],
+     "agreement": "2/3"
+    }
+   ],
+   "passes": 3,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 94,
+     "out": 13
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 603,
+     "out": 482
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 603,
+     "out": 441
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 603,
+     "out": 480
+    }
+   ]
+  },
+  {
+   "id": 9,
+   "start": 53.720001220703125,
+   "text": "for the love she was never sure how to find.",
+   "detector_raw": "find",
+   "candidates": [
+    "find"
+   ],
+   "verification": [
+    {
+     "word": "find",
+     "contextual_meaning": "to discover or obtain love, which is abstract and emotional.",
+     "basic_meaning": "to discover or obtain something tangible or concrete.",
+     "is_metaphor": true
+    }
+   ],
+   "verified": [
+    "find"
+   ],
+   "phrases": [
+    {
+     "phrase": "find",
+     "conventionality": "conventional",
+     "triggers": [
+      "find"
+     ],
+     "source_domain": "DISCOVERY",
+     "target_domain": "EMOTIONAL EXPERIENCE",
+     "explanation_uk": "Знайти кохання означає відкрити або отримати емоційний досвід, як ніби це щось конкретне.",
+     "span": [
+      39,
+      43
+     ],
+     "agreement": "3/3"
+    }
+   ],
+   "passes": 3,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 61,
+     "out": 1
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 577,
+     "out": 118
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 577,
+     "out": 123
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 577,
+     "out": 106
+    }
+   ]
+  },
+  {
+   "id": 10,
+   "start": 68.27999877929688,
+   "text": "I think a part of me will always be a little lonely, that lonely little girl.",
+   "detector_raw": "part, little",
+   "candidates": [
+    "part",
+    "little"
+   ],
+   "verification": [
+    {
+     "word": "part",
+     "contextual_meaning": "an aspect or element of a person",
+     "basic_meaning": "a piece or segment of something that is separate from the whole",
+     "is_metaphor": true
+    },
+    {
+     "word": "little",
+     "contextual_meaning": "small in degree or extent",
+     "basic_meaning": "small in size or amount",
+     "is_metaphor": true
+    }
+   ],
+   "verified": [
+    "little",
+    "part"
+   ],
+   "phrases": [
+    {
+     "phrase": "a part of me",
+     "conventionality": "conventional",
+     "triggers": [
+      "part"
+     ],
+     "source_domain": "OBJECT",
+     "target_domain": "SELF",
+     "explanation_uk": "Частина особистості представлена як окремий об'єкт.",
+     "span": [
+      8,
+      20
+     ],
+     "agreement": "3/3"
+    },
+    {
+     "phrase": "a little lonely",
+     "conventionality": "conventional",
+     "triggers": [
+      "little"
+     ],
+     "source_domain": "SIZE",
+     "target_domain": "EMOTION",
+     "explanation_uk": "Самотність представлена як щось невелике за розміром.",
+     "span": [
+      36,
+      51
+     ],
+     "agreement": "2/3"
+    }
+   ],
+   "passes": 3,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 68,
+     "out": 3
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 535,
+     "out": 188
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 535,
+     "out": 128
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 535,
+     "out": 183
+    }
+   ]
+  }
+ ],
+ "stats": {
+  "sentences": 10,
+  "words": 247,
+  "phrases": 20,
+  "verified_words": 32,
+  "creative": 9,
+  "conventional": 11,
+  "density_per_100_words": 8.1,
+  "creative_per_100_words": 3.64,
+  "errors": 0,
+  "borderline": 3,
+  "stable": 17,
+  "verifier_passes": 3,
+  "cost_usd_estimate": 0.1303
+ }
+}

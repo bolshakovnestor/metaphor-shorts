@@ -1,0 +1,592 @@
+{
+ "source": {
+  "type": "youtube",
+  "url": "https://www.youtube.com/shorts/nU13OXnfZ9Y",
+  "id": "nU13OXnfZ9Y",
+  "title": "The tale of the Medieval Superhero #history #animation",
+  "uploader": "Historically",
+  "duration": 36,
+  "webpage_url": "https://www.youtube.com/watch?v=nU13OXnfZ9Y",
+  "upload_date": "20240405"
+ },
+ "created": "2026-09-23T01:33:00",
+ "models": {
+  "asr": "whisper-1",
+  "detector": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+  "verifier": "gpt-4o-2024-08-06"
+ },
+ "transcript": "Imagine yourself standing on a battlefield, heroically fighting off invaders, and then... Your arm is gone! Guts von der Belligingen, a knight of the late 15th century, lived a life as daring and resilient as any legend. Known for his bravery in countless battles across Europe, his story takes a dramatic turn in 1504 when he loses his hand to a cannonball. Unfazed, Guts replaces it with an iron prosthetic, earning him the nickname Guts of the Iron Hand. But it's not just his physical prowess that defines him. Guts became a symbol of deviance, standing against oppressive rulers and fighting for the rights of the common people. Almost like a medieval superhero.",
+ "sentences": [
+  {
+   "id": 1,
+   "start": 0.0,
+   "text": "Imagine yourself standing on a battlefield, heroically fighting off invaders, and then...",
+   "detector_raw": "standing, on, battlefield, fighting, off, invaders",
+   "candidates": [
+    "standing",
+    "battlefield",
+    "fighting",
+    "invaders"
+   ],
+   "verification": [
+    {
+     "word": "standing",
+     "contextual_meaning": "being in a position ready to face challenges or confrontations",
+     "basic_meaning": "being upright on one's feet",
+     "is_metaphor": true
+    },
+    {
+     "word": "battlefield",
+     "contextual_meaning": "a situation or area of intense conflict or struggle",
+     "basic_meaning": "a piece of ground where a battle is or was fought",
+     "is_metaphor": true
+    },
+    {
+     "word": "fighting",
+     "contextual_meaning": "struggling or making an effort to overcome challenges",
+     "basic_meaning": "engaging in physical combat",
+     "is_metaphor": true
+    },
+    {
+     "word": "invaders",
+     "contextual_meaning": "forces or challenges that disrupt or threaten one's peace or stability",
+     "basic_meaning": "people or groups that enter a place by force to conquer or plunder",
+     "is_metaphor": true
+    }
+   ],
+   "verified": [
+    "standing",
+    "battlefield",
+    "fighting",
+    "invaders"
+   ],
+   "phrases": [
+    {
+     "phrase": "standing on a battlefield",
+     "conventionality": "conventional",
+     "triggers": [
+      "standing",
+      "battlefield"
+     ],
+     "source_domain": "WAR",
+     "target_domain": "CHALLENGE",
+     "explanation_uk": "Бути на полі бою означає стикатися з викликами або труднощами.",
+     "span": [
+      17,
+      42
+     ],
+     "agreement": "3/3"
+    },
+    {
+     "phrase": "fighting off invaders",
+     "conventionality": "conventional",
+     "triggers": [
+      "fighting",
+      "invaders"
+     ],
+     "source_domain": "WAR",
+     "target_domain": "CHALLENGE",
+     "explanation_uk": "Боротися з загарбниками означає долати труднощі або загрози.",
+     "span": [
+      55,
+      76
+     ],
+     "agreement": "3/3"
+    }
+   ],
+   "passes": 3,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 67,
+     "out": 12
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 533,
+     "out": 300
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 533,
+     "out": 287
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 533,
+     "out": 285
+    }
+   ]
+  },
+  {
+   "id": 2,
+   "start": 4.559999942779541,
+   "text": "Your arm is gone!",
+   "detector_raw": "none",
+   "candidates": [],
+   "verification": [],
+   "verified": [],
+   "phrases": [],
+   "passes": 3,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 55,
+     "out": 1
+    }
+   ]
+  },
+  {
+   "id": 3,
+   "start": 6.639999866485596,
+   "text": "Guts von der Belligingen, a knight of the late 15th century, lived a life as daring and resilient as any legend.",
+   "detector_raw": "knight, resilient, legend",
+   "candidates": [
+    "knight",
+    "resilient",
+    "legend"
+   ],
+   "verification": [
+    {
+     "word": "knight",
+     "contextual_meaning": "a man who served his sovereign or lord as a mounted soldier in armor.",
+     "basic_meaning": "a man who served his sovereign or lord as a mounted soldier in armor.",
+     "is_metaphor": false
+    },
+    {
+     "word": "resilient",
+     "contextual_meaning": "able to withstand or recover quickly from difficult conditions.",
+     "basic_meaning": "able to spring back into shape after bending, stretching, or being compressed.",
+     "is_metaphor": true
+    },
+    {
+     "word": "legend",
+     "contextual_meaning": "a person who is famous and admired for a particular skill or talent.",
+     "basic_meaning": "a traditional story sometimes popularly regarded as historical but unauthenticated.",
+     "is_metaphor": true
+    }
+   ],
+   "verified": [
+    "legend",
+    "resilient"
+   ],
+   "phrases": [
+    {
+     "phrase": "resilient as any legend",
+     "conventionality": "creative",
+     "triggers": [
+      "resilient",
+      "legend"
+     ],
+     "source_domain": "STRENGTH",
+     "target_domain": "CHARACTER",
+     "explanation_uk": "Стійкість і здатність відновлюватися порівнюються з легендарними історіями.",
+     "span": [
+      88,
+      111
+     ],
+     "agreement": "3/3"
+    }
+   ],
+   "passes": 3,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 79,
+     "out": 6
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 572,
+     "out": 225
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 572,
+     "out": 225
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 572,
+     "out": 219
+    }
+   ]
+  },
+  {
+   "id": 4,
+   "start": 13.039999961853027,
+   "text": "Known for his bravery in countless battles across Europe, his story takes a dramatic turn in 1504 when he loses his hand to a cannonball.",
+   "detector_raw": "in, across, takes, dramatic, turn, in, to",
+   "candidates": [
+    "takes",
+    "dramatic",
+    "turn"
+   ],
+   "verification": [
+    {
+     "word": "takes",
+     "contextual_meaning": "undergoes a change or development",
+     "basic_meaning": "to grasp or seize something",
+     "is_metaphor": true
+    },
+    {
+     "word": "dramatic",
+     "contextual_meaning": "sudden and striking",
+     "basic_meaning": "related to drama or theater",
+     "is_metaphor": true
+    },
+    {
+     "word": "turn",
+     "contextual_meaning": "a change in direction or course",
+     "basic_meaning": "to rotate or move around a central point",
+     "is_metaphor": true
+    }
+   ],
+   "verified": [
+    "turn",
+    "takes",
+    "dramatic"
+   ],
+   "phrases": [
+    {
+     "phrase": "takes a dramatic turn",
+     "conventionality": "conventional",
+     "triggers": [
+      "takes",
+      "dramatic",
+      "turn"
+     ],
+     "source_domain": "THEATER",
+     "target_domain": "LIFE EVENTS",
+     "explanation_uk": "Життєві події описуються як драматичні повороти, подібно до змін у театральній постановці.",
+     "span": [
+      68,
+      89
+     ],
+     "agreement": "3/3"
+    }
+   ],
+   "passes": 3,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 80,
+     "out": 13
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 592,
+     "out": 188
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 592,
+     "out": 174
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 592,
+     "out": 180
+    }
+   ]
+  },
+  {
+   "id": 5,
+   "start": 20.559999465942383,
+   "text": "Unfazed, Guts replaces it with an iron prosthetic, earning him the nickname Guts of the Iron Hand.",
+   "detector_raw": "with, earning",
+   "candidates": [
+    "earning"
+   ],
+   "verification": [
+    {
+     "word": "earning",
+     "contextual_meaning": "to receive a nickname as a result of an action or characteristic",
+     "basic_meaning": "to receive money in return for work or services",
+     "is_metaphor": true
+    }
+   ],
+   "verified": [
+    "earning"
+   ],
+   "phrases": [
+    {
+     "phrase": "earning him the nickname",
+     "conventionality": "conventional",
+     "triggers": [
+      "earning"
+     ],
+     "source_domain": "ECONOMY",
+     "target_domain": "RECOGNITION",
+     "explanation_uk": "Отримання прізвиська описується як заробіток, що підкреслює заслугу або досягнення.",
+     "span": [
+      51,
+      75
+     ],
+     "agreement": "3/3"
+    }
+   ],
+   "passes": 3,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 75,
+     "out": 3
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 570,
+     "out": 125
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 570,
+     "out": 130
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 570,
+     "out": 116
+    }
+   ]
+  },
+  {
+   "id": 6,
+   "start": 25.84000015258789,
+   "text": "But it's not just his physical prowess that defines him.",
+   "detector_raw": "defines",
+   "candidates": [
+    "defines"
+   ],
+   "verification": [
+    {
+     "word": "defines",
+     "contextual_meaning": "characterizes or distinguishes him",
+     "basic_meaning": "to state or describe the nature or scope of something",
+     "is_metaphor": true
+    }
+   ],
+   "verified": [
+    "defines"
+   ],
+   "phrases": [
+    {
+     "phrase": "defines him",
+     "conventionality": "conventional",
+     "triggers": [
+      "defines"
+     ],
+     "source_domain": "DESCRIPTION",
+     "target_domain": "IDENTITY",
+     "explanation_uk": "Визначення чогось описує його сутність або характер.",
+     "span": [
+      44,
+      55
+     ],
+     "agreement": "3/3"
+    }
+   ],
+   "passes": 3,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 61,
+     "out": 1
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 563,
+     "out": 97
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 563,
+     "out": 101
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 563,
+     "out": 97
+    }
+   ]
+  },
+  {
+   "id": 7,
+   "start": 28.31999969482422,
+   "text": "Guts became a symbol of deviance, standing against oppressive rulers and fighting for the rights of the common people.",
+   "detector_raw": "standing, against, oppressive, fighting, rights, common",
+   "candidates": [
+    "standing",
+    "oppressive",
+    "fighting",
+    "rights",
+    "common"
+   ],
+   "verification": [
+    {
+     "word": "standing",
+     "contextual_meaning": "to oppose or resist something",
+     "basic_meaning": "to be in an upright position on the feet",
+     "is_metaphor": true
+    },
+    {
+     "word": "oppressive",
+     "contextual_meaning": "unjustly inflicting hardship and constraint",
+     "basic_meaning": "weighing heavily on the mind or spirits",
+     "is_metaphor": true
+    },
+    {
+     "word": "fighting",
+     "contextual_meaning": "to struggle or work hard to achieve something",
+     "basic_meaning": "to engage in physical combat",
+     "is_metaphor": true
+    },
+    {
+     "word": "rights",
+     "contextual_meaning": "entitlements or freedoms that are believed to belong to every person",
+     "basic_meaning": "the side of a person or thing that is toward the east when the person or thing is facing north",
+     "is_metaphor": false
+    },
+    {
+     "word": "common",
+     "contextual_meaning": "belonging to or shared by all members of a community",
+     "basic_meaning": "occurring, found, or done often; prevalent",
+     "is_metaphor": false
+    }
+   ],
+   "verified": [
+    "standing",
+    "fighting",
+    "oppressive"
+   ],
+   "phrases": [
+    {
+     "phrase": "standing against oppressive rulers",
+     "conventionality": "conventional",
+     "triggers": [
+      "standing",
+      "oppressive"
+     ],
+     "source_domain": "PHYSICAL POSITION / BURDEN",
+     "target_domain": "RESISTANCE / INJUSTICE",
+     "explanation_uk": "Протистояння гнобленню описується як фізичне стояння проти тягаря.",
+     "span": [
+      34,
+      68
+     ],
+     "agreement": "3/3"
+    },
+    {
+     "phrase": "fighting for the rights",
+     "conventionality": "conventional",
+     "triggers": [
+      "fighting"
+     ],
+     "source_domain": "COMBAT",
+     "target_domain": "STRUGGLE",
+     "explanation_uk": "Боротьба за права описується як фізичний бій.",
+     "span": [
+      73,
+      96
+     ],
+     "agreement": "3/3"
+    }
+   ],
+   "passes": 3,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 73,
+     "out": 11
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 552,
+     "out": 353
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 552,
+     "out": 342
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 552,
+     "out": 340
+    }
+   ]
+  },
+  {
+   "id": 8,
+   "start": 34.0,
+   "text": "Almost like a medieval superhero.",
+   "detector_raw": "medieval, superhero",
+   "candidates": [
+    "medieval",
+    "superhero"
+   ],
+   "verification": [
+    {
+     "word": "medieval",
+     "contextual_meaning": "relating to the Middle Ages, often used to describe something old-fashioned or outdated",
+     "basic_meaning": "pertaining to the historical period from the 5th to the late 15th century",
+     "is_metaphor": false
+    },
+    {
+     "word": "superhero",
+     "contextual_meaning": "a person with extraordinary abilities or qualities, often depicted in fiction as fighting evil or injustice",
+     "basic_meaning": "a fictional character with superhuman powers",
+     "is_metaphor": false
+    }
+   ],
+   "verified": [],
+   "phrases": [],
+   "passes": 3,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 56,
+     "out": 4
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 535,
+     "out": 113
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 535,
+     "out": 105
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 535,
+     "out": 111
+    }
+   ]
+  }
+ ],
+ "stats": {
+  "sentences": 8,
+  "words": 112,
+  "phrases": 8,
+  "verified_words": 14,
+  "creative": 1,
+  "conventional": 7,
+  "density_per_100_words": 7.14,
+  "creative_per_100_words": 0.89,
+  "errors": 0,
+  "borderline": 0,
+  "stable": 8,
+  "verifier_passes": 3,
+  "cost_usd_estimate": 0.077
+ }
+}

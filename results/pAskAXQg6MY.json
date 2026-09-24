@@ -1,0 +1,864 @@
+{
+ "source": {
+  "type": "youtube",
+  "url": "https://www.youtube.com/shorts/pAskAXQg6MY",
+  "id": "pAskAXQg6MY",
+  "title": "This Is Why EXPERIENCE Still Beats EVERYTHING 🚫",
+  "uploader": "Infinite Wealth Lab",
+  "duration": 56,
+  "webpage_url": "https://www.youtube.com/watch?v=pAskAXQg6MY",
+  "upload_date": "20260509"
+ },
+ "created": "2026-09-23T01:40:49",
+ "models": {
+  "asr": "whisper-1",
+  "detector": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+  "verifier": "gpt-4o-2024-08-06"
+ },
+ "transcript": "Thanks, Abigail. I'll be in touch. You. How long you been a legal secretary? 24 years this spring. You good at what you do? I'm great at what I do. Then you start tomorrow. You're still here? I don't leave until you leave. Well, in that case, what time is my meeting with Adidas? 11.15. I moved your 11 to 3 and your 3 to 5. Did you line up? Buyers, I did, but not for another week. Nike and Puma overseas, and you said Reebok didn't matter if the other two can't be there. Goddammit. Here's one more thing. What difference does it make? I can't delay the sale if I don't know why my client is dumping his company on a whim. That's the one more thing. Mr. Doyle's best friend died a month ago of pancreatic cancer. How'd you know that? When people say life is short two times in 30 seconds, it's usually right after somebody dies. I take it you were listening to our conversation. That's what good secretaries do.",
+ "sentences": [
+  {
+   "id": 1,
+   "start": 0.0,
+   "text": "Thanks, Abigail.",
+   "detector_raw": "none",
+   "candidates": [],
+   "verification": [],
+   "verified": [],
+   "phrases": [],
+   "passes": 3,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 54,
+     "out": 1
+    }
+   ]
+  },
+  {
+   "id": 2,
+   "start": 0.0,
+   "text": "I'll be in touch.",
+   "detector_raw": "in, touch",
+   "candidates": [
+    "touch"
+   ],
+   "verification": [
+    {
+     "word": "touch",
+     "contextual_meaning": "communicate or make contact with someone",
+     "basic_meaning": "come into physical contact with something",
+     "is_metaphor": true
+    }
+   ],
+   "verified": [
+    "touch"
+   ],
+   "phrases": [
+    {
+     "phrase": "in touch",
+     "conventionality": "conventional",
+     "triggers": [
+      "touch"
+     ],
+     "source_domain": "PHYSICAL CONTACT",
+     "target_domain": "COMMUNICATION",
+     "explanation_uk": "Фраза 'in touch' означає підтримувати зв'язок, як фізичний контакт символізує зв'язок між людьми.",
+     "span": [
+      8,
+      16
+     ],
+     "agreement": "3/3"
+    }
+   ],
+   "passes": 3,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 55,
+     "out": 3
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 515,
+     "out": 111
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 515,
+     "out": 95
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 515,
+     "out": 95
+    }
+   ]
+  },
+  {
+   "id": 3,
+   "start": 10.0,
+   "text": "You.",
+   "detector_raw": "none",
+   "candidates": [],
+   "verification": [],
+   "verified": [],
+   "phrases": [],
+   "passes": 3,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 52,
+     "out": 1
+    }
+   ]
+  },
+  {
+   "id": 4,
+   "start": 13.0,
+   "text": "How long you been a legal secretary?",
+   "detector_raw": "none",
+   "candidates": [],
+   "verification": [],
+   "verified": [],
+   "phrases": [],
+   "passes": 3,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 58,
+     "out": 1
+    }
+   ]
+  },
+  {
+   "id": 5,
+   "start": 14.0,
+   "text": "24 years this spring.",
+   "detector_raw": "this",
+   "candidates": [],
+   "verification": [],
+   "verified": [],
+   "phrases": [],
+   "passes": 3,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 56,
+     "out": 1
+    }
+   ]
+  },
+  {
+   "id": 6,
+   "start": 16.0,
+   "text": "You good at what you do?",
+   "detector_raw": "none",
+   "candidates": [],
+   "verification": [],
+   "verified": [],
+   "phrases": [],
+   "passes": 3,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 57,
+     "out": 1
+    }
+   ]
+  },
+  {
+   "id": 7,
+   "start": 17.0,
+   "text": "I'm great at what I do.",
+   "detector_raw": "at",
+   "candidates": [],
+   "verification": [],
+   "verified": [],
+   "phrases": [],
+   "passes": 3,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 57,
+     "out": 1
+    }
+   ]
+  },
+  {
+   "id": 8,
+   "start": 18.0,
+   "text": "Then you start tomorrow.",
+   "detector_raw": "none",
+   "candidates": [],
+   "verification": [],
+   "verified": [],
+   "phrases": [],
+   "passes": 3,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 55,
+     "out": 1
+    }
+   ]
+  },
+  {
+   "id": 9,
+   "start": 20.0,
+   "text": "You're still here?",
+   "detector_raw": "none",
+   "candidates": [],
+   "verification": [],
+   "verified": [],
+   "phrases": [],
+   "passes": 3,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 54,
+     "out": 1
+    }
+   ]
+  },
+  {
+   "id": 10,
+   "start": 21.0,
+   "text": "I don't leave until you leave.",
+   "detector_raw": "none",
+   "candidates": [],
+   "verification": [],
+   "verified": [],
+   "phrases": [],
+   "passes": 3,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 57,
+     "out": 1
+    }
+   ]
+  },
+  {
+   "id": 11,
+   "start": 23.0,
+   "text": "Well, in that case, what time is my meeting with Adidas?",
+   "detector_raw": "in, that, with",
+   "candidates": [],
+   "verification": [],
+   "verified": [],
+   "phrases": [],
+   "passes": 3,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 64,
+     "out": 5
+    }
+   ]
+  },
+  {
+   "id": 12,
+   "start": 25.0,
+   "text": "11.15.",
+   "detector_raw": "none",
+   "candidates": [],
+   "verification": [],
+   "verified": [],
+   "phrases": [],
+   "passes": 3,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 55,
+     "out": 1
+    }
+   ]
+  },
+  {
+   "id": 13,
+   "start": 25.0,
+   "text": "I moved your 11 to 3 and your 3 to 5.",
+   "detector_raw": "moved, to, to",
+   "candidates": [
+    "moved"
+   ],
+   "verification": [
+    {
+     "word": "moved",
+     "contextual_meaning": "changed the time of an appointment",
+     "basic_meaning": "physically changed position or location",
+     "is_metaphor": true
+    }
+   ],
+   "verified": [
+    "moved"
+   ],
+   "phrases": [
+    {
+     "phrase": "moved your 11 to 3",
+     "conventionality": "conventional",
+     "triggers": [
+      "moved"
+     ],
+     "source_domain": "PHYSICAL MOVEMENT",
+     "target_domain": "TIME MANAGEMENT",
+     "explanation_uk": "Зміна часу зустрічі описується як фізичне переміщення.",
+     "span": [
+      2,
+      20
+     ],
+     "agreement": "3/3"
+    }
+   ],
+   "passes": 3,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 66,
+     "out": 6
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 530,
+     "out": 175
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 530,
+     "out": 182
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 530,
+     "out": 177
+    }
+   ]
+  },
+  {
+   "id": 14,
+   "start": 28.0,
+   "text": "Did you line up?",
+   "detector_raw": "none",
+   "candidates": [],
+   "verification": [],
+   "verified": [],
+   "phrases": [],
+   "passes": 3,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 55,
+     "out": 1
+    }
+   ]
+  },
+  {
+   "id": 15,
+   "start": 29.0,
+   "text": "Buyers, I did, but not for another week.",
+   "detector_raw": "none",
+   "candidates": [],
+   "verification": [],
+   "verified": [],
+   "phrases": [],
+   "passes": 3,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 61,
+     "out": 1
+    }
+   ]
+  },
+  {
+   "id": 16,
+   "start": 31.0,
+   "text": "Nike and Puma overseas, and you said Reebok didn't matter if the other two can't be there.",
+   "detector_raw": "none",
+   "candidates": [],
+   "verification": [],
+   "verified": [],
+   "phrases": [],
+   "passes": 3,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 70,
+     "out": 1
+    }
+   ]
+  },
+  {
+   "id": 17,
+   "start": 35.0,
+   "text": "Goddammit.",
+   "detector_raw": "none",
+   "candidates": [],
+   "verification": [],
+   "verified": [],
+   "phrases": [],
+   "passes": 3,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 54,
+     "out": 1
+    }
+   ]
+  },
+  {
+   "id": 18,
+   "start": 36.0,
+   "text": "Here's one more thing.",
+   "detector_raw": "Here's, thing",
+   "candidates": [
+    "here's",
+    "thing"
+   ],
+   "verification": [
+    {
+     "word": "here's",
+     "contextual_meaning": "used to present or introduce something",
+     "basic_meaning": "a contraction of 'here is', indicating the presence of something in a location",
+     "is_metaphor": false
+    },
+    {
+     "word": "thing",
+     "contextual_meaning": "an object, fact, or situation that is unspecified or unknown",
+     "basic_meaning": "a physical object or entity",
+     "is_metaphor": true
+    }
+   ],
+   "verified": [
+    "thing"
+   ],
+   "phrases": [
+    {
+     "phrase": "one more thing",
+     "conventionality": "conventional",
+     "triggers": [
+      "thing"
+     ],
+     "source_domain": "OBJECT",
+     "target_domain": "IDEA",
+     "explanation_uk": "Ідея або факт представлений як фізичний об'єкт.",
+     "span": [
+      7,
+      21
+     ],
+     "agreement": "3/3"
+    }
+   ],
+   "passes": 3,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 55,
+     "out": 3
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 521,
+     "out": 144
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 521,
+     "out": 137
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 521,
+     "out": 138
+    }
+   ]
+  },
+  {
+   "id": 19,
+   "start": 37.0,
+   "text": "What difference does it make?",
+   "detector_raw": "make",
+   "candidates": [
+    "make"
+   ],
+   "verification": [
+    {
+     "word": "make",
+     "contextual_meaning": "to have an effect or influence",
+     "basic_meaning": "to create or produce something",
+     "is_metaphor": true
+    }
+   ],
+   "verified": [
+    "make"
+   ],
+   "phrases": [],
+   "passes": 3,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 56,
+     "out": 1
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 535,
+     "out": 98
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 535,
+     "out": 93
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 535,
+     "out": 98
+    }
+   ]
+  },
+  {
+   "id": 20,
+   "start": 38.0,
+   "text": "I can't delay the sale if I don't know why my client is dumping his company on a whim.",
+   "detector_raw": "dumping, on",
+   "candidates": [
+    "dumping"
+   ],
+   "verification": [
+    {
+     "word": "dumping",
+     "contextual_meaning": "selling the company quickly and without much consideration",
+     "basic_meaning": "throwing away or discarding something as waste",
+     "is_metaphor": true
+    }
+   ],
+   "verified": [
+    "dumping"
+   ],
+   "phrases": [
+    {
+     "phrase": "dumping his company",
+     "conventionality": "conventional",
+     "triggers": [
+      "dumping"
+     ],
+     "source_domain": "DISPOSAL",
+     "target_domain": "BUSINESS",
+     "explanation_uk": "Продаж компанії порівнюється з викиданням непотрібного сміття.",
+     "span": [
+      56,
+      75
+     ],
+     "agreement": "3/3"
+    }
+   ],
+   "passes": 3,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 70,
+     "out": 4
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 536,
+     "out": 111
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 536,
+     "out": 111
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 536,
+     "out": 108
+    }
+   ]
+  },
+  {
+   "id": 21,
+   "start": 42.0,
+   "text": "That's the one more thing.",
+   "detector_raw": "thing",
+   "candidates": [
+    "thing"
+   ],
+   "verification": [
+    {
+     "word": "thing",
+     "contextual_meaning": "an additional matter or issue to consider",
+     "basic_meaning": "a physical object",
+     "is_metaphor": true
+    }
+   ],
+   "verified": [
+    "thing"
+   ],
+   "phrases": [
+    {
+     "phrase": "the one more thing",
+     "conventionality": "conventional",
+     "triggers": [
+      "thing"
+     ],
+     "source_domain": "OBJECTS",
+     "target_domain": "ISSUES",
+     "explanation_uk": "Питання розглядається як фізичний об'єкт, який можна додати до інших.",
+     "span": [
+      7,
+      25
+     ],
+     "agreement": "3/3"
+    }
+   ],
+   "passes": 3,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 56,
+     "out": 1
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 544,
+     "out": 102
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 544,
+     "out": 105
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 544,
+     "out": 103
+    }
+   ]
+  },
+  {
+   "id": 22,
+   "start": 43.0,
+   "text": "Mr. Doyle's best friend died a month ago of pancreatic cancer.",
+   "detector_raw": "none",
+   "candidates": [],
+   "verification": [],
+   "verified": [],
+   "phrases": [],
+   "passes": 3,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 64,
+     "out": 1
+    }
+   ]
+  },
+  {
+   "id": 23,
+   "start": 46.0,
+   "text": "How'd you know that?",
+   "detector_raw": "none",
+   "candidates": [],
+   "verification": [],
+   "verified": [],
+   "phrases": [],
+   "passes": 3,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 56,
+     "out": 1
+    }
+   ]
+  },
+  {
+   "id": 24,
+   "start": 47.0,
+   "text": "When people say life is short two times in 30 seconds, it's usually right after somebody dies.",
+   "detector_raw": "short, in, right, after",
+   "candidates": [
+    "short",
+    "right"
+   ],
+   "verification": [
+    {
+     "word": "short",
+     "contextual_meaning": "brief in duration",
+     "basic_meaning": "having little length or height",
+     "is_metaphor": true
+    },
+    {
+     "word": "right",
+     "contextual_meaning": "correct or true",
+     "basic_meaning": "the direction opposite of left",
+     "is_metaphor": true
+    }
+   ],
+   "verified": [
+    "short"
+   ],
+   "phrases": [
+    {
+     "phrase": "life is short",
+     "conventionality": "conventional",
+     "triggers": [
+      "short"
+     ],
+     "source_domain": "PHYSICAL SIZE",
+     "target_domain": "TIME",
+     "explanation_uk": "Життя описується як коротке, щоб підкреслити його швидкоплинність.",
+     "span": [
+      16,
+      29
+     ],
+     "agreement": "3/3"
+    }
+   ],
+   "passes": 3,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 70,
+     "out": 7
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 542,
+     "out": 187
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 542,
+     "out": 127
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 542,
+     "out": 127
+    }
+   ]
+  },
+  {
+   "id": 25,
+   "start": 52.0,
+   "text": "I take it you were listening to our conversation.",
+   "detector_raw": "take, to",
+   "candidates": [
+    "take"
+   ],
+   "verification": [
+    {
+     "word": "take",
+     "contextual_meaning": "understand or assume something to be true",
+     "basic_meaning": "to physically grasp or hold something",
+     "is_metaphor": true
+    }
+   ],
+   "verified": [
+    "take"
+   ],
+   "phrases": [
+    {
+     "phrase": "take it",
+     "conventionality": "conventional",
+     "triggers": [
+      "take"
+     ],
+     "source_domain": "PHYSICAL ACTION",
+     "target_domain": "UNDERSTANDING",
+     "explanation_uk": "Розуміння чогось прирівнюється до фізичного захоплення.",
+     "span": [
+      2,
+      9
+     ],
+     "agreement": "3/3"
+    }
+   ],
+   "passes": 3,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 60,
+     "out": 3
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 541,
+     "out": 102
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 541,
+     "out": 102
+    },
+    {
+     "model": "gpt-4o-2024-08-06",
+     "in": 541,
+     "out": 110
+    }
+   ]
+  },
+  {
+   "id": 26,
+   "start": 54.0,
+   "text": "That's what good secretaries do.",
+   "detector_raw": "That's",
+   "candidates": [],
+   "verification": [],
+   "verified": [],
+   "phrases": [],
+   "passes": 3,
+   "error": null,
+   "usage": [
+    {
+     "model": "ft:gpt-4o-2024-08-06:personal::BvA0wGRA",
+     "in": 57,
+     "out": 1
+    }
+   ]
+  }
+ ],
+ "stats": {
+  "sentences": 26,
+  "words": 168,
+  "phrases": 7,
+  "verified_words": 8,
+  "creative": 0,
+  "conventional": 7,
+  "density_per_100_words": 4.17,
+  "creative_per_100_words": 0.0,
+  "errors": 0,
+  "borderline": 0,
+  "stable": 7,
+  "verifier_passes": 3,
+  "cost_usd_estimate": 0.0734
+ }
+}

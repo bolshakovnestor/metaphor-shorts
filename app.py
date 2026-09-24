@@ -101,9 +101,19 @@ def run(fn, *args):
     except Exception as e:
         bar.empty(); status.empty()
         msg = str(e)
-        if "Sign in" in msg or "bot" in msg.lower():
-            st.error("YouTube заблокував завантаження з цієї мережі. Запусти застосунок локально "
-                     "або скористайся вкладкою «Текст» чи «Файл .srt».")
+        blocked = any(s in msg for s in ("403", "Forbidden", "Sign in", "not a bot", "bot")) \
+            or "DownloadError" in type(e).__name__
+        if blocked:
+            st.error("**Завантажити це відео з сервера не вдалося.** "
+                     "YouTube обмежує доступ для IP-адрес хмарних дата-центрів, "
+                     "на яких працює ця онлайн-версія.")
+            st.info("Що можна зробити просто зараз:\n\n"
+                    "1. Відкрити вкладку **«Збережені аналізи»** — там наведено готові розбори "
+                    "реальних відео YouTube Shorts.\n"
+                    "2. Скористатися вкладкою **«Текст»** і вставити англомовний фрагмент.\n"
+                    "3. Завантажити файл субтитрів у вкладці **«Файл .srt / .vtt»**.\n\n"
+                    "Повний цикл із завантаженням відео за посиланням працює в локальній версії "
+                    "застосунку і демонструється окремо.")
         else:
             st.error(f"Помилка: {type(e).__name__}: {msg}")
         return
@@ -134,6 +144,9 @@ t_url, t_text, t_srt, t_saved = st.tabs(["Посилання на Shorts", "Те
 
 with t_url:
     url = st.text_input("Посилання", placeholder="https://www.youtube.com/shorts/…")
+    st.caption("У цій онлайн-версії завантаження відео з YouTube може бути недоступним через "
+               "обмеження для серверних IP-адрес. Готові розбори реальних відео — у вкладці "
+               "«Збережені аналізи».")
     if st.button("Проаналізувати відео", type="primary", disabled=not url):
         run(P.analyze_url, url.strip())
 
